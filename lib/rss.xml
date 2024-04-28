@@ -1,10 +1,12 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 28 Apr 2024 23:22:39 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 28 Apr 2024 23:22:39 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[2024-04-28]]></title><description><![CDATA[ 
- <br>Tengo que escanear todos mis dibujos, pasarlos a SVG (python script) y empezar a escribir sobre ellos.<br>
-Separarlo todo por ideas y estructurarlas, aprender uso de tags y demás para enfocar los proyectos.<br>
-<br>Escanear dibujos
-<br>pasar a SVG, hacer python script que cambiando parámetros lo hace en automático
-<br>Escribir entradas todos los días
-]]></description><link>2024-04-28.html</link><guid isPermaLink="false">2024-04-28.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:00:49 GMT</pubDate></item><item><title><![CDATA[Intro]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 28 Apr 2024 23:31:19 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 28 Apr 2024 23:31:19 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[5 Buddhist Tibetan Rites]]></title><description><![CDATA[ 
+ <br><img alt="doodle_tibetanrites.svg" src="assets/doodle_tibetanrites.svg"><br>
+Constant movement in each exercise<br>
+<br>Spin with extended arms
+<br>Lay down and move your legs upwards while moving chin to chest
+<br>Sit down on your knees, arms in hips and stretch forward
+<br>Sit down and shift your hips up and forwards
+<br>Seal pose to down facing dog
+<br>Meditate]]></description><link>5-buddhist-tibetan-rites.html</link><guid isPermaLink="false">5 Buddhist Tibetan Rites.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:29:46 GMT</pubDate><enclosure url="assets/doodle_tibetanrites.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="assets/doodle_tibetanrites.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Intro]]></title><description><![CDATA[ 
  <br><img alt="histilus_sumer3.svg" src="assets/histilus_sumer3.svg"><br><br>Welcome to a journey of exploration, creativity, and self-discovery. This book are my ideas, projects, drawings, thoughts, and learning – a reflection of my multifaceted interests and passions. At its core, this work aims to enrich the reader with knowledge that fosters revolution and independence, enabling a harmonious coexistence with technology and the environment. It is a call to embrace a world without borders, where self-sustaining communities thrive on the free exchange of knowledge, living in harmony with the natural world. As an individual with a deep appreciation for art, music, engineering, technology, sciences, and philosophy, I strive to weave these diverse threads into a cohesive narrative. This book is not merely a collection of words and images; it is a window into my experiences, my life, and my vision for a better world. Through these pages, you will embark on a journey that transcends boundaries, challenging conventional thinking and inspiring a new paradigm of living. We will delve into the realms of art, exploring its power to evoke emotions and provoke thought. We will venture into the depths of science and technology, unraveling their potential to revolutionize our understanding of the world and our place within it. Moreover, this book is a testament to the belief that knowledge should be freely shared, empowering individuals and communities to forge their own paths towards self-sufficiency and harmony with the natural world. It is a call to action, inviting readers to embrace their curiosity, question the status quo, and actively participate in shaping a future where innovation and sustainability go hand in hand.<br><br><img alt="doodle_serpent2.svg" src="assets/doodle_serpent2.svg"><br>Projects<br>
 <br><a data-href="Protein Farm" href="Protein Farm" class="internal-link" target="_self" rel="noopener">Protein Farm</a>
 <br><a data-href="Mycelium Box" href="Mycelium Box" class="internal-link" target="_self" rel="noopener">Mycelium Box</a>
@@ -22,15 +24,13 @@ Separarlo todo por ideas y estructurarlas, aprender uso de tags y demás para en
 int main(){
 	return 0;
 }
-Copy]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:18:45 GMT</pubDate><enclosure url="assets/histilus_sumer3.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="assets/histilus_sumer3.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[5 Buddhist Tibetan Rites]]></title><description><![CDATA[ 
- <br><img alt="doodle_tibetanrites.svg" src="assets/doodle_tibetanrites.svg"><br>
-Constant movement in each excercice<br>
-<br>Spin with extended arms
-<br>Lay down and move your legs upwards while moving chin to chest
-<br>Sit down on your knees, arms in hips and stretch forward
-<br>Sit down and shift your hips up and forwards
-<br>Seal pose to down facing dog
-<br>Meditate]]></description><link>5-buddhist-tibetan-rites.html</link><guid isPermaLink="false">5 Buddhist Tibetan Rites.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 22:59:03 GMT</pubDate><enclosure url="assets/doodle_tibetanrites.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="assets/doodle_tibetanrites.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[H1]]></title><description><![CDATA[ 
+Copy]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:28:14 GMT</pubDate><enclosure url="assets/histilus_sumer3.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="assets/histilus_sumer3.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2024-04-28]]></title><description><![CDATA[ 
+ <br>Tengo que escanear todos mis dibujos, pasarlos a SVG (python script) y empezar a escribir sobre ellos.<br>
+Separarlo todo por ideas y estructurarlas, aprender uso de tags y demás para enfocar los proyectos.<br>
+<br>Escanear dibujos
+<br>pasar a SVG, hacer python script que cambiando parámetros lo hace en automático
+<br>Escribir entradas todos los días
+]]></description><link>2024-04-28.html</link><guid isPermaLink="false">2024-04-28.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:00:49 GMT</pubDate></item><item><title><![CDATA[H1]]></title><description><![CDATA[ 
  <br><br><br><br>bold<br>
 italica<br>
 block quote
