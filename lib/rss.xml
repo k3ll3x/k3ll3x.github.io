@@ -1,4 +1,27 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 28 Apr 2024 22:40:51 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 28 Apr 2024 22:40:51 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[5 Buddhist Tibetan Rites]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 28 Apr 2024 22:53:15 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 28 Apr 2024 22:53:15 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[H1]]></title><description><![CDATA[ 
+ <br><br><br><br>bold<br>
+italica<br>
+block quote
+<br>
+<br>one
+<br>two
+<br>
+<br>one
+<br>two<br>
+code
+<br>import sys
+for i in sys.argv[1:]:
+	print(i)
+Copy<br><br><a class="internal-link" data-href="link" href="link" target="_self" rel="noopener">title</a><br>
+Here is a sentence with a foodnote. [¹]<br>
+[¹]: que tranza<br>term<br>
+: def<br>hola<br>
+dasd<br>task list<br>
+<br>listo
+<br>no listo
+<br>high<br>
+H-2-O<br>
+]]></description><link>checksheet.html</link><guid isPermaLink="false">checksheet.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 22:52:05 GMT</pubDate></item><item><title><![CDATA[5 Buddhist Tibetan Rites]]></title><description><![CDATA[ 
  <br><img alt="doodle_tibetanrites.svg" src="assets/doodle_tibetanrites.svg"><br>
 Constant movement in each excercice<br>
 <br>Spin with extended arms
