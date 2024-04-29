@@ -1,4 +1,236 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 29 Apr 2024 00:07:20 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 29 Apr 2024 00:07:20 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[H1]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 29 Apr 2024 00:24:58 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 29 Apr 2024 00:24:57 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[Intro]]></title><description><![CDATA[ 
+ <br><img alt="histilus_sumer3.svg" src="assets/histilus_sumer3.svg"><br><br>Welcome to a journey of exploration, creativity, and self-discovery. This book are my ideas, projects, drawings, thoughts, and learning – a reflection of my multifaceted interests and passions. At its core, this work aims to enrich the reader with knowledge that fosters revolution and independence, enabling a harmonious coexistence with technology and the environment. It is a call to embrace a world without borders, where self-sustaining communities thrive on the free exchange of knowledge, living in harmony with the natural world. As an individual with a deep appreciation for art, music, engineering, technology, sciences, and philosophy, I strive to weave these diverse threads into a cohesive narrative. This book is not merely a collection of words and images; it is a window into my experiences, my life, and my vision for a better world. Through these pages, you will embark on a journey that transcends boundaries, challenging conventional thinking and inspiring a new paradigm of living. We will delve into the realms of art, exploring its power to evoke emotions and provoke thought. We will venture into the depths of science and technology, unraveling their potential to revolutionize our understanding of the world and our place within it. Moreover, this book is a testament to the belief that knowledge should be freely shared, empowering individuals and communities to forge their own paths towards self-sufficiency and harmony with the natural world. It is a call to action, inviting readers to embrace their curiosity, question the status quo, and actively participate in shaping a future where innovation and sustainability go hand in hand.<br><br><img alt="doodle_serpent2.svg" src="assets/doodle_serpent2.svg"><br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" rel="noopener" class="external-link" href="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" target="_blank">Youtube</a>
+<br><a data-tooltip-position="top" aria-label="https://www.twitch.tv/nuvhandra" rel="noopener" class="external-link" href="https://www.twitch.tv/nuvhandra" target="_blank">Twitch</a>
+<br>
+<br><br>
+<br><a data-href="MIDIFOX" href="midifox.html" class="internal-link" target="_self" rel="noopener">MIDIFOX</a>
+<br><a data-href="Protein Farm" href="Protein Farm" class="internal-link" target="_self" rel="noopener">Protein Farm</a>
+<br><a data-href="Mycelium Box" href="Mycelium Box" class="internal-link" target="_self" rel="noopener">Mycelium Box</a>
+<br><a data-href="Training Armor" href="Training Armor" class="internal-link" target="_self" rel="noopener">Training Armor</a>
+<br><br>
+<br>
+<br><br>
+<br><a data-href="5 Buddhist Tibetan Rites" href="5-buddhist-tibetan-rites.html" class="internal-link" target="_self" rel="noopener">5 Buddhist Tibetan Rites</a>
+<br>Neck
+<br>Animal
+<br>Tai Chi
+<br>Kung Fu
+<br><br>#include &lt;stdio.h&gt;
+
+int main(){
+	return 0;
+}
+Copy<br>import sys
+for i in sys.argv[1:]:
+	print(i)
+Copy]]></description><link>index.html</link><guid isPermaLink="false">INDEX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 00:14:07 GMT</pubDate><enclosure url="assets/histilus_sumer3.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="assets/histilus_sumer3.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[ 
+ <br><br>
+<br>find MIDIFOX photos
+<br>digitalize schematic from notebook
+<br>Code for the Arduino Nano<br>/* Siegfried Keller
+ * 2017
+ *
+ * MIDI Controller
+ * This version uses a multiplexer and normal digital inputs are used from 5 to 13
+ * 
+ * Version 3:
+ * 4 analog inputs used as 'page' buttons
+ */
+
+#include &lt;MIDI.h&gt;
+
+MIDI_CREATE_DEFAULT_INSTANCE();
+
+//pin number 13 will be an extra button, but it must be connected differently with a resistor
+//pin 13 is reversed
+const int ledpin=13;
+int b = 0;
+const int v=5;//where the digital pins start, in this case is 5 because control pins take 2,3 and 4
+const int numBut=8;//max number 8, digital pins, left one for multiplexer, counting led pin
+const int numAn=3;//number of potentiometers
+//const int anf=8;
+const int numMuxBut=8;//number of button connected to multiplexer
+const int muxpin=10;//Which pin is connected to the multipexer
+/*byte nx=144;
+byte vel=127;*/
+byte cc=0;
+int actualpin;
+int channel=1;
+int actual[numBut];
+int before[numBut];
+int actualAn[numAn];
+int beforeAn[numAn];
+int actualMux[numMuxBut];
+int beforeMux[numMuxBut];
+
+int thre = 800;
+int val;
+
+//multiplexer control pins
+const int s0 = 2;
+const int s1 = 3;
+const int s2 = 4;
+
+const int select[] = {s0,s1,s2};
+
+//Adding pages to the analog pins, this buttons(analog) changes the CC note in the 4x4 buttons
+//by default is on page 1
+const int pgOne=48;
+const int pgTwo=pgOne+18;
+const int pgThree=pgTwo+18;
+const int pgFour=pgThree+18;
+
+int actualPage;
+
+void setup(){
+  MIDI.begin();
+  //Serial.begin(9600);
+  Serial.begin(115200);
+	//MIDI.begin(MIDI_CHANNEL_OMNI); //it listen to all incomming message
+
+  pinMode(ledpin,INPUT);
+ 
+  for(int i=0;i&lt;numBut;i++){
+    actualpin=i+v;
+    pinMode(actualpin,INPUT_PULLUP);
+	  before[i]=1; //set 1 as button is not pressed
+	}
+
+  //set analog inputs as false
+  for(int i=0;i&lt;numAn;i++){
+    actualAn[i]=0;
+    beforeAn[i]=0;
+  }
+
+  //setting default page one
+  actualPage=pgOne;
+ 
+	//Adding multiplexer
+	//control pins from multiplexer as outputs
+	pinMode(s0,OUTPUT);
+	pinMode(s1,OUTPUT);
+	pinMode(s2,OUTPUT);
+}
+
+void loop(){
+  //Serial.println(analogRead(0));
+	if(numBut!=0){updateDigitalBut();}
+  if(numAn!=0){updateAnalog();}
+	if(numMuxBut!=0){updateDigitalMuxBut();}
+  //Ledpin input
+  int ledNote=0;
+  int vi = digitalRead(ledpin);
+  if(actualPage==pgOne){
+    ledNote=56;
+  }else if(actualPage==pgTwo){
+    ledNote=74;
+  }else if(actualPage==pgThree){
+    ledNote=92;
+  }else if(actualPage==pgFour){
+    ledNote=110;
+  }
+  if(vi==1 &amp;&amp; vi!=b){
+    MIDI.sendNoteOn(ledNote,127,channel);
+  }else if(vi==0 &amp;&amp; vi!=b){
+    MIDI.sendNoteOff(ledNote,127,channel);
+    /*MIDI.sendNoteOff(56,127,channel);
+    MIDI.sendNoteOff(74,127,channel);
+    MIDI.sendNoteOff(92,127,channel);
+    MIDI.sendNoteOff(110,127,channel);*/
+  }
+  b=vi;
+	//MIDI.read();  
+}
+
+void updateDigitalBut(){
+	for(int i=0;i&lt;numBut;i++){
+		actualpin = i+v;
+		actual[i]=digitalRead(actualpin); //reading actual button state
+		//It only sends data if the state has changed
+		/*button is pressed
+    if(actualpin == ledpin){
+      if((actual[i]==1) &amp;&amp; (actual[i]!=before[i])){
+        //MIDI.sendNoteOn(48+i,127,channel);
+        MIDI.sendNoteOn(actualPage+i,127,channel);
+      }else if((actual[i]==0) &amp;&amp; (actual[i]!=before[i])){
+        //MIDI.sendNoteOff(48+i,127,channel);
+        //MIDI.sendNoteOff(pgOne+i,127,channel);
+        //MIDI.sendNoteOff(pgTwo+i,127,channel);
+        //MIDI.sendNoteOff(pgThree+i,127,channel);
+        //MIDI.sendNoteOff(pgFour+i,127,channel);
+        MIDI.sendNoteOff(actualPage+i,127,channel);
+      }
+    }*/
+    if(actualpin != muxpin){
+  		if((actual[i]==0) &amp;&amp; (actual[i]!=before[i])){
+        //MIDI.sendNoteOn(48+i,127,channel);
+        MIDI.sendNoteOn(actualPage+i,127,channel);
+  		}else if((actual[i]==1) &amp;&amp; (actual[i]!=before[i])){
+        //MIDI.sendNoteOff(48+i,0,channel);
+        MIDI.sendNoteOff(actualPage+i,0,channel);
+  		}
+    }
+		before[i]=actual[i];//setting before value as the current because its ending the for
+	}
+}
+
+void updateAnalog(){
+  for(int i=0;i&lt;numAn;i++){
+    actualAn[i]=digitalRead(14+i);
+    if((actualAn[i] == HIGH) &amp;&amp; (actualAn[i]!=beforeAn[i])){
+      switch(i){
+        case 0:
+        actualPage=pgOne;
+        Serial.println("p1");
+        break;
+        case 1:
+        actualPage=pgTwo;
+        Serial.println("p2");
+        break;
+        case 2:
+        actualPage=pgThree;
+        Serial.println("p3");
+        break;
+        case 3:
+        actualPage=pgFour;
+        Serial.println("p4");
+        break;
+      }
+      //MIDI.sendNoteOn(66+i,127,channel);
+    }else if((actualAn[i] == LOW) &amp;&amp; (actualAn[i]!=beforeAn[i])){
+      //I guess nothing
+      //MIDI.sendNoteOff(66+i,0,channel);
+    }
+    beforeAn[i]=actualAn[i];
+  }
+}
+
+void updateDigitalMuxBut(){
+	for(int i=0;i&lt;numMuxBut;i++){//multiplexer
+		actualMux[i]=getValue(i);
+		if((actualMux[i]==0) &amp;&amp; (actualMux[i]!=beforeMux[i])){
+			//MIDI.sendNoteOn(57+i,127,channel);
+      MIDI.sendNoteOn(actualPage+9+i,127,channel);
+		}else if((actualMux[i]==1) &amp;&amp; (actualMux[i]!=beforeMux[i])){
+			//MIDI.sendNoteOff(57+i,0,channel);
+     MIDI.sendNoteOff(actualPage+9+i,0,channel);
+		}
+		beforeMux[i]=actualMux[i];
+	}
+
+}
+
+int getValue(int c){
+	for(int bit=0;bit&lt;3;bit++){
+		int pin=select[bit];
+		int bitset = bitRead(c,bit);
+		digitalWrite(pin,bitset);
+	}
+	return digitalRead(muxpin);
+}
+
+Copy]]></description><link>midifox.html</link><guid isPermaLink="false">MIDIFOX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 00:22:35 GMT</pubDate></item><item><title><![CDATA[H1]]></title><description><![CDATA[ 
  <br><br><br><br><br>bold<br>
 italica<br>
 block quote
@@ -20,32 +252,7 @@ que<br>task list<br>
 <br>listo
 <br>no listo
 <br>high<br>
-]]></description><link>checksheet.html</link><guid isPermaLink="false">checksheet.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 00:04:38 GMT</pubDate></item><item><title><![CDATA[Intro]]></title><description><![CDATA[ 
- <br><img alt="histilus_sumer3.svg" src="assets/histilus_sumer3.svg"><br><br>Welcome to a journey of exploration, creativity, and self-discovery. This book are my ideas, projects, drawings, thoughts, and learning – a reflection of my multifaceted interests and passions. At its core, this work aims to enrich the reader with knowledge that fosters revolution and independence, enabling a harmonious coexistence with technology and the environment. It is a call to embrace a world without borders, where self-sustaining communities thrive on the free exchange of knowledge, living in harmony with the natural world. As an individual with a deep appreciation for art, music, engineering, technology, sciences, and philosophy, I strive to weave these diverse threads into a cohesive narrative. This book is not merely a collection of words and images; it is a window into my experiences, my life, and my vision for a better world. Through these pages, you will embark on a journey that transcends boundaries, challenging conventional thinking and inspiring a new paradigm of living. We will delve into the realms of art, exploring its power to evoke emotions and provoke thought. We will venture into the depths of science and technology, unraveling their potential to revolutionize our understanding of the world and our place within it. Moreover, this book is a testament to the belief that knowledge should be freely shared, empowering individuals and communities to forge their own paths towards self-sufficiency and harmony with the natural world. It is a call to action, inviting readers to embrace their curiosity, question the status quo, and actively participate in shaping a future where innovation and sustainability go hand in hand.<br><br><img alt="doodle_serpent2.svg" src="assets/doodle_serpent2.svg"><br><br>
-<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" rel="noopener" class="external-link" href="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" target="_blank">Youtube</a>
-<br><a data-tooltip-position="top" aria-label="https://www.twitch.tv/nuvhandra" rel="noopener" class="external-link" href="https://www.twitch.tv/nuvhandra" target="_blank">Twitch</a>
-<br>
-<br><br>
-<br><a data-href="Protein Farm" href="Protein Farm" class="internal-link" target="_self" rel="noopener">Protein Farm</a>
-<br><a data-href="Mycelium Box" href="Mycelium Box" class="internal-link" target="_self" rel="noopener">Mycelium Box</a>
-<br><a data-href="Training Armor" href="Training Armor" class="internal-link" target="_self" rel="noopener">Training Armor</a>
-<br><br>
-<br>
-<br><br>
-<br><a data-href="5 Buddhist Tibetan Rites" href="5-buddhist-tibetan-rites.html" class="internal-link" target="_self" rel="noopener">5 Buddhist Tibetan Rites</a>
-<br>Neck
-<br>Animal
-<br>Tai Chi
-<br>Kung Fu
-<br><br>#include &lt;stdio.h&gt;
-
-int main(){
-	return 0;
-}
-Copy<br>import sys
-for i in sys.argv[1:]:
-	print(i)
-Copy]]></description><link>index.html</link><guid isPermaLink="false">INDEX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 00:03:24 GMT</pubDate><enclosure url="assets/histilus_sumer3.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="assets/histilus_sumer3.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[5 Buddhist Tibetan Rites]]></title><description><![CDATA[ 
+]]></description><link>checksheet.html</link><guid isPermaLink="false">checksheet.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 00:04:38 GMT</pubDate></item><item><title><![CDATA[5 Buddhist Tibetan Rites]]></title><description><![CDATA[ 
  <br><img alt="doodle_tibetanrites.svg" src="assets/doodle_tibetanrites.svg"><br>
 Constant movement in each exercise<br>
 <br>Spin with extended arms
