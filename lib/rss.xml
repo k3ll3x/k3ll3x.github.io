@@ -1,33 +1,12 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 29 Apr 2024 01:16:52 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 29 Apr 2024 01:16:52 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[Acasia]]></title><description><![CDATA[ 
- <br><br>Leaves contain flavonoids, terpenoids, and tannins and have abortifacient properties<br><br>Stem bark contains 3-(Z)-trans coumaroylbetulin and 3-(E)-cis coumaroylbetulin and has antimalarial properties<br><br>Stem bark contains betulinic acid and betulinic acid-3-trans-caffeate and has antimicrobial and antioxidant properties<br><br>Leaves contain diterpenes and tannins and have antimicrobial and antioxidant properties<br><br>Leaves contain myricetin-3-O-α-l-rhamnoside and quercetin-3-O-α-l-rhamnoside and have antioxidant and cytotoxic properties<br><br>Leaves contain β-sitosterol and epigallocatechin and have antilisterial properties<br>Berlin:<br>
-Robinia pseudoacacia<br>Extraction: There are different methods of extraction, such as maceration, percolation, and soxhlet extraction. The choice of method depends on the type of plant material and the desired compound(s) to be extracted. For example, alkaloids can be extracted using acid-base extraction methods.<br>Fractionation: After extraction, the crude extract can be fractionated to isolate the desired compound(s). Fractionation can be done using various techniques such as chromatography, distillation, and crystallization.<br>
-Characterization: Once the compound(s) have been isolated, they can be characterized using various analytical techniques such as spectroscopy and chromatography.]]></description><link>acasia.html</link><guid isPermaLink="false">Acasia.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 00:30:49 GMT</pubDate></item><item><title><![CDATA[Intro]]></title><description><![CDATA[ 
- <br><img alt="histilus_sumer3.svg" src="assets/histilus_sumer3.svg"><br><br>Welcome to a journey of exploration, creativity, and self-discovery. This book are my ideas, projects, drawings, thoughts, and learning – a reflection of my multifaceted interests and passions. At its core, this work aims to enrich the reader with knowledge that fosters revolution and independence, enabling a harmonious coexistence with technology and the environment. It is a call to embrace a world without borders, where self-sustaining communities thrive on the free exchange of knowledge, living in harmony with the natural world. As an individual with a deep appreciation for art, music, engineering, technology, sciences, and philosophy, I strive to weave these diverse threads into a cohesive narrative. This book is not merely a collection of words and images; it is a window into my experiences, my life, and my vision for a better world. Through these pages, you will embark on a journey that transcends boundaries, challenging conventional thinking and inspiring a new paradigm of living. We will delve into the realms of art, exploring its power to evoke emotions and provoke thought. We will venture into the depths of science and technology, unraveling their potential to revolutionize our understanding of the world and our place within it. Moreover, this book is a testament to the belief that knowledge should be freely shared, empowering individuals and communities to forge their own paths towards self-sufficiency and harmony with the natural world. It is a call to action, inviting readers to embrace their curiosity, question the status quo, and actively participate in shaping a future where innovation and sustainability go hand in hand.<br><br><img alt="doodle_serpent2.svg" src="assets/doodle_serpent2.svg"><br><br>
-<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" rel="noopener" class="external-link" href="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" target="_blank">Youtube</a>
-<br><a data-tooltip-position="top" aria-label="https://www.twitch.tv/nuvhandra" rel="noopener" class="external-link" href="https://www.twitch.tv/nuvhandra" target="_blank">Twitch</a>
-<br>
-<br><br>
-<br><a data-href="MIDIFOX" href="midifox.html" class="internal-link" target="_self" rel="noopener">MIDIFOX</a>
-<br><a data-href="Protein Farm" href="Protein Farm" class="internal-link" target="_self" rel="noopener">Protein Farm</a>
-<br><a data-href="Mycelium Box" href="Mycelium Box" class="internal-link" target="_self" rel="noopener">Mycelium Box</a>
-<br><a data-href="Training Armor" href="Training Armor" class="internal-link" target="_self" rel="noopener">Training Armor</a>
-<br><br>
-<br>
-<br><br>
-<br><a data-href="5 Buddhist Tibetan Rites" href="5-buddhist-tibetan-rites.html" class="internal-link" target="_self" rel="noopener">5 Buddhist Tibetan Rites</a>
-<br>Neck
-<br>Animal
-<br>Tai Chi
-<br>Kung Fu
-<br><br>#include &lt;stdio.h&gt;
-
-int main(){
-	return 0;
-}
-Copy<br>import sys
-for i in sys.argv[1:]:
-	print(i)
-Copy]]></description><link>index.html</link><guid isPermaLink="false">INDEX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 00:14:07 GMT</pubDate><enclosure url="assets/histilus_sumer3.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="assets/histilus_sumer3.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 29 Apr 2024 14:57:06 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 29 Apr 2024 14:57:05 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[5 Buddhist Tibetan Rites]]></title><description><![CDATA[ 
+ <br><img alt="doodle_tibetanrites.svg" src="lib/media/doodle_tibetanrites.svg"><br>
+Constant movement in each exercise<br>
+<br>Spin with extended arms
+<br>Lay down and move your legs upwards while moving chin to chest
+<br>Sit down on your knees, arms in hips and stretch forward
+<br>Sit down and shift your hips up and forwards
+<br>Seal pose to down facing dog
+<br>Meditate]]></description><link>movement/5-buddhist-tibetan-rites.html</link><guid isPermaLink="false">movement/5 Buddhist Tibetan Rites.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:29:46 GMT</pubDate><enclosure url="lib/media/doodle_tibetanrites.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/doodle_tibetanrites.svg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[ 
  <br><br>
 <br>find MIDIFOX photos
 <br>digitalize schematic from notebook
@@ -233,7 +212,13 @@ int getValue(int c){
 	return digitalRead(muxpin);
 }
 
-Copy]]></description><link>midifox.html</link><guid isPermaLink="false">MIDIFOX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 00:22:35 GMT</pubDate></item><item><title><![CDATA[H1]]></title><description><![CDATA[ 
+Copy]]></description><link>projects/midifox.html</link><guid isPermaLink="false">projects/MIDIFOX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 00:22:35 GMT</pubDate></item><item><title><![CDATA[Acacia]]></title><description><![CDATA[ 
+ <br><br>Leaves contain flavonoids, terpenoids, and tannins and have abortifacient properties<br><br>Stem bark contains 3-(Z)-trans coumaroylbetulin and 3-(E)-cis coumaroylbetulin and has antimalarial properties<br><br>Stem bark contains betulinic acid and betulinic acid-3-trans-caffeate and has antimicrobial and antioxidant properties<br><br>Leaves contain diterpenes and tannins and have antimicrobial and antioxidant properties<br><br>Leaves contain myricetin-3-O-α-l-rhamnoside and quercetin-3-O-α-l-rhamnoside and have antioxidant and cytotoxic properties<br><br>Leaves contain β-sitosterol and epigallocatechin and have antilisterial properties<br>Berlin:<br>
+Robinia pseudoacacia<br><br>
+<br>toxalbumin robin
+<br>glucoside robinin
+<br>Extraction: There are different methods of extraction, such as maceration, percolation, and soxhlet extraction. The choice of method depends on the type of plant material and the desired compound(s) to be extracted. For example, alkaloids can be extracted using acid-base extraction methods.<br>Fractionation: After extraction, the crude extract can be fractionated to isolate the desired compound(s). Fractionation can be done using various techniques such as chromatography, distillation, and crystallization.<br>
+Characterization: Once the compound(s) have been isolated, they can be characterized using various analytical techniques such as spectroscopy and chromatography.]]></description><link>research/acacia.html</link><guid isPermaLink="false">research/Acacia.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 14:51:00 GMT</pubDate></item><item><title><![CDATA[H1]]></title><description><![CDATA[ 
  <br><br><br><br><br>bold<br>
 italica<br>
 block quote
@@ -255,18 +240,31 @@ que<br>task list<br>
 <br>listo
 <br>no listo
 <br>high<br>
-]]></description><link>checksheet.html</link><guid isPermaLink="false">checksheet.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 00:04:38 GMT</pubDate></item><item><title><![CDATA[5 Buddhist Tibetan Rites]]></title><description><![CDATA[ 
- <br><img alt="doodle_tibetanrites.svg" src="assets/doodle_tibetanrites.svg"><br>
-Constant movement in each exercise<br>
-<br>Spin with extended arms
-<br>Lay down and move your legs upwards while moving chin to chest
-<br>Sit down on your knees, arms in hips and stretch forward
-<br>Sit down and shift your hips up and forwards
-<br>Seal pose to down facing dog
-<br>Meditate]]></description><link>5-buddhist-tibetan-rites.html</link><guid isPermaLink="false">5 Buddhist Tibetan Rites.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:29:46 GMT</pubDate><enclosure url="assets/doodle_tibetanrites.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="assets/doodle_tibetanrites.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2024-04-28]]></title><description><![CDATA[ 
- <br>Tengo que escanear todos mis dibujos, pasarlos a SVG (python script) y empezar a escribir sobre ellos.<br>
-Separarlo todo por ideas y estructurarlas, aprender uso de tags y demás para enfocar los proyectos.<br>
-<br>Escanear dibujos
-<br>pasar a SVG, hacer python script que cambiando parámetros lo hace en automático
-<br>Escribir entradas todos los días
-]]></description><link>2024-04-28.html</link><guid isPermaLink="false">2024-04-28.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:00:49 GMT</pubDate></item></channel></rss>
+]]></description><link>checksheet.html</link><guid isPermaLink="false">checksheet.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 00:04:38 GMT</pubDate></item><item><title><![CDATA[Intro]]></title><description><![CDATA[ 
+ <br><img alt="histilus_sumer3.svg" src="assets/histilus_sumer3.svg"><br><br>Welcome to a journey of exploration, creativity, and self-discovery. This book are my ideas, projects, drawings, thoughts, and learning – a reflection of my multifaceted interests and passions. At its core, this work aims to enrich the reader with knowledge that fosters revolution and independence, enabling a harmonious coexistence with technology and the environment. It is a call to embrace a world without borders, where self-sustaining communities thrive on the free exchange of knowledge, living in harmony with the natural world. As an individual with a deep appreciation for art, music, engineering, technology, sciences, and philosophy, I strive to weave these diverse threads into a cohesive narrative. This book is not merely a collection of words and images; it is a window into my experiences, my life, and my vision for a better world. Through these pages, you will embark on a journey that transcends boundaries, challenging conventional thinking and inspiring a new paradigm of living. We will delve into the realms of art, exploring its power to evoke emotions and provoke thought. We will venture into the depths of science and technology, unraveling their potential to revolutionize our understanding of the world and our place within it. Moreover, this book is a testament to the belief that knowledge should be freely shared, empowering individuals and communities to forge their own paths towards self-sufficiency and harmony with the natural world. It is a call to action, inviting readers to embrace their curiosity, question the status quo, and actively participate in shaping a future where innovation and sustainability go hand in hand.<br><br><img alt="doodle_serpent2.svg" src="assets/doodle_serpent2.svg"><br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" rel="noopener" class="external-link" href="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" target="_blank">Youtube</a>
+<br><a data-tooltip-position="top" aria-label="https://www.twitch.tv/nuvhandra" rel="noopener" class="external-link" href="https://www.twitch.tv/nuvhandra" target="_blank">Twitch</a>
+<br><a data-tooltip-position="top" aria-label="https://github.com/k3ll3x" rel="noopener" class="external-link" href="https://github.com/k3ll3x" target="_blank">Github</a>
+<br>
+<br><br>
+<br><a data-href="MIDIFOX" href="projects/midifox.html" class="internal-link" target="_self" rel="noopener">MIDIFOX</a>
+<br><a data-href="Protein Farm" href="Protein Farm" class="internal-link" target="_self" rel="noopener">Protein Farm</a>
+<br><a data-href="Mycelium Box" href="Mycelium Box" class="internal-link" target="_self" rel="noopener">Mycelium Box</a>
+<br><a data-href="Training Armor" href="Training Armor" class="internal-link" target="_self" rel="noopener">Training Armor</a>
+<br><br>
+<br>
+<br><br>
+<br><a data-href="5 Buddhist Tibetan Rites" href="movement/5-buddhist-tibetan-rites.html" class="internal-link" target="_self" rel="noopener">5 Buddhist Tibetan Rites</a>
+<br>Neck
+<br>Animal
+<br>Tai Chi
+<br>Kung Fu
+<br><br>#include &lt;stdio.h&gt;
+
+int main(){
+	return 0;
+}
+Copy<br>import sys
+for i in sys.argv[1:]:
+	print(i)
+Copy]]></description><link>index.html</link><guid isPermaLink="false">INDEX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 01:36:19 GMT</pubDate><enclosure url="assets/histilus_sumer3.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;assets/histilus_sumer3.svg&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
