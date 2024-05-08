@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 08 May 2024 23:03:59 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 08 May 2024 23:03:58 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[Emergence]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 08 May 2024 23:12:40 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 08 May 2024 23:12:38 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[Emergence]]></title><description><![CDATA[ 
  <br><img alt="mobius-dotted.svg" src="ideas/assets/mobius-dotted.svg"><br>
 As gravity, being able to contain matter, confined in space. Torus, everything emerges from nothing and becomes nothing, as a manifold.<br>
 <img alt="doodle_serpent05.svg" src="ideas/assets/doodle_serpent05.svg"><br>In the void, where all is naught,  
@@ -34,85 +34,15 @@ To realms unseen, forevermore.
 
 For in the dance of matter and space,  
 The essence of being, you shall trace.
-Copy]]></description><link>ideas/emergence.html</link><guid isPermaLink="false">ideas/Emergence.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 08 May 2024 23:00:31 GMT</pubDate><enclosure url="ideas/assets/mobius-dotted.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="ideas/assets/mobius-dotted.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Protein Farm]]></title><description><![CDATA[ 
- <br>A semi automated ecosystem farm capable of breeding Tenebrionidae larva.<br>
-<br>The mentioned larva can be used for human consumption
-<br><br>
-<br>Tenebrionidae
-
-<br>Molitor
-<br>Obscurus
-<br>Bolitotherus cornutus
-
-<br>Feed on <a data-href="Ganoderma applanatum" href="research/fungi/ganoderma-applanatum.html" class="internal-link" target="_self" rel="noopener">Ganoderma applanatum</a>
-
-
-
-
-<br>
-<br><br>
-<br>Beauveria bassiana
-<br><br>
-<br>Cabbage
-<br>Potato
-<br>Wheat bran
-<br>Rice bran (whole and defatted)
-<br>Corn dry distillers' grain
-<br>Spent brewery dry grain
-<br>Canola meal
-<br>Sunflower meal
-]]></description><link>projects/protein-farm.html</link><guid isPermaLink="false">projects/Protein Farm.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 08 May 2024 14:44:49 GMT</pubDate></item><item><title><![CDATA[Ganoderma applanatum]]></title><description><![CDATA[ 
- <br>Based on the search results provided, here are the key points about Ganoderma applanatum:<br>
-<br>
-Ganoderma applanatum is a bracket fungus with a cosmopolitan (worldwide) distribution[1]. It is also known as the artist's conk, artist's bracket, or bear bread.
-
-<br>
-It is a parasitic and saprophytic fungus, meaning it can grow on living or dead trees as a mycelium within the wood[1][2]. It forms large, woody, shelf-like fruiting bodies up to 30 cm wide.
-
-<br>
-The fruiting bodies are initially white but soon turn dark red-brown. The upper surface is covered in reddish-brown spores that can be dispersed at a rate of up to 4.65 billion spores per 24 hours from a 10 cm x 10 cm section[1].
-
-<br>
-Ganoderma applanatum has been used extensively in traditional Chinese medicine to treat conditions like rheumatic tuberculosis, esophageal cancer, indigestion, and more. It has demonstrated anti-tumor, anti-oxidant, and immunomodulatory properties in studies[3].
-
-<br>
-The white pore surface of the fruiting body can be etched or drawn on, staining brown, which has led to its common name "artist's conk"[2][4][5]. This makes it a popular subject for pyrography (wood burning) and other artistic pursuits.
-
-<br>
-Ganoderma applanatum is inedible, though it is closely related to the edible Ganoderma lucidum (reishi mushroom)[2].
-
-<br>In summary, Ganoderma applanatum is a distinctive, woody bracket fungus with a long history of medicinal use and artistic applications due to its unique properties.<br>Citations:<br>
-[1] <a rel="noopener" class="external-link" href="https://en.wikipedia.org/wiki/Ganoderma_applanatum" target="_blank">https://en.wikipedia.org/wiki/Ganoderma_applanatum</a><br>
-[2] <a rel="noopener" class="external-link" href="https://www.messiah.edu/Oakes/fungi_on_wood/poroid%20fungi/species%20pages/Ganoderma%20applanatum.htm" target="_blank">https://www.messiah.edu/Oakes/fungi_on_wood/poroid%20fungi/species%20pages/Ganoderma%20applanatum.htm</a><br>
-[3] <a rel="noopener" class="external-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8358375/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8358375/</a><br>
-[4] <a rel="noopener" class="external-link" href="https://fundkorb.de/pilze/ganoderma-applanatum-flacher-lackporling" target="_blank">https://fundkorb.de/pilze/ganoderma-applanatum-flacher-lackporling</a><br>
-[5] <a rel="noopener" class="external-link" href="http://tintling.com/pilzbuch/arten/g/Ganoderma_applanatum.html" target="_blank">http://tintling.com/pilzbuch/arten/g/Ganoderma_applanatum.html</a>]]></description><link>research/fungi/ganoderma-applanatum.html</link><guid isPermaLink="false">research/fungi/Ganoderma applanatum.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 08 May 2024 14:45:58 GMT</pubDate></item><item><title><![CDATA[Intro]]></title><description><![CDATA[ 
- <br><img alt="histilus_sumer3.svg" src="assets/histilus_sumer3.svg"><br><br>Welcome to a journey of exploration, creativity, and self-discovery. This book are my ideas, projects, drawings, thoughts, and learning – a reflection of my multifaceted interests and passions. At its core, this work aims to enrich the reader with knowledge that fosters revolution and independence, enabling a harmonious coexistence with technology and the environment. It is a call to embrace a world without borders, where self-sustaining communities thrive on the free exchange of knowledge, living in harmony with the natural world. As an individual with a deep appreciation for art, music, engineering, technology, sciences, and philosophy, I strive to weave these diverse threads into a cohesive narrative. This book is not merely a collection of words and images; it is a window into my experiences, my life, and my vision for a better world. Through these pages, you will embark on a journey that transcends boundaries, challenging conventional thinking and inspiring a new paradigm of living. We will delve into the realms of art, exploring its power to evoke emotions and provoke thought. We will venture into the depths of science and technology, unraveling their potential to revolutionize our understanding of the world and our place within it. Moreover, this book is a testament to the belief that knowledge should be freely shared, empowering individuals and communities to forge their own paths towards self-sufficiency and harmony with the natural world. It is a call to action, inviting readers to embrace their curiosity, question the status quo, and actively participate in shaping a future where innovation and sustainability go hand in hand.<br><br><img alt="doodle_serpent2.svg" src="assets/doodle_serpent2.svg"><br><br>
-<br><a data-href="Solaris Odyssey" href="projects/solaris-odyssey.html" class="internal-link" target="_self" rel="noopener">Solaris Odyssey</a>
-<br><a data-href="MIDIFOX" href="projects/midifox.html" class="internal-link" target="_self" rel="noopener">MIDIFOX</a>
-<br><a data-href="MusikSack" href="projects/musiksack.html" class="internal-link" target="_self" rel="noopener">MusikSack</a>
-<br><a data-href="Protein Farm" href="projects/protein-farm.html" class="internal-link" target="_self" rel="noopener">Protein Farm</a>
-<br><a data-href="Mycelium Box" href="projects/mycelium-box.html" class="internal-link" target="_self" rel="noopener">Mycelium Box</a>
-<br><a data-href="Training Armor" href="Training Armor" class="internal-link" target="_self" rel="noopener">Training Armor</a>
-<br><br>
-<br><a data-href="Acacia" href="research/acacia.html" class="internal-link" target="_self" rel="noopener">Acacia</a>
-<br><a data-href="Fungal Automaton Research Proposal" href="research/biophd/fungal-automaton-research-proposal.html" class="internal-link" target="_self" rel="noopener">Fungal Automaton Research Proposal</a>
-<br><br>
-<br><a data-href="Emergence" href="ideas/emergence.html" class="internal-link" target="_self" rel="noopener">Emergence</a>
-<br><br>
-<br><a data-href="5 Buddhist Tibetan Rites" href="movement/5-buddhist-tibetan-rites.html" class="internal-link" target="_self" rel="noopener">5 Buddhist Tibetan Rites</a>
-<br>Neck
-<br>Animal
-<br>Tai Chi
-<br>Kung Fu
-<br><br><br>
-<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" rel="noopener" class="external-link" href="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" target="_blank">Youtube</a>
-<br><a data-tooltip-position="top" aria-label="https://www.twitch.tv/nuvhandra" rel="noopener" class="external-link" href="https://www.twitch.tv/nuvhandra" target="_blank">Twitch</a>
-<br><a data-tooltip-position="top" aria-label="https://github.com/k3ll3x" rel="noopener" class="external-link" href="https://github.com/k3ll3x" target="_blank">Github</a>
-<br><a data-tooltip-position="top" aria-label="https://soundcloud.com/kellex_urps" rel="noopener" class="external-link" href="https://soundcloud.com/kellex_urps" target="_blank">Fred Kelder Soundcloud</a>
-<br><a data-tooltip-position="top" aria-label="https://soundcloud.com/user-99991795" rel="noopener" class="external-link" href="https://soundcloud.com/user-99991795" target="_blank">Nuvhandra Soundcloud</a>
-<br><a data-href="Donate" href="donate.html" class="internal-link" target="_self" rel="noopener">Donate</a>
-]]></description><link>index.html</link><guid isPermaLink="false">INDEX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 08 May 2024 23:01:23 GMT</pubDate><enclosure url="assets/histilus_sumer3.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="assets/histilus_sumer3.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[ 
+Copy]]></description><link>ideas/emergence.html</link><guid isPermaLink="false">ideas/Emergence.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 08 May 2024 23:00:31 GMT</pubDate><enclosure url="ideas/assets/mobius-dotted.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;ideas/assets/mobius-dotted.svg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[5 Buddhist Tibetan Rites]]></title><description><![CDATA[ 
+ <br><img alt="doodle_tibetanrites.svg" src="lib/media/doodle_tibetanrites.svg"><br>
+Constant movement in each exercise<br>
+<br>Spin with extended arms
+<br>Lay down and move your legs upwards while moving chin to chest
+<br>Sit down on your knees, arms in hips and stretch forward
+<br>Sit down and shift your hips up and forwards
+<br>Seal pose to down facing dog
+<br>Meditate]]></description><link>movement/5-buddhist-tibetan-rites.html</link><guid isPermaLink="false">movement/5 Buddhist Tibetan Rites.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:29:46 GMT</pubDate><enclosure url="lib/media/doodle_tibetanrites.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/doodle_tibetanrites.svg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[ 
  <br><img alt="midifoxdomi.jpg" src="projects/assets/midifoxdomi.jpg"><br><br>
 <br>digitalize schematic from notebook
 <br>redoo code, add math to the datatypes, bit operators
@@ -320,7 +250,55 @@ int getValue(int c){
 	return digitalRead(muxpin);
 }
 
-Copy]]></description><link>projects/midifox.html</link><guid isPermaLink="false">projects/MIDIFOX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 05 May 2024 23:11:38 GMT</pubDate><enclosure url="projects/assets/midifoxdomi.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/midifoxdomi.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Mycelium Box]]></title><description><![CDATA[ 
+Copy]]></description><link>projects/midifox.html</link><guid isPermaLink="false">projects/MIDIFOX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 05 May 2024 23:11:38 GMT</pubDate><enclosure url="projects/assets/midifoxdomi.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;projects/assets/midifoxdomi.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MusikSack]]></title><description><![CDATA[ 
+ <br><img alt="layout-blueprint_v2.svg" src="projects/assets/layout-blueprint_v2.svg"><br>Abstract<br>A Single-board computer with a micro-controller for processing Analog and Digital inputs, designed for music production, computer graphics, and other open-source projects.<br>Design<br>
+<br>
+Single-board computer (Raspberry Pi, Orange Pi, …)
+
+<br>
+Audio Card
+
+<br>Display
+<br>Micro-controller (Arduino, Teensy, ESP32, …)
+
+<br>Analog Inputs
+<br>Digital Inputs
+
+
+
+
+<br>
+USB (female ports)
+
+<br>
+Power Source ~5V (Battery, direct connection with transformer)
+
+<br><img alt="musicsackconcept.png" src="projects/assets/musicsackconcept.png"><br>Circuit Desing for Micro-controller Analog &amp; Digital Inputs<br><img alt="musiksackschematic.png" src="projects/assets/musiksackschematic.png"><br>Single-board Computer Software<br>For processing every Input and Output (I/O) several drivers and software have to be prepared and loaded into the computer. I will start with the process of recieveing data from the micro-controller (Arduino) via the Serial port at a fast baud rate.<br>Reading and Writing to Serial Port<br>source: <a rel="noopener" class="external-link" href="https://gist.github.com/jerome-labidurie/5dde0ec105fe88aaf5fa8f3c54f4b07d" target="_blank">https://gist.github.com/jerome-labidurie/5dde0ec105fe88aaf5fa8f3c54f4b07d</a><br>Or maybe using Boost library?<br>Boost<br><a rel="noopener" class="external-link" href="https://www.boost.org/doc/libs/1_66_0/doc/html/boost_asio/reference/serial_port.html" target="_blank">https://www.boost.org/doc/libs/1_66_0/doc/html/boost_asio/reference/serial_port.html</a><br>OpenCL<br>Open Computing Language, cross-platform, parallel programming.<br>Juce<br>Multi-platform audio application framework.<br><br>//reading analog inputs from motors as rotary encoder
+
+//2 tiny motor helicopter &amp; 2 yellow plates motor &amp; motor no plate
+Serial.println(map(analogRead(A0), 510, 520, 0, 4));
+
+//solar motor also yellow plate
+Serial.println(map(analogRead(A0), 510, 520, -1, 4));
+Copy<br>use std::time::Duration;
+
+fn main() {
+    println!("Serial Reader");
+    let baud_rate = 9600;
+    //let ports = serialport::available_ports().expect("No ports found!");
+    let mut port = serialport::new("/dev/ttyUSB0", baud_rate)
+        .timeout(Duration::from_millis(10))
+        .open().expect("Failed to open port");
+    loop {
+        let mut serial_buf: Vec&lt;u8&gt; = vec![0; 32];
+        if let Ok(_ret) = port.read(serial_buf.as_mut_slice()) {
+            for i in serial_buf {
+                println!("{}", i);
+            }
+        }
+    }
+}
+Copy]]></description><link>projects/musiksack.html</link><guid isPermaLink="false">projects/MusikSack.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sat, 04 May 2024 15:21:20 GMT</pubDate><enclosure url="projects/assets/layout-blueprint_v2.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;projects/assets/layout-blueprint_v2.svg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Mycelium Box]]></title><description><![CDATA[ 
  <br><br>Based on the information from the provided sources, some easy-to-grow edible fungi that contain antioxidants, vitamins, zinc, copper, selenium,<br>
 lutein, zeaxanthin, fatty acids, magnesium, protein are:<br>Cordyceps, Lion's Mane, and Shiitake<br>
 <br>
@@ -393,7 +371,42 @@ Dairy or Plant-Based Alternatives:
 [2] <a rel="noopener" class="external-link" href="https://www.mdpi.com/2075-4450/14/4/359" target="_blank">https://www.mdpi.com/2075-4450/14/4/359</a><br>
 [3] <a rel="noopener" class="external-link" href="https://www.mdpi.com/2304-8158/12/22/4092" target="_blank">https://www.mdpi.com/2304-8158/12/22/4092</a><br>
 [4] <a rel="noopener" class="external-link" href="https://jasbsci.biomedcentral.com/articles/10.1186/s40104-023-00945-x" target="_blank">https://jasbsci.biomedcentral.com/articles/10.1186/s40104-023-00945-x</a><br>
-[5] <a rel="noopener" class="external-link" href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0100112" target="_blank">https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0100112</a>]]></description><link>projects/mycelium-box.html</link><guid isPermaLink="false">projects/Mycelium Box.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 05 May 2024 23:31:53 GMT</pubDate></item><item><title><![CDATA[Fungal Automaton Research Proposal]]></title><description><![CDATA[ 
+[5] <a rel="noopener" class="external-link" href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0100112" target="_blank">https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0100112</a>]]></description><link>projects/mycelium-box.html</link><guid isPermaLink="false">projects/Mycelium Box.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 05 May 2024 23:31:53 GMT</pubDate></item><item><title><![CDATA[Protein Farm]]></title><description><![CDATA[ 
+ <br>A semi automated ecosystem farm capable of breeding Tenebrionidae larva.<br>
+<br>The mentioned larva can be used for human consumption
+<br><br>
+<br>Tenebrionidae
+
+<br>Molitor
+<br>Obscurus
+<br>Bolitotherus cornutus
+
+<br>Feed on <a data-href="Ganoderma applanatum" href="research/fungi/ganoderma-applanatum.html" class="internal-link" target="_self" rel="noopener">Ganoderma applanatum</a>
+
+
+
+
+<br>
+<br><br>
+<br>Beauveria bassiana
+<br><br>
+<br>Cabbage
+<br>Potato
+<br>Wheat bran
+<br>Rice bran (whole and defatted)
+<br>Corn dry distillers' grain
+<br>Spent brewery dry grain
+<br>Canola meal
+<br>Sunflower meal
+]]></description><link>projects/protein-farm.html</link><guid isPermaLink="false">projects/Protein Farm.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 08 May 2024 14:44:49 GMT</pubDate></item><item><title><![CDATA[Solaris Odyssey]]></title><description><![CDATA[ 
+ <br><img alt="flyingyurt.png" src="projects/assets/flyingyurt.png"><br>
+A platform provides unique, off-grid travel opportunities.<br>Goal is to provide travelers with a truly self-sustainable, off-grid accommodation and travel experience that minimizes environmental impact while fostering cultural exchange and personal growth. The platform could appeal to eco-conscious, adventurous travelers seeking unique, transformative journeys.<br>
+<br>Eco-friendly, solar-powered yurts or tiny homes equipped with organic gardens, water harvesting systems, and renewable energy generators.
+<br>Opportunities for guests to learn sustainable living skills like permaculture, composting, and renewable energy.
+<br>Partnerships with local communities to provide authentic cultural experiences and support the local economy.
+<br>Carbon-neutral transportation options like electric vehicles or hot air balloons.
+<br>Curated itineraries and trip planning services focused on immersive, low-impact travel experiences.
+]]></description><link>projects/solaris-odyssey.html</link><guid isPermaLink="false">projects/Solaris Odyssey.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Tue, 30 Apr 2024 17:49:21 GMT</pubDate><enclosure url="projects/assets/flyingyurt.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;projects/assets/flyingyurt.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Fungal Automaton Research Proposal]]></title><description><![CDATA[ 
  <br><br>Due to the energy crisis and climate change, new ways to provide clean renewable energy and production of food are being developed and researched, the demands of a modern complex society are way beyond the current infrastructure which can only partially provide in its full capacity the essential needs of the population. By studying nature, engineering may be inspired to develop new technologies to address these current issues. In particular, the kingdom of fungi can be used as a model for the following topics: computer architecture, energy supply, conservation and restoration of natural ecosystems, and farming; with the study of fungi’s chemical-electrical signals, and adaptable physical structure, it will be proposed that this organism with modern software and hardware can become an Interface for intelligent farming, being able to monitor and control crops/cultures of different organisms such as plants and insects in closed and open environments, finally becoming a Classical / Quantum Automaton.<br>Keywords: fungus/fungal/fungi, automaton, ecology, energy, quantum biology<br><br>Nature can be the subject of inspiration for creating new technologies; the understanding of living organisms may give more insight into solving modern complex problems. The way nature has evolved with ingenious paths to coexist with its environment is a resource we need to understand to overcome issues of modern society.&nbsp;<br>Since the dawn of consciousness, fungi have been a subject of interest, becoming a nutrient, medicine, and perspective catalyst. It has been worshiped, studied, and used by cultures of the past until now. Mycelium, a network of fungal threads, has many appliances, e.g. Bio-products (synthetic leather), composites, an alternative for plastic, medicine, and more. As the popularity of the study of fungi increased, more focus on its appliances in the area of computer science has been researched. A few of the uses we can harvest and modify from this astonishing life form are the way this organism processes information, adapts to distinct environments, and efficiently produces and stores energy.<br><br>Towards A Fungal Computer¹ (Adamatzky, 2018) explores the possibility of using the electrical activity of fungi as a mechanism to create a framework for computer architecture.<br>Information transmission in microbial and fungal communication: from classical to quantum² (Majumdar and Pal, 2018) studies fungi cultures' behavior with classical and quantum mechanical approaches and proposes the concept of quantum synthetic biology and possible cellular quantum Turing test.<br>Fungal Automata³ (Adamatzky et al. 2020) proposes the cellular automaton model of information dynamics of one dimension on a filament of fungal mycelium where the behavior of organelles acts as informational flow valves, their condition is represented in a binary state and determines a set of rules that influences neighbor cells.<br>Lytic xylan oxidases from wood-decay fungi unlock biomass degradation⁴ (Couturier, M., Ladevèze, S., Sulzenbacher, G. et al. 2018) is a study that found a group of enzymes that gives more insight into the nature of the decomposition of wood. These enzymes could potentially be used to sustainably convert wood biomass into biofuel.<br><br>Our modern society demands the usage of electricity, it has become a necessity for our daily lives. Food, water, clothes, and shelter are basic human needs that nowadays depend on electricity; to be able to satisfy the population of the world, and avoid harming our ecosystem, new ways to provide sustainable energy and food are profoundly needed. On the other hand, we have computers that have the function to improve our lives, looking through different pathways to optimize tasks, they are everywhere, meant for multi or single-purpose tasks, and are responsible for processing information. New alternatives to perform computation are the further steps for an advanced society.<br>Networks of mycelium, commonly known as Nature’s Internet, had shown to be an essential part of natural environments, providing a pathway for distributing, quite efficiently, nutrients to all their inhabitants through long distances. Understanding this network could benefit distinct areas, e.g information processing, and reforestation projects, places where the soil is no longer fertile, fungi of different species may provide a mechanism for creating natural environments in a short timeframe, also controlling and monitoring natural resources for their continuous preservation and restoration. With that, the study of fungi species in nature reserves around the world will give an overall understanding of how natural environments work on a deeper level. The interpretation of its chemical and electrical activity allows one to understand natural environments and their needs in more depth. This can also be applied to open or closed farming crops, where the mycelium works as an interface for controlling and monitoring specific areas with the purpose of maintaining sustainable desired cultivation procedures. Antique cultivation processes are slightly used and it’s aimed at the transition to more contemporary techniques. In providing healthy sustainable food, organic agriculture plays an important role, and automation is a required feature for the present needs of our society.<br>The processes occurring within fungi living organisms are an important topic of research since some of them could be modified for their usage to perform computation, learn more about nature reserves ecosystems, and produce sustainable energy. Those processes or mechanisms can be gathered and studied to build mathematical frameworks within the classical and quantum information theory for creating a fungal automaton.<br>The development and use of electrical sensors are needed, where fungi’s activity can be measured and analyzed, therefore the study of its molecular structure is the starting point for understanding&nbsp; fragments of mycelium electrical signals, and how information is handled at the molecular level to a macro level (mycelium cultures with specific dimensions).<br>With the obtained information from the study, it is proposed that with the created framework(s), fungi can perform computation, monitor and control natural environments and farming crops, and finally produce renewable energy.<br><br>Could mycelium, a network of fungal threads, as a living organism, with the aid of modern methods, software, and hardware, be used for quantum and classical computations, producing renewable energy and as a mechanism for efficient and sustainable organic agriculture in open and closed environments?<br><br>
 <br>Development and research of microbial biosensors for further use in the retrieval of electrical and chemical activity of fungal cultures.
 <br>Investigate how fungi adapt and learn in distinct volatile open and closed environments, and retrieve the information of the environment embedded within the fungi.
@@ -407,71 +420,32 @@ Dairy or Plant-Based Alternatives:
 <br>Couturier, M., Ladeveze, S., Sulzenbacher, G., Ciano, L., Fanuel, M., Moreau, C., ... &amp; Berrin, J. G. (2018). Lytic xylan oxidases from wood-decay fungi unlock biomass degradation. Nature chemical biology, 14(3), 306-310.
 <br>Adamatzky, A. (2010). Physarum machines: computers from slime mold (Vol. 74). World Scientific.
 <br>Moore, C., &amp; Crutchfield, J. P. (2000). Quantum automata and quantum grammars. Theoretical Computer Science, 237(1-2), 275-306.
-]]></description><link>research/biophd/fungal-automaton-research-proposal.html</link><guid isPermaLink="false">research/biophd/Fungal Automaton Research Proposal.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 05 May 2024 21:54:47 GMT</pubDate></item><item><title><![CDATA[5 Buddhist Tibetan Rites]]></title><description><![CDATA[ 
- <br><img alt="doodle_tibetanrites.svg" src="lib/media/doodle_tibetanrites.svg"><br>
-Constant movement in each exercise<br>
-<br>Spin with extended arms
-<br>Lay down and move your legs upwards while moving chin to chest
-<br>Sit down on your knees, arms in hips and stretch forward
-<br>Sit down and shift your hips up and forwards
-<br>Seal pose to down facing dog
-<br>Meditate]]></description><link>movement/5-buddhist-tibetan-rites.html</link><guid isPermaLink="false">movement/5 Buddhist Tibetan Rites.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:29:46 GMT</pubDate><enclosure url="lib/media/doodle_tibetanrites.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/doodle_tibetanrites.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MusikSack]]></title><description><![CDATA[ 
- <br><img alt="layout-blueprint_v2.svg" src="projects/assets/layout-blueprint_v2.svg"><br>Abstract<br>A Single-board computer with a micro-controller for processing Analog and Digital inputs, designed for music production, computer graphics, and other open-source projects.<br>Design<br>
+]]></description><link>research/biophd/fungal-automaton-research-proposal.html</link><guid isPermaLink="false">research/biophd/Fungal Automaton Research Proposal.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 05 May 2024 21:54:47 GMT</pubDate></item><item><title><![CDATA[Ganoderma applanatum]]></title><description><![CDATA[ 
+ <br>Based on the search results provided, here are the key points about Ganoderma applanatum:<br>
 <br>
-Single-board computer (Raspberry Pi, Orange Pi, …)
+Ganoderma applanatum is a bracket fungus with a cosmopolitan (worldwide) distribution[1]. It is also known as the artist's conk, artist's bracket, or bear bread.
 
 <br>
-Audio Card
-
-<br>Display
-<br>Micro-controller (Arduino, Teensy, ESP32, …)
-
-<br>Analog Inputs
-<br>Digital Inputs
-
-
-
+It is a parasitic and saprophytic fungus, meaning it can grow on living or dead trees as a mycelium within the wood[1][2]. It forms large, woody, shelf-like fruiting bodies up to 30 cm wide.
 
 <br>
-USB (female ports)
+The fruiting bodies are initially white but soon turn dark red-brown. The upper surface is covered in reddish-brown spores that can be dispersed at a rate of up to 4.65 billion spores per 24 hours from a 10 cm x 10 cm section[1].
 
 <br>
-Power Source ~5V (Battery, direct connection with transformer)
+Ganoderma applanatum has been used extensively in traditional Chinese medicine to treat conditions like rheumatic tuberculosis, esophageal cancer, indigestion, and more. It has demonstrated anti-tumor, anti-oxidant, and immunomodulatory properties in studies[3].
 
-<br><img alt="musicsackconcept.png" src="projects/assets/musicsackconcept.png"><br>Circuit Desing for Micro-controller Analog &amp; Digital Inputs<br><img alt="musiksackschematic.png" src="projects/assets/musiksackschematic.png"><br>Single-board Computer Software<br>For processing every Input and Output (I/O) several drivers and software have to be prepared and loaded into the computer. I will start with the process of recieveing data from the micro-controller (Arduino) via the Serial port at a fast baud rate.<br>Reading and Writing to Serial Port<br>source: <a rel="noopener" class="external-link" href="https://gist.github.com/jerome-labidurie/5dde0ec105fe88aaf5fa8f3c54f4b07d" target="_blank">https://gist.github.com/jerome-labidurie/5dde0ec105fe88aaf5fa8f3c54f4b07d</a><br>Or maybe using Boost library?<br>Boost<br><a rel="noopener" class="external-link" href="https://www.boost.org/doc/libs/1_66_0/doc/html/boost_asio/reference/serial_port.html" target="_blank">https://www.boost.org/doc/libs/1_66_0/doc/html/boost_asio/reference/serial_port.html</a><br>OpenCL<br>Open Computing Language, cross-platform, parallel programming.<br>Juce<br>Multi-platform audio application framework.<br><br>//reading analog inputs from motors as rotary encoder
+<br>
+The white pore surface of the fruiting body can be etched or drawn on, staining brown, which has led to its common name "artist's conk"[2][4][5]. This makes it a popular subject for pyrography (wood burning) and other artistic pursuits.
 
-//2 tiny motor helicopter &amp; 2 yellow plates motor &amp; motor no plate
-Serial.println(map(analogRead(A0), 510, 520, 0, 4));
+<br>
+Ganoderma applanatum is inedible, though it is closely related to the edible Ganoderma lucidum (reishi mushroom)[2].
 
-//solar motor also yellow plate
-Serial.println(map(analogRead(A0), 510, 520, -1, 4));
-Copy<br>use std::time::Duration;
-
-fn main() {
-    println!("Serial Reader");
-    let baud_rate = 9600;
-    //let ports = serialport::available_ports().expect("No ports found!");
-    let mut port = serialport::new("/dev/ttyUSB0", baud_rate)
-        .timeout(Duration::from_millis(10))
-        .open().expect("Failed to open port");
-    loop {
-        let mut serial_buf: Vec&lt;u8&gt; = vec![0; 32];
-        if let Ok(_ret) = port.read(serial_buf.as_mut_slice()) {
-            for i in serial_buf {
-                println!("{}", i);
-            }
-        }
-    }
-}
-Copy]]></description><link>projects/musiksack.html</link><guid isPermaLink="false">projects/MusikSack.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sat, 04 May 2024 15:21:20 GMT</pubDate><enclosure url="projects/assets/layout-blueprint_v2.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/layout-blueprint_v2.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Solaris Odyssey]]></title><description><![CDATA[ 
- <br><img alt="flyingyurt.png" src="projects/assets/flyingyurt.png"><br>
-A platform provides unique, off-grid travel opportunities.<br>Goal is to provide travelers with a truly self-sustainable, off-grid accommodation and travel experience that minimizes environmental impact while fostering cultural exchange and personal growth. The platform could appeal to eco-conscious, adventurous travelers seeking unique, transformative journeys.<br>
-<br>Eco-friendly, solar-powered yurts or tiny homes equipped with organic gardens, water harvesting systems, and renewable energy generators.
-<br>Opportunities for guests to learn sustainable living skills like permaculture, composting, and renewable energy.
-<br>Partnerships with local communities to provide authentic cultural experiences and support the local economy.
-<br>Carbon-neutral transportation options like electric vehicles or hot air balloons.
-<br>Curated itineraries and trip planning services focused on immersive, low-impact travel experiences.
-]]></description><link>projects/solaris-odyssey.html</link><guid isPermaLink="false">projects/Solaris Odyssey.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Tue, 30 Apr 2024 17:49:21 GMT</pubDate><enclosure url="projects/assets/flyingyurt.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/flyingyurt.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Acacia]]></title><description><![CDATA[ 
+<br>In summary, Ganoderma applanatum is a distinctive, woody bracket fungus with a long history of medicinal use and artistic applications due to its unique properties.<br>Citations:<br>
+[1] <a rel="noopener" class="external-link" href="https://en.wikipedia.org/wiki/Ganoderma_applanatum" target="_blank">https://en.wikipedia.org/wiki/Ganoderma_applanatum</a><br>
+[2] <a rel="noopener" class="external-link" href="https://www.messiah.edu/Oakes/fungi_on_wood/poroid%20fungi/species%20pages/Ganoderma%20applanatum.htm" target="_blank">https://www.messiah.edu/Oakes/fungi_on_wood/poroid%20fungi/species%20pages/Ganoderma%20applanatum.htm</a><br>
+[3] <a rel="noopener" class="external-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8358375/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8358375/</a><br>
+[4] <a rel="noopener" class="external-link" href="https://fundkorb.de/pilze/ganoderma-applanatum-flacher-lackporling" target="_blank">https://fundkorb.de/pilze/ganoderma-applanatum-flacher-lackporling</a><br>
+[5] <a rel="noopener" class="external-link" href="http://tintling.com/pilzbuch/arten/g/Ganoderma_applanatum.html" target="_blank">http://tintling.com/pilzbuch/arten/g/Ganoderma_applanatum.html</a>]]></description><link>research/fungi/ganoderma-applanatum.html</link><guid isPermaLink="false">research/fungi/Ganoderma applanatum.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 08 May 2024 14:45:58 GMT</pubDate></item><item><title><![CDATA[Acacia]]></title><description><![CDATA[ 
  <br><br>Leaves contain flavonoids, terpenoids, and tannins and have abortifacient properties<br><br>Stem bark contains 3-(Z)-trans coumaroylbetulin and 3-(E)-cis coumaroylbetulin and has antimalarial properties<br><br>Stem bark contains betulinic acid and betulinic acid-3-trans-caffeate and has antimicrobial and antioxidant properties<br><br>Leaves contain diterpenes and tannins and have antimicrobial and antioxidant properties<br><br>Leaves contain myricetin-3-O-α-l-rhamnoside and quercetin-3-O-α-l-rhamnoside and have antioxidant and cytotoxic properties<br><br>Leaves contain β-sitosterol and epigallocatechin and have antilisterial properties<br>Berlin:<br>
 Robinia pseudoacacia<br><br>
 <br>toxalbumin robin
@@ -486,4 +460,30 @@ Characterization: Once the compound(s) have been isolated, they can be character
 <a data-tooltip-position="top" aria-label="https://www.paypal.com/donate/?hosted_button_id=TTM9TGPLDU8PS" rel="noopener" class="external-link" href="https://www.paypal.com/donate/?hosted_button_id=TTM9TGPLDU8PS" target="_blank">Click Here</a><br><br><img alt="bitcoinwa.png" src="assets/bitcoinwa.png"><br>
 bc1qknd2fw7j7475skyxy5y60ccg0rzua9j44haz5x<br><br><img alt="ethwa.png" src="assets/ethwa.png"><br>
 0x5a0457D7790cE02736093201db6ADDC12E56733f<br><br><img alt="ethclas.png" src="assets/ethclas.png"><br>
-0x87eF087f49fCEa341A1FDE0d11B096897b6Be787<br>All donations, regardless of the amount, are valuable and will be used responsibly to further my mission. Your support is crucial in helping me achieve my goals and make a lasting difference.]]></description><link>donate.html</link><guid isPermaLink="false">Donate.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sat, 04 May 2024 15:37:12 GMT</pubDate><enclosure url="assets/paypal.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="assets/paypal.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+0x87eF087f49fCEa341A1FDE0d11B096897b6Be787<br>All donations, regardless of the amount, are valuable and will be used responsibly to further my mission. Your support is crucial in helping me achieve my goals and make a lasting difference.]]></description><link>donate.html</link><guid isPermaLink="false">Donate.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sat, 04 May 2024 15:37:12 GMT</pubDate><enclosure url="assets/paypal.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;assets/paypal.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Intro]]></title><description><![CDATA[ 
+ <br><img alt="histilus_sumer3.svg" src="assets/histilus_sumer3.svg"><br><br>Welcome to a journey of exploration, creativity, and self-discovery. This book are my ideas, projects, drawings, thoughts, and learning – a reflection of my multifaceted interests and passions. At its core, this work aims to enrich the reader with knowledge that fosters revolution and independence, enabling a harmonious coexistence with technology and the environment. It is a call to embrace a world without borders, where self-sustaining communities thrive on the free exchange of knowledge, living in harmony with the natural world. As an individual with a deep appreciation for art, music, engineering, technology, sciences, and philosophy, I strive to weave these diverse threads into a cohesive narrative. This book is not merely a collection of words and images; it is a window into my experiences, my life, and my vision for a better world. Through these pages, you will embark on a journey that transcends boundaries, challenging conventional thinking and inspiring a new paradigm of living. We will delve into the realms of art, exploring its power to evoke emotions and provoke thought. We will venture into the depths of science and technology, unraveling their potential to revolutionize our understanding of the world and our place within it. Moreover, this book is a testament to the belief that knowledge should be freely shared, empowering individuals and communities to forge their own paths towards self-sufficiency and harmony with the natural world. It is a call to action, inviting readers to embrace their curiosity, question the status quo, and actively participate in shaping a future where innovation and sustainability go hand in hand.<br><br><img alt="doodle_serpent2.svg" src="assets/doodle_serpent2.svg"><br><br>
+<br><a data-href="Solaris Odyssey" href="projects/solaris-odyssey.html" class="internal-link" target="_self" rel="noopener">Solaris Odyssey</a>
+<br><a data-href="MIDIFOX" href="projects/midifox.html" class="internal-link" target="_self" rel="noopener">MIDIFOX</a>
+<br><a data-href="MusikSack" href="projects/musiksack.html" class="internal-link" target="_self" rel="noopener">MusikSack</a>
+<br><a data-href="Protein Farm" href="projects/protein-farm.html" class="internal-link" target="_self" rel="noopener">Protein Farm</a>
+<br><a data-href="Mycelium Box" href="projects/mycelium-box.html" class="internal-link" target="_self" rel="noopener">Mycelium Box</a>
+<br><a data-href="Training Armor" href="Training Armor" class="internal-link" target="_self" rel="noopener">Training Armor</a>
+<br><br>
+<br><a data-href="Acacia" href="research/acacia.html" class="internal-link" target="_self" rel="noopener">Acacia</a>
+<br><a data-href="Fungal Automaton Research Proposal" href="research/biophd/fungal-automaton-research-proposal.html" class="internal-link" target="_self" rel="noopener">Fungal Automaton Research Proposal</a>
+<br><br>
+<br><a data-href="Emergence" href="ideas/emergence.html" class="internal-link" target="_self" rel="noopener">Emergence</a>
+<br><br>
+<br><a data-href="5 Buddhist Tibetan Rites" href="movement/5-buddhist-tibetan-rites.html" class="internal-link" target="_self" rel="noopener">5 Buddhist Tibetan Rites</a>
+<br>Neck
+<br>Animal
+<br>Tai Chi
+<br>Kung Fu
+<br><br><br>
+<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" rel="noopener" class="external-link" href="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" target="_blank">Youtube</a>
+<br><a data-tooltip-position="top" aria-label="https://www.twitch.tv/nuvhandra" rel="noopener" class="external-link" href="https://www.twitch.tv/nuvhandra" target="_blank">Twitch</a>
+<br><a data-tooltip-position="top" aria-label="https://github.com/k3ll3x" rel="noopener" class="external-link" href="https://github.com/k3ll3x" target="_blank">Github</a>
+<br><a data-tooltip-position="top" aria-label="https://soundcloud.com/kellex_urps" rel="noopener" class="external-link" href="https://soundcloud.com/kellex_urps" target="_blank">Fred Kelder Soundcloud</a>
+<br><a data-tooltip-position="top" aria-label="https://soundcloud.com/user-99991795" rel="noopener" class="external-link" href="https://soundcloud.com/user-99991795" target="_blank">Nuvhandra Soundcloud</a>
+<br><a data-href="Donate" href="donate.html" class="internal-link" target="_self" rel="noopener">Donate</a>
+]]></description><link>index.html</link><guid isPermaLink="false">INDEX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 08 May 2024 23:01:23 GMT</pubDate><enclosure url="assets/histilus_sumer3.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;assets/histilus_sumer3.svg&quot;&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
