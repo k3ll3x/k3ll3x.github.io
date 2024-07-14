@@ -1,6 +1,6 @@
 {
   "vaultName": "Tetrahedron",
-  "lastExport": 1718222825819,
+  "lastExport": 1721000855703,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -13,10 +13,6 @@
     "assets/ethwa.png",
     "assets/histilus_sumer3.svg",
     "assets/paypal.png",
-    "ideas/assets/doodle_serpent05.svg",
-    "ideas/assets/mobius-dotted.svg",
-    "ideas/Emergence.md",
-    "ideas/Ĝeštu Ĝeštu Ĝeštu.md",
     "movement/5 Buddhist Tibetan Rites.md",
     "projects/assets/flyingyurt.png",
     "projects/assets/layout-blueprint_v2.svg",
@@ -36,7 +32,15 @@
     "projects/Solaris Odyssey.md",
     "research/biophd/Fungal Automaton Research Proposal.md",
     "research/fungi/Ganoderma applanatum.md",
+    "research/planetarysciences/25 June Interview.md",
     "research/Acacia.md",
+    "writings/assets/doodle_serpent05.svg",
+    "writings/assets/mobius-dotted.svg",
+    "writings/assets/utna.jpg",
+    "writings/Emergence.md",
+    "writings/Ĝeštu Ĝeštu Ĝeštu.md",
+    "writings/Sun Moon Elixir.md",
+    "writings/Utnapishtim.md",
     "Donate.md",
     "INDEX.md",
     "lib/fonts/94f2f163d4b698242fef.otf",
@@ -135,27 +139,6 @@
       "sourceSize": 5092,
       "exportedPath": "assets/paypal.png",
       "dependencies": []
-    },
-    "ideas/assets/doodle_serpent05.svg": {
-      "modifiedTime": 1715210553163,
-      "sourceSize": 282601,
-      "exportedPath": "ideas/assets/doodle_serpent05.svg",
-      "dependencies": []
-    },
-    "ideas/assets/mobius-dotted.svg": {
-      "modifiedTime": 1715210553163,
-      "sourceSize": 2245590,
-      "exportedPath": "ideas/assets/mobius-dotted.svg",
-      "dependencies": []
-    },
-    "ideas/Emergence.md": {
-      "modifiedTime": 1715210553163,
-      "sourceSize": 1119,
-      "exportedPath": "ideas/emergence.html",
-      "dependencies": [
-        "ideas/assets/mobius-dotted.svg",
-        "ideas/assets/doodle_serpent05.svg"
-      ]
     },
     "movement/5 Buddhist Tibetan Rites.md": {
       "modifiedTime": 1715209958812,
@@ -282,145 +265,145 @@
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1718222825819,
-      "sourceSize": 36472,
+      "modifiedTime": 1721000855703,
+      "sourceSize": 40571,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 575,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 130183,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 10102,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 3162,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 89,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
@@ -463,17 +446,64 @@
       "exportedPath": "projects/projectscanva.html",
       "dependencies": []
     },
-    "ideas/Ĝeštu Ĝeštu Ĝeštu.md": {
-      "modifiedTime": 1718222825819,
-      "sourceSize": 498,
-      "exportedPath": "ideas/ĝeštu-ĝeštu-ĝeštu.html",
-      "dependencies": []
-    },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1718222825819,
+      "modifiedTime": 1721000855703,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
+    },
+    "research/planetarysciences/25 June Interview.md": {
+      "modifiedTime": 1721000855703,
+      "sourceSize": 8748,
+      "exportedPath": "research/planetarysciences/25-june-interview.html",
+      "dependencies": []
+    },
+    "writings/assets/doodle_serpent05.svg": {
+      "modifiedTime": 1721000855703,
+      "sourceSize": 282601,
+      "exportedPath": "writings/assets/doodle_serpent05.svg",
+      "dependencies": []
+    },
+    "writings/assets/mobius-dotted.svg": {
+      "modifiedTime": 1721000855703,
+      "sourceSize": 2245590,
+      "exportedPath": "writings/assets/mobius-dotted.svg",
+      "dependencies": []
+    },
+    "writings/assets/utna.jpg": {
+      "modifiedTime": 1721000855703,
+      "sourceSize": 235387,
+      "exportedPath": "writings/assets/utna.jpg",
+      "dependencies": []
+    },
+    "writings/Emergence.md": {
+      "modifiedTime": 1721000855703,
+      "sourceSize": 1119,
+      "exportedPath": "writings/emergence.html",
+      "dependencies": [
+        "writings/assets/mobius-dotted.svg",
+        "writings/assets/doodle_serpent05.svg"
+      ]
+    },
+    "writings/Ĝeštu Ĝeštu Ĝeštu.md": {
+      "modifiedTime": 1721000855703,
+      "sourceSize": 498,
+      "exportedPath": "writings/ĝeštu-ĝeštu-ĝeštu.html",
+      "dependencies": []
+    },
+    "writings/Sun Moon Elixir.md": {
+      "modifiedTime": 1721000855703,
+      "sourceSize": 1615,
+      "exportedPath": "writings/sun-moon-elixir.html",
+      "dependencies": []
+    },
+    "writings/Utnapishtim.md": {
+      "modifiedTime": 1721000855703,
+      "sourceSize": 4158,
+      "exportedPath": "writings/utnapishtim.html",
+      "dependencies": [
+        "writings/assets/utna.jpg"
+      ]
     }
   }
 }
