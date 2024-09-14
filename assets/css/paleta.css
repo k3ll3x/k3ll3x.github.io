@@ -31,3 +31,7 @@
     transform: scale(1.1); /* Scale up the div to 110% of its original size */
     /* background-color: #365253; */
 }
+
+.small {
+    width: 25%;
+}
