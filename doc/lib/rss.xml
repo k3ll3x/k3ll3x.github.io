@@ -1,20 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 12 Oct 2024 19:12:17 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 12 Oct 2024 19:12:14 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[FarmBox]]></title><description><![CDATA[ 
- <br><br>
-<br>Power Box
-
-<br>12 V
-<br>5 V (USB)
-<br>3.3 V
-
-
-<br>Ventilation
-
-<br>Fan with filters, optimum 2 sides
-<br>
-
-
-]]></description><link>projects/farmbox.html</link><guid isPermaLink="false">projects/FarmBox.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 11 Oct 2024 17:35:51 GMT</pubDate></item><item><title><![CDATA[ProjectsCanva]]></title><description><![CDATA[ 
- TerraNavis5<a aria-label="More options" class="kanban-plugin__lane-settings-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>Design frame<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>Design mold<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>freecad design<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>list of materials<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>prototype<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>+ Add a cardMethane digester2<a aria-label="More options" class="kanban-plugin__lane-settings-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>design<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>list of materials<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>+ Add a card]]></description><link>projects/projectscanva.html</link><guid isPermaLink="false">projects/ProjectsCanva.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 11 Oct 2024 17:27:28 GMT</pubDate></item><item><title><![CDATA[Services]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 13 Oct 2024 14:12:08 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 13 Oct 2024 14:12:07 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[Services]]></title><description><![CDATA[ 
  <br><br>
 <br>Environmental Monitoring: Leveraging my experience with Raspberry Pi and Arduino to develop intelligent systems for monitoring environmental conditions in projects related to volcanism and ecology.
 <br>Geospatial Analysis: Utilizing QGIS for spatial data analysis, mapping, and visualization to support research and decision-making in Earth sciences.
@@ -33,7 +17,59 @@
 <br><br>
 <br>Hands-On Workshops: Conducting workshops on topics such as QGIS, programming in Python, or environmental monitoring systems.
 <br>Consultation Services: Offering one-on-one consultations for individuals or organizations looking to implement technology solutions in their projects.
-]]></description><link>services.html</link><guid isPermaLink="false">Services.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sat, 12 Oct 2024 16:49:23 GMT</pubDate></item><item><title><![CDATA[5 Buddhist Tibetan Rites]]></title><description><![CDATA[ 
+<br><br><br>
+<br>
+IoT Devices for Sustainable Agriculture: Create intelligent sensors that help farmers optimize water and nutrient usage in their crops.
+
+<br>
+Augmented Reality Nature Exploration Apps: Develop applications that enhance outdoor experiences by providing enriched information about flora, fauna, and geology.
+
+<br>
+Interactive Tech-Based Art: Design installations that combine music, light, and technology to create immersive artistic experiences.
+
+<br>
+DIY Renewable Energy Systems: Offer kits to build small-scale solar or wind energy systems suitable for homes or small communities.
+
+<br><br>
+<br>
+Sustainable Technology Consulting: Advise businesses and individuals on implementing eco-friendly tech solutions.
+
+<br>
+Software Development for Environmental Projects: Create applications that help environmental organizations manage their projects more efficiently.
+
+<br>
+Workshops on Construction and Tech Innovation: Organize hands-on workshops where participants can learn to build their own tech or artistic devices.
+
+<br>
+Music Production with Natural Elements: Provide music production services that incorporate natural sounds, bridging technology and nature.
+
+<br>
+Smart Green Space Design: Use your tech skills and love for nature to design gardens or green spaces that enhance sustainability and beauty.
+
+<br><br>
+<br>
+Tech-Nature Tourism Experiences: Organize tours that blend nature exploration with technology, such as stargazing with telescopes connected to interactive apps.
+
+<br>
+Sustainable Community Art Projects: Lead community initiatives to create art using recycled materials and clean technologies.
+
+<br>]]></description><link>services.html</link><guid isPermaLink="false">Services.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 13 Oct 2024 14:01:19 GMT</pubDate></item><item><title><![CDATA[FarmBox]]></title><description><![CDATA[ 
+ <br><br>
+<br>Power Box
+
+<br>12 V
+<br>5 V (USB)
+<br>3.3 V
+
+
+<br>Ventilation
+
+<br>Fan with filters, optimum 2 sides
+<br>
+
+
+]]></description><link>projects/farmbox.html</link><guid isPermaLink="false">projects/FarmBox.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 11 Oct 2024 17:35:51 GMT</pubDate></item><item><title><![CDATA[ProjectsCanva]]></title><description><![CDATA[ 
+ TerraNavis5<a aria-label="More options" class="kanban-plugin__lane-settings-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>Design frame<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>Design mold<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>freecad design<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>list of materials<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>prototype<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>+ Add a cardMethane digester2<a aria-label="More options" class="kanban-plugin__lane-settings-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>design<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>list of materials<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>+ Add a card]]></description><link>projects/projectscanva.html</link><guid isPermaLink="false">projects/ProjectsCanva.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 11 Oct 2024 17:27:28 GMT</pubDate></item><item><title><![CDATA[5 Buddhist Tibetan Rites]]></title><description><![CDATA[ 
  <br><img alt="doodle_tibetanrites.svg" src="lib/media/doodle_tibetanrites.svg"><br>
 Constant movement in each exercise<br>
 <br>Spin with extended arms
