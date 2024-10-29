@@ -1,75 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 13 Oct 2024 14:12:08 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 13 Oct 2024 14:12:07 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[Services]]></title><description><![CDATA[ 
- <br><br>
-<br>Environmental Monitoring: Leveraging my experience with Raspberry Pi and Arduino to develop intelligent systems for monitoring environmental conditions in projects related to volcanism and ecology.
-<br>Geospatial Analysis: Utilizing QGIS for spatial data analysis, mapping, and visualization to support research and decision-making in Earth sciences.
-<br><br>
-<br>Custom Software Solutions: Developing tailored software applications using Python, C/C++, and JavaScript to meet specific client needs.
-<br>API Development: Creating robust APIs for data integration and business algorithms, enhancing the functionality of existing web applications.
-<br><br>
-<br>Data Insights: Analyzing complex datasets using tools like Pandas and Matplotlib to extract actionable insights.
-<br>Dashboard Creation: Designing interactive dashboards to visualize key performance indicators, helping businesses track their metrics effectively.
-<br><br>
-<br>Responsive Web Applications: Building user-friendly web applications with a focus on performance optimization and automation.
-<br>Full-Stack Development: Utilizing my skills in back-end development to enhance web applications and automate processes.
-<br><br>
-<br>Content Creation: Writing technical articles, guides, or documentation related to programming, Earth sciences, or technology trends.
-<br>Educational Resources: Developing educational materials that explain complex scientific concepts in an accessible manner.
-<br><br>
-<br>Hands-On Workshops: Conducting workshops on topics such as QGIS, programming in Python, or environmental monitoring systems.
-<br>Consultation Services: Offering one-on-one consultations for individuals or organizations looking to implement technology solutions in their projects.
-<br><br><br>
-<br>
-IoT Devices for Sustainable Agriculture: Create intelligent sensors that help farmers optimize water and nutrient usage in their crops.
-
-<br>
-Augmented Reality Nature Exploration Apps: Develop applications that enhance outdoor experiences by providing enriched information about flora, fauna, and geology.
-
-<br>
-Interactive Tech-Based Art: Design installations that combine music, light, and technology to create immersive artistic experiences.
-
-<br>
-DIY Renewable Energy Systems: Offer kits to build small-scale solar or wind energy systems suitable for homes or small communities.
-
-<br><br>
-<br>
-Sustainable Technology Consulting: Advise businesses and individuals on implementing eco-friendly tech solutions.
-
-<br>
-Software Development for Environmental Projects: Create applications that help environmental organizations manage their projects more efficiently.
-
-<br>
-Workshops on Construction and Tech Innovation: Organize hands-on workshops where participants can learn to build their own tech or artistic devices.
-
-<br>
-Music Production with Natural Elements: Provide music production services that incorporate natural sounds, bridging technology and nature.
-
-<br>
-Smart Green Space Design: Use your tech skills and love for nature to design gardens or green spaces that enhance sustainability and beauty.
-
-<br><br>
-<br>
-Tech-Nature Tourism Experiences: Organize tours that blend nature exploration with technology, such as stargazing with telescopes connected to interactive apps.
-
-<br>
-Sustainable Community Art Projects: Lead community initiatives to create art using recycled materials and clean technologies.
-
-<br>]]></description><link>services.html</link><guid isPermaLink="false">Services.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 13 Oct 2024 14:01:19 GMT</pubDate></item><item><title><![CDATA[FarmBox]]></title><description><![CDATA[ 
- <br><br>
-<br>Power Box
-
-<br>12 V
-<br>5 V (USB)
-<br>3.3 V
-
-
-<br>Ventilation
-
-<br>Fan with filters, optimum 2 sides
-<br>
-
-
-]]></description><link>projects/farmbox.html</link><guid isPermaLink="false">projects/FarmBox.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 11 Oct 2024 17:35:51 GMT</pubDate></item><item><title><![CDATA[ProjectsCanva]]></title><description><![CDATA[ 
- TerraNavis5<a aria-label="More options" class="kanban-plugin__lane-settings-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>Design frame<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>Design mold<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>freecad design<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>list of materials<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>prototype<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>+ Add a cardMethane digester2<a aria-label="More options" class="kanban-plugin__lane-settings-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>design<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>list of materials<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>+ Add a card]]></description><link>projects/projectscanva.html</link><guid isPermaLink="false">projects/ProjectsCanva.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 11 Oct 2024 17:27:28 GMT</pubDate></item><item><title><![CDATA[5 Buddhist Tibetan Rites]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 29 Oct 2024 20:21:19 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 29 Oct 2024 20:21:12 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[5 Buddhist Tibetan Rites]]></title><description><![CDATA[ 
  <br><img alt="doodle_tibetanrites.svg" src="lib/media/doodle_tibetanrites.svg"><br>
 Constant movement in each exercise<br>
 <br>Spin with extended arms
@@ -77,7 +6,71 @@ Constant movement in each exercise<br>
 <br>Sit down on your knees, arms in hips and stretch forward
 <br>Sit down and shift your hips up and forwards
 <br>Seal pose to down facing dog
-<br>Meditate]]></description><link>movement/5-buddhist-tibetan-rites.html</link><guid isPermaLink="false">movement/5 Buddhist Tibetan Rites.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:29:46 GMT</pubDate><enclosure url="lib/media/doodle_tibetanrites.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/doodle_tibetanrites.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[ 
+<br>Meditate]]></description><link>movement/5-buddhist-tibetan-rites.html</link><guid isPermaLink="false">movement/5 Buddhist Tibetan Rites.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:29:46 GMT</pubDate><enclosure url="lib/media/doodle_tibetanrites.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/doodle_tibetanrites.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[FarmBox]]></title><description><![CDATA[ 
+ <br><br>Creating a superfood that is rich in protein, vitamins, amino acids, and contains psilocybin (the psychoactive compound found in certain mushrooms) can be achieved through the cultivation of mycelium, larvae, and microbes. This manual outlines the processes involved in growing these organisms, focusing on mycelium as a primary source due to its nutritional benefits and potential for sustainable food production.<br><br><br>Mycelium is the vegetative part of fungi, consisting of a network of filaments called hyphae. It plays a crucial role in nutrient cycling and can be cultivated for its high protein content and other nutritional benefits. Mycelium can grow rapidly on various substrates, making it an ideal candidate for sustainable food production[1][2].<br><br>Mycelium is rich in:<br>
+<br>Protein: Contains 30-45% protein content.
+<br>Amino Acids: Provides essential amino acids, though it may be low in methionine[1][5].
+<br>Vitamins: Particularly B vitamins which are crucial for human health[1][2].
+<br>Fiber: The glucans in cell walls contribute to dietary fiber[1].
+<br><br><br>
+<br>Materials: Use organic waste materials such as straw, coffee grounds, or agricultural by-products.
+<br>Preparation: Pasteurize the substrate to eliminate competing microorganisms. This can be done by steaming or using hot water.
+<br><br>
+<br>Introduce mycelium spores (spawn) into the prepared substrate. Common species include Agaricus bisporus (button mushroom) and Pleurotus ostreatus (oyster mushroom)[3].
+<br><br>
+<br>Maintain optimal conditions (temperature: 20-25°C; humidity: 60-70%) for mycelium growth.
+<br>Monitor for contamination and ensure adequate air exchange.
+<br><br>After approximately 2-4 weeks, once the substrate is fully colonized by mycelium:<br>
+<br>Cut the substrate into manageable pieces.
+<br>Dry the harvested mycelium to enhance shelf life and concentrate nutrients.
+<br><br><br>To include psilocybin, select species such as Psilocybe cubensis or Psilocybe semilanceata. These species can be cultivated similarly to other mushrooms but require specific conditions to maximize psilocybin content.<br><br>
+<br>Follow similar substrate preparation and inoculation steps as with non-psychoactive mycelium.
+<br>Ensure controlled conditions that favor psilocybin production, typically through specific light cycles and nutrient availability.
+<br><br><br>Consider using larvae (e.g., black soldier fly larvae) as an additional protein source:<br>
+<br>Feed organic waste to larvae in a controlled environment.
+<br>Harvest larvae after several weeks for high-protein biomass.
+<br><br>Utilize microbial fermentation to enhance nutritional profiles:<br>
+<br>Employ bacteria or yeast such as Saccharomyces cerevisiae or Lactobacillus species.
+<br>These microbes can produce additional proteins and vitamins during fermentation processes.
+<br><br>Combining mycelium with larvae and microbial sources creates a superfood that is:<br>
+<br>High in protein and essential amino acids.
+<br>Rich in vitamins and minerals.
+<br>Sustainable due to low resource requirements for cultivation.
+<br>Citations:<br>
+[1] <a rel="noopener nofollow" class="external-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9863462/" target="_blank">https://pmc.ncbi.nlm.nih.gov/articles/PMC9863462/</a><br>
+[2] <a rel="noopener nofollow" class="external-link" href="https://pubs.acs.org/doi/10.1021/acs.jafc.3c03307" target="_blank">https://pubs.acs.org/doi/10.1021/acs.jafc.3c03307</a><br>
+[3] <a rel="noopener nofollow" class="external-link" href="https://academic.oup.com/jambio/article/134/1/lxac018/6908764?login=false" target="_blank">https://academic.oup.com/jambio/article/134/1/lxac018/6908764?login=false</a><br>
+[4] <a rel="noopener nofollow" class="external-link" href="https://eatableadventures.com/news/mycelium-the-super-ingredient-of-the-food-industry/" target="_blank">https://eatableadventures.com/news/mycelium-the-super-ingredient-of-the-food-industry/</a><br>
+[5] <a rel="noopener nofollow" class="external-link" href="https://www.mdpi.com/2076-2607/10/7/1379" target="_blank">https://www.mdpi.com/2076-2607/10/7/1379</a><br>
+[6] <a rel="noopener nofollow" class="external-link" href="https://www.sciencedirect.com/science/article/abs/pii/S0958166922000635" target="_blank">https://www.sciencedirect.com/science/article/abs/pii/S0958166922000635</a><br>
+[7] <a rel="noopener nofollow" class="external-link" href="https://www.researchgate.net/publication/270496538_Utilization_of_the_nutrients_in_the_soluble_and_insoluble_fractions_of_fungal_mycelium_by_larvae_of_the_stag_beetle_Dorcus_rectus_Coleoptera_Lucanidae" target="_blank">https://www.researchgate.net/publication/270496538_Utilization_of_the_nutrients_in_the_soluble_and_insoluble_fractions_of_fungal_mycelium_by_larvae_of_the_stag_beetle_Dorcus_rectus_Coleoptera_Lucanidae</a><br>
+[8] <a rel="noopener nofollow" class="external-link" href="https://www.sciencedirect.com/science/article/pii/S2665927124001928" target="_blank">https://www.sciencedirect.com/science/article/pii/S2665927124001928</a><br><br>
+<br>Power Box
+
+<br>12 V (2 plugs)
+<br>5 V (USB)
+<br>3.3 V
+
+
+<br>Temperature
+
+<br>powerbox heat ventilator(steerling )
+
+
+<br>Ventilation
+
+<br>Fan with filters, optimum 2 sides
+
+
+<br>Humidifier
+<br>Sensors
+
+<br>CO2
+<br>temperature
+<br>
+
+
+]]></description><link>projects/farmbox.html</link><guid isPermaLink="false">projects/FarmBox.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Tue, 29 Oct 2024 16:08:04 GMT</pubDate></item><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[ 
  <br><img alt="midifoxdomi.jpg" src="projects/assets/midifoxdomi.jpg"><br>4x4 arcade button MIDI controller with 4 channels<br><br>
 <br>digitalize schematic from notebook ✅ 2024-09-11
 <br>redoo code, add math to the datatypes, bit operators ✅ 2024-09-11
@@ -308,7 +301,7 @@ USB (female ports)
 <br>
 Power Source ~5V (Battery, direct connection with transformer)
 
-<br><img alt="musicsackconcept.png" src="projects/assets/musicsackconcept.png"><br>Circuit Desing for Micro-controller Analog &amp; Digital Inputs<br><img alt="musiksackschematic.png" src="projects/assets/musiksackschematic.png"><br>Single-board Computer Software<br>For processing every Input and Output (I/O) several drivers and software have to be prepared and loaded into the computer. I will start with the process of recieveing data from the micro-controller (Arduino) via the Serial port at a fast baud rate.<br>Reading and Writing to Serial Port<br>source: <a rel="noopener" class="external-link" href="https://gist.github.com/jerome-labidurie/5dde0ec105fe88aaf5fa8f3c54f4b07d" target="_blank">https://gist.github.com/jerome-labidurie/5dde0ec105fe88aaf5fa8f3c54f4b07d</a><br>Or maybe using Boost library?<br>Boost<br><a rel="noopener" class="external-link" href="https://www.boost.org/doc/libs/1_66_0/doc/html/boost_asio/reference/serial_port.html" target="_blank">https://www.boost.org/doc/libs/1_66_0/doc/html/boost_asio/reference/serial_port.html</a><br>OpenCL<br>Open Computing Language, cross-platform, parallel programming.<br>Juce<br>Multi-platform audio application framework.<br><br>//reading analog inputs from motors as rotary encoder
+<br><img alt="musicsackconcept.png" src="projects/assets/musicsackconcept.png"><br>Circuit Desing for Micro-controller Analog &amp; Digital Inputs<br><img alt="musiksackschematic.png" src="projects/assets/musiksackschematic.png"><br>Single-board Computer Software<br>For processing every Input and Output (I/O) several drivers and software have to be prepared and loaded into the computer. I will start with the process of recieveing data from the micro-controller (Arduino) via the Serial port at a fast baud rate.<br>Reading and Writing to Serial Port<br>source: <a rel="noopener nofollow" class="external-link" href="https://gist.github.com/jerome-labidurie/5dde0ec105fe88aaf5fa8f3c54f4b07d" target="_blank">https://gist.github.com/jerome-labidurie/5dde0ec105fe88aaf5fa8f3c54f4b07d</a><br>Or maybe using Boost library?<br>Boost<br><a rel="noopener nofollow" class="external-link" href="https://www.boost.org/doc/libs/1_66_0/doc/html/boost_asio/reference/serial_port.html" target="_blank">https://www.boost.org/doc/libs/1_66_0/doc/html/boost_asio/reference/serial_port.html</a><br>OpenCL<br>Open Computing Language, cross-platform, parallel programming.<br>Juce<br>Multi-platform audio application framework.<br><br>//reading analog inputs from motors as rotary encoder
 
 //2 tiny motor helicopter &amp; 2 yellow plates motor &amp; motor no plate
 Serial.println(map(analogRead(A0), 510, 520, 0, 4));
@@ -334,7 +327,123 @@ fn main() {
     }
 }
 Copy]]></description><link>projects/musiksack.html</link><guid isPermaLink="false">projects/MusikSack.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sat, 04 May 2024 15:21:20 GMT</pubDate><enclosure url="projects/assets/layout-blueprint_v2.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/layout-blueprint_v2.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Mycelium Box]]></title><description><![CDATA[ 
- <br><br>Based on the information from the provided sources, some easy-to-grow edible fungi that contain antioxidants, vitamins, zinc, copper, selenium,<br>
+ <br><br>To grow oyster mushrooms using calcium oxide for pasteurization, follow this detailed manual. This method involves preparing the substrate, pasteurizing it with a high-pH lime bath, inoculating with mushroom spawn, and creating the right conditions for fruiting.<br><br><br>
+<br>Oyster Mushroom Spawn: Obtain high-quality spawn from a reputable supplier.
+<br>Substrate: Common substrates include straw, sawdust, or coffee grounds.
+<br>Calcium Oxide (Lime): Used for creating a high-pH environment for pasteurization.
+<br>Water: For soaking and mixing.
+<br>Containers or Bags: For holding the substrate during incubation and fruiting.
+<br>Thermometer: To monitor temperature.
+<br>Spray Bottle: For misting during fruiting.
+<br><br><br>Choose a suitable substrate. Straw is commonly used due to its availability and nutrient content.<br><br>
+<br>Chop the Straw: Cut the straw into small pieces (about 1-3 inches long) to increase surface area.
+<br>Soak in Water: Soak the chopped straw in water for several hours or overnight to hydrate it.
+<br><br><br>
+<br>
+Prepare Lime Bath:
+
+<br>Mix calcium oxide with water to create a high-pH solution. A typical ratio is about 1 cup of calcium oxide per gallon of water.
+<br>Ensure the solution is well-mixed.
+
+
+<br>
+Pasteurize the Substrate:
+
+<br>Submerge the soaked straw in the lime solution for 12-18 hours. This process raises the pH of the substrate, helping to kill off unwanted microorganisms while allowing beneficial fungi to thrive.
+<br>After soaking, drain the straw and rinse it thoroughly with clean water to remove excess lime.
+
+
+<br><br>
+<br>
+Mix Spawn with Substrate:
+
+<br>In a clean environment, mix the hydrated and pasteurized straw with oyster mushroom spawn at a rate of about 5-10% spawn by weight.
+<br>Ensure even distribution of spawn throughout the substrate.
+
+
+<br>
+Fill Containers:
+
+<br>Pack the inoculated substrate into clean containers or plastic bags. Leave some space at the top for air exchange.
+
+
+<br>
+Seal Containers:
+
+<br>If using bags, seal them with a breathable filter patch or make small holes for gas exchange.
+
+
+<br><br>
+<br>
+Create Ideal Conditions:
+
+<br>Place the filled containers in a dark, warm location (20-24°C or 68-75°F) with high humidity (around 80%).
+<br>Monitor for signs of contamination; healthy mycelium should appear white and fluffy.
+
+
+<br>
+Wait for Colonization:
+
+<br>Allow 2-3 weeks for the mycelium to fully colonize the substrate. The substrate should turn completely white.
+
+
+<br><br>
+<br>
+Initiate Fruiting:
+
+<br>Once fully colonized, move the containers to a well-lit area with indirect sunlight.
+<br>Cut slits or holes in the bags or containers to allow mushrooms to grow out.
+
+
+<br>
+Maintain Humidity and Fresh Air:
+
+<br>Mist the substrate twice a day to maintain humidity levels around 70-80%.
+<br>Ensure good air circulation to prevent mold growth.
+
+
+<br>
+Temperature Control:
+
+<br>Keep temperatures within an optimal range (12-18°C or 54-64°F) during fruiting.
+
+
+<br><br>
+<br>
+Timing:
+
+<br>Mushrooms are ready to harvest when their caps begin to uncurl and lighten in color (usually within 5-10 days after initiating fruiting).
+
+
+<br>
+Harvest Method:
+
+<br>Use clean hands or a knife to gently twist or cut mushrooms at their base without damaging surrounding mycelium.
+
+
+<br><br>
+<br>
+Flushes:
+
+<br>After harvesting, soak the substrate in water overnight to rehydrate and encourage additional flushes of mushrooms.
+<br>Repeat misting and care as before; expect multiple flushes over several weeks.
+
+
+<br>
+Composting:
+
+<br>After all flushes are complete, consider composting the spent substrate as it can enrich garden soil.
+
+
+<br>Citations:<br>
+[1] <a rel="noopener nofollow" class="external-link" href="https://fatmoonmushrooms.com/pages/oyster-grow-kit-instructions" target="_blank">https://fatmoonmushrooms.com/pages/oyster-grow-kit-instructions</a><br>
+[2] <a rel="noopener nofollow" class="external-link" href="https://grocycle.com/how-to-grow-oyster-mushrooms/" target="_blank">https://grocycle.com/how-to-grow-oyster-mushrooms/</a><br>
+[3] <a rel="noopener nofollow" class="external-link" href="https://www.mushroom-corner.com/posts/how-to-grow-oyster-mushrooms-at-home" target="_blank">https://www.mushroom-corner.com/posts/how-to-grow-oyster-mushrooms-at-home</a><br>
+[4] <a rel="noopener nofollow" class="external-link" href="https://www.wildabundance.net/blog/how-to-grow-mushrooms-on-logs/" target="_blank">https://www.wildabundance.net/blog/how-to-grow-mushrooms-on-logs/</a><br>
+[5] <a rel="noopener nofollow" class="external-link" href="https://www.pilzbrut.de/media/image/storage/opc/Anleitungen/anleitung_2_austern-limonenpilze_fertigkultur_11-21_englisch.pdf" target="_blank">https://www.pilzbrut.de/media/image/storage/opc/Anleitungen/anleitung_2_austern-limonenpilze_fertigkultur_11-21_englisch.pdf</a><br>
+[6] <a rel="noopener nofollow" class="external-link" href="https://verticalveg.org.uk/blog/91251-how-to-grow-oyster-mushrooms-at-home" target="_blank">https://verticalveg.org.uk/blog/91251-how-to-grow-oyster-mushrooms-at-home</a><br>
+[7] <a rel="noopener nofollow" class="external-link" href="https://site.extension.uga.edu/newtonextanr/files/2023/05/Oyster-mushroom-Growing-Instructions-1.pdf" target="_blank">https://site.extension.uga.edu/newtonextanr/files/2023/05/Oyster-mushroom-Growing-Instructions-1.pdf</a><br>
+[8] <a rel="noopener nofollow" class="external-link" href="https://www.instructables.com/1-How-to-Grow-Oyster-Mushrooms-Low-Tech/" target="_blank">https://www.instructables.com/1-How-to-Grow-Oyster-Mushrooms-Low-Tech/</a><br><br><br>Based on the information from the provided sources, some easy-to-grow edible fungi that contain antioxidants, vitamins, zinc, copper, selenium,<br>
 lutein, zeaxanthin, fatty acids, magnesium, protein are:<br>Cordyceps, Lion's Mane, and Shiitake<br>
 <br>
 Agaricus bisporus (Button Mushrooms):
@@ -366,11 +475,11 @@ Cordyceps militaris:
 
 <br>These edible fungi are relatively easy to grow and can be cultivated at home or in controlled environments. They offer a range of health<br>
 benefits due to their antioxidant content, essential minerals, vitamins, and other nutrients that support overall well-being.<br>Citations:<br>
-[1] <a rel="noopener" class="external-link" href="https://www.mdpi.com/2072-6643/15/8/1913" target="_blank">https://www.mdpi.com/2072-6643/15/8/1913</a><br>
-[2] <a rel="noopener" class="external-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6331815/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6331815/</a><br>
-[3] <a rel="noopener" class="external-link" href="https://link.springer.com/article/10.1007/s00217-020-03646-1" target="_blank">https://link.springer.com/article/10.1007/s00217-020-03646-1</a><br>
-[4] <a rel="noopener" class="external-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8622900/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8622900/</a><br>
-[5] <a rel="noopener" class="external-link" href="https://www.hsph.harvard.edu/nutritionsource/food-features/mushrooms/" target="_blank">https://www.hsph.harvard.edu/nutritionsource/food-features/mushrooms/</a><br><br><a data-href="Protein Farm" href="projects/protein-farm.html" class="internal-link" target="_self" rel="noopener">Protein Farm</a><br>Based on the information from the provided sources, to enhance the diet that includes fungi and Tenebrio molitor larvae, you could consider adding the following components for a more balanced and nutritious diet:<br>
+[1] <a rel="noopener nofollow" class="external-link" href="https://www.mdpi.com/2072-6643/15/8/1913" target="_blank">https://www.mdpi.com/2072-6643/15/8/1913</a><br>
+[2] <a rel="noopener nofollow" class="external-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6331815/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6331815/</a><br>
+[3] <a rel="noopener nofollow" class="external-link" href="https://link.springer.com/article/10.1007/s00217-020-03646-1" target="_blank">https://link.springer.com/article/10.1007/s00217-020-03646-1</a><br>
+[4] <a rel="noopener nofollow" class="external-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8622900/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8622900/</a><br>
+[5] <a rel="noopener nofollow" class="external-link" href="https://www.hsph.harvard.edu/nutritionsource/food-features/mushrooms/" target="_blank">https://www.hsph.harvard.edu/nutritionsource/food-features/mushrooms/</a><br><br><a data-href="Protein Farm" href="projects/protein-farm.html" class="internal-link" target="_self" rel="noopener nofollow">Protein Farm</a><br>Based on the information from the provided sources, to enhance the diet that includes fungi and Tenebrio molitor larvae, you could consider adding the following components for a more balanced and nutritious diet:<br>
 <br>
 Variety of Vegetables and Fruits:
 
@@ -402,11 +511,11 @@ Dairy or Plant-Based Alternatives:
 
 
 <br>By incorporating a variety of nutrient-dense foods like vegetables, fruits, whole grains, healthy fats, legumes, and dairy or plant-based alternatives alongside fungi and Tenebrio molitor larvae in your diet, you can ensure a more well-rounded and complete nutritional profile that supports overall health and well-being.<br>Citations:<br>
-[1] <a rel="noopener" class="external-link" href="https://www.researchgate.net/figure/Nutritional-value-of-conventional-meat-and-yellow-mealworm-Tenebrio-molitor-on-a-fresh_tbl1_342254365" target="_blank">https://www.researchgate.net/figure/Nutritional-value-of-conventional-meat-and-yellow-mealworm-Tenebrio-molitor-on-a-fresh_tbl1_342254365</a><br>
-[2] <a rel="noopener" class="external-link" href="https://www.mdpi.com/2075-4450/14/4/359" target="_blank">https://www.mdpi.com/2075-4450/14/4/359</a><br>
-[3] <a rel="noopener" class="external-link" href="https://www.mdpi.com/2304-8158/12/22/4092" target="_blank">https://www.mdpi.com/2304-8158/12/22/4092</a><br>
-[4] <a rel="noopener" class="external-link" href="https://jasbsci.biomedcentral.com/articles/10.1186/s40104-023-00945-x" target="_blank">https://jasbsci.biomedcentral.com/articles/10.1186/s40104-023-00945-x</a><br>
-[5] <a rel="noopener" class="external-link" href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0100112" target="_blank">https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0100112</a>]]></description><link>projects/mycelium-box.html</link><guid isPermaLink="false">projects/Mycelium Box.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 05 May 2024 23:31:53 GMT</pubDate></item><item><title><![CDATA[Protein Farm]]></title><description><![CDATA[ 
+[1] <a rel="noopener nofollow" class="external-link" href="https://www.researchgate.net/figure/Nutritional-value-of-conventional-meat-and-yellow-mealworm-Tenebrio-molitor-on-a-fresh_tbl1_342254365" target="_blank">https://www.researchgate.net/figure/Nutritional-value-of-conventional-meat-and-yellow-mealworm-Tenebrio-molitor-on-a-fresh_tbl1_342254365</a><br>
+[2] <a rel="noopener nofollow" class="external-link" href="https://www.mdpi.com/2075-4450/14/4/359" target="_blank">https://www.mdpi.com/2075-4450/14/4/359</a><br>
+[3] <a rel="noopener nofollow" class="external-link" href="https://www.mdpi.com/2304-8158/12/22/4092" target="_blank">https://www.mdpi.com/2304-8158/12/22/4092</a><br>
+[4] <a rel="noopener nofollow" class="external-link" href="https://jasbsci.biomedcentral.com/articles/10.1186/s40104-023-00945-x" target="_blank">https://jasbsci.biomedcentral.com/articles/10.1186/s40104-023-00945-x</a><br>
+[5] <a rel="noopener nofollow" class="external-link" href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0100112" target="_blank">https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0100112</a>]]></description><link>projects/mycelium-box.html</link><guid isPermaLink="false">projects/Mycelium Box.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Tue, 29 Oct 2024 20:18:34 GMT</pubDate></item><item><title><![CDATA[Protein Farm]]></title><description><![CDATA[ 
  <br><img alt="exoworkpsy.jpg" src="projects/assets/exoworkpsy.jpg"><br>A semi automated ecosystem farm capable of breeding Tenebrionidae larva.<br>
 <br>The mentioned larva can be used for human consumption
 <br><br>
@@ -416,7 +525,7 @@ Dairy or Plant-Based Alternatives:
 <br>Obscurus
 <br>Bolitotherus cornutus
 
-<br>Feed on <a data-href="Ganoderma applanatum" href="research/fungi/ganoderma-applanatum.html" class="internal-link" target="_self" rel="noopener">Ganoderma applanatum</a>
+<br>Feed on <a data-href="Ganoderma applanatum" href="research/fungi/ganoderma-applanatum.html" class="internal-link" target="_self" rel="noopener nofollow">Ganoderma applanatum</a>
 
 
 
@@ -584,7 +693,7 @@ Incubation: Incubate the plates at 25-30°C for 24-48 hours to allow bacterial c
 <br>
 Identify Bacterial Colonies: Look for colonies that exhibit the characteristic purple pigmentation of C. violaceum or C. subtsugae. Further identification can be done through biochemical tests or genetic sequencing.
 
-<br><br><br><a data-tooltip-position="top" aria-label="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9544673/" rel="noopener" class="external-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9544673/" target="_blank">Bacterial pigments: A colorful palette reservoir for biotechnological applications</a>]]></description><link>research/chlorophylltype/chlorophylltype.html</link><guid isPermaLink="false">research/chlorophylltype/Chlorophylltype.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 11 Aug 2024 19:45:26 GMT</pubDate></item><item><title><![CDATA[Ganoderma applanatum]]></title><description><![CDATA[ 
+<br><br><br><a data-tooltip-position="top" aria-label="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9544673/" rel="noopener nofollow" class="external-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9544673/" target="_blank">Bacterial pigments: A colorful palette reservoir for biotechnological applications</a>]]></description><link>research/chlorophylltype/chlorophylltype.html</link><guid isPermaLink="false">research/chlorophylltype/Chlorophylltype.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 11 Aug 2024 19:45:26 GMT</pubDate></item><item><title><![CDATA[Ganoderma applanatum]]></title><description><![CDATA[ 
  <br>Based on the search results provided, here are the key points about Ganoderma applanatum:<br>
 <br>
 Ganoderma applanatum is a bracket fungus with a cosmopolitan (worldwide) distribution[1]. It is also known as the artist's conk, artist's bracket, or bear bread.
@@ -605,11 +714,11 @@ The white pore surface of the fruiting body can be etched or drawn on, staining 
 Ganoderma applanatum is inedible, though it is closely related to the edible Ganoderma lucidum (reishi mushroom)[2].
 
 <br>In summary, Ganoderma applanatum is a distinctive, woody bracket fungus with a long history of medicinal use and artistic applications due to its unique properties.<br>Citations:<br>
-[1] <a rel="noopener" class="external-link" href="https://en.wikipedia.org/wiki/Ganoderma_applanatum" target="_blank">https://en.wikipedia.org/wiki/Ganoderma_applanatum</a><br>
-[2] <a rel="noopener" class="external-link" href="https://www.messiah.edu/Oakes/fungi_on_wood/poroid%20fungi/species%20pages/Ganoderma%20applanatum.htm" target="_blank">https://www.messiah.edu/Oakes/fungi_on_wood/poroid%20fungi/species%20pages/Ganoderma%20applanatum.htm</a><br>
-[3] <a rel="noopener" class="external-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8358375/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8358375/</a><br>
-[4] <a rel="noopener" class="external-link" href="https://fundkorb.de/pilze/ganoderma-applanatum-flacher-lackporling" target="_blank">https://fundkorb.de/pilze/ganoderma-applanatum-flacher-lackporling</a><br>
-[5] <a rel="noopener" class="external-link" href="http://tintling.com/pilzbuch/arten/g/Ganoderma_applanatum.html" target="_blank">http://tintling.com/pilzbuch/arten/g/Ganoderma_applanatum.html</a>]]></description><link>research/fungi/ganoderma-applanatum.html</link><guid isPermaLink="false">research/fungi/Ganoderma applanatum.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 08 May 2024 14:45:58 GMT</pubDate></item><item><title><![CDATA[Seek on knowledge]]></title><description><![CDATA[ 
+[1] <a rel="noopener nofollow" class="external-link" href="https://en.wikipedia.org/wiki/Ganoderma_applanatum" target="_blank">https://en.wikipedia.org/wiki/Ganoderma_applanatum</a><br>
+[2] <a rel="noopener nofollow" class="external-link" href="https://www.messiah.edu/Oakes/fungi_on_wood/poroid%20fungi/species%20pages/Ganoderma%20applanatum.htm" target="_blank">https://www.messiah.edu/Oakes/fungi_on_wood/poroid%20fungi/species%20pages/Ganoderma%20applanatum.htm</a><br>
+[3] <a rel="noopener nofollow" class="external-link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8358375/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8358375/</a><br>
+[4] <a rel="noopener nofollow" class="external-link" href="https://fundkorb.de/pilze/ganoderma-applanatum-flacher-lackporling" target="_blank">https://fundkorb.de/pilze/ganoderma-applanatum-flacher-lackporling</a><br>
+[5] <a rel="noopener nofollow" class="external-link" href="http://tintling.com/pilzbuch/arten/g/Ganoderma_applanatum.html" target="_blank">http://tintling.com/pilzbuch/arten/g/Ganoderma_applanatum.html</a>]]></description><link>research/fungi/ganoderma-applanatum.html</link><guid isPermaLink="false">research/fungi/Ganoderma applanatum.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 08 May 2024 14:45:58 GMT</pubDate></item><item><title><![CDATA[Seek on knowledge]]></title><description><![CDATA[ 
  <br>To settle down and build a self-sufficient lifestyle on a sailboat, it's essential to gather knowledge in various scientific fields and practical skills. Here’s a structured approach to help you achieve your goals:<br><br><br>
 <br>
 Courses in Geology and Biology:
@@ -675,11 +784,11 @@ Networking:
 
 
 <br>By focusing on these areas, you can prepare yourself for a successful transition to a self-sufficient life on a sailboat while contributing to your rural university concept.<br>Citations:<br>
-[1] <a rel="noopener" class="external-link" href="https://forums.frontier.co.uk/threads/odyssey-biological-and-geological-guide.582693/" target="_blank">https://forums.frontier.co.uk/threads/odyssey-biological-and-geological-guide.582693/</a><br>
-[2] <a rel="noopener" class="external-link" href="https://www.youtube.com/watch?v=vPMJarUHytg" target="_blank">https://www.youtube.com/watch?v=vPMJarUHytg</a><br>
-[3] <a rel="noopener" class="external-link" href="https://andreabadgley.blog/2016/08/14/sailing-and-life-lesson-know-where-you-want-to-go/" target="_blank">https://andreabadgley.blog/2016/08/14/sailing-and-life-lesson-know-where-you-want-to-go/</a><br>
-[4] <a rel="noopener" class="external-link" href="https://www.youtube.com/watch?v=OXg-Jd9iAzA" target="_blank">https://www.youtube.com/watch?v=OXg-Jd9iAzA</a><br>
-[5] <a rel="noopener" class="external-link" href="https://interplace.io/p/weathering-wonders-from-microbes" target="_blank">https://interplace.io/p/weathering-wonders-from-microbes</a>]]></description><link>research/navissofia/seek-on-knowledge.html</link><guid isPermaLink="false">research/navissofia/Seek on knowledge.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 16 Aug 2024 22:27:33 GMT</pubDate></item><item><title><![CDATA[25 June Interview]]></title><description><![CDATA[ 
+[1] <a rel="noopener nofollow" class="external-link" href="https://forums.frontier.co.uk/threads/odyssey-biological-and-geological-guide.582693/" target="_blank">https://forums.frontier.co.uk/threads/odyssey-biological-and-geological-guide.582693/</a><br>
+[2] <a rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=vPMJarUHytg" target="_blank">https://www.youtube.com/watch?v=vPMJarUHytg</a><br>
+[3] <a rel="noopener nofollow" class="external-link" href="https://andreabadgley.blog/2016/08/14/sailing-and-life-lesson-know-where-you-want-to-go/" target="_blank">https://andreabadgley.blog/2016/08/14/sailing-and-life-lesson-know-where-you-want-to-go/</a><br>
+[4] <a rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=OXg-Jd9iAzA" target="_blank">https://www.youtube.com/watch?v=OXg-Jd9iAzA</a><br>
+[5] <a rel="noopener nofollow" class="external-link" href="https://interplace.io/p/weathering-wonders-from-microbes" target="_blank">https://interplace.io/p/weathering-wonders-from-microbes</a>]]></description><link>research/navissofia/seek-on-knowledge.html</link><guid isPermaLink="false">research/navissofia/Seek on knowledge.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 16 Aug 2024 22:27:33 GMT</pubDate></item><item><title><![CDATA[25 June Interview]]></title><description><![CDATA[ 
  <br>motivation and qualification for the Master's Program.<br>
 32 selection points<br><br><br>
 <br>Mexico
@@ -709,7 +818,7 @@ Networking:
 <br>atmospheres/climate
 <br>laboratory work and excursions
 <br>I'm fascinated by the concept of terraforming<br>
-terraformation ("Earth-shaping") is the <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Hypothesis" rel="noopener" class="external-link" title="Hypothesis" href="https://en.wikipedia.org/wiki/Hypothesis" target="_blank">hypothetical</a> process of deliberately modifying the <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Atmosphere" rel="noopener" class="external-link" title="Atmosphere" href="https://en.wikipedia.org/wiki/Atmosphere" target="_blank">atmosphere</a>, <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Temperature" rel="noopener" class="external-link" title="Temperature" href="https://en.wikipedia.org/wiki/Temperature" target="_blank">temperature</a>, surface <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Topography" rel="noopener" class="external-link" title="Topography" href="https://en.wikipedia.org/wiki/Topography" target="_blank">topography</a> or <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Ecology" rel="noopener" class="external-link" title="Ecology" href="https://en.wikipedia.org/wiki/Ecology" target="_blank">ecology</a> of a <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Planet" rel="noopener" class="external-link" title="Planet" href="https://en.wikipedia.org/wiki/Planet" target="_blank">planet</a>, <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Natural_satellite" rel="noopener" class="external-link" title="Natural satellite" href="https://en.wikipedia.org/wiki/Natural_satellite" target="_blank">moon</a>, or other body to be similar to the environment of <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Earth" rel="noopener" class="external-link" title="Earth" href="https://en.wikipedia.org/wiki/Earth" target="_blank">Earth</a> to make it <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Planetary_habitability" rel="noopener" class="external-link" title="Planetary habitability" href="https://en.wikipedia.org/wiki/Planetary_habitability" target="_blank">habitable</a> for humans to live on.<br>Create habitable conditions and how geological processes contribute to Earth's life-supporting systems<br>I'm especially interested in studying how Earth's geological processes, such as plate tectonics and volcanism, work together with other factors like the water cycle and atmosphere to create and maintain habitable conditions. Understanding these interactions on Earth could provide insights into the potential habitability of other planets.<br><br>
+terraformation ("Earth-shaping") is the <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Hypothesis" rel="noopener nofollow" class="external-link" title="Hypothesis" href="https://en.wikipedia.org/wiki/Hypothesis" target="_blank">hypothetical</a> process of deliberately modifying the <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Atmosphere" rel="noopener nofollow" class="external-link" title="Atmosphere" href="https://en.wikipedia.org/wiki/Atmosphere" target="_blank">atmosphere</a>, <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Temperature" rel="noopener nofollow" class="external-link" title="Temperature" href="https://en.wikipedia.org/wiki/Temperature" target="_blank">temperature</a>, surface <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Topography" rel="noopener nofollow" class="external-link" title="Topography" href="https://en.wikipedia.org/wiki/Topography" target="_blank">topography</a> or <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Ecology" rel="noopener nofollow" class="external-link" title="Ecology" href="https://en.wikipedia.org/wiki/Ecology" target="_blank">ecology</a> of a <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Planet" rel="noopener nofollow" class="external-link" title="Planet" href="https://en.wikipedia.org/wiki/Planet" target="_blank">planet</a>, <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Natural_satellite" rel="noopener nofollow" class="external-link" title="Natural satellite" href="https://en.wikipedia.org/wiki/Natural_satellite" target="_blank">moon</a>, or other body to be similar to the environment of <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Earth" rel="noopener nofollow" class="external-link" title="Earth" href="https://en.wikipedia.org/wiki/Earth" target="_blank">Earth</a> to make it <a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/Planetary_habitability" rel="noopener nofollow" class="external-link" title="Planetary habitability" href="https://en.wikipedia.org/wiki/Planetary_habitability" target="_blank">habitable</a> for humans to live on.<br>Create habitable conditions and how geological processes contribute to Earth's life-supporting systems<br>I'm especially interested in studying how Earth's geological processes, such as plate tectonics and volcanism, work together with other factors like the water cycle and atmosphere to create and maintain habitable conditions. Understanding these interactions on Earth could provide insights into the potential habitability of other planets.<br><br>
 <br>creative
 <br>problem solver
 <br>analytical and critical thinker
@@ -786,7 +895,8 @@ Robinia pseudoacacia<br><br>
 <br>toxalbumin robin
 <br>glucoside robinin
 <br>Extraction: There are different methods of extraction, such as maceration, percolation, and soxhlet extraction. The choice of method depends on the type of plant material and the desired compound(s) to be extracted. For example, alkaloids can be extracted using acid-base extraction methods.<br>Fractionation: After extraction, the crude extract can be fractionated to isolate the desired compound(s). Fractionation can be done using various techniques such as chromatography, distillation, and crystallization.<br>
-Characterization: Once the compound(s) have been isolated, they can be characterized using various analytical techniques such as spectroscopy and chromatography.]]></description><link>research/acacia.html</link><guid isPermaLink="false">research/Acacia.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 14:51:00 GMT</pubDate></item><item><title><![CDATA[Emergence]]></title><description><![CDATA[ 
+Characterization: Once the compound(s) have been isolated, they can be characterized using various analytical techniques such as spectroscopy and chromatography.]]></description><link>research/acacia.html</link><guid isPermaLink="false">research/Acacia.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 29 Apr 2024 14:51:00 GMT</pubDate></item><item><title><![CDATA[Superfood]]></title><description><![CDATA[ 
+ <br>Methionine: essential amino acid]]></description><link>research/superfood.html</link><guid isPermaLink="false">research/Superfood.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Tue, 29 Oct 2024 15:01:53 GMT</pubDate></item><item><title><![CDATA[Emergence]]></title><description><![CDATA[ 
  <br><img alt="mobius-dotted.svg" src="writings/assets/mobius-dotted.svg"><br>In the void, where all is naught,  
 A whisper stirs, a subtle thought.  
 
@@ -880,15 +990,71 @@ Copy]]></description><link>writings/utnapishtim.html</link><guid isPermaLink="fa
 <br>Develop new and innovative solutions to address pressing challenges
 <br>Invest in the necessary resources, tools, and infrastructure to ensure the long-term sustainability of my initiatives
 <br>By supporting my work, you're not just helping me - you're making a positive impact on the communities and causes I serve.<br><br>You can make a donation through the following secure payment methods:<br><br><img alt="paypal.png" src="assets/paypal.png"><br>
-<a data-tooltip-position="top" aria-label="https://www.paypal.com/donate/?hosted_button_id=TTM9TGPLDU8PS" rel="noopener" class="external-link" href="https://www.paypal.com/donate/?hosted_button_id=TTM9TGPLDU8PS" target="_blank">Click Here</a><br><br><a data-tooltip-position="top" aria-label="https://ko-fi.com/nuvhandra" rel="noopener" class="external-link" href="https://ko-fi.com/nuvhandra" target="_blank">Click Here</a><br><br><img alt="bitcoinwa.png" src="assets/bitcoinwa.png"><br>
+<a data-tooltip-position="top" aria-label="https://www.paypal.com/donate/?hosted_button_id=TTM9TGPLDU8PS" rel="noopener nofollow" class="external-link" href="https://www.paypal.com/donate/?hosted_button_id=TTM9TGPLDU8PS" target="_blank">Click Here</a><br><br><a data-tooltip-position="top" aria-label="https://ko-fi.com/nuvhandra" rel="noopener nofollow" class="external-link" href="https://ko-fi.com/nuvhandra" target="_blank">Click Here</a><br><br><img alt="bitcoinwa.png" src="assets/bitcoinwa.png"><br>
 bc1qknd2fw7j7475skyxy5y60ccg0rzua9j44haz5x<br><br><img alt="ethwa.png" src="assets/ethwa.png"><br>
 0x5a0457D7790cE02736093201db6ADDC12E56733f<br><br><img alt="ethclas.png" src="assets/ethclas.png"><br>
 0x87eF087f49fCEa341A1FDE0d11B096897b6Be787<br>All donations, regardless of the amount, are valuable and will be used responsibly to further my mission. Your support is crucial in helping me achieve my goals and make a lasting difference.]]></description><link>donate.html</link><guid isPermaLink="false">Donate.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Tue, 14 May 2024 13:18:13 GMT</pubDate><enclosure url="assets/paypal.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="assets/paypal.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Intro]]></title><description><![CDATA[ 
  <br><img alt="histilus_sumer3.svg" src="assets/histilus_sumer3.svg"><br><br>Welcome to a journey of exploration, creativity, and self-discovery. This book are my ideas, projects, drawings, thoughts, and learning – a reflection of my multifaceted interests and passions. At its core, this work aims to enrich the reader with knowledge that fosters revolution and independence, enabling a harmonious coexistence with technology and the environment. It is a call to embrace a world without borders, where self-sustaining communities thrive on the free exchange of knowledge, living in harmony with the natural world. As an individual with a deep appreciation for art, music, engineering, technology, sciences, and philosophy, I strive to weave these diverse threads into a cohesive narrative. This book is not merely a collection of words and images; it is a window into my experiences, my life, and my vision for a better world. Through these pages, you will embark on a journey that transcends boundaries, challenging conventional thinking and inspiring a new paradigm of living. We will delve into the realms of art, exploring its power to evoke emotions and provoke thought. We will venture into the depths of science and technology, unraveling their potential to revolutionize our understanding of the world and our place within it. Moreover, this book is a testament to the belief that knowledge should be freely shared, empowering individuals and communities to forge their own paths towards self-sufficiency and harmony with the natural world. It is a call to action, inviting readers to embrace their curiosity, question the status quo, and actively participate in shaping a future where innovation and sustainability go hand in hand.<br><br><img alt="doodle_serpent2.svg" src="assets/doodle_serpent2.svg"><br><br><br><br><br><br>Dataview: No results to show for table query.<br><br><br><br><br>
-<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" rel="noopener" class="external-link" href="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" target="_blank">Youtube</a>
-<br><a data-tooltip-position="top" aria-label="https://www.twitch.tv/nuvhandra" rel="noopener" class="external-link" href="https://www.twitch.tv/nuvhandra" target="_blank">Twitch</a>
-<br><a data-tooltip-position="top" aria-label="https://github.com/k3ll3x" rel="noopener" class="external-link" href="https://github.com/k3ll3x" target="_blank">Github</a>
-<br><a data-tooltip-position="top" aria-label="https://soundcloud.com/kellex_urps" rel="noopener" class="external-link" href="https://soundcloud.com/kellex_urps" target="_blank">Fred Kelder Soundcloud</a>
-<br><a data-tooltip-position="top" aria-label="https://soundcloud.com/user-99991795" rel="noopener" class="external-link" href="https://soundcloud.com/user-99991795" target="_blank">Nuvhandra Soundcloud</a>
-<br><a data-href="Donate" href="donate.html" class="internal-link" target="_self" rel="noopener">Donate</a>
-<br>]]></description><link>index.html</link><guid isPermaLink="false">INDEX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Thu, 12 Sep 2024 01:45:44 GMT</pubDate><enclosure url="assets/histilus_sumer3.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="assets/histilus_sumer3.svg"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/channel/UCoNfVL3YH5pNd3NqRDI2rIw" target="_blank">Youtube</a>
+<br><a data-tooltip-position="top" aria-label="https://www.twitch.tv/nuvhandra" rel="noopener nofollow" class="external-link" href="https://www.twitch.tv/nuvhandra" target="_blank">Twitch</a>
+<br><a data-tooltip-position="top" aria-label="https://github.com/k3ll3x" rel="noopener nofollow" class="external-link" href="https://github.com/k3ll3x" target="_blank">Github</a>
+<br><a data-tooltip-position="top" aria-label="https://soundcloud.com/kellex_urps" rel="noopener nofollow" class="external-link" href="https://soundcloud.com/kellex_urps" target="_blank">Fred Kelder Soundcloud</a>
+<br><a data-tooltip-position="top" aria-label="https://soundcloud.com/user-99991795" rel="noopener nofollow" class="external-link" href="https://soundcloud.com/user-99991795" target="_blank">Nuvhandra Soundcloud</a>
+<br><a data-href="Donate" href="donate.html" class="internal-link" target="_self" rel="noopener nofollow">Donate</a>
+<br>]]></description><link>index.html</link><guid isPermaLink="false">INDEX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Thu, 12 Sep 2024 01:45:44 GMT</pubDate><enclosure url="assets/histilus_sumer3.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="assets/histilus_sumer3.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Services]]></title><description><![CDATA[ 
+ <br><br>
+<br>Environmental Monitoring: Leveraging my experience with Raspberry Pi and Arduino to develop intelligent systems for monitoring environmental conditions in projects related to volcanism and ecology.
+<br>Geospatial Analysis: Utilizing QGIS for spatial data analysis, mapping, and visualization to support research and decision-making in Earth sciences.
+<br><br>
+<br>Custom Software Solutions: Developing tailored software applications using Python, C/C++, and JavaScript to meet specific client needs.
+<br>API Development: Creating robust APIs for data integration and business algorithms, enhancing the functionality of existing web applications.
+<br><br>
+<br>Data Insights: Analyzing complex datasets using tools like Pandas and Matplotlib to extract actionable insights.
+<br>Dashboard Creation: Designing interactive dashboards to visualize key performance indicators, helping businesses track their metrics effectively.
+<br><br>
+<br>Responsive Web Applications: Building user-friendly web applications with a focus on performance optimization and automation.
+<br>Full-Stack Development: Utilizing my skills in back-end development to enhance web applications and automate processes.
+<br><br>
+<br>Content Creation: Writing technical articles, guides, or documentation related to programming, Earth sciences, or technology trends.
+<br>Educational Resources: Developing educational materials that explain complex scientific concepts in an accessible manner.
+<br><br>
+<br>Hands-On Workshops: Conducting workshops on topics such as QGIS, programming in Python, or environmental monitoring systems.
+<br>Consultation Services: Offering one-on-one consultations for individuals or organizations looking to implement technology solutions in their projects.
+<br><br><br>
+<br>
+IoT Devices for Sustainable Agriculture: Create intelligent sensors that help farmers optimize water and nutrient usage in their crops.
+
+<br>
+Augmented Reality Nature Exploration Apps: Develop applications that enhance outdoor experiences by providing enriched information about flora, fauna, and geology.
+
+<br>
+Interactive Tech-Based Art: Design installations that combine music, light, and technology to create immersive artistic experiences.
+
+<br>
+DIY Renewable Energy Systems: Offer kits to build small-scale solar or wind energy systems suitable for homes or small communities.
+
+<br><br>
+<br>
+Sustainable Technology Consulting: Advise businesses and individuals on implementing eco-friendly tech solutions.
+
+<br>
+Software Development for Environmental Projects: Create applications that help environmental organizations manage their projects more efficiently.
+
+<br>
+Workshops on Construction and Tech Innovation: Organize hands-on workshops where participants can learn to build their own tech or artistic devices.
+
+<br>
+Music Production with Natural Elements: Provide music production services that incorporate natural sounds, bridging technology and nature.
+
+<br>
+Smart Green Space Design: Use your tech skills and love for nature to design gardens or green spaces that enhance sustainability and beauty.
+
+<br><br>
+<br>
+Tech-Nature Tourism Experiences: Organize tours that blend nature exploration with technology, such as stargazing with telescopes connected to interactive apps.
+
+<br>
+Sustainable Community Art Projects: Lead community initiatives to create art using recycled materials and clean technologies.
+
+<br>]]></description><link>services.html</link><guid isPermaLink="false">Services.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 13 Oct 2024 14:01:19 GMT</pubDate></item><item><title><![CDATA[ProjectsCanva]]></title><description><![CDATA[ 
+ TerraNavis5<a aria-label="More options" class="kanban-plugin__lane-settings-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>Design frame<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>Design mold<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>freecad design<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>list of materials<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>prototype<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>+ Add a cardMethane digester2<a aria-label="More options" class="kanban-plugin__lane-settings-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>design<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>list of materials<a data-ignore-drag="true" aria-label="More options" class="kanban-plugin__item-postfix-button clickable-icon"><span data-icon="lucide-more-vertical" class="kanban-plugin__icon "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg></span></a>+ Add a card]]></description><link>projects/projectscanva.html</link><guid isPermaLink="false">projects/ProjectsCanva.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 11 Oct 2024 17:27:28 GMT</pubDate></item></channel></rss>

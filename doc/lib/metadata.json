@@ -1,9 +1,9 @@
 {
   "vaultName": "Tetrahedron",
-  "lastExport": 1728828727804,
+  "lastExport": 1730233272790,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
-  "useCustomHeadContent": true,
+  "useCustomHeadContent": false,
   "useCustomFavicon": true,
   "files": [
     "assets/bitcoinwa.png",
@@ -44,6 +44,7 @@
     "research/navissofia/Seek on knowledge.md",
     "research/planetarysciences/25 June Interview.md",
     "research/Acacia.md",
+    "research/Superfood.md",
     "writings/assets/doodle_serpent05.svg",
     "writings/assets/mobius-dotted.svg",
     "writings/assets/utna.jpg",
@@ -54,6 +55,7 @@
     "Donate.md",
     "INDEX.md",
     "Services.md",
+    "lib/media/doodle_tibetanrites.svg",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -69,7 +71,6 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
-    "lib/media/3d6c1bdc4d87cde4de67.svg",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -79,15 +80,13 @@
     "lib/scripts/pixi.js",
     "lib/scripts/minisearch.js",
     "lib/media/favicon.png",
-    "lib/html/custom-head-content.html",
     "lib/scripts/graph-data.js",
     "lib/styles/obsidian.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/supported-plugins.css",
     "lib/styles/main-styles.css",
-    "lib/styles/snippets.css",
-    "lib/media/doodle_tibetanrites.svg"
+    "lib/styles/snippets.css"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -105,7 +104,6 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/874d8b8e340f75575caa.svg",
-    "lib/media/3d6c1bdc4d87cde4de67.svg",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -115,7 +113,6 @@
     "lib/scripts/pixi.js",
     "lib/scripts/minisearch.js",
     "lib/media/favicon.png",
-    "lib/html/custom-head-content.html",
     "lib/scripts/graph-data.js",
     "lib/styles/obsidian.css",
     "lib/styles/theme.css",
@@ -126,49 +123,49 @@
   ],
   "fileInfo": {
     "assets/bitcoinwa.png": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 3655,
       "exportedPath": "assets/bitcoinwa.png",
       "dependencies": []
     },
     "assets/doodle_serpent2.svg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 298906,
       "exportedPath": "assets/doodle_serpent2.svg",
       "dependencies": []
     },
     "assets/doodle_tibetanrites.svg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 199490,
       "exportedPath": "assets/doodle_tibetanrites.svg",
       "dependencies": []
     },
     "assets/ethclas.png": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 3555,
       "exportedPath": "assets/ethclas.png",
       "dependencies": []
     },
     "assets/ethwa.png": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 3632,
       "exportedPath": "assets/ethwa.png",
       "dependencies": []
     },
     "assets/histilus_sumer3.svg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 168580,
       "exportedPath": "assets/histilus_sumer3.svg",
       "dependencies": []
     },
     "assets/paypal.png": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 5092,
       "exportedPath": "assets/paypal.png",
       "dependencies": []
     },
     "movement/5 Buddhist Tibetan Rites.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 354,
       "exportedPath": "movement/5-buddhist-tibetan-rites.html",
       "dependencies": [
@@ -176,85 +173,85 @@
       ]
     },
     "projects/assets/domwikmyc99.jpg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 273072,
       "exportedPath": "projects/assets/domwikmyc99.jpg",
       "dependencies": []
     },
     "projects/assets/flyingyurt.png": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 1987826,
       "exportedPath": "projects/assets/flyingyurt.png",
       "dependencies": []
     },
     "projects/assets/homewikmyc.jpg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 296675,
       "exportedPath": "projects/assets/homewikmyc.jpg",
       "dependencies": []
     },
     "projects/assets/layout-blueprint_v2.svg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 36516,
       "exportedPath": "projects/assets/layout-blueprint_v2.svg",
       "dependencies": []
     },
     "projects/assets/midifoxdomi.jpg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 2862837,
       "exportedPath": "projects/assets/midifoxdomi.jpg",
       "dependencies": []
     },
     "projects/assets/musicsackconcept.png": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 43766,
       "exportedPath": "projects/assets/musicsackconcept.png",
       "dependencies": []
     },
     "projects/assets/musiksackschematic.png": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 101656,
       "exportedPath": "projects/assets/musiksackschematic.png",
       "dependencies": []
     },
     "projects/assets/navigatiosolaris.png": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 2081932,
       "exportedPath": "projects/assets/navigatiosolaris.png",
       "dependencies": []
     },
     "projects/assets/navisperpetua.png": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 2398095,
       "exportedPath": "projects/assets/navisperpetua.png",
       "dependencies": []
     },
     "projects/assets/navissolaris.png": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 2195246,
       "exportedPath": "projects/assets/navissolaris.png",
       "dependencies": []
     },
     "projects/assets/sailingboat.png": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 2436842,
       "exportedPath": "projects/assets/sailingboat.png",
       "dependencies": []
     },
     "projects/assets/scivik.jpg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 291725,
       "exportedPath": "projects/assets/scivik.jpg",
       "dependencies": []
     },
     "projects/assets/townvikboat.jpg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 321625,
       "exportedPath": "projects/assets/townvikboat.jpg",
       "dependencies": []
     },
     "projects/MIDIFOX.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 5562,
       "exportedPath": "projects/midifox.html",
       "dependencies": [
@@ -262,7 +259,7 @@
       ]
     },
     "projects/MusikSack.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 2291,
       "exportedPath": "projects/musiksack.html",
       "dependencies": [
@@ -272,19 +269,19 @@
       ]
     },
     "projects/Mycelium Box.md": {
-      "modifiedTime": 1728667437135,
-      "sourceSize": 3510,
+      "modifiedTime": 1730233272790,
+      "sourceSize": 8201,
       "exportedPath": "projects/mycelium-box.html",
       "dependencies": []
     },
     "projects/ProjectsCanva.md": {
-      "modifiedTime": 1728760334769,
+      "modifiedTime": 1730233272790,
       "sourceSize": 294,
       "exportedPath": "projects/projectscanva.html",
       "dependencies": []
     },
     "projects/Protein Farm.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 609,
       "exportedPath": "projects/protein-farm.html",
       "dependencies": [
@@ -294,7 +291,7 @@
       ]
     },
     "projects/Solaris Odyssey.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 1021,
       "exportedPath": "projects/solaris-odyssey.html",
       "dependencies": [
@@ -302,7 +299,7 @@
       ]
     },
     "projects/Terra Navis.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 1350,
       "exportedPath": "projects/terra-navis.html",
       "dependencies": [
@@ -313,61 +310,61 @@
       ]
     },
     "research/biophd/Fungal Automaton Research Proposal.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 11386,
       "exportedPath": "research/biophd/fungal-automaton-research-proposal.html",
       "dependencies": []
     },
     "research/chlorophylltype/Chlorophylltype.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 4722,
       "exportedPath": "research/chlorophylltype/chlorophylltype.html",
       "dependencies": []
     },
     "research/fungi/Ganoderma applanatum.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 1848,
       "exportedPath": "research/fungi/ganoderma-applanatum.html",
       "dependencies": []
     },
     "research/navissofia/Seek on knowledge.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 3305,
       "exportedPath": "research/navissofia/seek-on-knowledge.html",
       "dependencies": []
     },
     "research/planetarysciences/25 June Interview.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 8748,
       "exportedPath": "research/planetarysciences/25-june-interview.html",
       "dependencies": []
     },
     "research/Acacia.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 1555,
       "exportedPath": "research/acacia.html",
       "dependencies": []
     },
     "writings/assets/doodle_serpent05.svg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 282601,
       "exportedPath": "writings/assets/doodle_serpent05.svg",
       "dependencies": []
     },
     "writings/assets/mobius-dotted.svg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 2245590,
       "exportedPath": "writings/assets/mobius-dotted.svg",
       "dependencies": []
     },
     "writings/assets/utna.jpg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 235387,
       "exportedPath": "writings/assets/utna.jpg",
       "dependencies": []
     },
     "writings/Emergence.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 1119,
       "exportedPath": "writings/emergence.html",
       "dependencies": [
@@ -376,19 +373,19 @@
       ]
     },
     "writings/Ĝeštu Ĝeštu Ĝeštu.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 498,
       "exportedPath": "writings/ĝeštu-ĝeštu-ĝeštu.html",
       "dependencies": []
     },
     "writings/Sun Moon Elixir.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 1615,
       "exportedPath": "writings/sun-moon-elixir.html",
       "dependencies": []
     },
     "writings/Utnapishtim.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 4158,
       "exportedPath": "writings/utnapishtim.html",
       "dependencies": [
@@ -396,7 +393,7 @@
       ]
     },
     "Donate.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 1253,
       "exportedPath": "donate.html",
       "dependencies": [
@@ -407,7 +404,7 @@
       ]
     },
     "INDEX.md": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 2549,
       "exportedPath": "index.html",
       "dependencies": [
@@ -416,97 +413,97 @@
       ]
     },
     "lib/media/doodle_tibetanrites.svg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 199490,
       "exportedPath": "lib/media/doodle_tibetanrites.svg",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
@@ -518,115 +515,115 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1728828727804,
-      "sourceSize": 51394,
+      "modifiedTime": 1730233272790,
+      "sourceSize": 51568,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 575,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1728828727804,
-      "sourceSize": 1369,
+      "modifiedTime": 1730233272790,
+      "sourceSize": 1409,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1728828727804,
-      "sourceSize": 130471,
+      "modifiedTime": 1730233272790,
+      "sourceSize": 131134,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 10102,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 3162,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 432,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
     },
     "projects/assets/amanitabeet.jpg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 369360,
       "exportedPath": "projects/assets/amanitabeet.jpg",
       "dependencies": []
     },
     "projects/assets/amanitaindustry.jpg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 410941,
       "exportedPath": "projects/assets/amanitaindustry.jpg",
       "dependencies": []
     },
     "projects/assets/exoworkpsy.jpg": {
-      "modifiedTime": 1728667437135,
+      "modifiedTime": 1730233272790,
       "sourceSize": 347569,
       "exportedPath": "projects/assets/exoworkpsy.jpg",
       "dependencies": []
@@ -638,13 +635,13 @@
       "dependencies": []
     },
     "projects/FarmBox.md": {
-      "modifiedTime": 1728760334769,
-      "sourceSize": 111,
+      "modifiedTime": 1730233272790,
+      "sourceSize": 4359,
       "exportedPath": "projects/farmbox.html",
       "dependencies": []
     },
     "Services.md": {
-      "modifiedTime": 1728828727804,
+      "modifiedTime": 1730233272790,
       "sourceSize": 3606,
       "exportedPath": "services.html",
       "dependencies": []
@@ -779,6 +776,12 @@
       "modifiedTime": 1728760334769,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
+      "dependencies": []
+    },
+    "research/Superfood.md": {
+      "modifiedTime": 1730233272790,
+      "sourceSize": 36,
+      "exportedPath": "research/superfood.html",
       "dependencies": []
     }
   }
