@@ -83,7 +83,6 @@
 
                 const fileInput = document.getElementById('file-input');
                 const imgElement = document.getElementById('image');
-                const output = document.getElementById('output');
 
                 let obj = {};
 
@@ -99,9 +98,6 @@
                                 // Get natural dimensions of the image
                                 obj.width = img.naturalWidth;
                                 obj.height = img.naturalHeight;
-
-                                // Display dimensions
-                                output.innerHTML = `Width: ${width}, Height: ${height}`;
 
                                 // Set the loaded image source to the img element
                                 imgElement.src = e.target.result; // Set the source of the image to load it
@@ -122,7 +118,6 @@
     </div>
     <div class="inner">
         <section>
-            <div id="output"></div>
             <img id="image" alt="Loaded Image" style="display:none;" src="images/barrio.jpg"/>
         </section>
     </div>
