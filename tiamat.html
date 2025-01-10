@@ -101,7 +101,7 @@
                         
                         // Read the file as a Data URL
                         reader.onload = function(e) {
-                            imgElement.src = e.target.result;
+                            // imgElement.src = e.target.result;
                             console.log(e.target.result)
                             obj.base64 = arrayBufferToBase64(e.target.result);
                             console.log(obj)
