@@ -59,7 +59,6 @@
 	<script src="https://not-fl3.github.io/miniquad-samples/sapp_jsutils.js"></script>
     <script>load("assets/js/tiamat.wasm");</script></body>
     <script>
-        const fileInput = document.getElementById('file-input');
         fileInput.addEventListener('change', async (event) => {
             const file = event.target.files[0];
             if (file) {
@@ -68,10 +67,8 @@
                     const arrayBuffer = e.target.result;
                     // Create a Uint8Array from the ArrayBuffer
                     const uint8Array = new Uint8Array(arrayBuffer);
-                    // Call the Rust function with the Uint8Array wrapped in JsObject
-                    // const jsObject = sapp_jsutils.JsObject.buffer(uint8Array);
-                    console.log(uint8Array);
-                    const jsObject = js_object(arrayBuffer);
+                    // Pass the Uint8Array as a JsObject to Rust
+                    const jsObject = js_object(uint8Array);
                     wasm_exports.test(jsObject);
                 };
                 reader.readAsArrayBuffer(file);
