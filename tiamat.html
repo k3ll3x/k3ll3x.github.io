@@ -56,6 +56,7 @@
 		 <input type="file" id="file-input" accept="image/*" />
             <canvas id="glcanvas" tabindex='1'></canvas>
             <script src="https://not-fl3.github.io/miniquad-samples/mq_js_bundle.js"></script>
+	<script src="https://not-fl3.github.io/miniquad-samples/sapp_jsutils.js"></script>
             <script>load("assets/js/tiamat.wasm");</script>
 		<script>
         const fileInput = document.getElementById('file-input');
@@ -66,7 +67,7 @@
                 reader.onload = function(e) {
                     const arrayBuffer = e.target.result;
                     // Call the Rust function with the image buffer
-                    wasm_exports.test(arrayBuffer);
+                    wasm_exports.test(js_object(arrayBuffer));
                 };
                 reader.readAsArrayBuffer(file);
             }
