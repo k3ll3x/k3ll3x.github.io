@@ -66,16 +66,22 @@
                 const reader = new FileReader();
                 reader.onload = function(e) {
                     const arrayBuffer = e.target.result;
-                    // Create a Uint8Array from the ArrayBuffer
-                    const uint8Array = new Uint8Array(arrayBuffer);
-                    // Pass the Uint8Array as a JsObject to Rust
-                    console.log(uint8Array);
-                    const jsObject = js_object(uint8Array);
-                    wasm_exports.test(jsObject);
+                    const base64String = arrayBufferToBase64(arrayBuffer);
+                    wasm_exports.test(js_object(base64String));
                 };
                 reader.readAsArrayBuffer(file);
             }
         });
+
+        function arrayBufferToBase64(buffer) {
+            let binary = '';
+            const bytes = new Uint8Array(buffer);
+            const len = bytes.byteLength;
+            for (let i = 0; i < len; i++) {
+                binary += String.fromCharCode(bytes[i]);
+            }
+            return window.btoa(binary); // Encode as Base64
+        }
     </script>
     <!-- <script>
         // Load your WASM module
