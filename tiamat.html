@@ -67,6 +67,7 @@
                     if (file) {
                         const reader = new FileReader();
                         
+                        let obj = {};
                         // Read the file as a Data URL to get Base64
                         reader.onload = function(e) {
                             const base64String = e.target.result.split(',')[1]; // Get Base64 part
@@ -78,11 +79,11 @@
                                 const height = img.height;
 
                                 // Pass the Base64 string and dimensions to Rust
-                                wasm_exports.test({
+                                obj = {
                                     base64: base64String,
                                     width: width,
                                     height: height
-                                });
+                                }
                                 
                                 // Clean up the object URL if needed
                                 URL.revokeObjectURL(img.src);
@@ -91,6 +92,7 @@
                         };
 
                         reader.readAsDataURL(file); // Read the file as a Data URL
+                        wasm_exports.test(js_object(obj));
                     }
                 });
 
