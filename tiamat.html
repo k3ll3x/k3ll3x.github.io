@@ -86,14 +86,40 @@
                 };
             
                 function pass_image() {
-                    if (wasm_exports) {
-                        wasm_exports.test(js_object(obj))
+                    while (wasm_exports === undefined) {
                     }
+                    wasm_exports.test(js_object(obj))
+                }
+
+                function loaded_image2b64(src){
+                    let base64 = "";
+                    // Get the remote image as a Blob with the fetch API
+                    fetch(src)
+                        .then((res) => res.blob())
+                        .then((blob) => {
+                            // Read the Blob as DataURL using the FileReader API
+                            const reader = new FileReader();
+                            reader.onloadend = () => {
+                                console.log(reader.result);
+                                // Logs data:image/jpeg;base64,wL2dvYWwgbW9yZ...
+
+                                // Convert to Base64 string
+                                base64 = reader.result.split(',')[1];
+                                console.log(base64);
+                            };
+                            reader.readAsDataURL(blob);
+                        });
+                    return base64;
                 }
 
                 imgElement.onload = () => {
                     obj.width = imgElement.naturalWidth; // Use naturalWidth for actual dimensions
                     obj.height = imgElement.naturalHeight; // Use naturalHeight for actual dimensions
+
+                    if(once){
+                        obj.base64 = loaded_image2b64(imgElement.src);
+                    }
+
                     pass_image()
                     console.log("Image loaded with dimensions:", obj.width, obj.height);
                 };
