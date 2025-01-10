@@ -54,7 +54,7 @@
     <div class="inner">
         <section>
 		    <input type="file" id="file-input" accept="image/*" />
-            <input type="button" value="que verga" id="do" />
+            <input type="button" value="que verga" id="do" onclick="mierda()" />
             <canvas id="glcanvas" tabindex='1'></canvas>
             <!-- <script src="https://not-fl3.github.io/miniquad-samples/mq_js_bundle.js"></script>
             <script src="https://not-fl3.github.io/miniquad-samples/sapp_jsutils.js"></script> -->
@@ -83,10 +83,10 @@
                     base64: imgElement.src
                 };
 
-                document.getElementById('do').addEventListener('click', () => {
+                function mierda() {
                     console.log(obj)
                     wasm_exports.test(js_object(obj))
-                });
+                }
 
                 imgElement.addEventListener('change', (event) => {
                     obj.width = imgElement.width;
