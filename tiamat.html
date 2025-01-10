@@ -105,7 +105,8 @@
                             const reader = new FileReader();
                             reader.onloadend = () => {
                                 obj.base64 = reader.result.split(',')[1];
-                                console.log(obj.base64);
+                                obj.width = String(imgElement.naturalWidth); // Use naturalWidth for actual dimensions
+                                obj.height = String(imgElement.naturalHeight); // Use naturalHeight for actual dimensions
                             };
                             reader.readAsDataURL(blob);
                         });
@@ -113,8 +114,6 @@
 
                 // imgElement.onload = () => {
                 setTimeout(()=>{
-                    obj.width = String(imgElement.naturalWidth); // Use naturalWidth for actual dimensions
-                    obj.height = String(imgElement.naturalHeight); // Use naturalHeight for actual dimensions
                     loaded_image2b64(imgElement.src);
                     console.log("once")
                     pass_image()
