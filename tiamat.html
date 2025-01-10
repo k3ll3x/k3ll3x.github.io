@@ -128,7 +128,7 @@
                         // Read the file as a Data URL
                         reader.onload = function(e) {
                             imgElement.src = e.target.result; // Set image source
-                            console.log(imgElement.src)
+                            console.log(imgElement.src.length)
                             
                             imgElement.onload = function() {
                                 // Get dimensions after image has loaded
