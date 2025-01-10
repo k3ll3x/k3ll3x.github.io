@@ -61,6 +61,15 @@
             <script src="assets/js/sapp_jsutils.js"></script>
             <script>load("assets/js/tiamat.wasm");</script></body>
             <script>
+                // Load your WASM module
+                const loadWasm = async () => {
+                    const response = await fetch('assets/js/tiamat.wasm'); // Replace with your actual WASM file name
+                    const bytes = await response.arrayBuffer();
+                    const { instance } = await WebAssembly.instantiate(bytes);
+                    window.wasm_exports = instance.exports;
+                };
+                loadWasm();
+
                 const fileInput = document.getElementById('file-input');
                 let obj = {};
                 fileInput.addEventListener('change', async (event) => {
@@ -93,6 +102,7 @@
 
                         reader.readAsDataURL(file); // Read the file as a Data URL
                     }
+                    wasm_exports.test(js_object(obj));
                 });
 
                 // Function to convert ArrayBuffer to Base64 (if needed)
@@ -105,18 +115,7 @@
                     }
                     return window.btoa(binary); // Encode as Base64
                 }
-                wasm_exports.test(js_object(obj));
             </script>
-    <!-- <script>
-        // Load your WASM module
-        const loadWasm = async () => {
-            const response = await fetch('assets/js/tiamat.wasm'); // Replace with your actual WASM file name
-            const bytes = await response.arrayBuffer();
-            const { instance } = await WebAssembly.instantiate(bytes);
-            window.wasm_exports = instance.exports;
-        };
-        loadWasm();
-    </script> -->
         </section>
     </div>
     <div class="inner">
