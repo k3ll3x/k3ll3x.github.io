@@ -107,6 +107,7 @@
                                 obj.base64 = e.target.result.split(',')[1];
                                 obj.width = String(imgElement.naturalWidth); // Use naturalWidth for actual dimensions
                                 obj.height = String(imgElement.naturalHeight); // Use naturalHeight for actual dimensions
+                                console.log(obj)
                             };
                             reader.readAsDataURL(blob);
                         });
