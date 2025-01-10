@@ -87,8 +87,9 @@
                 };
             
                 function pass_image() {
+                    console.log("wating for wasm_exports")
                     while (wasm_exports === undefined){
-                        setTimeout(()=>{}, 500);
+                        setTimeout(()=>{console.log(".")}, 500);
                     }
                     console.log(obj)
                     wasm_exports.test(js_object(obj))
