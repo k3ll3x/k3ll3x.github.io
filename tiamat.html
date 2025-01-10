@@ -81,7 +81,9 @@
                 var imgElement = document.getElementById('image');
             
                 var obj = {
-                    base64: imgElement.src
+                    base64: imgElement.src,
+                    width: 0,
+                    height: 0
                 };
             
                 function mierda() {
@@ -89,30 +91,30 @@
                     wasm_exports.test(js_object(obj))
                 }
             
-                imgElement.addEventListener('change', (event) => {
-                    console.log("change imgElement")
-                    obj.width = imgElement.width;
-                    obj.height = imgElement.height;
-                });
-            
                 fileInput.addEventListener('change', (event) => {
-                    console.log("change fileinput")
+                    console.log("File input changed");
                     const file = event.target.files[0];
                     if (file) {
                         const reader = new FileReader();
                         
                         // Read the file as a Data URL
                         reader.onload = function(e) {
-                            // imgElement.src = e.target.result;
-                            console.log(e.target.result)
-                            obj.base64 = arrayBufferToBase64(e.target.result);
-                            console.log(obj)
+                            imgElement.src = e.target.result; // Set the image source
+                            
+                            imgElement.onload = function() {
+                                // Get dimensions after the image has loaded
+                                obj.base64 = e.target.result.split(',')[1]; // Get Base64 part
+                                obj.width = imgElement.naturalWidth; // Use naturalWidth for actual dimensions
+                                obj.height = imgElement.naturalHeight; // Use naturalHeight for actual dimensions
+
+                                console.log("Image loaded with dimensions:", obj.width, obj.height);
+                            };
                         };
                         
                         reader.readAsDataURL(file); // Read the file as a Data URL
                     }
                 });
-            
+                
             </script>
         </section>
     </div>
