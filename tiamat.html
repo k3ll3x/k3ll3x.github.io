@@ -63,11 +63,22 @@
         fileInput.addEventListener('change', async (event) => {
             const file = event.target.files[0];
             if (file) {
+                var img = new Image;
+                var w,h;
+                img.onload = function() {
+                    w = img.width;
+                    h = img.height;
+                    URL.revokeObjectURL(img.src);
+                };
                 const reader = new FileReader();
                 reader.onload = function(e) {
                     const arrayBuffer = e.target.result;
                     const base64String = arrayBufferToBase64(arrayBuffer);
-                    wasm_exports.test(js_object(base64String));
+                    wasm_exports.test(js_object({
+                        base64: base64String,
+                        width: w,
+                        height: h
+                    }));
                 };
                 reader.readAsArrayBuffer(file);
             }
