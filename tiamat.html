@@ -70,7 +70,7 @@
                     const uint8Array = new Uint8Array(arrayBuffer);
                     // Call the Rust function with the Uint8Array wrapped in JsObject
                     // const jsObject = sapp_jsutils.JsObject.buffer(uint8Array);
-                    conosle.log(uint8Array);
+                    console.log(uint8Array);
                     const jsObject = js_object(arrayBuffer);
                     wasm_exports.test(jsObject);
                 };
