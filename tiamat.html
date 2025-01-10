@@ -96,7 +96,6 @@
                 }
 
                 function loaded_image2b64(src){
-                    var base64 = "";
                     // Get the remote image as a Blob with the fetch API
                     fetch(src)
                         .then((res) => res.blob())
@@ -104,12 +103,10 @@
                             // Read the Blob as DataURL using the FileReader API
                             const reader = new FileReader();
                             reader.onloadend = () => {
-                                base64 = reader.result.split(',')[1];
+                                obj.base64 = reader.result.split(',')[1];
                             };
                             reader.readAsDataURL(blob);
                         });
-                    console.log(base64)
-                    return base64;
                 }
 
                 // imgElement.onload = () => {
