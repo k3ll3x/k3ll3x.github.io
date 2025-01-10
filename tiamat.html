@@ -91,7 +91,7 @@
                     while (wasm_exports === undefined){
                         setTimeout(()=>{console.log(".")}, 1500);
                     }
-                    console.log(obj)
+                    console.log(obj.base64.length);
                     wasm_exports.test(js_object(obj))
                 }
 
@@ -128,6 +128,7 @@
                         // Read the file as a Data URL
                         reader.onload = function(e) {
                             imgElement.src = e.target.result; // Set image source
+                            console.log(imgElement.src)
                             
                             imgElement.onload = function() {
                                 // Get dimensions after image has loaded
