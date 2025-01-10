@@ -111,17 +111,13 @@
                     return base64;
                 }
 
-                // imgElement.onload = () => {
-                //     obj.width = imgElement.naturalWidth; // Use naturalWidth for actual dimensions
-                //     obj.height = imgElement.naturalHeight; // Use naturalHeight for actual dimensions
+                imgElement.onload = () => {
+                    obj.width = imgElement.naturalWidth; // Use naturalWidth for actual dimensions
+                    obj.height = imgElement.naturalHeight; // Use naturalHeight for actual dimensions
+                    obj.base64 = loaded_image2b64(imgElement.src);
 
-                //     if(once){
-                //         once = false;
-                //         obj.base64 = loaded_image2b64(imgElement.src);
-                //     }
-
-                //     pass_image()
-                // };
+                    pass_image()
+                };
             
                 fileInput.addEventListener('change', (event) => {
                     const file = event.target.files[0];
