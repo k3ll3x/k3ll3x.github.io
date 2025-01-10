@@ -95,10 +95,10 @@
                     wasm_exports.test(js_object(obj))
                 }
 
-                function loaded_image2b64(src){
+                async function loaded_image2b64(src){
                     console.log(src)
                     // Get the remote image as a Blob with the fetch API
-                    fetch(src)
+                    await fetch(src)
                         .then((res) => res.blob())
                         .then((blob) => {
                             // Read the Blob as DataURL using the FileReader API
