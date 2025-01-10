@@ -54,8 +54,7 @@
 <div class="wrapper">
     <div class="inner">
         <section>
-            <input type="file" id="file-input" accept="image/*" />
-            <input type="button" value="que verga" id="do" onclick="mierda()" />
+            <input type="file" class="button" id="file-input" accept="image/*" />
             <canvas id="glcanvas" tabindex='1'></canvas>
             <br><br>
             <img id="image" alt="Loaded Image" src="images/barrio.jpg"/>
@@ -86,15 +85,16 @@
                     height: 0
                 };
             
-                function mierda() {
-                    console.log(obj)
-                    wasm_exports.test(js_object(obj))
+                function pass_image() {
+                    if (wasm_exports) {
+                        wasm_exports.test(js_object(obj))
+                    }
                 }
 
                 imgElement.onload = () => {
                     obj.width = imgElement.naturalWidth; // Use naturalWidth for actual dimensions
                     obj.height = imgElement.naturalHeight; // Use naturalHeight for actual dimensions
-                    mierda()
+                    pass_image()
                     console.log("Image loaded with dimensions:", obj.width, obj.height);
                 };
             
