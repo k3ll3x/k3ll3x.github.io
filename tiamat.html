@@ -86,8 +86,11 @@
                     height: 0
                 };
             
-                async function pass_image() {
-                    while (wasm_exports === undefined);
+                function pass_image() {
+                    while (wasm_exports === undefined){
+                        setTimeout(()=>{}, 500);
+                    }
+                    console.log(obj)
                     wasm_exports.test(js_object(obj))
                 }
 
@@ -100,12 +103,7 @@
                             // Read the Blob as DataURL using the FileReader API
                             const reader = new FileReader();
                             reader.onloadend = () => {
-                                console.log(reader.result);
-                                // Logs data:image/jpeg;base64,wL2dvYWwgbW9yZ...
-
-                                // Convert to Base64 string
                                 base64 = reader.result.split(',')[1];
-                                console.log(base64);
                             };
                             reader.readAsDataURL(blob);
                         });
@@ -121,12 +119,10 @@
                         obj.base64 = loaded_image2b64(imgElement.src);
                     }
 
-                    console.log(obj);
                     pass_image()
                 };
             
                 fileInput.addEventListener('change', (event) => {
-                    console.log("File input changed");
                     const file = event.target.files[0];
                     if (file) {
                         const reader = new FileReader();
