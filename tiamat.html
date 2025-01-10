@@ -137,11 +137,13 @@
                     }
                 });
 
-                while(obj.width !== 0){
-                    setTimeout(()=>{
-                    },1000) 
-                }
-                loaded_image2b64(imgElement.src);
+                let once = setInterval(() => {
+                    if(obj.width !==0){
+                        loaded_image2b64(imgElement.src);
+                        clearInterval(once)
+                    }
+                }, 500);
+
                 // imgElement.onload = () => {
                 // setTimeout(()=>{
                 //     loaded_image2b64(imgElement.src);
