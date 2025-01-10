@@ -81,7 +81,7 @@
             
                 var once = true;
                 var obj = {
-                    base64: imgElement.src,
+                    base64: "x66",
                     width: 0,
                     height: 0
                 };
@@ -107,6 +107,7 @@
                             };
                             reader.readAsDataURL(blob);
                         });
+                    console.log(base64)
                     return base64;
                 }
 
