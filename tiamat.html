@@ -57,8 +57,7 @@
             <canvas id="glcanvas" tabindex='1'></canvas>
             <script src="https://not-fl3.github.io/miniquad-samples/mq_js_bundle.js"></script>
 	<script src="https://not-fl3.github.io/miniquad-samples/sapp_jsutils.js"></script>
-            <script>load("assets/js/tiamat.wasm");</script>
-		<script>
+<script>
         const fileInput = document.getElementById('file-input');
         fileInput.addEventListener('change', async (event) => {
             const file = event.target.files[0];
@@ -66,13 +65,26 @@
                 const reader = new FileReader();
                 reader.onload = function(e) {
                     const arrayBuffer = e.target.result;
-                    // Call the Rust function with the image buffer
-                    wasm_exports.test(js_object(arrayBuffer));
+                    // Create a Uint8Array from the ArrayBuffer
+                    const uint8Array = new Uint8Array(arrayBuffer);
+                    // Call the Rust function with the Uint8Array wrapped in JsObject
+                    const jsObject = sapp_jsutils.JsObject.buffer(uint8Array);
+                    wasm_exports.test(jsObject);
                 };
                 reader.readAsArrayBuffer(file);
             }
         });
-		</script>
+    </script>
+    <script>
+        // Load your WASM module
+        const loadWasm = async () => {
+            const response = await fetch('tiamat.wasm'); // Replace with your actual WASM file name
+            const bytes = await response.arrayBuffer();
+            const { instance } = await WebAssembly.instantiate(bytes);
+            window.wasm_exports = instance.exports;
+        };
+        loadWasm();
+    </script>
         </section>
     </div>
     <div class="inner">
