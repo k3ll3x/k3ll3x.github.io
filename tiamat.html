@@ -86,9 +86,8 @@
                     height: 0
                 };
             
-                function pass_image() {
-                    while (wasm_exports === undefined) {
-                    }
+                async function pass_image() {
+                    while (wasm_exports === undefined);
                     wasm_exports.test(js_object(obj))
                 }
 
