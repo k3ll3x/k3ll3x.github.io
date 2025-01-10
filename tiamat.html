@@ -72,14 +72,6 @@
                     return window.btoa(binary); // Encode as Base64
                 }
 
-                // Load your WASM module
-                // const loadWasm = async () => {
-                //     const response = await fetch('assets/js/tiamat.wasm'); // Replace with your actual WASM file name
-                //     const bytes = await response.arrayBuffer();
-                //     const { instance } = await WebAssembly.instantiate(bytes);
-                //     window.wasm_exports = instance.exports;
-                // };
-                // loadWasm();
                 let a = load("assets/js/tiamat.wasm");
                 console.log(a);
 
@@ -120,7 +112,7 @@
     </div>
     <div class="inner">
         <section>
-            <img id="image" alt="Loaded Image" style="display:none;" src="images/barrio.jpg"/>
+            <img id="image" alt="Loaded Image" src="images/barrio.jpg"/>
         </section>
     </div>
 </div>
