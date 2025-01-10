@@ -50,73 +50,73 @@
 				<div>
 					
 
-<section>
-<script src="assets/js/mq_js_bundle.js"></script>
-<script src="assets/js/sapp_jsutils.js"></script>
-            
+
 <div class="wrapper">
     <div class="inner">
-        <input type="file" id="file-input" accept="image/*" />
-        <input type="button" value="que verga" id="do" onclick="mierda()" />
-        <canvas id="glcanvas" tabindex='1'></canvas>
-    </div>
-    <div class="inner">
-        <img id="image" alt="Loaded Image" src="images/barrio.jpg"/>
+        <section>
+            <script src="assets/js/mq_js_bundle.js"></script>
+            <script src="assets/js/sapp_jsutils.js"></script>
+            
+            <input type="file" id="file-input" accept="image/*" />
+            <input type="button" value="que verga" id="do" onclick="mierda()" />
+            <canvas id="glcanvas" tabindex='1'></canvas>
+            <br><br>
+            <img id="image" alt="Loaded Image" src="images/barrio.jpg"/>
+
+            <script>
+                // Function to convert ArrayBuffer to Base64 (if needed)
+                function arrayBufferToBase64(buffer) {
+                    let binary = '';
+                    const bytes = new Uint8Array(buffer);
+                    const len = bytes.byteLength;
+                    for (let i = 0; i < len; i++) {
+                        binary += String.fromCharCode(bytes[i]);
+                    }
+                    return window.btoa(binary); // Encode as Base64
+                }
+            
+                load("assets/js/tiamat.wasm");
+            
+                var fileInput = document.getElementById('file-input');
+                var imgElement = document.getElementById('image');
+            
+                var obj = {
+                    base64: imgElement.src
+                };
+            
+                function mierda() {
+                    console.log(obj)
+                    wasm_exports.test(js_object(obj))
+                }
+            
+                imgElement.addEventListener('change', (event) => {
+                    console.log("change imgElement")
+                    obj.width = imgElement.width;
+                    obj.height = imgElement.height;
+                });
+            
+                fileInput.addEventListener('change', (event) => {
+                    console.log("change fileinput")
+                    const file = event.target.files[0];
+                    if (file) {
+                        const reader = new FileReader();
+                        
+                        // Read the file as a Data URL
+                        reader.onload = function(e) {
+                            // imgElement.src = e.target.result;
+                            console.log(e.target.result)
+                            obj.base64 = arrayBufferToBase64(e.target.result);
+                            console.log(obj)
+                        };
+                        
+                        reader.readAsDataURL(file); // Read the file as a Data URL
+                    }
+                });
+            
+            </script>
+        </section>
     </div>
 </div>
-
-<script>
-    // Function to convert ArrayBuffer to Base64 (if needed)
-    function arrayBufferToBase64(buffer) {
-        let binary = '';
-        const bytes = new Uint8Array(buffer);
-        const len = bytes.byteLength;
-        for (let i = 0; i < len; i++) {
-            binary += String.fromCharCode(bytes[i]);
-        }
-        return window.btoa(binary); // Encode as Base64
-    }
-
-    load("assets/js/tiamat.wasm");
-
-    var fileInput = document.getElementById('file-input');
-    var imgElement = document.getElementById('image');
-
-    var obj = {
-        base64: imgElement.src
-    };
-
-    function mierda() {
-        console.log(obj)
-        wasm_exports.test(js_object(obj))
-    }
-
-    imgElement.addEventListener('change', (event) => {
-        console.log("change imgElement")
-        obj.width = imgElement.width;
-        obj.height = imgElement.height;
-    });
-
-    fileInput.addEventListener('change', (event) => {
-        console.log("change fileinput")
-        const file = event.target.files[0];
-        if (file) {
-            const reader = new FileReader();
-            
-            // Read the file as a Data URL
-            reader.onload = function(e) {
-                // imgElement.src = e.target.result;
-                console.log(e.target.result)
-                obj.base64 = arrayBufferToBase64(e.target.result);
-                console.log(obj)
-            };
-            
-            reader.readAsDataURL(file); // Read the file as a Data URL
-        }
-    });
-
-</script>
-</section>
 
 
 				</div>
