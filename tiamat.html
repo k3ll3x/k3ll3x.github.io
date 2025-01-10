@@ -79,6 +79,7 @@
                 var fileInput = document.getElementById('file-input');
                 var imgElement = document.getElementById('image');
             
+                var once = true;
                 var obj = {
                     base64: imgElement.src,
                     width: 0,
@@ -117,6 +118,7 @@
                     obj.height = imgElement.naturalHeight; // Use naturalHeight for actual dimensions
 
                     if(once){
+                        once = false;
                         obj.base64 = loaded_image2b64(imgElement.src);
                     }
 
