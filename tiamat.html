@@ -57,7 +57,8 @@
             <canvas id="glcanvas" tabindex='1'></canvas>
             <script src="https://not-fl3.github.io/miniquad-samples/mq_js_bundle.js"></script>
 	<script src="https://not-fl3.github.io/miniquad-samples/sapp_jsutils.js"></script>
-<script>
+    <script>load("demo.wasm");</script></body>
+    <script>
         const fileInput = document.getElementById('file-input');
         fileInput.addEventListener('change', async (event) => {
             const file = event.target.files[0];
@@ -75,7 +76,7 @@
             }
         });
     </script>
-    <script>
+    <!-- <script>
         // Load your WASM module
         const loadWasm = async () => {
             const response = await fetch('tiamat.wasm'); // Replace with your actual WASM file name
@@ -84,7 +85,7 @@
             window.wasm_exports = instance.exports;
         };
         loadWasm();
-    </script>
+    </script> -->
         </section>
     </div>
     <div class="inner">
