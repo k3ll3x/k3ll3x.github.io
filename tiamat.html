@@ -132,7 +132,7 @@
                             
                             imgElement.onload = function() {
                                 // Get dimensions after image has loaded
-                                obj.base64 = e.target.result//.split(',')[1]; // Get Base64 part
+                                obj.base64 = e.target.result.split(',')[1]; // Get Base64 part
                                 obj.width = String(imgElement.naturalWidth);
                                 obj.height = String(imgElement.naturalHeight);
 
