@@ -59,7 +59,7 @@
             <script src="https://not-fl3.github.io/miniquad-samples/sapp_jsutils.js"></script> -->
             <script src="assets/js/mq_js_bundle.js"></script>
             <script src="assets/js/sapp_jsutils.js"></script>
-            <script>load("assets/js/tiamat.wasm");</script></body>
+            <!-- <script>load("assets/js/tiamat.wasm");</script> -->
             <script>
                 // Function to convert ArrayBuffer to Base64 (if needed)
                 function arrayBufferToBase64(buffer) {
@@ -80,6 +80,7 @@
                 //     window.wasm_exports = instance.exports;
                 // };
                 // loadWasm();
+                load("assets/js/tiamat.wasm");
 
                 const fileInput = document.getElementById('file-input');
                 const imgElement = document.getElementById('image');
