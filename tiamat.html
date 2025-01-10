@@ -80,7 +80,8 @@
                 //     window.wasm_exports = instance.exports;
                 // };
                 // loadWasm();
-                load("assets/js/tiamat.wasm");
+                let a = load("assets/js/tiamat.wasm");
+                console.log(a);
 
                 const fileInput = document.getElementById('file-input');
                 const imgElement = document.getElementById('image');
@@ -110,9 +111,9 @@
 
                         reader.readAsDataURL(file); // Read the file as a Data URL
                     }
+                    console.log(obj)
+                    wasm_exports.test(js_object(obj));
                 });
-                console.log(obj)
-                wasm_exports.test(js_object(obj));
 
             </script>
         </section>
