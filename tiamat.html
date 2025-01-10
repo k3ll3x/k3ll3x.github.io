@@ -73,11 +73,6 @@
                     return window.btoa(binary); // Encode as Base64
                 }
 
-                document.getElementById('do').addEventListener('click', () => {
-                    console.log(obj)
-                    wasm_exports.test(js_object(obj))
-                });
-
                 let a = load("assets/js/tiamat.wasm");
                 console.log(a);
 
@@ -87,6 +82,11 @@
                 let obj = {
                     base64: imgElement.src
                 };
+
+                document.getElementById('do').addEventListener('click', () => {
+                    console.log(obj)
+                    wasm_exports.test(js_object(obj))
+                });
 
                 imgElement.addEventListener('change', (event) => {
                     obj.width = imgElement.width;
