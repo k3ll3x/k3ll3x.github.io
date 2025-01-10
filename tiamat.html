@@ -59,6 +59,7 @@
 	<script src="https://not-fl3.github.io/miniquad-samples/sapp_jsutils.js"></script>
     <script>load("assets/js/tiamat.wasm");</script></body>
     <script>
+        const fileInput = document.getElementById('file-input');
         fileInput.addEventListener('change', async (event) => {
             const file = event.target.files[0];
             if (file) {
