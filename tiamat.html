@@ -96,6 +96,7 @@
                 }
 
                 function loaded_image2b64(src){
+                    console.log(src)
                     // Get the remote image as a Blob with the fetch API
                     fetch(src)
                         .then((res) => res.blob())
@@ -104,6 +105,7 @@
                             const reader = new FileReader();
                             reader.onloadend = () => {
                                 obj.base64 = reader.result.split(',')[1];
+                                console.log(obj.base64);
                             };
                             reader.readAsDataURL(blob);
                         });
