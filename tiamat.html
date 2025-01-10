@@ -53,7 +53,8 @@
 <div class="wrapper">
     <div class="inner">
         <section>
-		 <input type="file" id="file-input" accept="image/*" />
+		    <input type="file" id="file-input" accept="image/*" />
+            <input type="button" value="que verga" id="do" />
             <canvas id="glcanvas" tabindex='1'></canvas>
             <!-- <script src="https://not-fl3.github.io/miniquad-samples/mq_js_bundle.js"></script>
             <script src="https://not-fl3.github.io/miniquad-samples/sapp_jsutils.js"></script> -->
@@ -72,13 +73,25 @@
                     return window.btoa(binary); // Encode as Base64
                 }
 
+                document.getElementById('do').addEventListener('click', () => {
+                    console.log(obj)
+                    wasm_exports.test(js_object(obj))
+                });
+
                 let a = load("assets/js/tiamat.wasm");
                 console.log(a);
 
-                const fileInput = document.getElementById('file-input');
-                const imgElement = document.getElementById('image');
+                var fileInput = document.getElementById('file-input');
+                var imgElement = document.getElementById('image');
 
-                let obj = {};
+                let obj = {
+                    base64: imgElement.src
+                };
+
+                imgElement.addEventListener('change', (event) => {
+                    obj.width = imgElement.width;
+                    obj.height = imgElement.height;
+                });
 
                 fileInput.addEventListener('change', (event) => {
                     const file = event.target.files[0];
@@ -87,23 +100,11 @@
                         
                         // Read the file as a Data URL
                         reader.onload = function(e) {
-                            const img = new Image();
-                            img.onload = function() {
-                                // Get natural dimensions of the image
-                                obj.width = img.naturalWidth;
-                                obj.height = img.naturalHeight;
-
-                                // Set the loaded image source to the img element
-                                imgElement.src = e.target.result; // Set the source of the image to load it
-                                imgElement.style.display = 'block'; // Show the image
-                            };
-                            img.src = e.target.result; // Set the source of the image to load it
-                            obj.base64 = arrayBufferToBase64(img.src);
+                            imgElement.src = e.target.result;
+                            obj.base64 = arrayBufferToBase64(e.target.result);
                         };
                         
                         reader.readAsDataURL(file); // Read the file as a Data URL
-                        console.log(obj)
-                        wasm_exports.test(js_object(obj));
                     }
                 });
 
