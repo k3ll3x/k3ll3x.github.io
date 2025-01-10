@@ -90,6 +90,13 @@
                     console.log(obj)
                     wasm_exports.test(js_object(obj))
                 }
+
+                imgElement.onload = () => {
+                    obj.width = imgElement.naturalWidth; // Use naturalWidth for actual dimensions
+                    obj.height = imgElement.naturalHeight; // Use naturalHeight for actual dimensions
+                    mierda()
+                    console.log("Image loaded with dimensions:", obj.width, obj.height);
+                };
             
                 fileInput.addEventListener('change', (event) => {
                     console.log("File input changed");
@@ -99,22 +106,15 @@
                         
                         // Read the file as a Data URL
                         reader.onload = function(e) {
+                            // Get dimensions after the image has loaded
+                            obj.base64 = e.target.result.split(',')[1]; // Get Base64 part
                             imgElement.src = e.target.result; // Set the image source
-                            
-                            imgElement.onload = function() {
-                                // Get dimensions after the image has loaded
-                                obj.base64 = e.target.result.split(',')[1]; // Get Base64 part
-                                obj.width = imgElement.naturalWidth; // Use naturalWidth for actual dimensions
-                                obj.height = imgElement.naturalHeight; // Use naturalHeight for actual dimensions
-
-                                console.log("Image loaded with dimensions:", obj.width, obj.height);
-                            };
                         };
                         
                         reader.readAsDataURL(file); // Read the file as a Data URL
                     }
                 });
-                
+
             </script>
         </section>
     </div>
