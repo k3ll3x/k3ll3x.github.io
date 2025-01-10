@@ -53,10 +53,31 @@
 <div class="wrapper">
     <div class="inner">
         <section>
+		 <input type="file" id="file-input" accept="image/*" />
             <canvas id="glcanvas" tabindex='1'></canvas>
             <script src="https://not-fl3.github.io/miniquad-samples/mq_js_bundle.js"></script>
             <script>load("assets/js/tiamat.wasm");</script>
+		<script>
+        const fileInput = document.getElementById('file-input');
+        fileInput.addEventListener('change', async (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const arrayBuffer = e.target.result;
+                    // Call the Rust function with the image buffer
+                    wasm_exports.test(arrayBuffer);
+                };
+                reader.readAsArrayBuffer(file);
+            }
+        });
+		</script>
         </section>
+    </div>
+    <div class="inner">
+	<section>
+		<img src="images/barrio.jpg">
+	</section>
     </div>
 </div>
 
