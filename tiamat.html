@@ -55,45 +55,57 @@
         <section>
 		 <input type="file" id="file-input" accept="image/*" />
             <canvas id="glcanvas" tabindex='1'></canvas>
-            <script src="https://not-fl3.github.io/miniquad-samples/mq_js_bundle.js"></script>
-	<script src="https://not-fl3.github.io/miniquad-samples/sapp_jsutils.js"></script>
-    <script>load("assets/js/tiamat.wasm");</script></body>
-    <script>
-        const fileInput = document.getElementById('file-input');
-        fileInput.addEventListener('change', async (event) => {
-            const file = event.target.files[0];
-            if (file) {
-                var img = new Image;
-                var w,h;
-                img.onload = function() {
-                    w = img.width;
-                    h = img.height;
-                    URL.revokeObjectURL(img.src);
-                };
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    const arrayBuffer = e.target.result;
-                    const base64String = arrayBufferToBase64(arrayBuffer);
-                    wasm_exports.test(js_object({
-                        base64: base64String,
-                        width: w,
-                        height: h
-                    }));
-                };
-                reader.readAsArrayBuffer(file);
-            }
-        });
+            <!-- <script src="https://not-fl3.github.io/miniquad-samples/mq_js_bundle.js"></script>
+            <script src="https://not-fl3.github.io/miniquad-samples/sapp_jsutils.js"></script> -->
+            <script src="assets/js/mq_js_bundle.js"></script>
+            <script src="assets/js/sapp_jsutils.js"></script>
+            <script>load("assets/js/tiamat.wasm");</script></body>
+            <script>
+                const fileInput = document.getElementById('file-input');
+                fileInput.addEventListener('change', async (event) => {
+                    const file = event.target.files[0];
+                    if (file) {
+                        const reader = new FileReader();
+                        
+                        // Read the file as a Data URL to get Base64
+                        reader.onload = function(e) {
+                            const base64String = e.target.result.split(',')[1]; // Get Base64 part
 
-        function arrayBufferToBase64(buffer) {
-            let binary = '';
-            const bytes = new Uint8Array(buffer);
-            const len = bytes.byteLength;
-            for (let i = 0; i < len; i++) {
-                binary += String.fromCharCode(bytes[i]);
-            }
-            return window.btoa(binary); // Encode as Base64
-        }
-    </script>
+                            // Create an Image object to get dimensions
+                            const img = new Image();
+                            img.onload = function() {
+                                const width = img.width;
+                                const height = img.height;
+
+                                // Pass the Base64 string and dimensions to Rust
+                                wasm_exports.test({
+                                    base64: base64String,
+                                    width: width,
+                                    height: height
+                                });
+                                
+                                // Clean up the object URL if needed
+                                URL.revokeObjectURL(img.src);
+                            };
+                            img.src = e.target.result; // Set the source of the image to load it
+                        };
+
+                        reader.readAsDataURL(file); // Read the file as a Data URL
+                    }
+                });
+
+                // Function to convert ArrayBuffer to Base64 (if needed)
+                function arrayBufferToBase64(buffer) {
+                    let binary = '';
+                    const bytes = new Uint8Array(buffer);
+                    const len = bytes.byteLength;
+                    for (let i = 0; i < len; i++) {
+                        binary += String.fromCharCode(bytes[i]);
+                    }
+                    return window.btoa(binary); // Encode as Base64
+                }
+
+            </script>
     <!-- <script>
         // Load your WASM module
         const loadWasm = async () => {
