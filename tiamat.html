@@ -62,12 +62,12 @@
             <script>load("assets/js/tiamat.wasm");</script></body>
             <script>
                 const fileInput = document.getElementById('file-input');
+                let obj = {};
                 fileInput.addEventListener('change', async (event) => {
                     const file = event.target.files[0];
                     if (file) {
                         const reader = new FileReader();
                         
-                        let obj = {};
                         // Read the file as a Data URL to get Base64
                         reader.onload = function(e) {
                             const base64String = e.target.result.split(',')[1]; // Get Base64 part
@@ -92,7 +92,6 @@
                         };
 
                         reader.readAsDataURL(file); // Read the file as a Data URL
-                        wasm_exports.test(js_object(obj));
                     }
                 });
 
@@ -106,7 +105,7 @@
                     }
                     return window.btoa(binary); // Encode as Base64
                 }
-
+                wasm_exports.test(js_object(obj));
             </script>
     <!-- <script>
         // Load your WASM module
