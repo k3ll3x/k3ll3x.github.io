@@ -103,8 +103,8 @@
                         .then((blob) => {
                             // Read the Blob as DataURL using the FileReader API
                             const reader = new FileReader();
-                            reader.onloadend = () => {
-                                obj.base64 = reader.result.split(',')[1];
+                            reader.onload = (e) => {
+                                obj.base64 = e.target.result.split(',')[1];
                                 obj.width = String(imgElement.naturalWidth); // Use naturalWidth for actual dimensions
                                 obj.height = String(imgElement.naturalHeight); // Use naturalHeight for actual dimensions
                             };
@@ -126,7 +126,7 @@
                         const reader = new FileReader();
                         
                         // Read the file as a Data URL
-                        reader.onload = function(e) {
+                        reader.onload = (e)=> {
                             imgElement.src = e.target.result; // Set image source
                             console.log(imgElement.src.length)
                             
