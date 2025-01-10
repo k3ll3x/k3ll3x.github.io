@@ -73,13 +73,12 @@
                     return window.btoa(binary); // Encode as Base64
                 }
 
-                let a = load("assets/js/tiamat.wasm");
-                console.log(a);
+                load("assets/js/tiamat.wasm");
 
                 var fileInput = document.getElementById('file-input');
                 var imgElement = document.getElementById('image');
 
-                let obj = {
+                var obj = {
                     base64: imgElement.src
                 };
 
@@ -89,11 +88,13 @@
                 }
 
                 imgElement.addEventListener('change', (event) => {
+                    console.log("change imgElement")
                     obj.width = imgElement.width;
                     obj.height = imgElement.height;
                 });
 
                 fileInput.addEventListener('change', (event) => {
+                    console.log("change fileinput")
                     const file = event.target.files[0];
                     if (file) {
                         const reader = new FileReader();
@@ -101,7 +102,9 @@
                         // Read the file as a Data URL
                         reader.onload = function(e) {
                             imgElement.src = e.target.result;
+                            console.log(e.target.result)
                             obj.base64 = arrayBufferToBase64(e.target.result);
+                            console.log(obj)
                         };
                         
                         reader.readAsDataURL(file); // Read the file as a Data URL
