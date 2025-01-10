@@ -95,16 +95,16 @@
 
                                 // Set the loaded image source to the img element
                                 imgElement.src = e.target.result; // Set the source of the image to load it
-                                obj.base64 = arrayBufferToBase64(imgElement.src);
                                 imgElement.style.display = 'block'; // Show the image
                             };
                             img.src = e.target.result; // Set the source of the image to load it
+                            obj.base64 = arrayBufferToBase64(img.src);
+                            console.log(obj)
+                            wasm_exports.test(js_object(obj));
                         };
 
                         reader.readAsDataURL(file); // Read the file as a Data URL
                     }
-                    console.log(obj)
-                    wasm_exports.test(js_object(obj));
                 });
 
             </script>
