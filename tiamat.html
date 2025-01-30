@@ -83,7 +83,8 @@
                 </div>
         
                 <input  type="text" id="inputField" placeholder="Enter number or symbols">
-                <p id="result"></p>
+                <br><br>
+                <b><p class="big" id="result"></p></b>
             </div>
 
             <script src="assets/js/mq_js_bundle.js"></script>
@@ -127,12 +128,10 @@
                     if (/^\d+$/.test(inputValue)) { // Check if it's a number
                         const num = parseInt(inputValue, 10);
                         const res = num2sym(num); // Call num2sym function
-                        
-                        resultElement.textContent = `Symbol: ${res}`;
                     } else {
                         const res = sym2num(inputValue);
-                        resultElement.textContent = `Number: ${res}`;
                     }
+                    resultElement.textContent = `${res}`;
                 })
 
                 var b60 = {
