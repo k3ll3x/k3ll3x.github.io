@@ -127,9 +127,9 @@
                     // Determine if the input is a number or symbols
                     if (/^\d+$/.test(inputValue)) { // Check if it's a number
                         const num = parseInt(inputValue, 10);
-                        const res = num2sym(num); // Call num2sym function
+                        res = num2sym(num); // Call num2sym function
                     } else {
-                        const res = sym2num(inputValue);
+                        res = sym2num(inputValue);
                     }
                     resultElement.textContent = `${res}`;
                 })
