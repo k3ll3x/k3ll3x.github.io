@@ -59,6 +59,33 @@
             <br><br>
             <img id="image" alt="Loaded Image" src="images/barrio.jpg"/>
 
+            <br><br>
+            <div class="container">
+                <h1>Base 60 Converter</h1>
+                
+                <div class="banner">
+                    <pre>
+                        .   :   |   -   O
+                        1   2   3   12   60
+                    </pre>
+                </div>
+        
+                <div class="usage">
+                    <h2>Usage:</h2>
+                    <p>- Each symbol represents a specific value.</p>
+                    <p>- The symbol 'O' (60) can be multiplied by the sum of other symbols to the left.</p>
+                    
+                    <div class="example">
+                        <p>For example:</p>
+                        <p>'|.O' → (3 + 1) * 60 = 240</p>
+                        <p>:OO|| → 2 * 60 * 60 + 6 = 7206</p>
+                    </div>
+                </div>
+        
+                <input class="numimp" type="text" id="inputField" placeholder="Enter number or symbols">
+                <p id="result"></p>
+            </div>
+
             <script src="assets/js/mq_js_bundle.js"></script>
             <script src="assets/js/sapp_jsutils.js"></script>
             
@@ -78,12 +105,51 @@
             
                 var fileInput = document.getElementById('file-input');
                 var imgElement = document.getElementById('image');
+                var textInput = document.getElementById('inputField');
             
                 var obj = {
                     base64: "x66",
                     width: "0",
                     height: "0"
                 };
+
+                // Function to handle input changes
+                textInput.addEventListener('change', (event) => {
+                    const inputValue = event.target.value.trim();
+                    const resultElement = document.getElementById('result');
+                    
+                    if (!inputValue) {
+                        resultElement.textContent = ''; // Clear result if input is empty
+                        return;
+                    }
+
+                    // Determine if the input is a number or symbols
+                    if (/^\d+$/.test(inputValue)) { // Check if it's a number
+                        const num = parseInt(inputValue, 10);
+                        const res = num2sym(num); // Call num2sym function
+                        
+                        resultElement.textContent = `Symbol: ${res}`;
+                    } else {
+                        const res = sym2num(inputValue);
+                        resultElement.textContent = `Number: ${res}`;
+                    }
+                })
+
+                var b60 = {
+                    sym: "o",
+                    num: 60
+                }
+
+                function sym2num(sym) {
+                    b60["sym"] = sym
+                    return wasm_exports.sym2num(js_object(b60))
+                }
+
+                function num2sym(num) {
+                    b60["num"] = num.toString()
+                    return get_js_object(wasm_exports.num2sym(js_object(b60)))
+                    // return b60["sym"]
+                }
             
                 function pass_image() {
                     console.log("wating for wasm_exports")
