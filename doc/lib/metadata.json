@@ -1,6 +1,6 @@
 {
   "vaultName": "Tetrahedron",
-  "lastExport": 1747499983211,
+  "lastExport": 1751243875687,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -9,10 +9,10 @@
     "assets/bitcoinwa.png",
     "assets/doodle_serpent2.svg",
     "assets/doodle_tibetanrites.svg",
-    "assets/ethclas.png",
     "assets/ethwa.png",
     "assets/histilus_sumer3.svg",
     "assets/paypal.png",
+    "assets/xrpwa.png",
     "movement/5 Buddhist Tibetan Rites.md",
     "movement/QiZong.md",
     "projects/assets/amanitabeet.jpg",
@@ -67,6 +67,7 @@
     "Donate.md",
     "INDEX.md",
     "Services.md",
+    "Siegfried Keller.md",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -82,28 +83,6 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/6155340132a851f6089e.svg",
-    "lib/fonts/mathjax_zero.woff",
-    "lib/fonts/mathjax_main-regular.woff",
-    "lib/fonts/mathjax_main-bold.woff",
-    "lib/fonts/mathjax_math-italic.woff",
-    "lib/fonts/mathjax_main-italic.woff",
-    "lib/fonts/mathjax_math-bolditalic.woff",
-    "lib/fonts/mathjax_size1-regular.woff",
-    "lib/fonts/mathjax_size2-regular.woff",
-    "lib/fonts/mathjax_size3-regular.woff",
-    "lib/fonts/mathjax_size4-regular.woff",
-    "lib/fonts/mathjax_ams-regular.woff",
-    "lib/fonts/mathjax_calligraphic-regular.woff",
-    "lib/fonts/mathjax_calligraphic-bold.woff",
-    "lib/fonts/mathjax_fraktur-regular.woff",
-    "lib/fonts/mathjax_fraktur-bold.woff",
-    "lib/fonts/mathjax_sansserif-regular.woff",
-    "lib/fonts/mathjax_sansserif-bold.woff",
-    "lib/fonts/mathjax_sansserif-italic.woff",
-    "lib/fonts/mathjax_script-regular.woff",
-    "lib/fonts/mathjax_typewriter-regular.woff",
-    "lib/fonts/mathjax_vector-regular.woff",
-    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -121,7 +100,8 @@
     "lib/styles/main-styles.css",
     "lib/styles/snippets.css",
     "lib/media/doodle_tibetanrites.svg",
-    "projects/assets/sch_schematic1_1-p1_2024-12-05.svg"
+    "projects/assets/sch_schematic1_1-p1_2024-12-05.svg",
+    "assets/ethclas.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -139,28 +119,6 @@
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
     "lib/media/6155340132a851f6089e.svg",
-    "lib/fonts/mathjax_zero.woff",
-    "lib/fonts/mathjax_main-regular.woff",
-    "lib/fonts/mathjax_main-bold.woff",
-    "lib/fonts/mathjax_math-italic.woff",
-    "lib/fonts/mathjax_main-italic.woff",
-    "lib/fonts/mathjax_math-bolditalic.woff",
-    "lib/fonts/mathjax_size1-regular.woff",
-    "lib/fonts/mathjax_size2-regular.woff",
-    "lib/fonts/mathjax_size3-regular.woff",
-    "lib/fonts/mathjax_size4-regular.woff",
-    "lib/fonts/mathjax_ams-regular.woff",
-    "lib/fonts/mathjax_calligraphic-regular.woff",
-    "lib/fonts/mathjax_calligraphic-bold.woff",
-    "lib/fonts/mathjax_fraktur-regular.woff",
-    "lib/fonts/mathjax_fraktur-bold.woff",
-    "lib/fonts/mathjax_sansserif-regular.woff",
-    "lib/fonts/mathjax_sansserif-bold.woff",
-    "lib/fonts/mathjax_sansserif-italic.woff",
-    "lib/fonts/mathjax_script-regular.woff",
-    "lib/fonts/mathjax_typewriter-regular.woff",
-    "lib/fonts/mathjax_vector-regular.woff",
-    "lib/fonts/mathjax_vector-bold.woff",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/scripts/graph-view.js",
@@ -180,8 +138,8 @@
   ],
   "fileInfo": {
     "assets/bitcoinwa.png": {
-      "modifiedTime": 1730233272790,
-      "sourceSize": 3655,
+      "modifiedTime": 1751243875687,
+      "sourceSize": 4839,
       "exportedPath": "assets/bitcoinwa.png",
       "dependencies": []
     },
@@ -204,8 +162,8 @@
       "dependencies": []
     },
     "assets/ethwa.png": {
-      "modifiedTime": 1730233272790,
-      "sourceSize": 3632,
+      "modifiedTime": 1751243875687,
+      "sourceSize": 4640,
       "exportedPath": "assets/ethwa.png",
       "dependencies": []
     },
@@ -216,7 +174,7 @@
       "dependencies": []
     },
     "assets/paypal.png": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751243875687,
       "sourceSize": 5092,
       "exportedPath": "assets/paypal.png",
       "dependencies": []
@@ -332,8 +290,8 @@
       "dependencies": []
     },
     "projects/ProjectsCanva.md": {
-      "modifiedTime": 1747499983211,
-      "sourceSize": 1045,
+      "modifiedTime": 1751243875687,
+      "sourceSize": 1175,
       "exportedPath": "projects/projectscanva.html",
       "dependencies": []
     },
@@ -444,14 +402,13 @@
       ]
     },
     "Donate.md": {
-      "modifiedTime": 1730233272790,
-      "sourceSize": 1253,
+      "modifiedTime": 1751243875687,
+      "sourceSize": 1170,
       "exportedPath": "donate.html",
       "dependencies": [
         "assets/paypal.png",
         "assets/bitcoinwa.png",
-        "assets/ethwa.png",
-        "assets/ethclas.png"
+        "assets/ethwa.png"
       ]
     },
     "INDEX.md": {
@@ -470,85 +427,85 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
@@ -566,97 +523,97 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1747499983211,
-      "sourceSize": 61666,
+      "modifiedTime": 1751243875687,
+      "sourceSize": 62353,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 575,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1747499983211,
-      "sourceSize": 1987,
+      "modifiedTime": 1751243875687,
+      "sourceSize": 2032,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 138359,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 10102,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 264,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 3162,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 432,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
@@ -924,9 +881,21 @@
       ]
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751243875687,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
+      "dependencies": []
+    },
+    "assets/xrpwa.png": {
+      "modifiedTime": 1751243875687,
+      "sourceSize": 4533,
+      "exportedPath": "assets/xrpwa.png",
+      "dependencies": []
+    },
+    "Siegfried Keller.md": {
+      "modifiedTime": 1751243875687,
+      "sourceSize": 14079,
+      "exportedPath": "siegfried-keller.html",
       "dependencies": []
     }
   }
