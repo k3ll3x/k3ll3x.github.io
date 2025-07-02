@@ -1,62 +1,5 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 30 Jun 2025 00:37:58 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 30 Jun 2025 00:37:55 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[Donate]]></title><description><![CDATA[ 
- <br>Thank you for your interest in supporting my projects! Your contributions are greatly appreciated and will help me continue my work. Here's how you can donate:<br><br>Your donations will allow me to:<br>
-<br>Expand the scope and reach of my current projects
-<br>Develop new and innovative solutions to address pressing challenges
-<br>Invest in the necessary resources, tools, and infrastructure to ensure the long-term sustainability of my initiatives
-<br>By supporting my work, you're not just helping me - you're making a positive impact on the communities and causes I serve.<br><br>You can make a donation through the following secure payment methods:<br><br><img alt="paypal.png" src="assets/paypal.png"><br>
-<a data-tooltip-position="top" aria-label="https://www.paypal.com/donate/?hosted_button_id=TTM9TGPLDU8PS" rel="noopener nofollow" class="external-link" href="https://www.paypal.com/donate/?hosted_button_id=TTM9TGPLDU8PS" target="_blank">Click Here</a><br><br><a data-tooltip-position="top" aria-label="https://ko-fi.com/nuvhandra" rel="noopener nofollow" class="external-link" href="https://ko-fi.com/nuvhandra" target="_blank">Click Here</a><br><br><img alt="bitcoinwa.png" src="assets/bitcoinwa.png"><br>
-bc1qx02gxu04fy5hueqrlhmzqgtde3v2nazqhzl3cp<br><br><img alt="ethwa.png" src="assets/ethwa.png"><br>
-0xB0BDA90f16e15ef19c85d8c1904ff0Fd0E500FBd<br>All donations, regardless of the amount, are valuable and will be used responsibly to further my mission. Your support is crucial in helping me achieve my goals and make a lasting difference.]]></description><link>donate.html</link><guid isPermaLink="false">Donate.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 30 May 2025 20:19:19 GMT</pubDate><enclosure url="assets/paypal.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="assets/paypal.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Work Experience]]></title><description><![CDATA[ 
- <br><br><br><br><br><br><br><a rel="noopener nofollow" class="external-link" href="https://k3ll3x.github.io/projects.html" target="_blank">https://k3ll3x.github.io/projects.html</a><br><br><br><br>]]></description><link>siegfried-keller.html</link><guid isPermaLink="false">Siegfried Keller.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 30 Jun 2025 00:37:29 GMT</pubDate></item><item><title><![CDATA[GeoWatch]]></title><description><![CDATA[ 
- <br>GeoWatch is a geospatial monitoring tool designed to visualize and analyze real-time data from various sources using MQTT, PostGIS, Grafana, Streamlit, and Leafmap. This project provides insights into dynamic geographical data through interactive visualizations and real-time data processing.<br><br>GeoWatch allows users to monitor and visualize geospatial data in real-time. It integrates several technologies to facilitate environmental monitoring, urban planning, and other applications requiring geospatial analysis.<br><br>GeoWatch is built using the following technologies:<br>
-<br>PostgreSQL with PostGIS: Spatial database management.
-<br>MQTT: Real-time data streaming.
-<br>Grafana: Advanced data visualization.
-<br>Streamlit: Interactive web applications.
-<br>Leafmap: Geospatial data visualization on maps.
-<br><br>
-<br>
-Start the services using Docker Compose:
-docker-compose up --watch
-
-
-<br>
-Initialize the database:<br>
-The PostGIS database will be initialized automatically with the provided SQL scripts in the postgis folder.
-
-<br>
-Access the application:
-
-<br>Streamlit app: Navigate to http://localhost:8501.
-<br>Grafana dashboard: Navigate to http://localhost:3000.
-
-
-<br><br>After setting up the project, you can use GeoWatch to visualize and analyze geospatial data:<br>
-<br>Publish MQTT messages with geospatial information.
-<br>Use the Streamlit interface to interact with the map and view live updates.
-<br>Utilize Grafana for advanced visualizations of historical data.
-<br><br>When publishing MQTT messages, ensure your data follows this structure:<br>{
-    "node_id": "example_node",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [longitude, latitude]
-    },
-    "properties": {
-        "status": "active",
-        "style": {
-            "color": "blue",
-            "border_color": "black"
-        },
-        "temp": 25.0
-    }
-}
-<br><br>This project is licensed under the MIT License - see the LICENSE file for details.<br><br>
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/Kitware/geowatch/blob/main/README.rst" target="_blank">https://github.com/Kitware/geowatch/blob/main/README.rst</a>
-<br><a rel="noopener nofollow" class="external-link" href="https://python-visualization.github.io/folium/latest/user_guide/ui_elements/popups.html" target="_blank">https://python-visualization.github.io/folium/latest/user_guide/ui_elements/popups.html</a>
-<br><br>
-<br><a rel="noopener nofollow" class="external-link" href="https://freegisdata.rtwilson.com/" target="_blank">https://freegisdata.rtwilson.com/</a>
-]]></description><link>projects/geowatch.html</link><guid isPermaLink="false">projects/GeoWatch.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 27 Jan 2025 07:36:02 GMT</pubDate></item><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[ 
- <br><img alt="midifoxdomi.jpg" src="projects/assets/midifoxdomi.jpg"><br>4x4 arcade button MIDI controller with 4 channels<br><br>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 02 Jul 2025 17:38:13 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 02 Jul 2025 17:38:12 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[ 
+ <br><img alt="midifoxdomi.jpg" src="projects/assets/midifoxdomi.jpg"><br>4x4 arcade button MIDI controller with 4 channels<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=YT8SbiNPYyk" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=YT8SbiNPYyk" target="_blank">Show case</a><br><br>
 <br>digitalize schematic from notebook
 <br>redoo code, add math to the datatypes, bit operators ✅ 2024-12-17
 
@@ -391,7 +334,63 @@ void handleLedState() {
     }
 }
 
-]]></description><link>projects/midifox.html</link><guid isPermaLink="false">projects/MIDIFOX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 28 Feb 2025 17:32:24 GMT</pubDate><enclosure url="projects/assets/midifoxdomi.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/midifoxdomi.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Temple of the Sun]]></title><description><![CDATA[<a class="tag" href="?query=tag:plants" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#plants</a> <a class="tag" href="?query=tag:nature" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#nature</a> <a class="tag" href="?query=tag:biology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#biology</a> <a class="tag" href="?query=tag:ecology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ecology</a> <a class="tag" href="?query=tag:energy" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#energy</a> <a class="tag" href="?query=tag:projects" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#projects</a> <a class="tag" href="?query=tag:research" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#research</a> 
+]]></description><link>projects/midifox.html</link><guid isPermaLink="false">projects/MIDIFOX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 02 Jul 2025 17:31:05 GMT</pubDate><enclosure url="projects/assets/midifoxdomi.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/midifoxdomi.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Donate]]></title><description><![CDATA[ 
+ <br>Thank you for your interest in supporting my projects! Your contributions are greatly appreciated and will help me continue my work. Here's how you can donate:<br><br>Your donations will allow me to:<br>
+<br>Expand the scope and reach of my current projects
+<br>Develop new and innovative solutions to address pressing challenges
+<br>Invest in the necessary resources, tools, and infrastructure to ensure the long-term sustainability of my initiatives
+<br>By supporting my work, you're not just helping me - you're making a positive impact on the communities and causes I serve.<br><br>You can make a donation through the following secure payment methods:<br><br><img alt="paypal.png" src="assets/paypal.png"><br>
+<a data-tooltip-position="top" aria-label="https://www.paypal.com/donate/?hosted_button_id=TTM9TGPLDU8PS" rel="noopener nofollow" class="external-link" href="https://www.paypal.com/donate/?hosted_button_id=TTM9TGPLDU8PS" target="_blank">Click Here</a><br><br><a data-tooltip-position="top" aria-label="https://ko-fi.com/nuvhandra" rel="noopener nofollow" class="external-link" href="https://ko-fi.com/nuvhandra" target="_blank">Click Here</a><br><br><img alt="bitcoinwa.png" src="assets/bitcoinwa.png"><br>
+bc1qx02gxu04fy5hueqrlhmzqgtde3v2nazqhzl3cp<br><br><img alt="ethwa.png" src="assets/ethwa.png"><br>
+0xB0BDA90f16e15ef19c85d8c1904ff0Fd0E500FBd<br>All donations, regardless of the amount, are valuable and will be used responsibly to further my mission. Your support is crucial in helping me achieve my goals and make a lasting difference.]]></description><link>donate.html</link><guid isPermaLink="false">Donate.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 30 May 2025 20:19:19 GMT</pubDate><enclosure url="assets/paypal.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="assets/paypal.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GeoWatch]]></title><description><![CDATA[ 
+ <br>GeoWatch is a geospatial monitoring tool designed to visualize and analyze real-time data from various sources using MQTT, PostGIS, Grafana, Streamlit, and Leafmap. This project provides insights into dynamic geographical data through interactive visualizations and real-time data processing.<br><br>GeoWatch allows users to monitor and visualize geospatial data in real-time. It integrates several technologies to facilitate environmental monitoring, urban planning, and other applications requiring geospatial analysis.<br><br>GeoWatch is built using the following technologies:<br>
+<br>PostgreSQL with PostGIS: Spatial database management.
+<br>MQTT: Real-time data streaming.
+<br>Grafana: Advanced data visualization.
+<br>Streamlit: Interactive web applications.
+<br>Leafmap: Geospatial data visualization on maps.
+<br><br>
+<br>
+Start the services using Docker Compose:
+docker-compose up --watch
+
+
+<br>
+Initialize the database:<br>
+The PostGIS database will be initialized automatically with the provided SQL scripts in the postgis folder.
+
+<br>
+Access the application:
+
+<br>Streamlit app: Navigate to http://localhost:8501.
+<br>Grafana dashboard: Navigate to http://localhost:3000.
+
+
+<br><br>After setting up the project, you can use GeoWatch to visualize and analyze geospatial data:<br>
+<br>Publish MQTT messages with geospatial information.
+<br>Use the Streamlit interface to interact with the map and view live updates.
+<br>Utilize Grafana for advanced visualizations of historical data.
+<br><br>When publishing MQTT messages, ensure your data follows this structure:<br>{
+    "node_id": "example_node",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [longitude, latitude]
+    },
+    "properties": {
+        "status": "active",
+        "style": {
+            "color": "blue",
+            "border_color": "black"
+        },
+        "temp": 25.0
+    }
+}
+<br><br>This project is licensed under the MIT License - see the LICENSE file for details.<br><br>
+<br><a rel="noopener nofollow" class="external-link" href="https://github.com/Kitware/geowatch/blob/main/README.rst" target="_blank">https://github.com/Kitware/geowatch/blob/main/README.rst</a>
+<br><a rel="noopener nofollow" class="external-link" href="https://python-visualization.github.io/folium/latest/user_guide/ui_elements/popups.html" target="_blank">https://python-visualization.github.io/folium/latest/user_guide/ui_elements/popups.html</a>
+<br><br>
+<br><a rel="noopener nofollow" class="external-link" href="https://freegisdata.rtwilson.com/" target="_blank">https://freegisdata.rtwilson.com/</a>
+]]></description><link>projects/geowatch.html</link><guid isPermaLink="false">projects/GeoWatch.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 27 Jan 2025 07:36:02 GMT</pubDate></item><item><title><![CDATA[Temple of the Sun]]></title><description><![CDATA[<a class="tag" href="?query=tag:plants" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#plants</a> <a class="tag" href="?query=tag:nature" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#nature</a> <a class="tag" href="?query=tag:biology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#biology</a> <a class="tag" href="?query=tag:ecology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ecology</a> <a class="tag" href="?query=tag:energy" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#energy</a> <a class="tag" href="?query=tag:projects" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#projects</a> <a class="tag" href="?query=tag:research" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#research</a> 
  <br><a href=".?query=tag:plants" class="tag" target="_blank" rel="noopener nofollow">#plants</a> <a href=".?query=tag:nature" class="tag" target="_blank" rel="noopener nofollow">#nature</a> <a href=".?query=tag:biology" class="tag" target="_blank" rel="noopener nofollow">#biology</a> <a href=".?query=tag:ecology" class="tag" target="_blank" rel="noopener nofollow">#ecology</a> <a href=".?query=tag:energy" class="tag" target="_blank" rel="noopener nofollow">#energy</a> <a href=".?query=tag:projects" class="tag" target="_blank" rel="noopener nofollow">#projects</a> <a href=".?query=tag:research" class="tag" target="_blank" rel="noopener nofollow">#research</a><br>
 A location which presents all resources needed to live a sustainable life, focusing on knowledge and the preservation of life<br><br><br><br><br><br><br>]]></description><link>projects/temple-of-the-sun.html</link><guid isPermaLink="false">projects/Temple of the Sun.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sat, 08 Feb 2025 10:13:46 GMT</pubDate></item><item><title><![CDATA[Terra Navis]]></title><description><![CDATA[ 
  <br>	Who am I?
