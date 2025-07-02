@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 02 Jul 2025 21:02:04 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 02 Jul 2025 21:02:02 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 02 Jul 2025 21:25:02 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 02 Jul 2025 21:25:02 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[ 
  <br><img alt="midifoxdomi.jpg" src="projects/assets/midifoxdomi.jpg"><br>4x4 arcade button MIDI controller with 4 channels<br><a data-tooltip-position="top" aria-label="https://www.youtube.com/watch?v=YT8SbiNPYyk" rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=YT8SbiNPYyk" target="_blank">Show case</a><br><br>
 <br>digitalize schematic from notebook
 <br>redoo code, add math to the datatypes, bit operators ✅ 2024-12-17
@@ -334,10 +334,59 @@ void handleLedState() {
     }
 }
 
-]]></description><link>projects/midifox.html</link><guid isPermaLink="false">projects/MIDIFOX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 02 Jul 2025 21:01:43 GMT</pubDate><enclosure url="projects/assets/midifoxdomi.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/midifoxdomi.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Temple of the Sun]]></title><description><![CDATA[<a class="tag" href="?query=tag:plants" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#plants</a> <a class="tag" href="?query=tag:nature" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#nature</a> <a class="tag" href="?query=tag:biology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#biology</a> <a class="tag" href="?query=tag:ecology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ecology</a> <a class="tag" href="?query=tag:energy" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#energy</a> <a class="tag" href="?query=tag:projects" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#projects</a> <a class="tag" href="?query=tag:research" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#research</a> 
+]]></description><link>projects/midifox.html</link><guid isPermaLink="false">projects/MIDIFOX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 02 Jul 2025 21:24:33 GMT</pubDate><enclosure url="projects/assets/midifoxdomi.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/midifoxdomi.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Tiamat]]></title><description><![CDATA[<a class="tag" href="?query=tag:show" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#show</a> <a class="tag" href="?query=tag:programming" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming</a> 
+ <br><a href=".?query=tag:show" class="tag" target="_blank" rel="noopener nofollow">#show</a> <a href=".?query=tag:programming" class="tag" target="_blank" rel="noopener nofollow">#programming</a><br><img alt="topomibarrio.png" src="projects/assets/topomibarrio.png"><br>
+3d engine, made in Rust and base 60 symbol converter<br><a data-tooltip-position="top" aria-label="https://k3ll3x.github.io/tiamat.html" rel="noopener nofollow" class="external-link" href="https://k3ll3x.github.io/tiamat.html" target="_blank">Webbrowser version</a>]]></description><link>projects/tiamat.html</link><guid isPermaLink="false">projects/Tiamat.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 02 Jul 2025 21:22:30 GMT</pubDate><enclosure url="projects/assets/topomibarrio.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/topomibarrio.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MusikSack]]></title><description><![CDATA[ 
+ <br><img alt="layout-blueprint_v2.svg" src="projects/assets/layout-blueprint_v2.svg"><br>A Single-board computer with a micro-controller for processing Analog and Digital inputs, designed for music production, computer graphics, and other open-source projects.<br>Design<br>
+<br>
+Single-board computer (Raspberry Pi, Orange Pi, …)
+
+<br>
+Audio Card
+
+<br>Display
+<br>Micro-controller (Arduino, Teensy, ESP32, …)
+
+<br>Analog Inputs
+<br>Digital Inputs
+
+
+
+
+<br>
+USB (female ports)
+
+<br>
+Power Source ~5V (Battery, direct connection with transformer)
+
+<br><img alt="musicsackconcept.png" src="projects/assets/musicsackconcept.png"><br>Circuit Desing for Micro-controller Analog &amp; Digital Inputs<br><img alt="musiksackschematic.png" src="projects/assets/musiksackschematic.png"><br>Single-board Computer Software<br>For processing every Input and Output (I/O) several drivers and software have to be prepared and loaded into the computer. I will start with the process of recieveing data from the micro-controller (Arduino) via the Serial port at a fast baud rate.<br>Reading and Writing to Serial Port<br>source: <a rel="noopener nofollow" class="external-link" href="https://gist.github.com/jerome-labidurie/5dde0ec105fe88aaf5fa8f3c54f4b07d" target="_blank">https://gist.github.com/jerome-labidurie/5dde0ec105fe88aaf5fa8f3c54f4b07d</a><br>Or maybe using Boost library?<br>Boost<br><a rel="noopener nofollow" class="external-link" href="https://www.boost.org/doc/libs/1_66_0/doc/html/boost_asio/reference/serial_port.html" target="_blank">https://www.boost.org/doc/libs/1_66_0/doc/html/boost_asio/reference/serial_port.html</a><br>OpenCL<br>Open Computing Language, cross-platform, parallel programming.<br>Juce<br>Multi-platform audio application framework.<br><br>//reading analog inputs from motors as rotary encoder
+
+//2 tiny motor helicopter &amp; 2 yellow plates motor &amp; motor no plate
+Serial.println(map(analogRead(A0), 510, 520, 0, 4));
+
+//solar motor also yellow plate
+Serial.println(map(analogRead(A0), 510, 520, -1, 4));
+<br>use std::time::Duration;
+
+fn main() {
+    println!("Serial Reader");
+    let baud_rate = 9600;
+    //let ports = serialport::available_ports().expect("No ports found!");
+    let mut port = serialport::new("/dev/ttyUSB0", baud_rate)
+        .timeout(Duration::from_millis(10))
+        .open().expect("Failed to open port");
+    loop {
+        let mut serial_buf: Vec&lt;u8&gt; = vec![0; 32];
+        if let Ok(_ret) = port.read(serial_buf.as_mut_slice()) {
+            for i in serial_buf {
+                println!("{}", i);
+            }
+        }
+    }
+}
+]]></description><link>projects/musiksack.html</link><guid isPermaLink="false">projects/MusikSack.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 02 Jul 2025 21:10:20 GMT</pubDate><enclosure url="projects/assets/layout-blueprint_v2.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/layout-blueprint_v2.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Temple of the Sun]]></title><description><![CDATA[<a class="tag" href="?query=tag:plants" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#plants</a> <a class="tag" href="?query=tag:nature" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#nature</a> <a class="tag" href="?query=tag:biology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#biology</a> <a class="tag" href="?query=tag:ecology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ecology</a> <a class="tag" href="?query=tag:energy" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#energy</a> <a class="tag" href="?query=tag:projects" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#projects</a> <a class="tag" href="?query=tag:research" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#research</a> 
  <br><a href=".?query=tag:plants" class="tag" target="_blank" rel="noopener nofollow">#plants</a> <a href=".?query=tag:nature" class="tag" target="_blank" rel="noopener nofollow">#nature</a> <a href=".?query=tag:biology" class="tag" target="_blank" rel="noopener nofollow">#biology</a> <a href=".?query=tag:ecology" class="tag" target="_blank" rel="noopener nofollow">#ecology</a> <a href=".?query=tag:energy" class="tag" target="_blank" rel="noopener nofollow">#energy</a> <a href=".?query=tag:projects" class="tag" target="_blank" rel="noopener nofollow">#projects</a> <a href=".?query=tag:research" class="tag" target="_blank" rel="noopener nofollow">#research</a><br>
-A location which presents all resources needed to live a sustainable life, focusing on knowledge and the preservation of life<br><br><br><br><br><br><br>]]></description><link>projects/temple-of-the-sun.html</link><guid isPermaLink="false">projects/Temple of the Sun.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 02 Jul 2025 17:45:04 GMT</pubDate></item><item><title><![CDATA[About me]]></title><description><![CDATA[ 
- <br>I am a versatile Computer Engineer and creative professional who thrives at the intersection of technology, art, and nature. Alongside my expertise in full-stack development, DevOps, data analysis, and geospatial technologies, I have a strong passion for analog, hands-on work — building, crafting, designing and constructing prototypes, printing, painting, and creating physical designs. This blend of digital and analog skills allows me to adapt quickly and contribute creatively to a wide range of projects.<br>I enjoy teaching and sharing knowledge in the subjects I master, offering courses and workshops tailored to different skill levels. Challenges motivate me to grow and find innovative solutions, and I embrace them enthusiastically.<br>My interests span arts, music, biology, geology, gardening, electronics, writing, sports, climbing, cycling, and outdoor adventures — all of which inspire and inform my work.]]></description><link>about-me.html</link><guid isPermaLink="false">About me.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 02 Jul 2025 18:26:45 GMT</pubDate></item><item><title><![CDATA[Services]]></title><description><![CDATA[<a class="tag" href="?query=tag:services" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#services</a> 
+A location which presents all resources needed to live a sustainable life, focusing on knowledge and the preservation of life<br><br><br><br><br><br><br>]]></description><link>projects/temple-of-the-sun.html</link><guid isPermaLink="false">projects/Temple of the Sun.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 02 Jul 2025 17:45:04 GMT</pubDate></item><item><title><![CDATA[Services]]></title><description><![CDATA[<a class="tag" href="?query=tag:services" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#services</a> 
  <br><a href=".?query=tag:services" class="tag" target="_blank" rel="noopener nofollow">#services</a> <br>
 <br>Software Development &amp; DevOps:<br>
 Scalable applications, CI/CD automation, and cloud infrastructure using Docker, Kubernetes, Python, Rust, and Linux.<br>
@@ -916,55 +965,7 @@ Constant movement in each exercise<br>
 <br>Sit down on your knees, arms in hips and stretch forward
 <br>Sit down and shift your hips up and forwards
 <br>Seal pose to down facing dog
-<br>Meditate]]></description><link>movement/5-buddhist-tibetan-rites.html</link><guid isPermaLink="false">movement/5 Buddhist Tibetan Rites.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:29:46 GMT</pubDate><enclosure url="lib/media/doodle_tibetanrites.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/doodle_tibetanrites.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MusikSack]]></title><description><![CDATA[ 
- <br><img alt="layout-blueprint_v2.svg" src="projects/assets/layout-blueprint_v2.svg"><br>Abstract<br>A Single-board computer with a micro-controller for processing Analog and Digital inputs, designed for music production, computer graphics, and other open-source projects.<br>Design<br>
-<br>
-Single-board computer (Raspberry Pi, Orange Pi, …)
-
-<br>
-Audio Card
-
-<br>Display
-<br>Micro-controller (Arduino, Teensy, ESP32, …)
-
-<br>Analog Inputs
-<br>Digital Inputs
-
-
-
-
-<br>
-USB (female ports)
-
-<br>
-Power Source ~5V (Battery, direct connection with transformer)
-
-<br><img alt="musicsackconcept.png" src="projects/assets/musicsackconcept.png"><br>Circuit Desing for Micro-controller Analog &amp; Digital Inputs<br><img alt="musiksackschematic.png" src="projects/assets/musiksackschematic.png"><br>Single-board Computer Software<br>For processing every Input and Output (I/O) several drivers and software have to be prepared and loaded into the computer. I will start with the process of recieveing data from the micro-controller (Arduino) via the Serial port at a fast baud rate.<br>Reading and Writing to Serial Port<br>source: <a rel="noopener nofollow" class="external-link" href="https://gist.github.com/jerome-labidurie/5dde0ec105fe88aaf5fa8f3c54f4b07d" target="_blank">https://gist.github.com/jerome-labidurie/5dde0ec105fe88aaf5fa8f3c54f4b07d</a><br>Or maybe using Boost library?<br>Boost<br><a rel="noopener nofollow" class="external-link" href="https://www.boost.org/doc/libs/1_66_0/doc/html/boost_asio/reference/serial_port.html" target="_blank">https://www.boost.org/doc/libs/1_66_0/doc/html/boost_asio/reference/serial_port.html</a><br>OpenCL<br>Open Computing Language, cross-platform, parallel programming.<br>Juce<br>Multi-platform audio application framework.<br><br>//reading analog inputs from motors as rotary encoder
-
-//2 tiny motor helicopter &amp; 2 yellow plates motor &amp; motor no plate
-Serial.println(map(analogRead(A0), 510, 520, 0, 4));
-
-//solar motor also yellow plate
-Serial.println(map(analogRead(A0), 510, 520, -1, 4));
-Copy<br>use std::time::Duration;
-
-fn main() {
-    println!("Serial Reader");
-    let baud_rate = 9600;
-    //let ports = serialport::available_ports().expect("No ports found!");
-    let mut port = serialport::new("/dev/ttyUSB0", baud_rate)
-        .timeout(Duration::from_millis(10))
-        .open().expect("Failed to open port");
-    loop {
-        let mut serial_buf: Vec&lt;u8&gt; = vec![0; 32];
-        if let Ok(_ret) = port.read(serial_buf.as_mut_slice()) {
-            for i in serial_buf {
-                println!("{}", i);
-            }
-        }
-    }
-}
-Copy]]></description><link>projects/musiksack.html</link><guid isPermaLink="false">projects/MusikSack.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sat, 04 May 2024 15:21:20 GMT</pubDate><enclosure url="projects/assets/layout-blueprint_v2.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/layout-blueprint_v2.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Mycelium Box]]></title><description><![CDATA[ 
+<br>Meditate]]></description><link>movement/5-buddhist-tibetan-rites.html</link><guid isPermaLink="false">movement/5 Buddhist Tibetan Rites.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:29:46 GMT</pubDate><enclosure url="lib/media/doodle_tibetanrites.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/doodle_tibetanrites.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Mycelium Box]]></title><description><![CDATA[ 
  <br><br>To grow oyster mushrooms using calcium oxide for pasteurization, follow this detailed manual. This method involves preparing the substrate, pasteurizing it with a high-pH lime bath, inoculating with mushroom spawn, and creating the right conditions for fruiting.<br><br><br>
 <br>Oyster Mushroom Spawn: Obtain high-quality spawn from a reputable supplier.
 <br>Substrate: Common substrates include straw, sawdust, or coffee grounds.
