@@ -1,6 +1,6 @@
 {
   "vaultName": "Tetrahedron",
-  "lastExport": 1751493645118,
+  "lastExport": 1751494401487,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -69,6 +69,7 @@
     "Donate.md",
     "INDEX.md",
     "Services.md",
+    "lib/media/doodle_tibetanrites.svg",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -120,9 +121,7 @@
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/main-styles.css",
-    "lib/styles/snippets.css",
-    "lib/media/doodle_tibetanrites.svg",
-    "projects/assets/sch_schematic1_1-p1_2024-12-05.svg"
+    "lib/styles/snippets.css"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -180,129 +179,189 @@
   ],
   "fileInfo": {
     "assets/bitcoinwa.png": {
-      "modifiedTime": 1751243875687,
+      "modifiedTime": 1751494401487,
       "sourceSize": 4839,
       "exportedPath": "assets/bitcoinwa.png",
       "dependencies": []
     },
     "assets/doodle_serpent2.svg": {
-      "modifiedTime": 1736375399390,
+      "modifiedTime": 1751494401487,
       "sourceSize": 298906,
       "exportedPath": "assets/doodle_serpent2.svg",
       "dependencies": []
     },
     "assets/doodle_tibetanrites.svg": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 199490,
       "exportedPath": "assets/doodle_tibetanrites.svg",
       "dependencies": []
     },
     "assets/ethwa.png": {
-      "modifiedTime": 1751243875687,
+      "modifiedTime": 1751494401487,
       "sourceSize": 4640,
       "exportedPath": "assets/ethwa.png",
       "dependencies": []
     },
     "assets/histilus_sumer3.svg": {
-      "modifiedTime": 1736375399390,
+      "modifiedTime": 1751494401487,
       "sourceSize": 168580,
       "exportedPath": "assets/histilus_sumer3.svg",
       "dependencies": []
     },
     "assets/paypal.png": {
-      "modifiedTime": 1751243875687,
+      "modifiedTime": 1751494401487,
       "sourceSize": 5092,
       "exportedPath": "assets/paypal.png",
       "dependencies": []
     },
+    "assets/xrpwa.png": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 4533,
+      "exportedPath": "assets/xrpwa.png",
+      "dependencies": []
+    },
     "movement/5 Buddhist Tibetan Rites.md": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 354,
       "exportedPath": "movement/5-buddhist-tibetan-rites.html",
       "dependencies": [
         "lib/media/doodle_tibetanrites.svg"
       ]
     },
+    "movement/QiZong.md": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 115,
+      "exportedPath": "movement/qizong.html",
+      "dependencies": []
+    },
+    "projects/assets/amanitabeet.jpg": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 369360,
+      "exportedPath": "projects/assets/amanitabeet.jpg",
+      "dependencies": []
+    },
+    "projects/assets/amanitaindustry.jpg": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 410941,
+      "exportedPath": "projects/assets/amanitaindustry.jpg",
+      "dependencies": []
+    },
     "projects/assets/domwikmyc99.jpg": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751494401487,
       "sourceSize": 273072,
       "exportedPath": "projects/assets/domwikmyc99.jpg",
       "dependencies": []
     },
+    "projects/assets/exoworkpsy.jpg": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 347569,
+      "exportedPath": "projects/assets/exoworkpsy.jpg",
+      "dependencies": []
+    },
     "projects/assets/flyingyurt.png": {
-      "modifiedTime": 1751492118111,
+      "modifiedTime": 1751494401487,
       "sourceSize": 1987826,
       "exportedPath": "projects/assets/flyingyurt.png",
       "dependencies": []
     },
     "projects/assets/homewikmyc.jpg": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751494401487,
       "sourceSize": 296675,
       "exportedPath": "projects/assets/homewikmyc.jpg",
       "dependencies": []
     },
     "projects/assets/layout-blueprint_v2.svg": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 36516,
       "exportedPath": "projects/assets/layout-blueprint_v2.svg",
       "dependencies": []
     },
     "projects/assets/midifoxdomi.jpg": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 2862837,
       "exportedPath": "projects/assets/midifoxdomi.jpg",
       "dependencies": []
     },
     "projects/assets/musicsackconcept.png": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 43766,
       "exportedPath": "projects/assets/musicsackconcept.png",
       "dependencies": []
     },
     "projects/assets/musiksackschematic.png": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 101656,
       "exportedPath": "projects/assets/musiksackschematic.png",
       "dependencies": []
     },
     "projects/assets/navigatiosolaris.png": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 2081932,
       "exportedPath": "projects/assets/navigatiosolaris.png",
       "dependencies": []
     },
     "projects/assets/navisperpetua.png": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 2398095,
       "exportedPath": "projects/assets/navisperpetua.png",
       "dependencies": []
     },
     "projects/assets/navissolaris.png": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 2195246,
       "exportedPath": "projects/assets/navissolaris.png",
       "dependencies": []
     },
     "projects/assets/sailingboat.png": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 2436842,
       "exportedPath": "projects/assets/sailingboat.png",
       "dependencies": []
     },
+    "projects/assets/SCH_Schematic1_1-P1_2024-12-02.svg": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 456868,
+      "exportedPath": "projects/assets/sch_schematic1_1-p1_2024-12-02.svg",
+      "dependencies": []
+    },
+    "projects/assets/SCH_Schematic1_1-P1_2024-12-05.svg": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 440803,
+      "exportedPath": "projects/assets/sch_schematic1_1-p1_2024-12-05.svg",
+      "dependencies": []
+    },
     "projects/assets/scivik.jpg": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751494401487,
       "sourceSize": 291725,
       "exportedPath": "projects/assets/scivik.jpg",
       "dependencies": []
     },
+    "projects/assets/topomibarrio.png": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 1512279,
+      "exportedPath": "projects/assets/topomibarrio.png",
+      "dependencies": []
+    },
     "projects/assets/townvikboat.jpg": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751494401487,
       "sourceSize": 321625,
       "exportedPath": "projects/assets/townvikboat.jpg",
       "dependencies": []
     },
+    "projects/FarmBox.md": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 4596,
+      "exportedPath": "projects/farmbox.html",
+      "dependencies": []
+    },
+    "projects/GeoWatch.md": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 2240,
+      "exportedPath": "projects/geowatch.html",
+      "dependencies": []
+    },
     "projects/MIDIFOX.md": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 9408,
       "exportedPath": "projects/midifox.html",
       "dependencies": [
@@ -310,7 +369,7 @@
       ]
     },
     "projects/MusikSack.md": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 2326,
       "exportedPath": "projects/musiksack.html",
       "dependencies": [
@@ -320,19 +379,25 @@
       ]
     },
     "projects/Mycelium Box.md": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 8201,
       "exportedPath": "projects/mycelium-box.html",
       "dependencies": []
     },
+    "projects/Powerbox.md": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 104,
+      "exportedPath": "projects/powerbox.html",
+      "dependencies": []
+    },
     "projects/ProjectsCanva.md": {
-      "modifiedTime": 1751492118111,
+      "modifiedTime": 1751494401487,
       "sourceSize": 1175,
       "exportedPath": "projects/projectscanva.html",
       "dependencies": []
     },
     "projects/Protein Farm.md": {
-      "modifiedTime": 1751492118111,
+      "modifiedTime": 1751494401487,
       "sourceSize": 673,
       "exportedPath": "projects/protein-farm.html",
       "dependencies": [
@@ -341,16 +406,28 @@
         "projects/assets/amanitabeet.jpg"
       ]
     },
+    "projects/RF Pulse Distance Measurement System Using ESP8266 and RTL-SDR.md": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 5988,
+      "exportedPath": "projects/rf-pulse-distance-measurement-system-using-esp8266-and-rtl-sdr.html",
+      "dependencies": []
+    },
     "projects/Solaris Odyssey.md": {
-      "modifiedTime": 1751492118111,
+      "modifiedTime": 1751494401487,
       "sourceSize": 959,
       "exportedPath": "projects/solaris-odyssey.html",
       "dependencies": [
         "projects/assets/flyingyurt.png"
       ]
     },
+    "projects/Temple of the Sun.md": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 293,
+      "exportedPath": "projects/temple-of-the-sun.html",
+      "dependencies": []
+    },
     "projects/Terra Navis.md": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751494401487,
       "sourceSize": 1385,
       "exportedPath": "projects/terra-navis.html",
       "dependencies": [
@@ -360,62 +437,110 @@
         "projects/assets/homewikmyc.jpg"
       ]
     },
+    "projects/terrain light sound action.md": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 702,
+      "exportedPath": "projects/terrain-light-sound-action.html",
+      "dependencies": [
+        "projects/assets/sch_schematic1_1-p1_2024-12-05.svg"
+      ]
+    },
+    "projects/Tiamat.md": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 159,
+      "exportedPath": "projects/tiamat.html",
+      "dependencies": [
+        "projects/assets/topomibarrio.png"
+      ]
+    },
     "research/biophd/Fungal Automaton Research Proposal.md": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 11386,
       "exportedPath": "research/biophd/fungal-automaton-research-proposal.html",
       "dependencies": []
     },
     "research/chlorophylltype/Chlorophylltype.md": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 4722,
       "exportedPath": "research/chlorophylltype/chlorophylltype.html",
       "dependencies": []
     },
     "research/fungi/Ganoderma applanatum.md": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 1848,
       "exportedPath": "research/fungi/ganoderma-applanatum.html",
       "dependencies": []
     },
+    "research/Maths/Spherical Coordenates.md": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 649,
+      "exportedPath": "research/maths/spherical-coordenates.html",
+      "dependencies": []
+    },
     "research/navissofia/Seek on knowledge.md": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 3305,
       "exportedPath": "research/navissofia/seek-on-knowledge.html",
       "dependencies": []
     },
     "research/planetarysciences/25 June Interview.md": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 8748,
       "exportedPath": "research/planetarysciences/25-june-interview.html",
       "dependencies": []
     },
+    "research/A Unified Framework.md": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 4877,
+      "exportedPath": "research/a-unified-framework.html",
+      "dependencies": []
+    },
     "research/Acacia.md": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 1555,
       "exportedPath": "research/acacia.html",
       "dependencies": []
     },
+    "research/Ziusudra - Atrahasis.md": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 6613,
+      "exportedPath": "research/ziusudra-atrahasis.html",
+      "dependencies": []
+    },
     "writings/assets/doodle_serpent05.svg": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 282601,
       "exportedPath": "writings/assets/doodle_serpent05.svg",
       "dependencies": []
     },
     "writings/assets/mobius-dotted.svg": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 2245590,
       "exportedPath": "writings/assets/mobius-dotted.svg",
       "dependencies": []
     },
+    "writings/assets/piedra-del-sol-inpi-01.jpg": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 370574,
+      "exportedPath": "writings/assets/piedra-del-sol-inpi-01.jpg",
+      "dependencies": []
+    },
     "writings/assets/utna.jpg": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751494401487,
       "sourceSize": 235387,
       "exportedPath": "writings/assets/utna.jpg",
       "dependencies": []
     },
+    "writings/Calendario Azteca.md": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 35,
+      "exportedPath": "writings/calendario-azteca.html",
+      "dependencies": [
+        "writings/assets/piedra-del-sol-inpi-01.jpg"
+      ]
+    },
     "writings/Emergence.md": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 1119,
       "exportedPath": "writings/emergence.html",
       "dependencies": [
@@ -423,14 +548,20 @@
         "writings/assets/doodle_serpent05.svg"
       ]
     },
+    "writings/Glitz Rock.md": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 243,
+      "exportedPath": "writings/glitz-rock.html",
+      "dependencies": []
+    },
     "writings/Sun Moon Elixir.md": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 1615,
       "exportedPath": "writings/sun-moon-elixir.html",
       "dependencies": []
     },
     "writings/Utnapishtim.md": {
-      "modifiedTime": 1747499983211,
+      "modifiedTime": 1751494401487,
       "sourceSize": 4177,
       "exportedPath": "writings/utnapishtim.html",
       "dependencies": [
@@ -438,7 +569,7 @@
       ]
     },
     "Donate.md": {
-      "modifiedTime": 1751243875687,
+      "modifiedTime": 1751494401487,
       "sourceSize": 1170,
       "exportedPath": "donate.html",
       "dependencies": [
@@ -448,7 +579,7 @@
       ]
     },
     "INDEX.md": {
-      "modifiedTime": 1736375399390,
+      "modifiedTime": 1751494401487,
       "sourceSize": 2476,
       "exportedPath": "index.html",
       "dependencies": [
@@ -456,491 +587,335 @@
         "assets/doodle_serpent2.svg"
       ]
     },
+    "Services.md": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 1479,
+      "exportedPath": "services.html",
+      "dependencies": []
+    },
     "lib/media/doodle_tibetanrites.svg": {
-      "modifiedTime": 1730233272790,
+      "modifiedTime": 1751494401487,
       "sourceSize": 199490,
       "exportedPath": "lib/media/doodle_tibetanrites.svg",
       "dependencies": []
     },
+    "projects/assets/sch_schematic1_1-p1_2024-12-05.svg": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 440803,
+      "exportedPath": "projects/assets/sch_schematic1_1-p1_2024-12-05.svg",
+      "dependencies": []
+    },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
-    "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1736500663611,
-      "sourceSize": 317,
-      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
-      "dependencies": []
-    },
-    "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1728828727804,
-      "sourceSize": 279,
-      "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
-      "dependencies": []
-    },
-    "lib/html/file-tree.html": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 63185,
-      "exportedPath": "lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "lib/scripts/webpage.js": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 47290,
-      "exportedPath": "lib/scripts/webpage.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-view.js": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 15519,
-      "exportedPath": "lib/scripts/graph-view.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 14021,
-      "exportedPath": "lib/scripts/graph-wasm.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 5179,
-      "exportedPath": "lib/scripts/graph-render-worker.js",
-      "dependencies": []
-    },
-    "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 29832,
-      "exportedPath": "lib/scripts/tinycolor.js",
-      "dependencies": []
-    },
-    "lib/scripts/pixi.js": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 449509,
-      "exportedPath": "lib/scripts/pixi.js",
-      "dependencies": []
-    },
-    "lib/scripts/minisearch.js": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 29422,
-      "exportedPath": "lib/scripts/minisearch.js",
-      "dependencies": []
-    },
-    "lib/media/favicon.png": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 575,
-      "exportedPath": "lib/media/favicon.png",
-      "dependencies": []
-    },
-    "lib/scripts/graph-data.js": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 2021,
-      "exportedPath": "lib/scripts/graph-data.js",
-      "dependencies": []
-    },
-    "lib/styles/obsidian.css": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 138359,
-      "exportedPath": "lib/styles/obsidian.css",
-      "dependencies": []
-    },
-    "lib/styles/theme.css": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 10102,
-      "exportedPath": "lib/styles/theme.css",
-      "dependencies": []
-    },
-    "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 264,
-      "exportedPath": "lib/styles/global-variable-styles.css",
-      "dependencies": []
-    },
-    "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1751243875687,
-      "sourceSize": 3162,
-      "exportedPath": "lib/styles/supported-plugins.css",
-      "dependencies": []
-    },
-    "lib/styles/main-styles.css": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 23130,
-      "exportedPath": "lib/styles/main-styles.css",
-      "dependencies": []
-    },
-    "lib/styles/snippets.css": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 432,
-      "exportedPath": "lib/styles/snippets.css",
-      "dependencies": []
-    },
-    "projects/assets/amanitabeet.jpg": {
-      "modifiedTime": 1751492118111,
-      "sourceSize": 369360,
-      "exportedPath": "projects/assets/amanitabeet.jpg",
-      "dependencies": []
-    },
-    "projects/assets/amanitaindustry.jpg": {
-      "modifiedTime": 1751492118111,
-      "sourceSize": 410941,
-      "exportedPath": "projects/assets/amanitaindustry.jpg",
-      "dependencies": []
-    },
-    "projects/assets/exoworkpsy.jpg": {
-      "modifiedTime": 1751492118111,
-      "sourceSize": 347569,
-      "exportedPath": "projects/assets/exoworkpsy.jpg",
-      "dependencies": []
-    },
-    "lib/html/custom-head-content.html": {
-      "modifiedTime": 1728828727804,
-      "sourceSize": 493,
-      "exportedPath": "lib/html/custom-head-content.html",
-      "dependencies": []
-    },
-    "projects/FarmBox.md": {
-      "modifiedTime": 1736375399390,
-      "sourceSize": 4596,
-      "exportedPath": "projects/farmbox.html",
-      "dependencies": []
-    },
-    "Services.md": {
-      "modifiedTime": 1751490122949,
-      "sourceSize": 1479,
-      "exportedPath": "services.html",
+    "lib/media/6155340132a851f6089e.svg": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 315,
+      "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1751493645118,
+      "modifiedTime": 1751494401487,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
-    "movement/QiZong.md": {
-      "modifiedTime": 1736375399390,
-      "sourceSize": 115,
-      "exportedPath": "movement/qizong.html",
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 63185,
+      "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
-    "projects/assets/SCH_Schematic1_1-P1_2024-12-02.svg": {
-      "modifiedTime": 1736375399390,
-      "sourceSize": 456868,
-      "exportedPath": "projects/assets/sch_schematic1_1-p1_2024-12-02.svg",
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
-    "projects/assets/SCH_Schematic1_1-P1_2024-12-05.svg": {
-      "modifiedTime": 1736375399390,
-      "sourceSize": 440803,
-      "exportedPath": "projects/assets/sch_schematic1_1-p1_2024-12-05.svg",
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
-    "projects/GeoWatch.md": {
-      "modifiedTime": 1747499983211,
-      "sourceSize": 2240,
-      "exportedPath": "projects/geowatch.html",
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
-    "projects/Powerbox.md": {
-      "modifiedTime": 1736375399390,
-      "sourceSize": 104,
-      "exportedPath": "projects/powerbox.html",
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
-    "projects/RF Pulse Distance Measurement System Using ESP8266 and RTL-SDR.md": {
-      "modifiedTime": 1736375399390,
-      "sourceSize": 5988,
-      "exportedPath": "projects/rf-pulse-distance-measurement-system-using-esp8266-and-rtl-sdr.html",
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
-    "projects/Temple of the Sun.md": {
-      "modifiedTime": 1751490122949,
-      "sourceSize": 293,
-      "exportedPath": "projects/temple-of-the-sun.html",
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
-    "projects/terrain light sound action.md": {
-      "modifiedTime": 1736500663611,
-      "sourceSize": 702,
-      "exportedPath": "projects/terrain-light-sound-action.html",
-      "dependencies": [
-        "projects/assets/sch_schematic1_1-p1_2024-12-05.svg"
-      ]
-    },
-    "writings/Glitz Rock.md": {
-      "modifiedTime": 1736375399390,
-      "sourceSize": 243,
-      "exportedPath": "writings/glitz-rock.html",
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
-    "projects/assets/sch_schematic1_1-p1_2024-12-05.svg": {
-      "modifiedTime": 1736500663611,
-      "sourceSize": 440803,
-      "exportedPath": "projects/assets/sch_schematic1_1-p1_2024-12-05.svg",
+    "lib/media/favicon.png": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 575,
+      "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
-    "research/Maths/Spherical Coordenates.md": {
-      "modifiedTime": 1747499983211,
-      "sourceSize": 649,
-      "exportedPath": "research/maths/spherical-coordenates.html",
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 2021,
+      "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
-    "research/A Unified Framework.md": {
-      "modifiedTime": 1747499983211,
-      "sourceSize": 4877,
-      "exportedPath": "research/a-unified-framework.html",
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 138359,
+      "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
-    "research/Ziusudra - Atrahasis.md": {
-      "modifiedTime": 1747499983211,
-      "sourceSize": 6613,
-      "exportedPath": "research/ziusudra-atrahasis.html",
+    "lib/styles/theme.css": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 10102,
+      "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
-    "writings/assets/piedra-del-sol-inpi-01.jpg": {
-      "modifiedTime": 1747499983211,
-      "sourceSize": 370574,
-      "exportedPath": "writings/assets/piedra-del-sol-inpi-01.jpg",
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 264,
+      "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
-    "writings/Calendario Azteca.md": {
-      "modifiedTime": 1747499983211,
-      "sourceSize": 35,
-      "exportedPath": "writings/calendario-azteca.html",
-      "dependencies": [
-        "writings/assets/piedra-del-sol-inpi-01.jpg"
-      ]
-    },
-    "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1751493645118,
-      "sourceSize": 315,
-      "exportedPath": "lib/media/6155340132a851f6089e.svg",
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
-    "assets/xrpwa.png": {
-      "modifiedTime": 1751243875687,
-      "sourceSize": 4533,
-      "exportedPath": "assets/xrpwa.png",
+    "lib/styles/snippets.css": {
+      "modifiedTime": 1751494401487,
+      "sourceSize": 432,
+      "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
-    },
-    "projects/assets/topomibarrio.png": {
-      "modifiedTime": 1751493286132,
-      "sourceSize": 1512279,
-      "exportedPath": "projects/assets/topomibarrio.png",
-      "dependencies": []
-    },
-    "projects/Tiamat.md": {
-      "modifiedTime": 1751493286132,
-      "sourceSize": 159,
-      "exportedPath": "projects/tiamat.html",
-      "dependencies": [
-        "projects/assets/topomibarrio.png"
-      ]
     }
   }
 }
