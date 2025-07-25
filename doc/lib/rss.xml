@@ -1,4 +1,12 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 21 Jul 2025 00:12:14 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 21 Jul 2025 00:12:10 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[<a class="tag" href="?query=tag:show" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#show</a> <a class="tag" href="?query=tag:programming" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming</a> <a class="tag" href="?query=tag:electronics" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#electronics</a> <a class="tag" href="?query=tag:projects" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#projects</a> 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Tetrahedron</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 25 Jul 2025 23:37:06 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 25 Jul 2025 23:37:04 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[GeoWatch]]></title><description><![CDATA[<a class="tag" href="?query=tag:show" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#show</a> <a class="tag" href="?query=tag:programming" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming</a> 
+ <br><a href=".?query=tag:show" class="tag" target="_blank" rel="noopener nofollow">#show</a> <a href=".?query=tag:programming" class="tag" target="_blank" rel="noopener nofollow">#programming</a> <br><br>GeoWatch is a geospatial monitoring tool designed to visualize and analyze real-time data from various sources. This project provides insights into dynamic geographical data through interactive visualizations and real-time data processing.<br><br>GeoWatch allows users to monitor and visualize geospatial data in real-time. It integrates several technologies to facilitate environmental monitoring, urban planning, and other applications requiring geospatial analysis.<br><br>GeoWatch is built using the following technologies:<br>
+<br>PostgreSQL with PostGIS and timescale
+<br>MQTT: Real-time data streaming.
+<br>Grafana: Advanced data visualization.
+<br>NextJS: Interactive web applications.
+<br>QGIS: Geospatial data visualization on maps.
+<br>Node
+]]></description><link>projects/geowatch.html</link><guid isPermaLink="false">projects/GeoWatch.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 25 Jul 2025 23:36:38 GMT</pubDate></item><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[<a class="tag" href="?query=tag:show" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#show</a> <a class="tag" href="?query=tag:programming" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming</a> <a class="tag" href="?query=tag:electronics" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#electronics</a> <a class="tag" href="?query=tag:projects" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#projects</a> 
  <br><a href=".?query=tag:show" class="tag" target="_blank" rel="noopener nofollow">#show</a> <a href=".?query=tag:programming" class="tag" target="_blank" rel="noopener nofollow">#programming</a> <a href=".?query=tag:electronics" class="tag" target="_blank" rel="noopener nofollow">#electronics</a> <a href=".?query=tag:projects" class="tag" target="_blank" rel="noopener nofollow">#projects</a><br>
 <img alt="midifoxdomi.jpg" src="projects/assets/midifoxdomi.jpg"><br>4x4 arcade button MIDI controller with 4 channels<br><br><br><br>
 <br>digitalize schematic from notebook
@@ -335,7 +343,7 @@ void handleLedState() {
     }
 }
 
-]]></description><link>projects/midifox.html</link><guid isPermaLink="false">projects/MIDIFOX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 09 Jul 2025 13:01:27 GMT</pubDate><enclosure url="projects/assets/midifoxdomi.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/midifoxdomi.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Projects Overview]]></title><description><![CDATA[ 
+]]></description><link>projects/midifox.html</link><guid isPermaLink="false">projects/MIDIFOX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 25 Jul 2025 23:27:24 GMT</pubDate><enclosure url="projects/assets/midifoxdomi.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/midifoxdomi.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Projects Overview]]></title><description><![CDATA[ 
  <br><br>
 <br>Client/Industry: STguimel (Mexico) / Cloud &amp; IT Services
 <br>Role: Linux Administrator and DevOps Engineer<br>
@@ -529,55 +537,7 @@ Constant movement in each exercise<br>
 <br>humidity
 
 
-]]></description><link>projects/farmbox.html</link><guid isPermaLink="false">projects/FarmBox.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 27 Nov 2024 23:40:47 GMT</pubDate></item><item><title><![CDATA[GeoWatch]]></title><description><![CDATA[ 
- <br>GeoWatch is a geospatial monitoring tool designed to visualize and analyze real-time data from various sources using MQTT, PostGIS, Grafana, Streamlit, and Leafmap. This project provides insights into dynamic geographical data through interactive visualizations and real-time data processing.<br><br>GeoWatch allows users to monitor and visualize geospatial data in real-time. It integrates several technologies to facilitate environmental monitoring, urban planning, and other applications requiring geospatial analysis.<br><br>GeoWatch is built using the following technologies:<br>
-<br>PostgreSQL with PostGIS: Spatial database management.
-<br>MQTT: Real-time data streaming.
-<br>Grafana: Advanced data visualization.
-<br>Streamlit: Interactive web applications.
-<br>Leafmap: Geospatial data visualization on maps.
-<br><br>
-<br>
-Start the services using Docker Compose:
-docker-compose up --watch
-
-
-<br>
-Initialize the database:<br>
-The PostGIS database will be initialized automatically with the provided SQL scripts in the postgis folder.
-
-<br>
-Access the application:
-
-<br>Streamlit app: Navigate to http://localhost:8501.
-<br>Grafana dashboard: Navigate to http://localhost:3000.
-
-
-<br><br>After setting up the project, you can use GeoWatch to visualize and analyze geospatial data:<br>
-<br>Publish MQTT messages with geospatial information.
-<br>Use the Streamlit interface to interact with the map and view live updates.
-<br>Utilize Grafana for advanced visualizations of historical data.
-<br><br>When publishing MQTT messages, ensure your data follows this structure:<br>{
-    "node_id": "example_node",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [longitude, latitude]
-    },
-    "properties": {
-        "status": "active",
-        "style": {
-            "color": "blue",
-            "border_color": "black"
-        },
-        "temp": 25.0
-    }
-}
-<br><br>This project is licensed under the MIT License - see the LICENSE file for details.<br><br>
-<br><a rel="noopener nofollow" class="external-link" href="https://github.com/Kitware/geowatch/blob/main/README.rst" target="_blank">https://github.com/Kitware/geowatch/blob/main/README.rst</a>
-<br><a rel="noopener nofollow" class="external-link" href="https://python-visualization.github.io/folium/latest/user_guide/ui_elements/popups.html" target="_blank">https://python-visualization.github.io/folium/latest/user_guide/ui_elements/popups.html</a>
-<br><br>
-<br><a rel="noopener nofollow" class="external-link" href="https://freegisdata.rtwilson.com/" target="_blank">https://freegisdata.rtwilson.com/</a>
-]]></description><link>projects/geowatch.html</link><guid isPermaLink="false">projects/GeoWatch.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Mon, 27 Jan 2025 07:36:02 GMT</pubDate></item><item><title><![CDATA[MusikSack]]></title><description><![CDATA[<a class="tag" href="?query=tag:show" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#show</a> <a class="tag" href="?query=tag:electronics" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#electronics</a> <a class="tag" href="?query=tag:programming" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming</a> <a class="tag" href="?query=tag:projects" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#projects</a> 
+]]></description><link>projects/farmbox.html</link><guid isPermaLink="false">projects/FarmBox.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 27 Nov 2024 23:40:47 GMT</pubDate></item><item><title><![CDATA[MusikSack]]></title><description><![CDATA[<a class="tag" href="?query=tag:show" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#show</a> <a class="tag" href="?query=tag:electronics" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#electronics</a> <a class="tag" href="?query=tag:programming" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming</a> <a class="tag" href="?query=tag:projects" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#projects</a> 
  <br><a href=".?query=tag:show" class="tag" target="_blank" rel="noopener nofollow">#show</a> <a href=".?query=tag:electronics" class="tag" target="_blank" rel="noopener nofollow">#electronics</a> <a href=".?query=tag:programming" class="tag" target="_blank" rel="noopener nofollow">#programming</a> <a href=".?query=tag:projects" class="tag" target="_blank" rel="noopener nofollow">#projects</a><br>
 <img alt="layout-blueprint_v2.svg" src="projects/assets/layout-blueprint_v2.svg"><br>A Single-board computer with a micro-controller for processing Analog and Digital inputs, designed for music production, computer graphics, and other open-source projects.<br>Design<br>
 <br>
