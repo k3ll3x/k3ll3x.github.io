@@ -1,0 +1,45 @@
+.plant {
+    background-color: #131d12;
+}
+.dirt {
+    background-color: #634629;
+}
+.mars {
+    background-color: #442812;
+}
+.sea {
+    background-color: #7C90A0;
+}
+.water {
+    background-color: #364953;
+}
+
+.alpha {
+    opacity: 80%;
+}
+
+.grow {
+    /* text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; */
+    transition: transform 0.3s ease; /* Smooth transition for the transform property */
+}
+
+.grow:hover {
+    transform: scale(1.1); /* Scale up the div to 110% of its original size */
+    /* background-color: #365253; */
+}
+
+.small {
+    width: 25%;
+}
+
+.big {
+    font-size: 3em;
+}
+
+.img {
+    
+}
