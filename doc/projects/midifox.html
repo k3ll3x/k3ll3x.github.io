@@ -1,0 +1,355 @@
+<!DOCTYPE html> <html><head>
+		<title>MIDIFOX</title>
+		<base href="../">
+		<meta id="root-path" root-path="../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="Tetrahedron - MIDIFOX">
+		<meta property="og:title" content="MIDIFOX">
+		<meta property="og:description" content="Tetrahedron - MIDIFOX">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="projects/midifox.html">
+		<meta property="og:image" content="projects/assets/midifoxdomi.jpg">
+		<meta property="og:site_name" content="Tetrahedron">
+		<meta name="author" content="Nuvhandra"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="lib/scripts/pixi.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript><link rel="preload" href="lib/styles/snippets.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/snippets.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="MIDIFOX"><p dir="auto">MIDIFOX</p></h1><div class="el-p"><p dir="auto"><a href="?query=tag:show" class="tag" target="_blank" rel="noopener nofollow">#show</a> <a href="?query=tag:programming" class="tag" target="_blank" rel="noopener nofollow">#programming</a> <a href="?query=tag:electronics" class="tag" target="_blank" rel="noopener nofollow">#electronics</a> <a href="?query=tag:projects" class="tag" target="_blank" rel="noopener nofollow">#projects</a><br>
+<span alt="midifoxdomi.jpg" src="midifoxdomi.jpg" class="internal-embed media-embed image-embed is-loaded"><img alt="midifoxdomi.jpg" src="projects/assets/midifoxdomi.jpg"></span></p></div><div class="el-p"><p dir="auto"><mark>4x4 arcade button MIDI controller with 4 channels</mark></p></div><div class="el-h4 heading-wrapper"><h4 data-heading="![Show case](https://www.youtube.com/watch?v=YT8SbiNPYyk)" dir="auto" class="heading" id="![Show_case](https://www.youtube.com/watch?v=YT8SbiNPYyk)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><iframe class="external-embed mod-receives-events" sandbox="allow-forms allow-presentation allow-same-origin allow-scripts allow-modals allow-popups" allow="fullscreen" frameborder="0" src="https://www.youtube.com/embed/YT8SbiNPYyk" loading="lazy"></iframe></h4><div class="heading-children"></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="[Case design for laser cut, images, code, costs](https://drive.google.com/drive/folders/0B3rHPP5hD3XRaHBMYWtRZ3pJYTA?resourcekey=0-TPXiR3xaVCd8oQZmpEuX7w&amp;usp=sharing)" dir="auto" class="heading" id="[Case_design_for_laser_cut,_images,_code,_costs](https://drive.google.com/drive/folders/0B3rHPP5hD3XRaHBMYWtRZ3pJYTA?resourcekey=0-TPXiR3xaVCd8oQZmpEuX7w&amp;usp=sharing)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><a data-tooltip-position="top" aria-label="https://drive.google.com/drive/folders/0B3rHPP5hD3XRaHBMYWtRZ3pJYTA?resourcekey=0-TPXiR3xaVCd8oQZmpEuX7w&amp;usp=sharing" rel="noopener nofollow" class="external-link" href="https://drive.google.com/drive/folders/0B3rHPP5hD3XRaHBMYWtRZ3pJYTA?resourcekey=0-TPXiR3xaVCd8oQZmpEuX7w&amp;usp=sharing" target="_blank">Case design for laser cut, images, code, costs</a></h4><div class="heading-children"></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="To-DO" dir="auto" class="heading" id="To-DO"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>To-DO</h4><div class="heading-children"><div class="el-ul"><ul class="contains-task-list">
+<li data-line="0" data-task="" class="task-list-item" dir="auto"><input data-line="0" type="checkbox" class="task-list-item-checkbox">digitalize schematic from notebook</li>
+<li data-line="1" data-task="x" class="task-list-item is-checked" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><input data-line="1" checked="" type="checkbox" class="task-list-item-checkbox">redoo code, add math to the datatypes, bit operators ✅ 2024-12-17
+<ul class="contains-task-list">
+<li data-line="2" data-task="" class="task-list-item" dir="auto"><input data-line="2" type="checkbox" class="task-list-item-checkbox">test generated code</li>
+</ul>
+</li>
+</ul></div><div class="el-p"><p dir="auto">Original Code for the <em>Arduino Nano</em></p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto">OldCode:</p></div><div class="el-pre"><pre class="language-pascal" tabindex="0"><code data-line="0" class="language-pascal is-loaded">
+<span class="token operator">/</span><span class="token operator">*</span> Nuvhandra
+ <span class="token operator">*</span> <span class="token number">2017</span>
+ <span class="token operator">*</span>
+ <span class="token operator">*</span> MIDI Controller
+ <span class="token operator">*</span> This version <span class="token keyword">uses</span> a multiplexer <span class="token operator">and</span> normal digital inputs are used from <span class="token number">5</span> <span class="token keyword">to</span> <span class="token number">13</span>
+ <span class="token operator">*</span> 
+ <span class="token operator">*</span> Version <span class="token number">3</span><span class="token punctuation">:</span>
+ <span class="token operator">*</span> <span class="token number">4</span> analog inputs used <span class="token operator">as</span> <span class="token string">'page'</span> buttons
+ <span class="token operator">*</span><span class="token operator">/</span>
+
+#<span class="token operator">include</span> <span class="token operator">&lt;</span>MIDI<span class="token punctuation">.</span>h<span class="token operator">&gt;</span>
+
+MIDI_CREATE_DEFAULT_INSTANCE<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">//pin number 13 will be an extra button, but it must be connected differently with a resistor</span>
+<span class="token comment">//pin 13 is reversed</span>
+<span class="token keyword">const</span> int ledpin<span class="token operator">=</span><span class="token number">13</span><span class="token punctuation">;</span>
+int b <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> int v<span class="token operator">=</span><span class="token number">5</span><span class="token punctuation">;</span><span class="token comment">//where the digital pins start, in this case is 5 because control pins take 2,3 and 4</span>
+<span class="token keyword">const</span> int numBut<span class="token operator">=</span><span class="token number">8</span><span class="token punctuation">;</span><span class="token comment">//max number 8, digital pins, left one for multiplexer, counting led pin</span>
+<span class="token keyword">const</span> int numAn<span class="token operator">=</span><span class="token number">3</span><span class="token punctuation">;</span><span class="token comment">//number of potentiometers</span>
+<span class="token comment">//const int anf=8;</span>
+<span class="token keyword">const</span> int numMuxBut<span class="token operator">=</span><span class="token number">8</span><span class="token punctuation">;</span><span class="token comment">//number of button connected to multiplexer</span>
+<span class="token keyword">const</span> int muxpin<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span><span class="token comment">//Which pin is connected to the multipexer</span>
+<span class="token operator">/</span><span class="token operator">*</span>byte nx<span class="token operator">=</span><span class="token number">144</span><span class="token punctuation">;</span>
+byte vel<span class="token operator">=</span><span class="token number">127</span><span class="token punctuation">;</span><span class="token operator">*</span><span class="token operator">/</span>
+byte cc<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>
+int actualpin<span class="token punctuation">;</span>
+int channel<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>
+int actual<span class="token punctuation">[</span>numBut<span class="token punctuation">]</span><span class="token punctuation">;</span>
+int before<span class="token punctuation">[</span>numBut<span class="token punctuation">]</span><span class="token punctuation">;</span>
+int actualAn<span class="token punctuation">[</span>numAn<span class="token punctuation">]</span><span class="token punctuation">;</span>
+int beforeAn<span class="token punctuation">[</span>numAn<span class="token punctuation">]</span><span class="token punctuation">;</span>
+int actualMux<span class="token punctuation">[</span>numMuxBut<span class="token punctuation">]</span><span class="token punctuation">;</span>
+int beforeMux<span class="token punctuation">[</span>numMuxBut<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+int thre <span class="token operator">=</span> <span class="token number">800</span><span class="token punctuation">;</span>
+int val<span class="token punctuation">;</span>
+
+<span class="token comment">//multiplexer control pins</span>
+<span class="token keyword">const</span> int s0 <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> int s1 <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> int s2 <span class="token operator">=</span> <span class="token number">4</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> int select<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token comment">{s0,s1,s2}</span><span class="token punctuation">;</span>
+
+<span class="token comment">//Adding pages to the analog pins, this buttons(analog) changes the CC note in the 4x4 buttons</span>
+<span class="token comment">//by default is on page 1</span>
+<span class="token keyword">const</span> int pgOne<span class="token operator">=</span><span class="token number">48</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> int pgTwo<span class="token operator">=</span>pgOne<span class="token operator">+</span><span class="token number">18</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> int pgThree<span class="token operator">=</span>pgTwo<span class="token operator">+</span><span class="token number">18</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> int pgFour<span class="token operator">=</span>pgThree<span class="token operator">+</span><span class="token number">18</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> int pgs
+
+int actualPage<span class="token punctuation">;</span>
+
+void setup<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">{
+  MIDI.begin();
+  //Serial.begin(9600);
+  Serial.begin(115200);
+	//MIDI.begin(MIDI_CHANNEL_OMNI); //it listen to all incomming message
+
+  pinMode(ledpin,INPUT);
+ 
+  for(int i=0;i&lt;numBut;i++){
+    actualpin=i+v;
+    pinMode(actualpin,INPUT_PULLUP);
+	  before[i]=1; //set 1 as button is not pressed
+	}</span>
+
+  <span class="token comment">//set analog inputs as false</span>
+  <span class="token keyword">for</span><span class="token punctuation">(</span>int i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>numAn<span class="token punctuation">;</span>i<span class="token operator">+</span><span class="token operator">+</span><span class="token punctuation">)</span><span class="token comment">{
+    actualAn[i]=0;
+    beforeAn[i]=0;
+  }</span>
+
+  <span class="token comment">//setting default page one</span>
+  actualPage<span class="token operator">=</span>pgOne<span class="token punctuation">;</span>
+ 
+	<span class="token comment">//Adding multiplexer</span>
+	<span class="token comment">//control pins from multiplexer as outputs</span>
+	pinMode<span class="token punctuation">(</span>s0<span class="token punctuation">,</span>OUTPUT<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	pinMode<span class="token punctuation">(</span>s1<span class="token punctuation">,</span>OUTPUT<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	pinMode<span class="token punctuation">(</span>s2<span class="token punctuation">,</span>OUTPUT<span class="token punctuation">)</span><span class="token punctuation">;</span>
+}
+
+void loop<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">{
+  //Serial.println(analogRead(0));
+	if(numBut!=0){updateDigitalBut();}</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span>numAn!<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token comment">{updateAnalog();}</span>
+	<span class="token keyword">if</span><span class="token punctuation">(</span>numMuxBut!<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token comment">{updateDigitalMuxBut();}</span>
+  <span class="token comment">//Ledpin input</span>
+  int ledNote<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>
+  int vi <span class="token operator">=</span> digitalRead<span class="token punctuation">(</span>ledpin<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span>actualPage<span class="token operator">=</span><span class="token operator">=</span>pgOne<span class="token punctuation">)</span><span class="token comment">{
+    ledNote=56;
+  }</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>actualPage<span class="token operator">=</span><span class="token operator">=</span>pgTwo<span class="token punctuation">)</span><span class="token comment">{
+    ledNote=74;
+  }</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>actualPage<span class="token operator">=</span><span class="token operator">=</span>pgThree<span class="token punctuation">)</span><span class="token comment">{
+    ledNote=92;
+  }</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>actualPage<span class="token operator">=</span><span class="token operator">=</span>pgFour<span class="token punctuation">)</span><span class="token comment">{
+    ledNote=110;
+  }</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span>vi<span class="token operator">=</span><span class="token operator">=</span><span class="token number">1</span> &amp;&amp; vi!<span class="token operator">=</span>b<span class="token punctuation">)</span><span class="token comment">{
+    MIDI.sendNoteOn(ledNote,127,channel);
+  }</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>vi<span class="token operator">=</span><span class="token operator">=</span><span class="token number">0</span> &amp;&amp; vi!<span class="token operator">=</span>b<span class="token punctuation">)</span><span class="token comment">{
+    MIDI.sendNoteOff(ledNote,127,channel);
+    /*MIDI.sendNoteOff(56,127,channel);
+    MIDI.sendNoteOff(74,127,channel);
+    MIDI.sendNoteOff(92,127,channel);
+    MIDI.sendNoteOff(110,127,channel);*/
+  }</span>
+  b<span class="token operator">=</span>vi<span class="token punctuation">;</span>
+	<span class="token comment">//MIDI.read();  </span>
+}
+
+void updateDigitalBut<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">{
+	for(int i=0;i&lt;numBut;i++){
+		actualpin = i+v;
+		actual[i]=digitalRead(actualpin); //reading actual button state
+		//It only sends data if the state has changed
+		/*button is pressed
+    if(actualpin == ledpin){
+      if((actual[i]==1) &amp;&amp; (actual[i]!=before[i])){
+        //MIDI.sendNoteOn(48+i,127,channel);
+        MIDI.sendNoteOn(actualPage+i,127,channel);
+      }</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token punctuation">(</span>actual<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">=</span><span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">)</span> &amp;&amp; <span class="token punctuation">(</span>actual<span class="token punctuation">[</span>i<span class="token punctuation">]</span>!<span class="token operator">=</span>before<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token comment">{
+        //MIDI.sendNoteOff(48+i,127,channel);
+        //MIDI.sendNoteOff(pgOne+i,127,channel);
+        //MIDI.sendNoteOff(pgTwo+i,127,channel);
+        //MIDI.sendNoteOff(pgThree+i,127,channel);
+        //MIDI.sendNoteOff(pgFour+i,127,channel);
+        MIDI.sendNoteOff(actualPage+i,127,channel);
+      }</span>
+    }<span class="token operator">*</span><span class="token operator">/</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>actualpin !<span class="token operator">=</span> muxpin<span class="token punctuation">)</span><span class="token comment">{
+  		if((actual[i]==0) &amp;&amp; (actual[i]!=before[i])){
+        //MIDI.sendNoteOn(48+i,127,channel);
+        MIDI.sendNoteOn(actualPage+i,127,channel);
+  		}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token punctuation">(</span>actual<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">=</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">)</span> &amp;&amp; <span class="token punctuation">(</span>actual<span class="token punctuation">[</span>i<span class="token punctuation">]</span>!<span class="token operator">=</span>before<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token comment">{
+        //MIDI.sendNoteOff(48+i,0,channel);
+        MIDI.sendNoteOff(actualPage+i,0,channel);
+  		}</span>
+    }
+		before<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">=</span>actual<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token comment">//setting before value as the current because its ending the for</span>
+	}
+}
+
+void updateAnalog<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">{
+  for(int i=0;i&lt;numAn;i++){
+    actualAn[i]=digitalRead(14+i);
+    if((actualAn[i] == HIGH) &amp;&amp; (actualAn[i]!=beforeAn[i])){
+      switch(i){
+        case 0:
+        actualPage=pgOne;
+        Serial.println("p1");
+        break;
+        case 1:
+        actualPage=pgTwo;
+        Serial.println("p2");
+        break;
+        case 2:
+        actualPage=pgThree;
+        Serial.println("p3");
+        break;
+        case 3:
+        actualPage=pgFour;
+        Serial.println("p4");
+        break;
+      }</span>
+      <span class="token comment">//MIDI.sendNoteOn(66+i,127,channel);</span>
+    }<span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token punctuation">(</span>actualAn<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span><span class="token operator">=</span> LOW<span class="token punctuation">)</span> &amp;&amp; <span class="token punctuation">(</span>actualAn<span class="token punctuation">[</span>i<span class="token punctuation">]</span>!<span class="token operator">=</span>beforeAn<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token comment">{
+      //I guess nothing
+      //MIDI.sendNoteOff(66+i,0,channel);
+    }</span>
+    beforeAn<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">=</span>actualAn<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+  }
+}
+
+void updateDigitalMuxBut<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token comment">{
+	for(int i=0;i&lt;numMuxBut;i++){//multiplexer
+		actualMux[i]=getValue(i);
+		if((actualMux[i]==0) &amp;&amp; (actualMux[i]!=beforeMux[i])){
+			//MIDI.sendNoteOn(57+i,127,channel);
+      MIDI.sendNoteOn(actualPage+9+i,127,channel);
+		}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token punctuation">(</span>actualMux<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">=</span><span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">)</span> &amp;&amp; <span class="token punctuation">(</span>actualMux<span class="token punctuation">[</span>i<span class="token punctuation">]</span>!<span class="token operator">=</span>beforeMux<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token comment">{
+			//MIDI.sendNoteOff(57+i,0,channel);
+     MIDI.sendNoteOff(actualPage+9+i,0,channel);
+		}</span>
+		beforeMux<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">=</span>actualMux<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+	}
+
+}
+
+int getValue<span class="token punctuation">(</span>int c<span class="token punctuation">)</span><span class="token comment">{
+	for(int bit=0;bit&lt;3;bit++){
+		int pin=select[bit];
+		int bitset = bitRead(c,bit);
+		digitalWrite(pin,bitset);
+	}</span>
+	return digitalRead<span class="token punctuation">(</span>muxpin<span class="token punctuation">)</span><span class="token punctuation">;</span>
+}
+
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Redo of code, refactoring &amp; data structures" dir="auto" class="heading" id="Redo_of_code,_refactoring_&amp;_data_structures"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Redo of code, refactoring &amp; data structures</h2><div class="heading-children"><div class="el-hr"><hr></div><div class="el-p"><p dir="auto">generated:</p></div><div class="el-pre"><pre class="language-pascal" tabindex="0"><code data-line="0" class="language-pascal is-loaded">
+#<span class="token operator">include</span> <span class="token operator">&lt;</span>MIDI<span class="token punctuation">.</span>h<span class="token operator">&gt;</span>
+
+MIDI_CREATE_DEFAULT_INSTANCE<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Pin definitions</span>
+<span class="token keyword">const</span> int ledPin <span class="token operator">=</span> <span class="token number">13</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> int startDigitalPin <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> int numButtons <span class="token operator">=</span> <span class="token number">8</span><span class="token punctuation">;</span> <span class="token comment">// Digital buttons</span>
+<span class="token keyword">const</span> int numAnalogInputs <span class="token operator">=</span> <span class="token number">4</span><span class="token punctuation">;</span> <span class="token comment">// Including page buttons</span>
+<span class="token keyword">const</span> int numMuxButtons <span class="token operator">=</span> <span class="token number">8</span><span class="token punctuation">;</span> <span class="token comment">// Buttons connected to multiplexer</span>
+<span class="token keyword">const</span> int muxPin <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span> <span class="token comment">// Multiplexer output pin</span>
+
+<span class="token comment">// Multiplexer control pins</span>
+<span class="token keyword">const</span> int selectPins<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token comment">{2, 3, 4}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Page definitions</span>
+<span class="token keyword">const</span> byte pages<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token comment">{48, 66, 84, 102}</span><span class="token punctuation">;</span> <span class="token comment">// CC numbers for pages</span>
+int currentPageIndex <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token comment">// State arrays</span>
+int currentButtonStates<span class="token punctuation">[</span>numButtons<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token comment">{0}</span><span class="token punctuation">;</span>
+int previousButtonStates<span class="token punctuation">[</span>numButtons<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token comment">{0}</span><span class="token punctuation">;</span>
+int currentAnalogStates<span class="token punctuation">[</span>numAnalogInputs<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token comment">{0}</span><span class="token punctuation">;</span>
+int previousAnalogStates<span class="token punctuation">[</span>numAnalogInputs<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token comment">{0}</span><span class="token punctuation">;</span>
+int currentMuxStates<span class="token punctuation">[</span>numMuxButtons<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token comment">{0}</span><span class="token punctuation">;</span>
+int previousMuxStates<span class="token punctuation">[</span>numMuxButtons<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token comment">{0}</span><span class="token punctuation">;</span>
+
+void setup<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">{
+    MIDI.begin();
+    Serial.begin(115200);
+    
+    pinMode(ledPin, INPUT);
+    for (int i = 0; i &lt; numButtons; i++) {
+        pinMode(startDigitalPin + i, INPUT_PULLUP);
+        previousButtonStates[i] = HIGH; // Not pressed state
+    }</span>
+    
+    <span class="token keyword">for</span> <span class="token punctuation">(</span>int i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> numAnalogInputs<span class="token punctuation">;</span> i<span class="token operator">+</span><span class="token operator">+</span><span class="token punctuation">)</span> <span class="token comment">{
+        previousAnalogStates[i] = LOW;
+    }</span>
+
+    <span class="token comment">// Set multiplexer control pins as outputs</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span>int pin <span class="token punctuation">:</span> selectPins<span class="token punctuation">)</span> <span class="token comment">{
+        pinMode(pin, OUTPUT);
+    }</span>
+}
+
+void loop<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">{
+    updateDigitalButtons();
+    updateAnalogButtons();
+    updateMultiplexerButtons();
+    
+    handleLedState();
+}</span>
+
+void updateDigitalButtons<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">{
+    for (int i = 0; i &lt; numButtons; i++) {
+        currentButtonStates[i] = digitalRead(startDigitalPin + i);
+        if (currentButtonStates[i] != previousButtonStates[i]) {
+            byte noteNumber = pages[currentPageIndex] + i;
+            if (currentButtonStates[i] == LOW) {
+                MIDI.sendNoteOn(noteNumber, 127, 1); // Note on
+            }</span> <span class="token keyword">else</span> <span class="token comment">{
+                MIDI.sendNoteOff(noteNumber, 0, 1); // Note off
+            }</span>
+            previousButtonStates<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> currentButtonStates<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        }
+    }
+}
+
+void updateAnalogButtons<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">{
+    for (int i = 0; i &lt; numAnalogInputs; i++) {
+        currentAnalogStates[i] = digitalRead(14 + i); // Assuming analog inputs start from pin 14
+        if (currentAnalogStates[i] != previousAnalogStates[i]) {
+            if (currentAnalogStates[i] == HIGH) {
+                currentPageIndex = i % sizeof(pages); // Cycle through pages
+                Serial.print("Page changed to: ");
+                Serial.println(currentPageIndex + 1);
+            }</span>
+            previousAnalogStates<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> currentAnalogStates<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        }
+    }
+}
+
+void updateMultiplexerButtons<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">{
+    for (int i = 0; i &lt; numMuxButtons; i++) {
+        currentMuxStates[i] = getMuxValue(i);
+        if (currentMuxStates[i] != previousMuxStates[i]) {
+            byte noteNumber = pages[currentPageIndex] + 9 + i;
+            if (currentMuxStates[i] == LOW) {
+                MIDI.sendNoteOn(noteNumber, 127, 1); // Note on
+            }</span> <span class="token keyword">else</span> <span class="token comment">{
+                MIDI.sendNoteOff(noteNumber, 0, 1); // Note off
+            }</span>
+            previousMuxStates<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> currentMuxStates<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        }
+    }
+}
+
+int getMuxValue<span class="token punctuation">(</span>int <span class="token keyword">index</span><span class="token punctuation">)</span> <span class="token comment">{
+    for (int bit = 0; bit &lt; sizeof(selectPins); bit++) {
+        digitalWrite(selectPins[bit], bitRead(index, bit));
+    }</span>
+    return digitalRead<span class="token punctuation">(</span>muxPin<span class="token punctuation">)</span><span class="token punctuation">;</span>
+}
+
+void handleLedState<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">{
+    int ledNoteNumber = pages[currentPageIndex];
+    int ledState = digitalRead(ledPin);
+    
+    static int lastLedState = HIGH;
+    
+    if (ledState != lastLedState) {
+        if (ledState == LOW) {
+            MIDI.sendNoteOn(ledNoteNumber, 127, 1); // Note on
+        }</span> <span class="token keyword">else</span> <span class="token comment">{
+            MIDI.sendNoteOff(ledNoteNumber, 0, 1); // Note off
+        }</span>
+        lastLedState <span class="token operator">=</span> ledState<span class="token punctuation">;</span>
+    }
+}
+
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="mod-footer mod-ui"></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="projects/midifox.html#MIDIFOX"><div class="tree-item-contents heading-link" heading-name="MIDIFOX"><span class="tree-item-title">MIDIFOX</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="4"><a class="tree-link" href="projects/midifox.html#![Show_case](https://www.youtube.com/watch?v=YT8SbiNPYyk)"><div class="tree-item-contents heading-link" heading-name="![Show case](https://www.youtube.com/watch?v=YT8SbiNPYyk)"><span class="tree-item-title"><iframe class="external-embed mod-receives-events" sandbox="allow-forms allow-presentation allow-same-origin allow-scripts allow-modals allow-popups" allow="fullscreen" frameborder="0" src="https://www.youtube.com/embed/YT8SbiNPYyk"></iframe></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="projects/midifox.html#[Case_design_for_laser_cut,_images,_code,_costs](https://drive.google.com/drive/folders/0B3rHPP5hD3XRaHBMYWtRZ3pJYTA?resourcekey=0-TPXiR3xaVCd8oQZmpEuX7w&amp;usp=sharing)"><div class="tree-item-contents heading-link" heading-name="[Case design for laser cut, images, code, costs](https://drive.google.com/drive/folders/0B3rHPP5hD3XRaHBMYWtRZ3pJYTA?resourcekey=0-TPXiR3xaVCd8oQZmpEuX7w&amp;usp=sharing)"><span class="tree-item-title"><a data-tooltip-position="top" aria-label="https://drive.google.com/drive/folders/0B3rHPP5hD3XRaHBMYWtRZ3pJYTA?resourcekey=0-TPXiR3xaVCd8oQZmpEuX7w&amp;usp=sharing" rel="noopener nofollow" class="external-link" href="https://drive.google.com/drive/folders/0B3rHPP5hD3XRaHBMYWtRZ3pJYTA?resourcekey=0-TPXiR3xaVCd8oQZmpEuX7w&amp;usp=sharing" target="_blank">Case design for laser cut, images, code, costs</a></span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="projects/midifox.html#To-DO"><div class="tree-item-contents heading-link" heading-name="To-DO"><span class="tree-item-title">To-DO</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="projects/midifox.html#Redo_of_code,_refactoring_&amp;_data_structures"><div class="tree-item-contents heading-link" heading-name="Redo of code, refactoring &amp; data structures"><span class="tree-item-title">Redo of code, refactoring &amp; data structures</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
