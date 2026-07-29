@@ -68,27 +68,46 @@
                     
                 </div>
             </div>
-            <!-- Project Modal Template -->
-<div id="project-modal" class="modal" style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; overflow:auto; background-color:rgba(0,0,0,0.8);">
+            <div id="project-modal" class="modal" style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; overflow:auto; background-color:rgba(0,0,0,0.8);">
     <div class="modal-content" style="background-color:#fefefe; margin:5% auto; padding:20px; border:1px solid #888; width:80%; max-width:800px; position:relative;">
         <span class="close-modal" style="color:#aaa; float:right; font-size:28px; font-weight:bold; cursor:pointer;">&times;</span>
         <h2 id="modal-title">Project Title</h2>
         <img id="modal-img" src="" alt="" style="width:100%; height:auto;">
-        <p id="modal-desc"></p>
+        <div id="modal-preview" style="margin: 20px 0;">Loading preview...</div>
         <a id="modal-link" href="#" target="_blank" class="button primary">View Full Documentation</a>
     </div>
 </div>
 
 <script>
-    // Simple modal logic
     document.querySelectorAll('.project-link').forEach(link => {
-        link.addEventListener('click', function(e) {
+        link.addEventListener('click', async function(e) {
             e.preventDefault();
+            const modal = document.getElementById('project-modal');
+            const previewContainer = document.getElementById('modal-preview');
+            
             document.getElementById('modal-title').innerText = this.getAttribute('data-title');
             document.getElementById('modal-img').src = this.getAttribute('data-img');
-            document.getElementById('modal-desc').innerText = this.getAttribute('data-txt');
             document.getElementById('modal-link').href = this.getAttribute('href');
-            document.getElementById('project-modal').style.display = 'block';
+            previewContainer.innerHTML = 'Loading preview...';
+            modal.style.display = 'block';
+
+            try {
+                const response = await fetch(this.getAttribute('href'));
+                const text = await response.text();
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(text, 'text/html');
+                
+                // Assuming obsidian export has a way to identify the #preview block
+                // For now, look for an element with id or class preview, or custom attribute
+                const preview = doc.querySelector('#preview') || doc.querySelector('.preview');
+                if (preview) {
+                    previewContainer.innerHTML = preview.innerHTML;
+                } else {
+                    previewContainer.innerHTML = '<p>' + this.getAttribute('data-txt') + '</p>';
+                }
+            } catch (error) {
+                previewContainer.innerHTML = '<p>' + this.getAttribute('data-txt') + '</p>';
+            }
         });
     });
 

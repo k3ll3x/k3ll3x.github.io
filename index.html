@@ -82,27 +82,80 @@
                 <div class="row gtr-uniform">
                     <!-- <div class="col-12"><span class="image fit"><img src="images/pic08.jpg" alt="" /></span></div> -->
                     
-                        <div class="col-4 grow"><a href="doc/projects/midifox.html" target="_blank"><h2>MIDIFOX</h2><span class="image fit"><img src="doc/projects/assets/midifoxdomi.jpg" alt="" /></span><p>4x4 arcade button MIDI controller with 4 channels</p></a></div>
+                        <div class="col-4 grow"><a href="doc/projects/tiamat.html" class="project-link" data-title="Tiamat" data-img="doc/projects/assets/topomibarrio.png" data-txt="3d engine, made in Rust and base 60 symbol converter"><h2>Tiamat</h2><span class="image fit"><img src="doc/projects/assets/topomibarrio.png" alt="" /></span><p>3d engine, made in Rust and base 60 symbol converter</p></a></div>
                     
-                        <div class="col-4 grow"><a href="doc/projects/geowatch.html" target="_blank"><h2>GeoWatch</h2><span class="image fit"><img src="doc/projects/assets/geowatch.jpg" alt="" /></span><p>GeoWatch is a geospatial monitoring tool designed to visualize and analyze real-time data from various sources</p></a></div>
+                        <div class="col-4 grow"><a href="doc/projects/geowatch.html" class="project-link" data-title="GeoWatch" data-img="doc/projects/assets/geowatch.jpg" data-txt="GeoWatch is a geospatial monitoring tool designed to visualize and analyze real-time data from various sources"><h2>GeoWatch</h2><span class="image fit"><img src="doc/projects/assets/geowatch.jpg" alt="" /></span><p>GeoWatch is a geospatial monitoring tool designed to visualize and analyze real-time data from various sources</p></a></div>
                     
-                        <div class="col-4 grow"><a href="doc/projects/musiksack.html" target="_blank"><h2>MusikSack</h2><span class="image fit"><img src="doc/projects/assets/layout-blueprint_v2.svg" alt="" /></span><p>A Single-board computer with a micro-controller for processing Analog and Digital inputs, designed for music production, computer graphics, and other open-source projects.</p></a></div>
+                        <div class="col-4 grow"><a href="doc/projects/midifox.html" class="project-link" data-title="MIDIFOX" data-img="doc/projects/assets/midifoxdomi.jpg" data-txt="4x4 arcade button MIDI controller with 4 channels"><h2>MIDIFOX</h2><span class="image fit"><img src="doc/projects/assets/midifoxdomi.jpg" alt="" /></span><p>4x4 arcade button MIDI controller with 4 channels</p></a></div>
                     
-                        <div class="col-4 grow"><a href="doc/projects/tiamat.html" target="_blank"><h2>Tiamat</h2><span class="image fit"><img src="doc/projects/assets/topomibarrio.png" alt="" /></span><p>3d engine, made in Rust and base 60 symbol converter</p></a></div>
+                        <div class="col-4 grow"><a href="doc/projects/musiksack.html" class="project-link" data-title="MusikSack" data-img="doc/projects/assets/layout-blueprint_v2.svg" data-txt="A Single-board computer with a micro-controller for processing Analog and Digital inputs, designed for music production, computer graphics, and other open-source projects."><h2>MusikSack</h2><span class="image fit"><img src="doc/projects/assets/layout-blueprint_v2.svg" alt="" /></span><p>A Single-board computer with a micro-controller for processing Analog and Digital inputs, designed for music production, computer graphics, and other open-source projects.</p></a></div>
                     
                 </div>
             </div>
+            <div id="project-modal" class="modal" style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; overflow:auto; background-color:rgba(0,0,0,0.8);">
+    <div class="modal-content" style="background-color:#fefefe; margin:5% auto; padding:20px; border:1px solid #888; width:80%; max-width:800px; position:relative;">
+        <span class="close-modal" style="color:#aaa; float:right; font-size:28px; font-weight:bold; cursor:pointer;">&times;</span>
+        <h2 id="modal-title">Project Title</h2>
+        <img id="modal-img" src="" alt="" style="width:100%; height:auto;">
+        <div id="modal-preview" style="margin: 20px 0;">Loading preview...</div>
+        <a id="modal-link" href="#" target="_blank" class="button primary">View Full Documentation</a>
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('.project-link').forEach(link => {
+        link.addEventListener('click', async function(e) {
+            e.preventDefault();
+            const modal = document.getElementById('project-modal');
+            const previewContainer = document.getElementById('modal-preview');
+            
+            document.getElementById('modal-title').innerText = this.getAttribute('data-title');
+            document.getElementById('modal-img').src = this.getAttribute('data-img');
+            document.getElementById('modal-link').href = this.getAttribute('href');
+            previewContainer.innerHTML = 'Loading preview...';
+            modal.style.display = 'block';
+
+            try {
+                const response = await fetch(this.getAttribute('href'));
+                const text = await response.text();
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(text, 'text/html');
+                
+                // Assuming obsidian export has a way to identify the #preview block
+                // For now, look for an element with id or class preview, or custom attribute
+                const preview = doc.querySelector('#preview') || doc.querySelector('.preview');
+                if (preview) {
+                    previewContainer.innerHTML = preview.innerHTML;
+                } else {
+                    previewContainer.innerHTML = '<p>' + this.getAttribute('data-txt') + '</p>';
+                }
+            } catch (error) {
+                previewContainer.innerHTML = '<p>' + this.getAttribute('data-txt') + '</p>';
+            }
+        });
+    });
+
+    document.querySelector('.close-modal').addEventListener('click', function() {
+        document.getElementById('project-modal').style.display = 'none';
+    });
+
+    window.onclick = function(event) {
+        if (event.target == document.getElementById('project-modal')) {
+            document.getElementById('project-modal').style.display = 'none';
+        }
+    }
+</script>
             <!-- <h4>Left &amp; Right</h4>
             <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien. Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
             <p><span class="image right"><img src="images/pic02.jpg" alt="" /></span>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius. Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat. Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui.</p> -->
         </section>
         
             <!-- 
-            <a href="doc/projects/midifox.html" class="image"><img class="small" src="doc/projects/assets/midifoxdomi.jpg" alt="" /></a>
+            <a href="doc/projects/tiamat.html" class="image"><img class="small" src="doc/projects/assets/topomibarrio.png" alt="" /></a>
             <div class="content">
-                <h2 class="major">MIDIFOX</h2>
-                <p>4x4 arcade button MIDI controller with 4 channels</p>
-                <a href="doc/projects/midifox.html" class="special">Learn more</a>
+                <h2 class="major">Tiamat</h2>
+                <p>3d engine, made in Rust and base 60 symbol converter</p>
+                <a href="doc/projects/tiamat.html" class="special">Learn more</a>
             </div>
             
             <a href="doc/projects/geowatch.html" class="image"><img class="small" src="doc/projects/assets/geowatch.jpg" alt="" /></a>
@@ -112,18 +165,18 @@
                 <a href="doc/projects/geowatch.html" class="special">Learn more</a>
             </div>
             
+            <a href="doc/projects/midifox.html" class="image"><img class="small" src="doc/projects/assets/midifoxdomi.jpg" alt="" /></a>
+            <div class="content">
+                <h2 class="major">MIDIFOX</h2>
+                <p>4x4 arcade button MIDI controller with 4 channels</p>
+                <a href="doc/projects/midifox.html" class="special">Learn more</a>
+            </div>
+            
             <a href="doc/projects/musiksack.html" class="image"><img class="small" src="doc/projects/assets/layout-blueprint_v2.svg" alt="" /></a>
             <div class="content">
                 <h2 class="major">MusikSack</h2>
                 <p>A Single-board computer with a micro-controller for processing Analog and Digital inputs, designed for music production, computer graphics, and other open-source projects.</p>
                 <a href="doc/projects/musiksack.html" class="special">Learn more</a>
-            </div>
-            
-            <a href="doc/projects/tiamat.html" class="image"><img class="small" src="doc/projects/assets/topomibarrio.png" alt="" /></a>
-            <div class="content">
-                <h2 class="major">Tiamat</h2>
-                <p>3d engine, made in Rust and base 60 symbol converter</p>
-                <a href="doc/projects/tiamat.html" class="special">Learn more</a>
             </div>
              -->
         </div>

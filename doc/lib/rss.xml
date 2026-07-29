@@ -1,4 +1,361 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://k3ll3x.github.io/</link><image><url>https://k3ll3x.github.io/lib/media/favicon.png</url><title>Tetrahedron</title><link>https://k3ll3x.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 29 Jul 2026 19:07:41 GMT</lastBuildDate><atom:link href="https://k3ll3x.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 29 Jul 2026 19:07:35 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[HoloData]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tetrahedron]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://k3ll3x.github.io/</link><image><url>https://k3ll3x.github.io/lib/media/favicon.png</url><title>Tetrahedron</title><link>https://k3ll3x.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 29 Jul 2026 19:16:27 GMT</lastBuildDate><atom:link href="https://k3ll3x.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 29 Jul 2026 19:16:25 GMT</pubDate><copyright><![CDATA[Nuvhandra]]></copyright><ttl>60</ttl><dc:creator>Nuvhandra</dc:creator><item><title><![CDATA[GeoWatch]]></title><description><![CDATA[<a class="tag" href="https://k3ll3x.github.io/?query=tag:show" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#show</a> <a class="tag" href="https://k3ll3x.github.io/?query=tag:programming" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming</a> 
+ <br><a href="https://k3ll3x.github.io?query=tag:show" class="tag" target="_blank" rel="noopener nofollow">#show</a> <a href="https://k3ll3x.github.io?query=tag:programming" class="tag" target="_blank" rel="noopener nofollow">#programming</a> <br><img alt="geowatch.jpg" src="https://k3ll3x.github.io/projects/assets/geowatch.jpg"><br><br><a data-tooltip-position="top" aria-label="http://colmena.stguimel.com/grafana" rel="noopener nofollow" class="external-link" href="http://colmena.stguimel.com/grafana" target="_blank">Grafana Dashboard</a><br>GeoWatch is a geospatial monitoring tool designed to visualize and analyze real-time data from various sources. <br>This project provides insights into dynamic geographical data through interactive visualizations and real-time data processing.
+<br><br>GeoWatch allows users to monitor and visualize geospatial data in real-time. It integrates several technologies to facilitate environmental monitoring, urban planning, and other applications requiring geospatial analysis.<br>The platform architecture includes these key components:<br>
+<br>Data Collection &amp; Messaging: The remote sensors send real-time telemetry data via the MQTT protocol, which is lightweight and ideal for IoT communication.<br>
+
+<br>Backend Data Handling: Using Node.js, the data is ingested and processed. The system stores sensor data primarily in a time-series database built on PostgreSQL with the PostGIS extension for geospatial data and TimescaleDB for efficient time-series handling.<br>
+
+<br>Monitoring &amp; Metrics: Prometheus is employed to monitor platform metrics and health.<br>
+
+<br>Data Visualization: Grafana is used to create interactive dashboards displaying historical and real-time sensor metrics such as pollutant concentrations, temperature, humidity, and air quality indexes.<br>
+
+<br>Frontend Interface: A modern web frontend is built with React and Next.js, providing users with responsive and dynamic access to dashboard views and sensor data.<br>
+
+<br>Containerization and Deployment: Docker containers package all services, ensuring consistent development and deployment environments.<br>
+
+<br>Reverse Proxy: A reverse proxy is configured to securely route and manage incoming requests.<br>
+
+<br>GIS Integration: QGIS is used for spatial analysis and mapping of sensor locations and air quality distributions, enhancing the geographic component of the data.<br>
+
+<br>This platform enables comprehensive analysis of remote environmental sensor data, helping stakeholders visualize air quality trends and make data-driven decisions for environmental monitoring.]]></description><link>https://k3ll3x.github.io/projects/geowatch.html</link><guid isPermaLink="false">projects/GeoWatch.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 29 Jul 2026 19:12:48 GMT</pubDate><enclosure url="https://k3ll3x.github.io/projects/assets/geowatch.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://k3ll3x.github.io/projects/assets/geowatch.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[<a class="tag" href="https://k3ll3x.github.io/?query=tag:show" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#show</a> <a class="tag" href="https://k3ll3x.github.io/?query=tag:programming" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming</a> <a class="tag" href="https://k3ll3x.github.io/?query=tag:electronics" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#electronics</a> <a class="tag" href="https://k3ll3x.github.io/?query=tag:projects" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#projects</a> 
+ <br><a href="https://k3ll3x.github.io?query=tag:show" class="tag" target="_blank" rel="noopener nofollow">#show</a> <a href="https://k3ll3x.github.io?query=tag:programming" class="tag" target="_blank" rel="noopener nofollow">#programming</a> <a href="https://k3ll3x.github.io?query=tag:electronics" class="tag" target="_blank" rel="noopener nofollow">#electronics</a> <a href="https://k3ll3x.github.io?query=tag:projects" class="tag" target="_blank" rel="noopener nofollow">#projects</a><br>
+<img alt="midifoxdomi.jpg" src="https://k3ll3x.github.io/projects/assets/midifoxdomi.jpg"><br>4x4 arcade button MIDI controller with 4 channels<br><br><br><br>
+<br>digitalize schematic from notebook
+<br>redoo code, add math to the datatypes, bit operators ✅ 2024-12-17
+
+<br>test generated code
+
+
+<br>Original Code for the Arduino Nano<br><br>OldCode:<br>
+/* Nuvhandra
+ * 2017
+ *
+ * MIDI Controller
+ * This version uses a multiplexer and normal digital inputs are used from 5 to 13
+ * 
+ * Version 3:
+ * 4 analog inputs used as 'page' buttons
+ */
+
+#include &lt;MIDI.h&gt;
+
+MIDI_CREATE_DEFAULT_INSTANCE();
+
+//pin number 13 will be an extra button, but it must be connected differently with a resistor
+//pin 13 is reversed
+const int ledpin=13;
+int b = 0;
+const int v=5;//where the digital pins start, in this case is 5 because control pins take 2,3 and 4
+const int numBut=8;//max number 8, digital pins, left one for multiplexer, counting led pin
+const int numAn=3;//number of potentiometers
+//const int anf=8;
+const int numMuxBut=8;//number of button connected to multiplexer
+const int muxpin=10;//Which pin is connected to the multipexer
+/*byte nx=144;
+byte vel=127;*/
+byte cc=0;
+int actualpin;
+int channel=1;
+int actual[numBut];
+int before[numBut];
+int actualAn[numAn];
+int beforeAn[numAn];
+int actualMux[numMuxBut];
+int beforeMux[numMuxBut];
+
+int thre = 800;
+int val;
+
+//multiplexer control pins
+const int s0 = 2;
+const int s1 = 3;
+const int s2 = 4;
+
+const int select[] = {s0,s1,s2};
+
+//Adding pages to the analog pins, this buttons(analog) changes the CC note in the 4x4 buttons
+//by default is on page 1
+const int pgOne=48;
+const int pgTwo=pgOne+18;
+const int pgThree=pgTwo+18;
+const int pgFour=pgThree+18;
+
+const int pgs
+
+int actualPage;
+
+void setup(){
+  MIDI.begin();
+  //Serial.begin(9600);
+  Serial.begin(115200);
+	//MIDI.begin(MIDI_CHANNEL_OMNI); //it listen to all incomming message
+
+  pinMode(ledpin,INPUT);
+ 
+  for(int i=0;i&lt;numBut;i++){
+    actualpin=i+v;
+    pinMode(actualpin,INPUT_PULLUP);
+	  before[i]=1; //set 1 as button is not pressed
+	}
+
+  //set analog inputs as false
+  for(int i=0;i&lt;numAn;i++){
+    actualAn[i]=0;
+    beforeAn[i]=0;
+  }
+
+  //setting default page one
+  actualPage=pgOne;
+ 
+	//Adding multiplexer
+	//control pins from multiplexer as outputs
+	pinMode(s0,OUTPUT);
+	pinMode(s1,OUTPUT);
+	pinMode(s2,OUTPUT);
+}
+
+void loop(){
+  //Serial.println(analogRead(0));
+	if(numBut!=0){updateDigitalBut();}
+  if(numAn!=0){updateAnalog();}
+	if(numMuxBut!=0){updateDigitalMuxBut();}
+  //Ledpin input
+  int ledNote=0;
+  int vi = digitalRead(ledpin);
+  if(actualPage==pgOne){
+    ledNote=56;
+  }else if(actualPage==pgTwo){
+    ledNote=74;
+  }else if(actualPage==pgThree){
+    ledNote=92;
+  }else if(actualPage==pgFour){
+    ledNote=110;
+  }
+  if(vi==1 &amp;&amp; vi!=b){
+    MIDI.sendNoteOn(ledNote,127,channel);
+  }else if(vi==0 &amp;&amp; vi!=b){
+    MIDI.sendNoteOff(ledNote,127,channel);
+    /*MIDI.sendNoteOff(56,127,channel);
+    MIDI.sendNoteOff(74,127,channel);
+    MIDI.sendNoteOff(92,127,channel);
+    MIDI.sendNoteOff(110,127,channel);*/
+  }
+  b=vi;
+	//MIDI.read();  
+}
+
+void updateDigitalBut(){
+	for(int i=0;i&lt;numBut;i++){
+		actualpin = i+v;
+		actual[i]=digitalRead(actualpin); //reading actual button state
+		//It only sends data if the state has changed
+		/*button is pressed
+    if(actualpin == ledpin){
+      if((actual[i]==1) &amp;&amp; (actual[i]!=before[i])){
+        //MIDI.sendNoteOn(48+i,127,channel);
+        MIDI.sendNoteOn(actualPage+i,127,channel);
+      }else if((actual[i]==0) &amp;&amp; (actual[i]!=before[i])){
+        //MIDI.sendNoteOff(48+i,127,channel);
+        //MIDI.sendNoteOff(pgOne+i,127,channel);
+        //MIDI.sendNoteOff(pgTwo+i,127,channel);
+        //MIDI.sendNoteOff(pgThree+i,127,channel);
+        //MIDI.sendNoteOff(pgFour+i,127,channel);
+        MIDI.sendNoteOff(actualPage+i,127,channel);
+      }
+    }*/
+    if(actualpin != muxpin){
+  		if((actual[i]==0) &amp;&amp; (actual[i]!=before[i])){
+        //MIDI.sendNoteOn(48+i,127,channel);
+        MIDI.sendNoteOn(actualPage+i,127,channel);
+  		}else if((actual[i]==1) &amp;&amp; (actual[i]!=before[i])){
+        //MIDI.sendNoteOff(48+i,0,channel);
+        MIDI.sendNoteOff(actualPage+i,0,channel);
+  		}
+    }
+		before[i]=actual[i];//setting before value as the current because its ending the for
+	}
+}
+
+void updateAnalog(){
+  for(int i=0;i&lt;numAn;i++){
+    actualAn[i]=digitalRead(14+i);
+    if((actualAn[i] == HIGH) &amp;&amp; (actualAn[i]!=beforeAn[i])){
+      switch(i){
+        case 0:
+        actualPage=pgOne;
+        Serial.println("p1");
+        break;
+        case 1:
+        actualPage=pgTwo;
+        Serial.println("p2");
+        break;
+        case 2:
+        actualPage=pgThree;
+        Serial.println("p3");
+        break;
+        case 3:
+        actualPage=pgFour;
+        Serial.println("p4");
+        break;
+      }
+      //MIDI.sendNoteOn(66+i,127,channel);
+    }else if((actualAn[i] == LOW) &amp;&amp; (actualAn[i]!=beforeAn[i])){
+      //I guess nothing
+      //MIDI.sendNoteOff(66+i,0,channel);
+    }
+    beforeAn[i]=actualAn[i];
+  }
+}
+
+void updateDigitalMuxBut(){
+	for(int i=0;i&lt;numMuxBut;i++){//multiplexer
+		actualMux[i]=getValue(i);
+		if((actualMux[i]==0) &amp;&amp; (actualMux[i]!=beforeMux[i])){
+			//MIDI.sendNoteOn(57+i,127,channel);
+      MIDI.sendNoteOn(actualPage+9+i,127,channel);
+		}else if((actualMux[i]==1) &amp;&amp; (actualMux[i]!=beforeMux[i])){
+			//MIDI.sendNoteOff(57+i,0,channel);
+     MIDI.sendNoteOff(actualPage+9+i,0,channel);
+		}
+		beforeMux[i]=actualMux[i];
+	}
+
+}
+
+int getValue(int c){
+	for(int bit=0;bit&lt;3;bit++){
+		int pin=select[bit];
+		int bitset = bitRead(c,bit);
+		digitalWrite(pin,bitset);
+	}
+	return digitalRead(muxpin);
+}
+
+<br><br><br>generated:<br>
+#include &lt;MIDI.h&gt;
+
+MIDI_CREATE_DEFAULT_INSTANCE();
+
+// Pin definitions
+const int ledPin = 13;
+const int startDigitalPin = 5;
+const int numButtons = 8; // Digital buttons
+const int numAnalogInputs = 4; // Including page buttons
+const int numMuxButtons = 8; // Buttons connected to multiplexer
+const int muxPin = 10; // Multiplexer output pin
+
+// Multiplexer control pins
+const int selectPins[] = {2, 3, 4};
+
+// Page definitions
+const byte pages[] = {48, 66, 84, 102}; // CC numbers for pages
+int currentPageIndex = 0;
+
+// State arrays
+int currentButtonStates[numButtons] = {0};
+int previousButtonStates[numButtons] = {0};
+int currentAnalogStates[numAnalogInputs] = {0};
+int previousAnalogStates[numAnalogInputs] = {0};
+int currentMuxStates[numMuxButtons] = {0};
+int previousMuxStates[numMuxButtons] = {0};
+
+void setup() {
+    MIDI.begin();
+    Serial.begin(115200);
+    
+    pinMode(ledPin, INPUT);
+    for (int i = 0; i &lt; numButtons; i++) {
+        pinMode(startDigitalPin + i, INPUT_PULLUP);
+        previousButtonStates[i] = HIGH; // Not pressed state
+    }
+    
+    for (int i = 0; i &lt; numAnalogInputs; i++) {
+        previousAnalogStates[i] = LOW;
+    }
+
+    // Set multiplexer control pins as outputs
+    for (int pin : selectPins) {
+        pinMode(pin, OUTPUT);
+    }
+}
+
+void loop() {
+    updateDigitalButtons();
+    updateAnalogButtons();
+    updateMultiplexerButtons();
+    
+    handleLedState();
+}
+
+void updateDigitalButtons() {
+    for (int i = 0; i &lt; numButtons; i++) {
+        currentButtonStates[i] = digitalRead(startDigitalPin + i);
+        if (currentButtonStates[i] != previousButtonStates[i]) {
+            byte noteNumber = pages[currentPageIndex] + i;
+            if (currentButtonStates[i] == LOW) {
+                MIDI.sendNoteOn(noteNumber, 127, 1); // Note on
+            } else {
+                MIDI.sendNoteOff(noteNumber, 0, 1); // Note off
+            }
+            previousButtonStates[i] = currentButtonStates[i];
+        }
+    }
+}
+
+void updateAnalogButtons() {
+    for (int i = 0; i &lt; numAnalogInputs; i++) {
+        currentAnalogStates[i] = digitalRead(14 + i); // Assuming analog inputs start from pin 14
+        if (currentAnalogStates[i] != previousAnalogStates[i]) {
+            if (currentAnalogStates[i] == HIGH) {
+                currentPageIndex = i % sizeof(pages); // Cycle through pages
+                Serial.print("Page changed to: ");
+                Serial.println(currentPageIndex + 1);
+            }
+            previousAnalogStates[i] = currentAnalogStates[i];
+        }
+    }
+}
+
+void updateMultiplexerButtons() {
+    for (int i = 0; i &lt; numMuxButtons; i++) {
+        currentMuxStates[i] = getMuxValue(i);
+        if (currentMuxStates[i] != previousMuxStates[i]) {
+            byte noteNumber = pages[currentPageIndex] + 9 + i;
+            if (currentMuxStates[i] == LOW) {
+                MIDI.sendNoteOn(noteNumber, 127, 1); // Note on
+            } else {
+                MIDI.sendNoteOff(noteNumber, 0, 1); // Note off
+            }
+            previousMuxStates[i] = currentMuxStates[i];
+        }
+    }
+}
+
+int getMuxValue(int index) {
+    for (int bit = 0; bit &lt; sizeof(selectPins); bit++) {
+        digitalWrite(selectPins[bit], bitRead(index, bit));
+    }
+    return digitalRead(muxPin);
+}
+
+void handleLedState() {
+    int ledNoteNumber = pages[currentPageIndex];
+    int ledState = digitalRead(ledPin);
+    
+    static int lastLedState = HIGH;
+    
+    if (ledState != lastLedState) {
+        if (ledState == LOW) {
+            MIDI.sendNoteOn(ledNoteNumber, 127, 1); // Note on
+        } else {
+            MIDI.sendNoteOff(ledNoteNumber, 0, 1); // Note off
+        }
+        lastLedState = ledState;
+    }
+}
+
+<br>Midifox simple MIDI controller
+]]></description><link>https://k3ll3x.github.io/projects/midifox.html</link><guid isPermaLink="false">projects/MIDIFOX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 29 Jul 2026 19:16:20 GMT</pubDate><enclosure url="https://k3ll3x.github.io/projects/assets/midifoxdomi.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://k3ll3x.github.io/projects/assets/midifoxdomi.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[HoloData]]></title><description><![CDATA[ 
  <br><br>Rust and Macroquad suit this holographic simulation project well, offering efficient compute shaders for light propagation modeling. The approach simulates diffraction through a programmable slit plane, enabling forward (light to hologram) and inverse (hologram to scene) operations on tensor data.<br><br>This project simulates a 3D light propagation environment with a laser source, configurable slit plane (like double-slit), and observation plane to model holographic data storage. Tensors (2D/3D arrays of 0-1 floats) represent phase/amplitude modulation on the slit for refraction/polarization effects. Forward pass generates interference patterns for storage; inverse reconstructs 3D scenes from those patterns. Rust ensures numerical precision; Macroquad handles real-time 2D/3D visualization and GPU compute via miniquad shaders. <a data-tooltip-position="top" aria-label="https://lib.rs/rendering/graphics-api" rel="noopener nofollow" class="external-link" href="https://lib.rs/rendering/graphics-api" target="_blank">lib</a><br><br>Holography relies on wave interference: laser light diffracts through the slit plane (modulated by your tensor), propagates via Fresnel or angular spectrum methods, and forms holograms on a detector plane. <a data-tooltip-position="top" aria-label="https://github.com/JackHCC/Computer-Generated-Hologram" rel="noopener nofollow" class="external-link" href="https://github.com/JackHCC/Computer-Generated-Hologram" target="_blank">github</a><br>
 <br>Slit Plane Role: Acts as spatial light modulator (SLM). Tensor values (0-1) map to phase shifts (0-2π) or amplitude, simulating double-slit patterns scalable to arbitrary holograms.
 <br>Forward Simulation: Propagate complex field ( U(x,y) = A e^{i\phi} ) (A=amplitude, φ=phase from tensor) using FFT-based Fresnel diffraction: ( U_z = \mathcal{F}^{-1} { \mathcal{F}{U_0} \cdot H_z } ), where ( H_z ) is the transfer function. <a data-tooltip-position="top" aria-label="https://github.com/JackHCC/Computer-Generated-Hologram" rel="noopener nofollow" class="external-link" href="https://github.com/JackHCC/Computer-Generated-Hologram" target="_blank">github</a>
@@ -1392,25 +1749,7 @@ Philosophy side:
 <br>Discuss whether training a model is more like sculpting, growing, or discovering a structure.
 
 
-<br>If you tell me which aspect resonates most—fractals, randomness vs determinism, or universal consciousness—I can zoom in there and we can really sharpen the picture.]]></description><link>https://k3ll3x.github.io/writings/tensors.html</link><guid isPermaLink="false">writings/tensors.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Thu, 19 Feb 2026 21:04:27 GMT</pubDate></item><item><title><![CDATA[GeoWatch]]></title><description><![CDATA[<a class="tag" href="?query=tag:show" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#show</a> <a class="tag" href="?query=tag:programming" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming</a> 
- <br><a href=".?query=tag:show" class="tag" target="_blank" rel="noopener nofollow">#show</a> <a href=".?query=tag:programming" class="tag" target="_blank" rel="noopener nofollow">#programming</a> <br><img alt="geowatch.jpg" src="projects/assets/geowatch.jpg"><br><br><a data-tooltip-position="top" aria-label="http://colmena.stguimel.com/grafana" rel="noopener nofollow" class="external-link" href="http://colmena.stguimel.com/grafana" target="_blank">Grafana Dashboard</a><br>GeoWatch is a geospatial monitoring tool designed to visualize and analyze real-time data from various sources. <br>This project provides insights into dynamic geographical data through interactive visualizations and real-time data processing.<br><br>GeoWatch allows users to monitor and visualize geospatial data in real-time. It integrates several technologies to facilitate environmental monitoring, urban planning, and other applications requiring geospatial analysis.<br>The platform architecture includes these key components:<br>
-<br>Data Collection &amp; Messaging: The remote sensors send real-time telemetry data via the MQTT protocol, which is lightweight and ideal for IoT communication.<br>
-
-<br>Backend Data Handling: Using Node.js, the data is ingested and processed. The system stores sensor data primarily in a time-series database built on PostgreSQL with the PostGIS extension for geospatial data and TimescaleDB for efficient time-series handling.<br>
-
-<br>Monitoring &amp; Metrics: Prometheus is employed to monitor platform metrics and health.<br>
-
-<br>Data Visualization: Grafana is used to create interactive dashboards displaying historical and real-time sensor metrics such as pollutant concentrations, temperature, humidity, and air quality indexes.<br>
-
-<br>Frontend Interface: A modern web frontend is built with React and Next.js, providing users with responsive and dynamic access to dashboard views and sensor data.<br>
-
-<br>Containerization and Deployment: Docker containers package all services, ensuring consistent development and deployment environments.<br>
-
-<br>Reverse Proxy: A reverse proxy is configured to securely route and manage incoming requests.<br>
-
-<br>GIS Integration: QGIS is used for spatial analysis and mapping of sensor locations and air quality distributions, enhancing the geographic component of the data.<br>
-
-<br>This platform enables comprehensive analysis of remote environmental sensor data, helping stakeholders visualize air quality trends and make data-driven decisions for environmental monitoring.]]></description><link>projects/geowatch.html</link><guid isPermaLink="false">projects/GeoWatch.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 07 Nov 2025 00:16:17 GMT</pubDate><enclosure url="projects/assets/geowatch.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/geowatch.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Tiamat]]></title><description><![CDATA[<a class="tag" href="?query=tag:show" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#show</a> <a class="tag" href="?query=tag:programming" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming</a> 
+<br>If you tell me which aspect resonates most—fractals, randomness vs determinism, or universal consciousness—I can zoom in there and we can really sharpen the picture.]]></description><link>https://k3ll3x.github.io/writings/tensors.html</link><guid isPermaLink="false">writings/tensors.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Thu, 19 Feb 2026 21:04:27 GMT</pubDate></item><item><title><![CDATA[Tiamat]]></title><description><![CDATA[<a class="tag" href="?query=tag:show" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#show</a> <a class="tag" href="?query=tag:programming" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming</a> 
  <br><a href=".?query=tag:show" class="tag" target="_blank" rel="noopener nofollow">#show</a> <a href=".?query=tag:programming" class="tag" target="_blank" rel="noopener nofollow">#programming</a><br>
 <img alt="topomibarrio.png" src="projects/assets/topomibarrio.png"><br><br>3d engine, made in Rust and base 60 symbol converter<br><a data-tooltip-position="top" aria-label="https://k3ll3x.github.io/tiamat.html" rel="noopener nofollow" class="external-link" href="https://k3ll3x.github.io/tiamat.html" target="_blank">Webbrowser version</a><br><br>
 <br>Diseñar API
@@ -1589,344 +1928,7 @@ Constant movement in each exercise<br>
 <br>Sit down and shift your hips up and forwards
 <br>Seal pose to down facing dog
 <br>Meditate]]></description><link>movement/5-buddhist-tibetan-rites.html</link><guid isPermaLink="false">movement/5 Buddhist Tibetan Rites.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Sun, 28 Apr 2024 23:29:46 GMT</pubDate><enclosure url="lib/media/doodle_tibetanrites.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="lib/media/doodle_tibetanrites.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[QiZong]]></title><description><![CDATA[ 
- <br>*A combination of QiGong with Yoga Asanas, constant movements focusing on State Movement Resonance*]]></description><link>movement/qizong.html</link><guid isPermaLink="false">movement/QiZong.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 18 Dec 2024 02:56:18 GMT</pubDate></item><item><title><![CDATA[MIDIFOX]]></title><description><![CDATA[<a class="tag" href="?query=tag:show" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#show</a> <a class="tag" href="?query=tag:programming" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming</a> <a class="tag" href="?query=tag:electronics" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#electronics</a> <a class="tag" href="?query=tag:projects" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#projects</a> 
- <br><a href=".?query=tag:show" class="tag" target="_blank" rel="noopener nofollow">#show</a> <a href=".?query=tag:programming" class="tag" target="_blank" rel="noopener nofollow">#programming</a> <a href=".?query=tag:electronics" class="tag" target="_blank" rel="noopener nofollow">#electronics</a> <a href=".?query=tag:projects" class="tag" target="_blank" rel="noopener nofollow">#projects</a><br>
-<img alt="midifoxdomi.jpg" src="projects/assets/midifoxdomi.jpg"><br>4x4 arcade button MIDI controller with 4 channels<br><br><br><br>
-<br>digitalize schematic from notebook
-<br>redoo code, add math to the datatypes, bit operators ✅ 2024-12-17
-
-<br>test generated code
-
-
-<br>Original Code for the Arduino Nano<br><br>OldCode:<br>
-/* Nuvhandra
- * 2017
- *
- * MIDI Controller
- * This version uses a multiplexer and normal digital inputs are used from 5 to 13
- * 
- * Version 3:
- * 4 analog inputs used as 'page' buttons
- */
-
-#include &lt;MIDI.h&gt;
-
-MIDI_CREATE_DEFAULT_INSTANCE();
-
-//pin number 13 will be an extra button, but it must be connected differently with a resistor
-//pin 13 is reversed
-const int ledpin=13;
-int b = 0;
-const int v=5;//where the digital pins start, in this case is 5 because control pins take 2,3 and 4
-const int numBut=8;//max number 8, digital pins, left one for multiplexer, counting led pin
-const int numAn=3;//number of potentiometers
-//const int anf=8;
-const int numMuxBut=8;//number of button connected to multiplexer
-const int muxpin=10;//Which pin is connected to the multipexer
-/*byte nx=144;
-byte vel=127;*/
-byte cc=0;
-int actualpin;
-int channel=1;
-int actual[numBut];
-int before[numBut];
-int actualAn[numAn];
-int beforeAn[numAn];
-int actualMux[numMuxBut];
-int beforeMux[numMuxBut];
-
-int thre = 800;
-int val;
-
-//multiplexer control pins
-const int s0 = 2;
-const int s1 = 3;
-const int s2 = 4;
-
-const int select[] = {s0,s1,s2};
-
-//Adding pages to the analog pins, this buttons(analog) changes the CC note in the 4x4 buttons
-//by default is on page 1
-const int pgOne=48;
-const int pgTwo=pgOne+18;
-const int pgThree=pgTwo+18;
-const int pgFour=pgThree+18;
-
-const int pgs
-
-int actualPage;
-
-void setup(){
-  MIDI.begin();
-  //Serial.begin(9600);
-  Serial.begin(115200);
-	//MIDI.begin(MIDI_CHANNEL_OMNI); //it listen to all incomming message
-
-  pinMode(ledpin,INPUT);
- 
-  for(int i=0;i&lt;numBut;i++){
-    actualpin=i+v;
-    pinMode(actualpin,INPUT_PULLUP);
-	  before[i]=1; //set 1 as button is not pressed
-	}
-
-  //set analog inputs as false
-  for(int i=0;i&lt;numAn;i++){
-    actualAn[i]=0;
-    beforeAn[i]=0;
-  }
-
-  //setting default page one
-  actualPage=pgOne;
- 
-	//Adding multiplexer
-	//control pins from multiplexer as outputs
-	pinMode(s0,OUTPUT);
-	pinMode(s1,OUTPUT);
-	pinMode(s2,OUTPUT);
-}
-
-void loop(){
-  //Serial.println(analogRead(0));
-	if(numBut!=0){updateDigitalBut();}
-  if(numAn!=0){updateAnalog();}
-	if(numMuxBut!=0){updateDigitalMuxBut();}
-  //Ledpin input
-  int ledNote=0;
-  int vi = digitalRead(ledpin);
-  if(actualPage==pgOne){
-    ledNote=56;
-  }else if(actualPage==pgTwo){
-    ledNote=74;
-  }else if(actualPage==pgThree){
-    ledNote=92;
-  }else if(actualPage==pgFour){
-    ledNote=110;
-  }
-  if(vi==1 &amp;&amp; vi!=b){
-    MIDI.sendNoteOn(ledNote,127,channel);
-  }else if(vi==0 &amp;&amp; vi!=b){
-    MIDI.sendNoteOff(ledNote,127,channel);
-    /*MIDI.sendNoteOff(56,127,channel);
-    MIDI.sendNoteOff(74,127,channel);
-    MIDI.sendNoteOff(92,127,channel);
-    MIDI.sendNoteOff(110,127,channel);*/
-  }
-  b=vi;
-	//MIDI.read();  
-}
-
-void updateDigitalBut(){
-	for(int i=0;i&lt;numBut;i++){
-		actualpin = i+v;
-		actual[i]=digitalRead(actualpin); //reading actual button state
-		//It only sends data if the state has changed
-		/*button is pressed
-    if(actualpin == ledpin){
-      if((actual[i]==1) &amp;&amp; (actual[i]!=before[i])){
-        //MIDI.sendNoteOn(48+i,127,channel);
-        MIDI.sendNoteOn(actualPage+i,127,channel);
-      }else if((actual[i]==0) &amp;&amp; (actual[i]!=before[i])){
-        //MIDI.sendNoteOff(48+i,127,channel);
-        //MIDI.sendNoteOff(pgOne+i,127,channel);
-        //MIDI.sendNoteOff(pgTwo+i,127,channel);
-        //MIDI.sendNoteOff(pgThree+i,127,channel);
-        //MIDI.sendNoteOff(pgFour+i,127,channel);
-        MIDI.sendNoteOff(actualPage+i,127,channel);
-      }
-    }*/
-    if(actualpin != muxpin){
-  		if((actual[i]==0) &amp;&amp; (actual[i]!=before[i])){
-        //MIDI.sendNoteOn(48+i,127,channel);
-        MIDI.sendNoteOn(actualPage+i,127,channel);
-  		}else if((actual[i]==1) &amp;&amp; (actual[i]!=before[i])){
-        //MIDI.sendNoteOff(48+i,0,channel);
-        MIDI.sendNoteOff(actualPage+i,0,channel);
-  		}
-    }
-		before[i]=actual[i];//setting before value as the current because its ending the for
-	}
-}
-
-void updateAnalog(){
-  for(int i=0;i&lt;numAn;i++){
-    actualAn[i]=digitalRead(14+i);
-    if((actualAn[i] == HIGH) &amp;&amp; (actualAn[i]!=beforeAn[i])){
-      switch(i){
-        case 0:
-        actualPage=pgOne;
-        Serial.println("p1");
-        break;
-        case 1:
-        actualPage=pgTwo;
-        Serial.println("p2");
-        break;
-        case 2:
-        actualPage=pgThree;
-        Serial.println("p3");
-        break;
-        case 3:
-        actualPage=pgFour;
-        Serial.println("p4");
-        break;
-      }
-      //MIDI.sendNoteOn(66+i,127,channel);
-    }else if((actualAn[i] == LOW) &amp;&amp; (actualAn[i]!=beforeAn[i])){
-      //I guess nothing
-      //MIDI.sendNoteOff(66+i,0,channel);
-    }
-    beforeAn[i]=actualAn[i];
-  }
-}
-
-void updateDigitalMuxBut(){
-	for(int i=0;i&lt;numMuxBut;i++){//multiplexer
-		actualMux[i]=getValue(i);
-		if((actualMux[i]==0) &amp;&amp; (actualMux[i]!=beforeMux[i])){
-			//MIDI.sendNoteOn(57+i,127,channel);
-      MIDI.sendNoteOn(actualPage+9+i,127,channel);
-		}else if((actualMux[i]==1) &amp;&amp; (actualMux[i]!=beforeMux[i])){
-			//MIDI.sendNoteOff(57+i,0,channel);
-     MIDI.sendNoteOff(actualPage+9+i,0,channel);
-		}
-		beforeMux[i]=actualMux[i];
-	}
-
-}
-
-int getValue(int c){
-	for(int bit=0;bit&lt;3;bit++){
-		int pin=select[bit];
-		int bitset = bitRead(c,bit);
-		digitalWrite(pin,bitset);
-	}
-	return digitalRead(muxpin);
-}
-
-<br><br><br>generated:<br>
-#include &lt;MIDI.h&gt;
-
-MIDI_CREATE_DEFAULT_INSTANCE();
-
-// Pin definitions
-const int ledPin = 13;
-const int startDigitalPin = 5;
-const int numButtons = 8; // Digital buttons
-const int numAnalogInputs = 4; // Including page buttons
-const int numMuxButtons = 8; // Buttons connected to multiplexer
-const int muxPin = 10; // Multiplexer output pin
-
-// Multiplexer control pins
-const int selectPins[] = {2, 3, 4};
-
-// Page definitions
-const byte pages[] = {48, 66, 84, 102}; // CC numbers for pages
-int currentPageIndex = 0;
-
-// State arrays
-int currentButtonStates[numButtons] = {0};
-int previousButtonStates[numButtons] = {0};
-int currentAnalogStates[numAnalogInputs] = {0};
-int previousAnalogStates[numAnalogInputs] = {0};
-int currentMuxStates[numMuxButtons] = {0};
-int previousMuxStates[numMuxButtons] = {0};
-
-void setup() {
-    MIDI.begin();
-    Serial.begin(115200);
-    
-    pinMode(ledPin, INPUT);
-    for (int i = 0; i &lt; numButtons; i++) {
-        pinMode(startDigitalPin + i, INPUT_PULLUP);
-        previousButtonStates[i] = HIGH; // Not pressed state
-    }
-    
-    for (int i = 0; i &lt; numAnalogInputs; i++) {
-        previousAnalogStates[i] = LOW;
-    }
-
-    // Set multiplexer control pins as outputs
-    for (int pin : selectPins) {
-        pinMode(pin, OUTPUT);
-    }
-}
-
-void loop() {
-    updateDigitalButtons();
-    updateAnalogButtons();
-    updateMultiplexerButtons();
-    
-    handleLedState();
-}
-
-void updateDigitalButtons() {
-    for (int i = 0; i &lt; numButtons; i++) {
-        currentButtonStates[i] = digitalRead(startDigitalPin + i);
-        if (currentButtonStates[i] != previousButtonStates[i]) {
-            byte noteNumber = pages[currentPageIndex] + i;
-            if (currentButtonStates[i] == LOW) {
-                MIDI.sendNoteOn(noteNumber, 127, 1); // Note on
-            } else {
-                MIDI.sendNoteOff(noteNumber, 0, 1); // Note off
-            }
-            previousButtonStates[i] = currentButtonStates[i];
-        }
-    }
-}
-
-void updateAnalogButtons() {
-    for (int i = 0; i &lt; numAnalogInputs; i++) {
-        currentAnalogStates[i] = digitalRead(14 + i); // Assuming analog inputs start from pin 14
-        if (currentAnalogStates[i] != previousAnalogStates[i]) {
-            if (currentAnalogStates[i] == HIGH) {
-                currentPageIndex = i % sizeof(pages); // Cycle through pages
-                Serial.print("Page changed to: ");
-                Serial.println(currentPageIndex + 1);
-            }
-            previousAnalogStates[i] = currentAnalogStates[i];
-        }
-    }
-}
-
-void updateMultiplexerButtons() {
-    for (int i = 0; i &lt; numMuxButtons; i++) {
-        currentMuxStates[i] = getMuxValue(i);
-        if (currentMuxStates[i] != previousMuxStates[i]) {
-            byte noteNumber = pages[currentPageIndex] + 9 + i;
-            if (currentMuxStates[i] == LOW) {
-                MIDI.sendNoteOn(noteNumber, 127, 1); // Note on
-            } else {
-                MIDI.sendNoteOff(noteNumber, 0, 1); // Note off
-            }
-            previousMuxStates[i] = currentMuxStates[i];
-        }
-    }
-}
-
-int getMuxValue(int index) {
-    for (int bit = 0; bit &lt; sizeof(selectPins); bit++) {
-        digitalWrite(selectPins[bit], bitRead(index, bit));
-    }
-    return digitalRead(muxPin);
-}
-
-void handleLedState() {
-    int ledNoteNumber = pages[currentPageIndex];
-    int ledState = digitalRead(ledPin);
-    
-    static int lastLedState = HIGH;
-    
-    if (ledState != lastLedState) {
-        if (ledState == LOW) {
-            MIDI.sendNoteOn(ledNoteNumber, 127, 1); // Note on
-        } else {
-            MIDI.sendNoteOff(ledNoteNumber, 0, 1); // Note off
-        }
-        lastLedState = ledState;
-    }
-}
-
-]]></description><link>projects/midifox.html</link><guid isPermaLink="false">projects/MIDIFOX.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Fri, 25 Jul 2025 23:27:24 GMT</pubDate><enclosure url="projects/assets/midifoxdomi.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="projects/assets/midifoxdomi.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MusikSack]]></title><description><![CDATA[<a class="tag" href="?query=tag:show" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#show</a> <a class="tag" href="?query=tag:electronics" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#electronics</a> <a class="tag" href="?query=tag:programming" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming</a> <a class="tag" href="?query=tag:projects" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#projects</a> 
+ <br>*A combination of QiGong with Yoga Asanas, constant movements focusing on State Movement Resonance*]]></description><link>movement/qizong.html</link><guid isPermaLink="false">movement/QiZong.md</guid><dc:creator><![CDATA[Nuvhandra]]></dc:creator><pubDate>Wed, 18 Dec 2024 02:56:18 GMT</pubDate></item><item><title><![CDATA[MusikSack]]></title><description><![CDATA[<a class="tag" href="?query=tag:show" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#show</a> <a class="tag" href="?query=tag:electronics" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#electronics</a> <a class="tag" href="?query=tag:programming" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#programming</a> <a class="tag" href="?query=tag:projects" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#projects</a> 
  <br><a href=".?query=tag:show" class="tag" target="_blank" rel="noopener nofollow">#show</a> <a href=".?query=tag:electronics" class="tag" target="_blank" rel="noopener nofollow">#electronics</a> <a href=".?query=tag:programming" class="tag" target="_blank" rel="noopener nofollow">#programming</a> <a href=".?query=tag:projects" class="tag" target="_blank" rel="noopener nofollow">#projects</a><br>
 <img alt="layout-blueprint_v2.svg" src="projects/assets/layout-blueprint_v2.svg"><br>A Single-board computer with a micro-controller for processing Analog and Digital inputs, designed for music production, computer graphics, and other open-source projects.<br>Design<br>
 <br>
