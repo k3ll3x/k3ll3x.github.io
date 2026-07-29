@@ -1,0 +1,365 @@
+<!DOCTYPE html> <html><head>
+		<title>plan</title>
+		<base href="../">
+		<meta id="root-path" root-path="../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="Tetrahedron - plan">
+		<meta property="og:title" content="plan">
+		<meta property="og:description" content="Tetrahedron - plan">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://k3ll3x.github.io/projects/plan.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="Tetrahedron">
+		<meta name="author" content="Nuvhandra"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://k3ll3x.github.io/lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="lib/scripts/pixi.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript><link rel="preload" href="lib/styles/snippets.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/snippets.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles">mjx-c.mjx-c1D70C.TEX-I::before { padding: 0.442em 0.517em 0.216em 0px; content: "ρ"; }
+mjx-c.mjx-c6B::before { padding: 0.694em 0.528em 0px 0px; content: "k"; }
+mjx-c.mjx-c67::before { padding: 0.453em 0.5em 0.206em 0px; content: "g"; }
+mjx-c.mjx-c2F::before { padding: 0.75em 0.5em 0.25em 0px; content: "/"; }
+mjx-c.mjx-c1D70E.TEX-I::before { padding: 0.431em 0.571em 0.011em 0px; content: "σ"; }
+mjx-c.mjx-c4D::before { padding: 0.683em 0.917em 0px 0px; content: "M"; }
+mjx-c.mjx-c50::before { padding: 0.683em 0.681em 0px 0px; content: "P"; }
+mjx-c.mjx-c1D438.TEX-I::before { padding: 0.68em 0.764em 0px 0px; content: "E"; }
+mjx-c.mjx-c1D45A.TEX-I::before { padding: 0.442em 0.878em 0.011em 0px; content: "m"; }
+mjx-c.mjx-c1D440.TEX-I::before { padding: 0.683em 1.051em 0px 0px; content: "M"; }
+mjx-c.mjx-c1D43C.TEX-I::before { padding: 0.683em 0.504em 0px 0px; content: "I"; }
+mjx-c.mjx-c1D44A.TEX-I::before { padding: 0.683em 1.048em 0.022em 0px; content: "W"; }
+mjx-c.mjx-c2248::before { padding: 0.483em 0.778em 0px 0px; content: "≈"; }
+mjx-c.mjx-c3C::before { padding: 0.54em 0.778em 0.04em 0px; content: "<"; }
+mjx-c.mjx-c44::before { padding: 0.683em 0.764em 0px 0px; content: "D"; }
+mjx-c.mjx-c394::before { padding: 0.716em 0.833em 0px 0px; content: "Δ"; }
+mjx-c.mjx-c1D450.TEX-I::before { padding: 0.442em 0.433em 0.011em 0px; content: "c"; }
+mjx-texatom { display: inline-block; text-align: left; }
+mjx-mspace { display: inline-block; text-align: left; }
+mjx-mover { display: inline-block; text-align: left; }
+mjx-mover:not([limits="false"]) { padding-top: 0.1em; }
+mjx-mover:not([limits="false"]) > * { display: block; text-align: left; }
+mjx-mtext { display: inline-block; text-align: left; }
+mjx-c.mjx-c31::before { padding: 0.666em 0.5em 0px 0px; content: "1"; }
+mjx-c.mjx-c33::before { padding: 0.665em 0.5em 0.022em 0px; content: "3"; }
+mjx-c.mjx-cD7::before { padding: 0.491em 0.778em 0px 0px; content: "×"; }
+mjx-c.mjx-c36::before { padding: 0.666em 0.5em 0.022em 0px; content: "6"; }
+mjx-c.mjx-c39::before { padding: 0.666em 0.5em 0.022em 0px; content: "9"; }
+mjx-c.mjx-c2192::before { padding: 0.511em 1em 0.011em 0px; content: "→"; }
+mjx-c.mjx-c34::before { padding: 0.677em 0.5em 0px 0px; content: "4"; }
+mjx-c.mjx-c38::before { padding: 0.666em 0.5em 0.022em 0px; content: "8"; }
+mjx-c.mjx-c37::before { padding: 0.676em 0.5em 0.022em 0px; content: "7"; }
+mjx-c.mjx-c35::before { padding: 0.666em 0.5em 0.022em 0px; content: "5"; }
+mjx-c.mjx-c221E::before { padding: 0.442em 1em 0.011em 0px; content: "∞"; }
+mjx-c.mjx-c3A6::before { padding: 0.683em 0.722em 0px 0px; content: "Φ"; }
+mjx-c.mjx-c1D45B.TEX-I::before { padding: 0.442em 0.6em 0.011em 0px; content: "n"; }
+mjx-c.mjx-c2208::before { padding: 0.54em 0.667em 0.04em 0px; content: "∈"; }
+mjx-c.mjx-c2124.TEX-A::before { padding: 0.683em 0.667em 0px 0px; content: "Z"; }
+mjx-c.mjx-c2212::before { padding: 0.583em 0.778em 0.082em 0px; content: "−"; }
+mjx-c.mjx-c1D449.TEX-I::before { padding: 0.683em 0.769em 0.022em 0px; content: "V"; }
+mjx-c.mjx-c1D45C.TEX-I::before { padding: 0.441em 0.485em 0.011em 0px; content: "o"; }
+mjx-c.mjx-c1D462.TEX-I::before { padding: 0.442em 0.572em 0.011em 0px; content: "u"; }
+mjx-c.mjx-c1D461.TEX-I::before { padding: 0.626em 0.361em 0.011em 0px; content: "t"; }
+mjx-c.mjx-c2211.TEX-S2::before { padding: 0.95em 1.444em 0.45em 0px; content: "∑"; }
+mjx-c.mjx-c1D460.TEX-I::before { padding: 0.442em 0.469em 0.01em 0px; content: "s"; }
+mjx-c.mjx-c1D456.TEX-I::before { padding: 0.661em 0.345em 0.011em 0px; content: "i"; }
+mjx-c.mjx-c22C5::before { padding: 0.31em 0.278em 0px 0px; content: "⋅"; }
+mjx-c.mjx-c6D::before { padding: 0.442em 0.833em 0px 0px; content: "m"; }
+mjx-c.mjx-c64::before { padding: 0.694em 0.556em 0.011em 0px; content: "d"; }
+mjx-c.mjx-c20D7.TEX-V::before { padding: 0.714em 0.5em 0px 0px; content: "→"; }
+mjx-c.mjx-c1D435.TEX-I::before { padding: 0.683em 0.759em 0px 0px; content: "B"; }
+mjx-c.mjx-c1D434.TEX-I::before { padding: 0.716em 0.75em 0px 0px; content: "A"; }
+mjx-c.mjx-c2218::before { padding: 0.444em 0.5em 0px 0px; content: "∘"; }
+mjx-c.mjx-c1D44E.TEX-I::before { padding: 0.441em 0.529em 0.01em 0px; content: "a"; }
+mjx-c.mjx-c1D459.TEX-I::before { padding: 0.694em 0.298em 0.011em 0px; content: "l"; }
+mjx-c.mjx-c222E.TEX-S2::before { padding: 1.36em 0.944em 0.862em 0px; content: "∮"; }
+mjx-c.mjx-c1D452.TEX-I::before { padding: 0.442em 0.466em 0.011em 0px; content: "e"; }
+mjx-c.mjx-c28.TEX-S3::before { padding: 1.45em 0.736em 0.949em 0px; content: "("; }
+mjx-c.mjx-c52::before { padding: 0.683em 0.736em 0.022em 0px; content: "R"; }
+mjx-c.mjx-c65::before { padding: 0.448em 0.444em 0.011em 0px; content: "e"; }
+mjx-c.mjx-c69::before { padding: 0.669em 0.278em 0px 0px; content: "i"; }
+mjx-c.mjx-c29.TEX-S3::before { padding: 1.45em 0.736em 0.949em 0px; content: ")"; }
+mjx-c.mjx-c1D451.TEX-I::before { padding: 0.694em 0.52em 0.01em 0px; content: "d"; }
+mjx-c.mjx-c2E::before { padding: 0.12em 0.278em 0px 0px; content: "."; }
+mjx-c.mjx-cA0::before { padding: 0px 0.25em 0px 0px; content: " "; }
+mjx-c.mjx-c48::before { padding: 0.683em 0.75em 0px 0px; content: "H"; }
+mjx-c.mjx-c7A::before { padding: 0.431em 0.444em 0px 0px; content: "z"; }
+mjx-c.mjx-c1D706.TEX-I::before { padding: 0.694em 0.583em 0.012em 0px; content: "λ"; }
+mjx-c.mjx-c25::before { padding: 0.75em 0.833em 0.056em 0px; content: "%"; }
+mjx-mo { display: inline-block; text-align: left; }
+mjx-stretchy-h { display: inline-table; width: 100%; }
+mjx-stretchy-h > * { display: table-cell; width: 0px; }
+mjx-stretchy-h > * > mjx-c { display: inline-block; transform: scaleX(1); }
+mjx-stretchy-h > * > mjx-c::before { display: inline-block; width: initial; }
+mjx-stretchy-h > mjx-ext { overflow: clip visible; width: 100%; }
+mjx-stretchy-h > mjx-ext > mjx-c::before { transform: scaleX(500); }
+mjx-stretchy-h > mjx-ext > mjx-c { width: 0px; }
+mjx-stretchy-h > mjx-beg > mjx-c { margin-right: -0.1em; }
+mjx-stretchy-h > mjx-end > mjx-c { margin-left: -0.1em; }
+mjx-stretchy-v { display: inline-block; }
+mjx-stretchy-v > * { display: block; }
+mjx-stretchy-v > mjx-beg { height: 0px; }
+mjx-stretchy-v > mjx-end > mjx-c { display: block; }
+mjx-stretchy-v > * > mjx-c { transform: scaleY(1); transform-origin: left center; overflow: hidden; }
+mjx-stretchy-v > mjx-ext { display: block; height: 100%; box-sizing: border-box; border: 0px solid transparent; overflow: visible clip; }
+mjx-stretchy-v > mjx-ext > mjx-c::before { width: initial; box-sizing: border-box; }
+mjx-stretchy-v > mjx-ext > mjx-c { transform: scaleY(500) translateY(0.075em); overflow: visible; }
+mjx-mark { display: inline-block; height: 0px; }
+mjx-msqrt { display: inline-block; text-align: left; }
+mjx-root { display: inline-block; white-space: nowrap; }
+mjx-surd { display: inline-block; vertical-align: top; }
+mjx-sqrt { display: inline-block; padding-top: 0.07em; }
+mjx-sqrt > mjx-box { border-top: 0.07em solid; }
+mjx-sqrt.mjx-tall > mjx-box { padding-left: 0.3em; margin-left: -0.3em; }
+mjx-msup { display: inline-block; text-align: left; }
+mjx-mrow { display: inline-block; text-align: left; }
+mjx-mfrac { display: inline-block; text-align: left; }
+mjx-frac { display: inline-block; vertical-align: 0.17em; padding: 0px 0.22em; }
+mjx-frac[type="d"] { vertical-align: 0.04em; }
+mjx-frac[delims] { padding: 0px 0.1em; }
+mjx-frac[atop] { padding: 0px 0.12em; }
+mjx-frac[atop][delims] { padding: 0px; }
+mjx-dtable { display: inline-table; width: 100%; }
+mjx-dtable > * { font-size: 2000%; }
+mjx-dbox { display: block; font-size: 5%; }
+mjx-num { display: block; text-align: center; }
+mjx-den { display: block; text-align: center; }
+mjx-mfrac[bevelled] > mjx-num { display: inline-block; }
+mjx-mfrac[bevelled] > mjx-den { display: inline-block; }
+mjx-den[align="right"], mjx-num[align="right"] { text-align: right; }
+mjx-den[align="left"], mjx-num[align="left"] { text-align: left; }
+mjx-nstrut { display: inline-block; height: 0.054em; width: 0px; vertical-align: -0.054em; }
+mjx-nstrut[type="d"] { height: 0.217em; vertical-align: -0.217em; }
+mjx-dstrut { display: inline-block; height: 0.505em; width: 0px; }
+mjx-dstrut[type="d"] { height: 0.726em; }
+mjx-line { display: block; box-sizing: border-box; min-height: 1px; height: 0.06em; border-top: 0.06em solid; margin: 0.06em -0.1em; overflow: hidden; }
+mjx-line[type="d"] { margin: 0.18em -0.1em; }
+mjx-c.mjx-c28::before { padding: 0.75em 0.389em 0.25em 0px; content: "("; }
+mjx-c.mjx-c1D465.TEX-I::before { padding: 0.442em 0.572em 0.011em 0px; content: "x"; }
+mjx-c.mjx-c2C::before { padding: 0.121em 0.278em 0.194em 0px; content: ","; }
+mjx-c.mjx-c1D466.TEX-I::before { padding: 0.442em 0.49em 0.205em 0px; content: "y"; }
+mjx-c.mjx-c1D467.TEX-I::before { padding: 0.442em 0.465em 0.011em 0px; content: "z"; }
+mjx-c.mjx-c29::before { padding: 0.75em 0.389em 0.25em 0px; content: ")"; }
+mjx-c.mjx-c1D45F.TEX-I::before { padding: 0.442em 0.451em 0.011em 0px; content: "r"; }
+mjx-c.mjx-c1D703.TEX-I::before { padding: 0.705em 0.469em 0.01em 0px; content: "θ"; }
+mjx-c.mjx-c1D719.TEX-I::before { padding: 0.694em 0.596em 0.205em 0px; content: "ϕ"; }
+mjx-c.mjx-c3D::before { padding: 0.583em 0.778em 0.082em 0px; content: "="; }
+mjx-c.mjx-c221A.TEX-S1::before { padding: 0.85em 1.02em 0.35em 0px; content: "√"; }
+mjx-c.mjx-c2B::before { padding: 0.583em 0.778em 0.082em 0px; content: "+"; }
+mjx-c.mjx-c61::before { padding: 0.448em 0.5em 0.011em 0px; content: "a"; }
+mjx-c.mjx-c72::before { padding: 0.442em 0.392em 0px 0px; content: "r"; }
+mjx-c.mjx-c63::before { padding: 0.448em 0.444em 0.011em 0px; content: "c"; }
+mjx-c.mjx-c74::before { padding: 0.615em 0.389em 0.01em 0px; content: "t"; }
+mjx-c.mjx-c6E::before { padding: 0.442em 0.556em 0px 0px; content: "n"; }
+mjx-c.mjx-c2061::before { padding: 0px; content: ""; }
+mjx-c.mjx-c28.TEX-S2::before { padding: 1.15em 0.597em 0.649em 0px; content: "("; }
+mjx-c.mjx-c29.TEX-S2::before { padding: 1.15em 0.597em 0.649em 0px; content: ")"; }
+mjx-c.mjx-c3B::before { padding: 0.43em 0.278em 0.194em 0px; content: ";"; }
+mjx-c.mjx-c2260::before { padding: 0.716em 0.778em 0.215em 0px; content: "≠"; }
+mjx-c.mjx-c30::before { padding: 0.666em 0.5em 0.022em 0px; content: "0"; }
+mjx-c.mjx-c6F::before { padding: 0.448em 0.5em 0.01em 0px; content: "o"; }
+mjx-c.mjx-c73::before { padding: 0.448em 0.394em 0.011em 0px; content: "s"; }
+mjx-container[jax="CHTML"] { line-height: 0; }
+mjx-container [space="1"] { margin-left: 0.111em; }
+mjx-container [space="2"] { margin-left: 0.167em; }
+mjx-container [space="3"] { margin-left: 0.222em; }
+mjx-container [space="4"] { margin-left: 0.278em; }
+mjx-container [space="5"] { margin-left: 0.333em; }
+mjx-container [rspace="1"] { margin-right: 0.111em; }
+mjx-container [rspace="2"] { margin-right: 0.167em; }
+mjx-container [rspace="3"] { margin-right: 0.222em; }
+mjx-container [rspace="4"] { margin-right: 0.278em; }
+mjx-container [rspace="5"] { margin-right: 0.333em; }
+mjx-container [size="s"] { font-size: 70.7%; }
+mjx-container [size="ss"] { font-size: 50%; }
+mjx-container [size="Tn"] { font-size: 60%; }
+mjx-container [size="sm"] { font-size: 85%; }
+mjx-container [size="lg"] { font-size: 120%; }
+mjx-container [size="Lg"] { font-size: 144%; }
+mjx-container [size="LG"] { font-size: 173%; }
+mjx-container [size="hg"] { font-size: 207%; }
+mjx-container [size="HG"] { font-size: 249%; }
+mjx-container [width="full"] { width: 100%; }
+mjx-box { display: inline-block; }
+mjx-block { display: block; }
+mjx-itable { display: inline-table; }
+mjx-row { display: table-row; }
+mjx-row > * { display: table-cell; }
+mjx-mtext { display: inline-block; }
+mjx-mstyle { display: inline-block; }
+mjx-merror { display: inline-block; color: red; background-color: yellow; }
+mjx-mphantom { visibility: hidden; }
+mjx-assistive-mml { top: 0px; left: 0px; clip: rect(1px, 1px, 1px, 1px); user-select: none; position: absolute !important; padding: 1px 0px 0px !important; border: 0px !important; display: block !important; width: auto !important; overflow: hidden !important; }
+mjx-assistive-mml[display="block"] { width: 100% !important; }
+mjx-math { display: inline-block; text-align: left; line-height: 0; text-indent: 0px; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; border-collapse: collapse; overflow-wrap: normal; word-spacing: normal; white-space: nowrap; direction: ltr; padding: 1px 0px; }
+mjx-container[jax="CHTML"][display="true"] { display: block; text-align: center; margin: 1em 0px; }
+mjx-container[jax="CHTML"][display="true"][width="full"] { display: flex; }
+mjx-container[jax="CHTML"][display="true"] mjx-math { padding: 0px; }
+mjx-container[jax="CHTML"][justify="left"] { text-align: left; }
+mjx-container[jax="CHTML"][justify="right"] { text-align: right; }
+mjx-mi { display: inline-block; text-align: left; }
+mjx-c { display: inline-block; }
+mjx-utext { display: inline-block; padding: 0.75em 0px 0.2em; }
+mjx-msub { display: inline-block; text-align: left; }
+mjx-mn { display: inline-block; text-align: left; }
+mjx-c::before { display: block; width: 0px; }
+.MJX-TEX { font-family: MJXZERO, MJXTEX; }
+.TEX-B { font-family: MJXZERO, MJXTEX-B; }
+.TEX-I { font-family: MJXZERO, MJXTEX-I; }
+.TEX-MI { font-family: MJXZERO, MJXTEX-MI; }
+.TEX-BI { font-family: MJXZERO, MJXTEX-BI; }
+.TEX-S1 { font-family: MJXZERO, MJXTEX-S1; }
+.TEX-S2 { font-family: MJXZERO, MJXTEX-S2; }
+.TEX-S3 { font-family: MJXZERO, MJXTEX-S3; }
+.TEX-S4 { font-family: MJXZERO, MJXTEX-S4; }
+.TEX-A { font-family: MJXZERO, MJXTEX-A; }
+.TEX-C { font-family: MJXZERO, MJXTEX-C; }
+.TEX-CB { font-family: MJXZERO, MJXTEX-CB; }
+.TEX-FR { font-family: MJXZERO, MJXTEX-FR; }
+.TEX-FRB { font-family: MJXZERO, MJXTEX-FRB; }
+.TEX-SS { font-family: MJXZERO, MJXTEX-SS; }
+.TEX-SSB { font-family: MJXZERO, MJXTEX-SSB; }
+.TEX-SSI { font-family: MJXZERO, MJXTEX-SSI; }
+.TEX-SC { font-family: MJXZERO, MJXTEX-SC; }
+.TEX-T { font-family: MJXZERO, MJXTEX-T; }
+.TEX-V { font-family: MJXZERO, MJXTEX-V; }
+.TEX-VB { font-family: MJXZERO, MJXTEX-VB; }
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c { font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A !important; }
+@font-face { font-family: MJXZERO; src: url("lib/fonts/mathjax_zero.woff") format("woff"); }
+@font-face { font-family: MJXTEX; src: url("lib/fonts/mathjax_main-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-B; src: url("lib/fonts/mathjax_main-bold.woff") format("woff"); }
+@font-face { font-family: MJXTEX-I; src: url("lib/fonts/mathjax_math-italic.woff") format("woff"); }
+@font-face { font-family: MJXTEX-MI; src: url("lib/fonts/mathjax_main-italic.woff") format("woff"); }
+@font-face { font-family: MJXTEX-BI; src: url("lib/fonts/mathjax_math-bolditalic.woff") format("woff"); }
+@font-face { font-family: MJXTEX-S1; src: url("lib/fonts/mathjax_size1-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-S2; src: url("lib/fonts/mathjax_size2-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-S3; src: url("lib/fonts/mathjax_size3-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-S4; src: url("lib/fonts/mathjax_size4-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-A; src: url("lib/fonts/mathjax_ams-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-C; src: url("lib/fonts/mathjax_calligraphic-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-CB; src: url("lib/fonts/mathjax_calligraphic-bold.woff") format("woff"); }
+@font-face { font-family: MJXTEX-FR; src: url("lib/fonts/mathjax_fraktur-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-FRB; src: url("lib/fonts/mathjax_fraktur-bold.woff") format("woff"); }
+@font-face { font-family: MJXTEX-SS; src: url("lib/fonts/mathjax_sansserif-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-SSB; src: url("lib/fonts/mathjax_sansserif-bold.woff") format("woff"); }
+@font-face { font-family: MJXTEX-SSI; src: url("lib/fonts/mathjax_sansserif-italic.woff") format("woff"); }
+@font-face { font-family: MJXTEX-SC; src: url("lib/fonts/mathjax_script-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-T; src: url("lib/fonts/mathjax_typewriter-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-V; src: url("lib/fonts/mathjax_vector-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-VB; src: url("lib/fonts/mathjax_vector-bold.woff") format("woff"); }
+mjx-c.mjx-c1D436.TEX-I::before { padding: 0.705em 0.76em 0.022em 0px; content: "C"; }
+mjx-c.mjx-c1D442.TEX-I::before { padding: 0.704em 0.763em 0.022em 0px; content: "O"; }
+mjx-c.mjx-c32::before { padding: 0.666em 0.5em 0px 0px; content: "2"; }
+</style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="plan"><p dir="auto">plan</p></h1><div class="el-p"><p dir="auto">Aquí tienes el manifiesto de diseño y la guía de ingeniería para tu laboratorio automatizado de micelio, estructurado para mantener el enfoque sin abrumarte:</p></div><div class="el-h2 heading-wrapper"><h2 data-heading="El Manifiesto: &quot;De la Sintaxis a la Simbiosis&quot;" dir="auto" class="heading" id="El_Manifiesto:_&quot;De_la_Sintaxis_a_la_Simbiosis&quot;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>El Manifiesto: "De la Sintaxis a la Simbiosis"</h2><div class="heading-children"><div class="el-p"><p dir="auto">Como graduado en Computer Science, estás acostumbrado a abstracciones: código que vive en la nube, servidores invisibles y bucles lógicos. El cultivo de hongos toma esa misma mentalidad sistémica y la conecta con la biología. Un bloque de micelio no es muy diferente a un procesador: procesa entradas (nutrientes, humedad, oxígeno) y genera salidas (fructificación, calor, redes de fibra).</p></div><div class="el-p"><p dir="auto">La ventaja competitiva de tu laboratorio es que no serás solo un cultivador manual; serás un <strong>ingeniero de sistemas biológicos</strong>.</p></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="1. Arquitectura de Hardware del &quot;Smart Grow Tent&quot;" dir="auto" class="heading" id="1._Arquitectura_de_Hardware_del_&quot;Smart_Grow_Tent&quot;"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>1. Arquitectura de Hardware del "Smart Grow Tent"</h2><div class="heading-children"><div class="el-p"><p dir="auto">Para mitigar los síntomas del TDAH (como el olvido de tareas rutinarias o la pérdida de la noción del tiempo), automatizaremos las variables críticas del entorno. El hongo ostra (<em>Pleurotus ostreatus</em>) es resistente, pero exige precisión en su etapa de fructificación.</p></div><div class="el-h3 heading-wrapper"><h3 data-heading="El Bucle de Control (Control Loop)" dir="auto" class="heading" id="El_Bucle_de_Control_(Control_Loop)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>El Bucle de Control (Control Loop)</h3><div class="heading-children"><div class="el-p"><p dir="auto">Utilizando una <strong>Raspberry Pi</strong> o un <strong>ESP32</strong> (programado en Python o C++), diseñarás un sistema de retroalimentación clásico:</p></div><div class="el-pre"><pre><code data-line="0">[Sensores: DHT22 / MQ-4] ---&gt; [Microcontrolador] ---&gt; [Relés] ---&gt; [Humidificador / Extractor]
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>Entradas (Sensores):</strong>
+<ul>
+<li data-line="2" dir="auto"><strong>Temperatura y Humedad:</strong> Sensor <em>DHT22</em> o <em>SHT31</em> (más preciso para ambientes saturados). El micelio necesita una humedad relativa constante del <strong>85% al 95%</strong> para fructificar adecuadamente sin secarse.<br>
+</li>
+<li data-line="4" dir="auto"><strong>Nivel de <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi><mjx-msub><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D442 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: -0.15em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msub></mjx-math></mjx-container></span>:</strong> Sensor <em>MG811</em> o <em>SCD30</em>. A diferencia de las plantas, los hongos respiran oxígeno y exhalan <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi><mjx-msub><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D442 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: -0.15em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msub></mjx-math></mjx-container></span>. Si el nivel de <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi><mjx-msub><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D442 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: -0.15em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msub></mjx-math></mjx-container></span> supera las 800 ppm, los hongos ostra crecerán con tallos largos y deformes (buscando aire) en lugar de sombreros grandes comercializables.<br>
+</li>
+</ul>
+</li>
+<li data-line="6" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>Salidas (Actuadores a través de un Módulo de Relés de 5V):</strong>
+<ul>
+<li data-line="8" dir="auto"><strong>Humidificador Ultrasónico:</strong> Conectado a un contenedor de agua destilada exterior para bombear niebla fina.<br>
+</li>
+<li data-line="10" dir="auto"><strong>Extractor de Aire en Línea (Inline Fan):</strong> Ventilador de PC o extractor de baño de 12V configurado para encenderse automáticamente cuando el <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi><mjx-msub><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D442 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: -0.15em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msub></mjx-math></mjx-container></span> suba demasiado o en intervalos cíclicos (ej. 3 minutos cada hora).<br>
+</li>
+</ul>
+</li>
+</ul></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="2. Plan de Escalabilidad Financiera (Bootstrapping)" dir="auto" class="heading" id="2._Plan_de_Escalabilidad_Financiera_(Bootstrapping)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>2. Plan de Escalabilidad Financiera (Bootstrapping)</h2><div class="heading-children"><div class="el-p"><p dir="auto">Para proteger tu economía actual, dividiremos la producción en tres fases de desarrollo tecnológico y comercial:</p></div><div class="el-h3 heading-wrapper"><h3 data-heading="Fase 1: El MVP Alimentario (Semanas 1 a 4)" dir="auto" class="heading" id="Fase_1:_El_MVP_Alimentario_(Semanas_1_a_4)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Fase 1: El MVP Alimentario (Semanas 1 a 4)</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Producto:</strong> Setas de Ostra frescas y <em>Mushroom Grow Kits</em> caseros.<br>
+</li>
+<li data-line="2" dir="auto"><strong>Operación:</strong> Recolecta posos de café de cafeterías locales en Berlín (es gratis, reduce la eco-ansiedad al reciclar residuos urbanos y aporta nitrógeno de alta calidad). Esteriliza el sustrato de manera económica en una olla a presión doméstica.<br>
+</li>
+<li data-line="4" dir="auto"><strong>Objetivo:</strong> Vender kits de cultivo listos para activar en mercados locales o plataformas como <em>Etsy</em> y <em>Klein Anzeigen</em>. Esto genera flujo de caja inmediato para cubrir gastos fijos.<br>
+</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Fase 2: Biofabricación (Meses 2 a 6)" dir="auto" class="heading" id="Fase_2:_Biofabricación_(Meses_2_a_6)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Fase 2: Biofabricación (Meses 2 a 6)</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Producto:</strong> Paneles de aislamiento acústico, empaques flotantes bio-degradables o bloques macizos moldeados.<br>
+</li>
+<li data-line="2" dir="auto"><strong>Operación:</strong> En lugar de dejar que el micelio fructifique en setas, detienes el proceso metiendo el sustrato colonizado en moldes personalizados impresos en 3D o termoformados. El micelio crece llenando la forma del molde en la oscuridad durante 7 días. Luego, se hornea a <strong>80°C</strong> para detener el crecimiento biológico, resultando en un material ultraligero, resistente al fuego y completamente compostable.<br>
+</li>
+<li data-line="4" dir="auto"><strong>Objetivo:</strong> Ofrecer alternativas de empaque sostenible a marcas locales de Berlín y estudios de diseño.<br>
+</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Fase 3: Textiles e Hilos (Visión de Largo Plazo)" dir="auto" class="heading" id="Fase_3:_Textiles_e_Hilos_(Visión_de_Largo_Plazo)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Fase 3: Textiles e Hilos (Visión de Largo Plazo)</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Producto:</strong> "Mushroom Leather" (Cuero de hongo) y fibras textiles hilables.<br>
+</li>
+<li data-line="2" dir="auto"><strong>Operación:</strong> El cultivo para textiles requiere el crecimiento puramente superficial del micelio (crecimiento en estado líquido o membranas puras sobre sustratos de celulosa líquida), seguido de un proceso de curtido libre de cromo con taninos vegetales.<br>
+</li>
+<li data-line="4" dir="auto"><strong>Objetivo:</strong> Desarrollar el portafolio tecnológico que te permitirá aplicar a fondos europeos de innovación de economía circular, dándote la libertad de trasladar tu laboratorio a cualquier lugar con mar y montañas.<br>
+</li>
+</ul></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="3. Hoja de Ruta para los Próximos 7 Días" dir="auto" class="heading" id="3._Hoja_de_Ruta_para_los_Próximos_7_Días"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>3. Hoja de Ruta para los Próximos 7 Días</h2><div class="heading-children"><div class="el-p"><p dir="auto">Este es el único bloque de tareas en el que debes enfocarte esta semana para no disparar la parálisis por análisis:</p></div><div class="el-ul"><ul class="contains-task-list">
+<li data-line="0" data-task="" class="task-list-item" dir="auto"><input data-line="0" type="checkbox" class="task-list-item-checkbox"><strong>Día 1:</strong> Consigue una caja grande de almacenamiento de plástico transparente (60L o más) en una tienda local. Haz dos agujeros de 10 cm en el frente. Ya tienes tu <em>Still Air Box</em> (SAB) para trabajar de forma estéril.<br>
+</li>
+<li data-line="2" data-task="" class="task-list-item" dir="auto"><input data-line="2" type="checkbox" class="task-list-item-checkbox"><strong>Día 2:</strong> Compra una jeringa de esporas o una cultura líquida de <em>Pleurotus ostreatus</em> (Oyster Mushroom) online en tiendas especializadas alemanas (ej. <em>Pilzmännchen</em> o proveedores locales de micología). Cuestan menos de 15€.<br>
+</li>
+<li data-line="4" data-task="" class="task-list-item" dir="auto"><input data-line="4" type="checkbox" class="task-list-item-checkbox"><strong>Día 3:</strong> Pasa por tu cafetería favorita de Berlín con un contenedor limpio y pídeles los posos de café del día.<br>
+</li>
+<li data-line="6" data-task="" class="task-list-item" dir="auto"><input data-line="6" type="checkbox" class="task-list-item-checkbox"><strong>Día 4:</strong> Desempolva cualquier microcontrolador que tengas de tus días de universidad y realiza un script básico para leer datos de temperatura en un bucle cerrado.<br>
+</li>
+<li data-line="8" data-task="" class="task-list-item" dir="auto"><input data-line="8" type="checkbox" class="task-list-item-checkbox"><strong>Día 5:</strong> Inocula tus primeros frascos de grano de sustrato utilizando las técnicas básicas de micología casera (baja fricción, alta higiene).<br>
+</li>
+</ul></div><div class="el-p"><p dir="auto">Al automatizar el laboratorio, tu TDAH no tendrá que recordar si encendió el humidificador o si ventiló la zona de cultivo; el código que tú mismo escribiste se encargará de mantener la vida del sistema mientras tú te enfocas en expandir el negocio.</p></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto">Aquí tienes el diseño para tu <strong>Simbiosis de Ciclo Cerrado (Closed-Loop Bio-Pod)</strong>. Es un ecosistema automatizado de producción diseñado específicamente para que una sola persona lo maneje con baja fricción (ideal para el TDAH), utilizando tu background de Computer Science para programar los ciclos de automatización y optimizar los recursos.</p></div><div class="el-p"><p dir="auto">Este sistema no solo produce alimentos de alta calidad (proteínas y carbohidratos), sino que también genera agua purificada, materiales textiles y utiliza los desechos de un módulo para alimentar el siguiente.</p></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="El Blueprint: Ecosistema de Ciclo Cerrado" dir="auto" class="heading" id="El_Blueprint:_Ecosistema_de_Ciclo_Cerrado"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>El Blueprint: Ecosistema de Ciclo Cerrado</h2><div class="heading-children"><div class="el-pre"><pre><code data-line="0">       [ Recolección de Agua / Lluvia / Humedad ]
+                          │
+                          ▼
+             [ Filtro de Carbón / UV ] 
+                          │
+         ┌────────────────┴────────────────┐
+         ▼                                 ▼
+   [ Bio-Pod: Setas ]            [ Módulo Tenebrio ]
+   (Aporte de CO2) ◄────────────► (Aporte de O2)
+         │                                 │
+         ▼ (Sustrato Usado)                ▼ (Frass / Abono)
+   [ Biofabricación: hilos ]     [ Mini-Huerto / Plantas ]
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="1. Módulo de Agua: Recolección y Purificación Pasiva-Automatizada" dir="auto" class="heading" id="1._Módulo_de_Agua:_Recolección_y_Purificación_Pasiva-Automatizada"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>1. Módulo de Agua: Recolección y Purificación Pasiva-Automatizada</h2><div class="heading-children"><div class="el-p"><p dir="auto">Para no depender de la red y asegurar la supervivencia básica o el suministro del laboratorio.</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Recolección:</strong> Captación de agua de lluvia o mediante un <strong>deshumidificador de alta eficiencia</strong> conectado a tu tienda de cultivo (que extrae el exceso de humedad generado por los hongos).<br>
+</li>
+<li data-line="2" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>Purificación en 3 Etapas:</strong>
+<ol>
+<li data-line="4" dir="auto"><strong>Filtro sedimentario físico</strong> (malla de micras).</li>
+<li data-line="6" dir="auto"><strong>Filtro de carbón activado en bloque</strong> (elimina químicos y sabores).</li>
+<li data-line="8" dir="auto"><strong>Cámara de esterilización UV-C en línea (12V):</strong> Un LED UV-C controlado por tu microcontrolador que se enciende solo cuando el agua fluye, eliminando el 99.9% de bacterias y virus sin usar químicos.</li>
+</ol>
+</li>
+<li data-line="10" dir="auto"><strong>Automatización:</strong> Un sensor de nivel ultrasónico (<em>HC-SR04</em>) en el tanque de almacenamiento activa una bomba de diafragma de 12V cuando el agua es requerida en el módulo de setas o insectos.<br>
+</li>
+</ul></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="2. Módulo de Proteína Activa: _Tenebrio molitor_ (Gusano de la harina)" dir="auto" class="heading" id="2._Módulo_de_Proteína_Activa:__Tenebrio_molitor__(Gusano_de_la_harina)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>2. Módulo de Proteína Activa: <em>Tenebrio molitor</em> (Gusano de la harina)</h2><div class="heading-children"><div class="el-p"><p dir="auto">Los tenebrios son la fuente de proteína más eficiente y limpia del planeta. No hacen ruido, no huelen si están bien ventilados y tienen un espacio de almacenamiento vertical mínimo.</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>El Sustrato Alimentario:</strong> Se alimentan de salvado de trigo (muy barato) o de los restos secos del sustrato de tus hongos ostra. Para la hidratación, usan las cáscaras de papas o zanahorias de tu comida diaria.<br>
+</li>
+<li data-line="2" dir="auto"><strong>Automatización del Clima:</strong> Viven óptimamente a <strong>25°C - 27°C</strong> y <strong>50% de humedad</strong>. Reutiliza el exceso de calor de los servidores o de las luces de tu mini-huerto mediante pequeños ventiladores de PC controlados por un sensor <em>DHT22</em> y una manta térmica de baja potencia.<br>
+</li>
+<li data-line="4" dir="auto"><strong>Cosecha Sencilla (Diseño de Gavetas):</strong> Diseña una torre de cajas plásticas con fondos de malla metálica fina. Los escarabajos ponen huevos en la bandeja superior, los huevos caen a la bandeja inferior, separando automáticamente los ciclos de vida para que no tengas que clasificarlos manualmente (reduciendo la fatiga cognitiva).<br>
+</li>
+</ul></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="3. Módulo de Hongos y Textiles: El Núcleo Biológico" dir="auto" class="heading" id="3._Módulo_de_Hongos_y_Textiles:_El_Núcleo_Biológico"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>3. Módulo de Hongos y Textiles: El Núcleo Biológico</h2><div class="heading-children"><div class="el-p"><p dir="auto">Como vimos antes, el hongo ostra (<em>Oyster Mushroom</em>) es el motor de este sistema, pero ahora lo conectamos con los demás módulos.</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Simbiosis Gaseosa:</strong> Los tenebrios y tú respiran Oxígeno y producen <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi><mjx-msub><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D442 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: -0.15em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msub></mjx-math></mjx-container></span>. Tus hongos ostra necesitan niveles bajos de <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi><mjx-msub><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D442 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: -0.15em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msub></mjx-math></mjx-container></span> durante la fructificación. Al programar el extractor de aire del módulo de insectos/habitación, puedes inyectar ese aire cargado de <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi><mjx-msub><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D442 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: -0.15em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msub></mjx-math></mjx-container></span> a un minihuerto de plantas aromáticas o vegetales de hoja verde (que consumen <span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi><mjx-msub><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D442 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: -0.15em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msub></mjx-math></mjx-container></span> y liberan Oxígeno).<br>
+</li>
+<li data-line="2" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>Producción de Materiales (Fibras e Hilos):</strong>
+<ul>
+<li data-line="4" dir="auto">Una vez que el bloque de hongo ostra deja de dar setas comestibles (después de 3 cosechas), ese bloque es 100% micelio puro y quitina.<br>
+</li>
+<li data-line="6" dir="auto"><strong>Proceso automatizado de hilos:</strong> Puedes procesar este micelio viejo hirviéndolo en una solución alcalina suave (agua con bicarbonato de sodio o ceniza de madera) para extraer la quitina y los glucanos. Al secarse en tiras finas o extruirse por una boquilla, obtienes fibras altamente resistentes, impermeables y antibacterianas para crear hilos o parches textiles.<br>
+</li>
+</ul>
+</li>
+</ul></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="4. El Cerebro del Sistema: Dashboard Centralizado (Home Assistant / Node-RED)" dir="auto" class="heading" id="4._El_Cerebro_del_Sistema:_Dashboard_Centralizado_(Home_Assistant_/_Node-RED)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>4. El Cerebro del Sistema: Dashboard Centralizado (Home Assistant / Node-RED)</h2><div class="heading-children"><div class="el-p"><p dir="auto">Para una persona con TDAH, <strong>lo que no se ve, no existe</strong>. Si tienes que abrir cada caja para ver si está seca, abandonarás el proyecto. Por eso, tu background de Computer Science es la clave:</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Node-RED + MQTT:</strong> Programa un servidor local ligero que recopile los datos de los sensores de agua, humedad de los hongos y temperatura de los tenebrios.<br>
+</li>
+<li data-line="2" dir="auto"><strong>Alertas Críticas:</strong> Configura una interfaz visual muy simple en tu teléfono o computadora (un dashboard con luces verdes/rojas). Si el tanque de agua está bajo o la temperatura de los insectos baja de 20°C, el sistema te envía un bot de Telegram automático: <em>"Módulo Proteína necesita calor"</em>.<br>
+</li>
+<li data-line="4" dir="auto"><strong>Bajo Mantenimiento Real:</strong> Dedicas solo <strong>1 hora los domingos</strong> a rellenar el tanque de agua principal y cosechar los hongos/insectos listos. El resto de la semana, el sistema corre en un bucle cerrado autónomo.<br>
+</li>
+</ul></div><div class="el-p"><p dir="auto">Este laboratorio portátil y automatizado es completamente escalable. Puedes empezar en un clóset o sótano en Berlín, y cuando te mudes a los cerros y al mar, este mismo sistema modular será la base de tu autosuficiencia total.</p></div><div class="mod-footer mod-ui"></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="projects/plan.html#plan"><div class="tree-item-contents heading-link" heading-name="plan"><span class="tree-item-title">plan</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="2"><a class="tree-link" href="projects/plan.html#El_Manifiesto:_&quot;De_la_Sintaxis_a_la_Simbiosis&quot;"><div class="tree-item-contents heading-link" heading-name="El Manifiesto: &quot;De la Sintaxis a la Simbiosis&quot;"><span class="tree-item-title">El Manifiesto: "De la Sintaxis a la Simbiosis"</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="projects/plan.html#1._Arquitectura_de_Hardware_del_&quot;Smart_Grow_Tent&quot;"><div class="tree-item-contents heading-link" heading-name="1. Arquitectura de Hardware del &quot;Smart Grow Tent&quot;"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">1. 
+Arquitectura de Hardware del "Smart Grow Tent"
+</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="projects/plan.html#El_Bucle_de_Control_(Control_Loop)"><div class="tree-item-contents heading-link" heading-name="El Bucle de Control (Control Loop)"><span class="tree-item-title">El Bucle de Control (Control Loop)</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="projects/plan.html#2._Plan_de_Escalabilidad_Financiera_(Bootstrapping)"><div class="tree-item-contents heading-link" heading-name="2. Plan de Escalabilidad Financiera (Bootstrapping)"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">2. 
+Plan de Escalabilidad Financiera (Bootstrapping)
+</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="projects/plan.html#Fase_1:_El_MVP_Alimentario_(Semanas_1_a_4)"><div class="tree-item-contents heading-link" heading-name="Fase 1: El MVP Alimentario (Semanas 1 a 4)"><span class="tree-item-title">Fase 1: El MVP Alimentario (Semanas 1 a 4)</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="projects/plan.html#Fase_2:_Biofabricación_(Meses_2_a_6)"><div class="tree-item-contents heading-link" heading-name="Fase 2: Biofabricación (Meses 2 a 6)"><span class="tree-item-title">Fase 2: Biofabricación (Meses 2 a 6)</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="projects/plan.html#Fase_3:_Textiles_e_Hilos_(Visión_de_Largo_Plazo)"><div class="tree-item-contents heading-link" heading-name="Fase 3: Textiles e Hilos (Visión de Largo Plazo)"><span class="tree-item-title">Fase 3: Textiles e Hilos (Visión de Largo Plazo)</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="projects/plan.html#3._Hoja_de_Ruta_para_los_Próximos_7_Días"><div class="tree-item-contents heading-link" heading-name="3. Hoja de Ruta para los Próximos 7 Días"><span class="tree-item-title">3. 
+Hoja de Ruta para los Próximos 7 Días
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="projects/plan.html#El_Blueprint:_Ecosistema_de_Ciclo_Cerrado"><div class="tree-item-contents heading-link" heading-name="El Blueprint: Ecosistema de Ciclo Cerrado"><span class="tree-item-title">El Blueprint: Ecosistema de Ciclo Cerrado</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="projects/plan.html#1._Módulo_de_Agua:_Recolección_y_Purificación_Pasiva-Automatizada"><div class="tree-item-contents heading-link" heading-name="1. Módulo de Agua: Recolección y Purificación Pasiva-Automatizada"><span class="tree-item-title">1. 
+Módulo de Agua: Recolección y Purificación Pasiva-Automatizada
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="projects/plan.html#2._Módulo_de_Proteína_Activa:__Tenebrio_molitor__(Gusano_de_la_harina)"><div class="tree-item-contents heading-link" heading-name="2. Módulo de Proteína Activa: _Tenebrio molitor_ (Gusano de la harina)"><span class="tree-item-title">2. 
+Módulo de Proteína Activa: Tenebrio molitor (Gusano de la harina)
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="projects/plan.html#3._Módulo_de_Hongos_y_Textiles:_El_Núcleo_Biológico"><div class="tree-item-contents heading-link" heading-name="3. Módulo de Hongos y Textiles: El Núcleo Biológico"><span class="tree-item-title">3. 
+Módulo de Hongos y Textiles: El Núcleo Biológico
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="projects/plan.html#4._El_Cerebro_del_Sistema:_Dashboard_Centralizado_(Home_Assistant_/_Node-RED)"><div class="tree-item-contents heading-link" heading-name="4. El Cerebro del Sistema: Dashboard Centralizado (Home Assistant / Node-RED)"><span class="tree-item-title">4. 
+El Cerebro del Sistema: Dashboard Centralizado (Home Assistant / Node-RED)
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>

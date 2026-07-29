@@ -1,0 +1,417 @@
+<!DOCTYPE html> <html><head>
+		<title>Escapar</title>
+		<base href="../">
+		<meta id="root-path" root-path="../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="Tetrahedron - Escapar">
+		<meta property="og:title" content="Escapar">
+		<meta property="og:description" content="Tetrahedron - Escapar">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://k3ll3x.github.io/writings/escapar.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="Tetrahedron">
+		<meta name="author" content="Nuvhandra"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://k3ll3x.github.io/lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="lib/scripts/pixi.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript><link rel="preload" href="lib/styles/snippets.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/snippets.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles">mjx-c.mjx-c1D70C.TEX-I::before { padding: 0.442em 0.517em 0.216em 0px; content: "ρ"; }
+mjx-c.mjx-c6B::before { padding: 0.694em 0.528em 0px 0px; content: "k"; }
+mjx-c.mjx-c67::before { padding: 0.453em 0.5em 0.206em 0px; content: "g"; }
+mjx-c.mjx-c2F::before { padding: 0.75em 0.5em 0.25em 0px; content: "/"; }
+mjx-c.mjx-c1D70E.TEX-I::before { padding: 0.431em 0.571em 0.011em 0px; content: "σ"; }
+mjx-c.mjx-c4D::before { padding: 0.683em 0.917em 0px 0px; content: "M"; }
+mjx-c.mjx-c50::before { padding: 0.683em 0.681em 0px 0px; content: "P"; }
+mjx-c.mjx-c1D438.TEX-I::before { padding: 0.68em 0.764em 0px 0px; content: "E"; }
+mjx-c.mjx-c1D45A.TEX-I::before { padding: 0.442em 0.878em 0.011em 0px; content: "m"; }
+mjx-c.mjx-c1D440.TEX-I::before { padding: 0.683em 1.051em 0px 0px; content: "M"; }
+mjx-c.mjx-c1D43C.TEX-I::before { padding: 0.683em 0.504em 0px 0px; content: "I"; }
+mjx-c.mjx-c1D44A.TEX-I::before { padding: 0.683em 1.048em 0.022em 0px; content: "W"; }
+mjx-c.mjx-c2248::before { padding: 0.483em 0.778em 0px 0px; content: "≈"; }
+mjx-c.mjx-c3C::before { padding: 0.54em 0.778em 0.04em 0px; content: "<"; }
+mjx-c.mjx-c44::before { padding: 0.683em 0.764em 0px 0px; content: "D"; }
+mjx-c.mjx-c394::before { padding: 0.716em 0.833em 0px 0px; content: "Δ"; }
+mjx-c.mjx-c1D450.TEX-I::before { padding: 0.442em 0.433em 0.011em 0px; content: "c"; }
+mjx-texatom { display: inline-block; text-align: left; }
+mjx-mspace { display: inline-block; text-align: left; }
+mjx-mover { display: inline-block; text-align: left; }
+mjx-mover:not([limits="false"]) { padding-top: 0.1em; }
+mjx-mover:not([limits="false"]) > * { display: block; text-align: left; }
+mjx-mtext { display: inline-block; text-align: left; }
+mjx-c.mjx-c31::before { padding: 0.666em 0.5em 0px 0px; content: "1"; }
+mjx-c.mjx-c33::before { padding: 0.665em 0.5em 0.022em 0px; content: "3"; }
+mjx-c.mjx-cD7::before { padding: 0.491em 0.778em 0px 0px; content: "×"; }
+mjx-c.mjx-c36::before { padding: 0.666em 0.5em 0.022em 0px; content: "6"; }
+mjx-c.mjx-c39::before { padding: 0.666em 0.5em 0.022em 0px; content: "9"; }
+mjx-c.mjx-c2192::before { padding: 0.511em 1em 0.011em 0px; content: "→"; }
+mjx-c.mjx-c34::before { padding: 0.677em 0.5em 0px 0px; content: "4"; }
+mjx-c.mjx-c38::before { padding: 0.666em 0.5em 0.022em 0px; content: "8"; }
+mjx-c.mjx-c37::before { padding: 0.676em 0.5em 0.022em 0px; content: "7"; }
+mjx-c.mjx-c35::before { padding: 0.666em 0.5em 0.022em 0px; content: "5"; }
+mjx-c.mjx-c221E::before { padding: 0.442em 1em 0.011em 0px; content: "∞"; }
+mjx-c.mjx-c3A6::before { padding: 0.683em 0.722em 0px 0px; content: "Φ"; }
+mjx-c.mjx-c1D45B.TEX-I::before { padding: 0.442em 0.6em 0.011em 0px; content: "n"; }
+mjx-c.mjx-c2208::before { padding: 0.54em 0.667em 0.04em 0px; content: "∈"; }
+mjx-c.mjx-c2124.TEX-A::before { padding: 0.683em 0.667em 0px 0px; content: "Z"; }
+mjx-c.mjx-c2212::before { padding: 0.583em 0.778em 0.082em 0px; content: "−"; }
+mjx-c.mjx-c1D449.TEX-I::before { padding: 0.683em 0.769em 0.022em 0px; content: "V"; }
+mjx-c.mjx-c1D45C.TEX-I::before { padding: 0.441em 0.485em 0.011em 0px; content: "o"; }
+mjx-c.mjx-c1D462.TEX-I::before { padding: 0.442em 0.572em 0.011em 0px; content: "u"; }
+mjx-c.mjx-c1D461.TEX-I::before { padding: 0.626em 0.361em 0.011em 0px; content: "t"; }
+mjx-c.mjx-c2211.TEX-S2::before { padding: 0.95em 1.444em 0.45em 0px; content: "∑"; }
+mjx-c.mjx-c1D460.TEX-I::before { padding: 0.442em 0.469em 0.01em 0px; content: "s"; }
+mjx-c.mjx-c1D456.TEX-I::before { padding: 0.661em 0.345em 0.011em 0px; content: "i"; }
+mjx-c.mjx-c22C5::before { padding: 0.31em 0.278em 0px 0px; content: "⋅"; }
+mjx-c.mjx-c6D::before { padding: 0.442em 0.833em 0px 0px; content: "m"; }
+mjx-c.mjx-c64::before { padding: 0.694em 0.556em 0.011em 0px; content: "d"; }
+mjx-c.mjx-c20D7.TEX-V::before { padding: 0.714em 0.5em 0px 0px; content: "→"; }
+mjx-c.mjx-c1D435.TEX-I::before { padding: 0.683em 0.759em 0px 0px; content: "B"; }
+mjx-c.mjx-c1D434.TEX-I::before { padding: 0.716em 0.75em 0px 0px; content: "A"; }
+mjx-c.mjx-c2218::before { padding: 0.444em 0.5em 0px 0px; content: "∘"; }
+mjx-c.mjx-c1D44E.TEX-I::before { padding: 0.441em 0.529em 0.01em 0px; content: "a"; }
+mjx-c.mjx-c1D459.TEX-I::before { padding: 0.694em 0.298em 0.011em 0px; content: "l"; }
+mjx-c.mjx-c222E.TEX-S2::before { padding: 1.36em 0.944em 0.862em 0px; content: "∮"; }
+mjx-c.mjx-c1D452.TEX-I::before { padding: 0.442em 0.466em 0.011em 0px; content: "e"; }
+mjx-c.mjx-c28.TEX-S3::before { padding: 1.45em 0.736em 0.949em 0px; content: "("; }
+mjx-c.mjx-c52::before { padding: 0.683em 0.736em 0.022em 0px; content: "R"; }
+mjx-c.mjx-c65::before { padding: 0.448em 0.444em 0.011em 0px; content: "e"; }
+mjx-c.mjx-c69::before { padding: 0.669em 0.278em 0px 0px; content: "i"; }
+mjx-c.mjx-c29.TEX-S3::before { padding: 1.45em 0.736em 0.949em 0px; content: ")"; }
+mjx-c.mjx-c1D451.TEX-I::before { padding: 0.694em 0.52em 0.01em 0px; content: "d"; }
+mjx-c.mjx-c2E::before { padding: 0.12em 0.278em 0px 0px; content: "."; }
+mjx-c.mjx-cA0::before { padding: 0px 0.25em 0px 0px; content: " "; }
+mjx-c.mjx-c48::before { padding: 0.683em 0.75em 0px 0px; content: "H"; }
+mjx-c.mjx-c7A::before { padding: 0.431em 0.444em 0px 0px; content: "z"; }
+mjx-c.mjx-c1D706.TEX-I::before { padding: 0.694em 0.583em 0.012em 0px; content: "λ"; }
+mjx-c.mjx-c25::before { padding: 0.75em 0.833em 0.056em 0px; content: "%"; }
+mjx-mo { display: inline-block; text-align: left; }
+mjx-stretchy-h { display: inline-table; width: 100%; }
+mjx-stretchy-h > * { display: table-cell; width: 0px; }
+mjx-stretchy-h > * > mjx-c { display: inline-block; transform: scaleX(1); }
+mjx-stretchy-h > * > mjx-c::before { display: inline-block; width: initial; }
+mjx-stretchy-h > mjx-ext { overflow: clip visible; width: 100%; }
+mjx-stretchy-h > mjx-ext > mjx-c::before { transform: scaleX(500); }
+mjx-stretchy-h > mjx-ext > mjx-c { width: 0px; }
+mjx-stretchy-h > mjx-beg > mjx-c { margin-right: -0.1em; }
+mjx-stretchy-h > mjx-end > mjx-c { margin-left: -0.1em; }
+mjx-stretchy-v { display: inline-block; }
+mjx-stretchy-v > * { display: block; }
+mjx-stretchy-v > mjx-beg { height: 0px; }
+mjx-stretchy-v > mjx-end > mjx-c { display: block; }
+mjx-stretchy-v > * > mjx-c { transform: scaleY(1); transform-origin: left center; overflow: hidden; }
+mjx-stretchy-v > mjx-ext { display: block; height: 100%; box-sizing: border-box; border: 0px solid transparent; overflow: visible clip; }
+mjx-stretchy-v > mjx-ext > mjx-c::before { width: initial; box-sizing: border-box; }
+mjx-stretchy-v > mjx-ext > mjx-c { transform: scaleY(500) translateY(0.075em); overflow: visible; }
+mjx-mark { display: inline-block; height: 0px; }
+mjx-msqrt { display: inline-block; text-align: left; }
+mjx-root { display: inline-block; white-space: nowrap; }
+mjx-surd { display: inline-block; vertical-align: top; }
+mjx-sqrt { display: inline-block; padding-top: 0.07em; }
+mjx-sqrt > mjx-box { border-top: 0.07em solid; }
+mjx-sqrt.mjx-tall > mjx-box { padding-left: 0.3em; margin-left: -0.3em; }
+mjx-msup { display: inline-block; text-align: left; }
+mjx-mrow { display: inline-block; text-align: left; }
+mjx-mfrac { display: inline-block; text-align: left; }
+mjx-frac { display: inline-block; vertical-align: 0.17em; padding: 0px 0.22em; }
+mjx-frac[type="d"] { vertical-align: 0.04em; }
+mjx-frac[delims] { padding: 0px 0.1em; }
+mjx-frac[atop] { padding: 0px 0.12em; }
+mjx-frac[atop][delims] { padding: 0px; }
+mjx-dtable { display: inline-table; width: 100%; }
+mjx-dtable > * { font-size: 2000%; }
+mjx-dbox { display: block; font-size: 5%; }
+mjx-num { display: block; text-align: center; }
+mjx-den { display: block; text-align: center; }
+mjx-mfrac[bevelled] > mjx-num { display: inline-block; }
+mjx-mfrac[bevelled] > mjx-den { display: inline-block; }
+mjx-den[align="right"], mjx-num[align="right"] { text-align: right; }
+mjx-den[align="left"], mjx-num[align="left"] { text-align: left; }
+mjx-nstrut { display: inline-block; height: 0.054em; width: 0px; vertical-align: -0.054em; }
+mjx-nstrut[type="d"] { height: 0.217em; vertical-align: -0.217em; }
+mjx-dstrut { display: inline-block; height: 0.505em; width: 0px; }
+mjx-dstrut[type="d"] { height: 0.726em; }
+mjx-line { display: block; box-sizing: border-box; min-height: 1px; height: 0.06em; border-top: 0.06em solid; margin: 0.06em -0.1em; overflow: hidden; }
+mjx-line[type="d"] { margin: 0.18em -0.1em; }
+mjx-c.mjx-c28::before { padding: 0.75em 0.389em 0.25em 0px; content: "("; }
+mjx-c.mjx-c1D465.TEX-I::before { padding: 0.442em 0.572em 0.011em 0px; content: "x"; }
+mjx-c.mjx-c2C::before { padding: 0.121em 0.278em 0.194em 0px; content: ","; }
+mjx-c.mjx-c1D466.TEX-I::before { padding: 0.442em 0.49em 0.205em 0px; content: "y"; }
+mjx-c.mjx-c1D467.TEX-I::before { padding: 0.442em 0.465em 0.011em 0px; content: "z"; }
+mjx-c.mjx-c29::before { padding: 0.75em 0.389em 0.25em 0px; content: ")"; }
+mjx-c.mjx-c1D45F.TEX-I::before { padding: 0.442em 0.451em 0.011em 0px; content: "r"; }
+mjx-c.mjx-c1D703.TEX-I::before { padding: 0.705em 0.469em 0.01em 0px; content: "θ"; }
+mjx-c.mjx-c1D719.TEX-I::before { padding: 0.694em 0.596em 0.205em 0px; content: "ϕ"; }
+mjx-c.mjx-c3D::before { padding: 0.583em 0.778em 0.082em 0px; content: "="; }
+mjx-c.mjx-c221A.TEX-S1::before { padding: 0.85em 1.02em 0.35em 0px; content: "√"; }
+mjx-c.mjx-c2B::before { padding: 0.583em 0.778em 0.082em 0px; content: "+"; }
+mjx-c.mjx-c61::before { padding: 0.448em 0.5em 0.011em 0px; content: "a"; }
+mjx-c.mjx-c72::before { padding: 0.442em 0.392em 0px 0px; content: "r"; }
+mjx-c.mjx-c63::before { padding: 0.448em 0.444em 0.011em 0px; content: "c"; }
+mjx-c.mjx-c74::before { padding: 0.615em 0.389em 0.01em 0px; content: "t"; }
+mjx-c.mjx-c6E::before { padding: 0.442em 0.556em 0px 0px; content: "n"; }
+mjx-c.mjx-c2061::before { padding: 0px; content: ""; }
+mjx-c.mjx-c28.TEX-S2::before { padding: 1.15em 0.597em 0.649em 0px; content: "("; }
+mjx-c.mjx-c29.TEX-S2::before { padding: 1.15em 0.597em 0.649em 0px; content: ")"; }
+mjx-c.mjx-c3B::before { padding: 0.43em 0.278em 0.194em 0px; content: ";"; }
+mjx-c.mjx-c2260::before { padding: 0.716em 0.778em 0.215em 0px; content: "≠"; }
+mjx-c.mjx-c30::before { padding: 0.666em 0.5em 0.022em 0px; content: "0"; }
+mjx-c.mjx-c6F::before { padding: 0.448em 0.5em 0.01em 0px; content: "o"; }
+mjx-c.mjx-c73::before { padding: 0.448em 0.394em 0.011em 0px; content: "s"; }
+mjx-container[jax="CHTML"] { line-height: 0; }
+mjx-container [space="1"] { margin-left: 0.111em; }
+mjx-container [space="2"] { margin-left: 0.167em; }
+mjx-container [space="3"] { margin-left: 0.222em; }
+mjx-container [space="4"] { margin-left: 0.278em; }
+mjx-container [space="5"] { margin-left: 0.333em; }
+mjx-container [rspace="1"] { margin-right: 0.111em; }
+mjx-container [rspace="2"] { margin-right: 0.167em; }
+mjx-container [rspace="3"] { margin-right: 0.222em; }
+mjx-container [rspace="4"] { margin-right: 0.278em; }
+mjx-container [rspace="5"] { margin-right: 0.333em; }
+mjx-container [size="s"] { font-size: 70.7%; }
+mjx-container [size="ss"] { font-size: 50%; }
+mjx-container [size="Tn"] { font-size: 60%; }
+mjx-container [size="sm"] { font-size: 85%; }
+mjx-container [size="lg"] { font-size: 120%; }
+mjx-container [size="Lg"] { font-size: 144%; }
+mjx-container [size="LG"] { font-size: 173%; }
+mjx-container [size="hg"] { font-size: 207%; }
+mjx-container [size="HG"] { font-size: 249%; }
+mjx-container [width="full"] { width: 100%; }
+mjx-box { display: inline-block; }
+mjx-block { display: block; }
+mjx-itable { display: inline-table; }
+mjx-row { display: table-row; }
+mjx-row > * { display: table-cell; }
+mjx-mtext { display: inline-block; }
+mjx-mstyle { display: inline-block; }
+mjx-merror { display: inline-block; color: red; background-color: yellow; }
+mjx-mphantom { visibility: hidden; }
+mjx-assistive-mml { top: 0px; left: 0px; clip: rect(1px, 1px, 1px, 1px); user-select: none; position: absolute !important; padding: 1px 0px 0px !important; border: 0px !important; display: block !important; width: auto !important; overflow: hidden !important; }
+mjx-assistive-mml[display="block"] { width: 100% !important; }
+mjx-math { display: inline-block; text-align: left; line-height: 0; text-indent: 0px; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; border-collapse: collapse; overflow-wrap: normal; word-spacing: normal; white-space: nowrap; direction: ltr; padding: 1px 0px; }
+mjx-container[jax="CHTML"][display="true"] { display: block; text-align: center; margin: 1em 0px; }
+mjx-container[jax="CHTML"][display="true"][width="full"] { display: flex; }
+mjx-container[jax="CHTML"][display="true"] mjx-math { padding: 0px; }
+mjx-container[jax="CHTML"][justify="left"] { text-align: left; }
+mjx-container[jax="CHTML"][justify="right"] { text-align: right; }
+mjx-mi { display: inline-block; text-align: left; }
+mjx-c { display: inline-block; }
+mjx-utext { display: inline-block; padding: 0.75em 0px 0.2em; }
+mjx-msub { display: inline-block; text-align: left; }
+mjx-mn { display: inline-block; text-align: left; }
+mjx-c::before { display: block; width: 0px; }
+.MJX-TEX { font-family: MJXZERO, MJXTEX; }
+.TEX-B { font-family: MJXZERO, MJXTEX-B; }
+.TEX-I { font-family: MJXZERO, MJXTEX-I; }
+.TEX-MI { font-family: MJXZERO, MJXTEX-MI; }
+.TEX-BI { font-family: MJXZERO, MJXTEX-BI; }
+.TEX-S1 { font-family: MJXZERO, MJXTEX-S1; }
+.TEX-S2 { font-family: MJXZERO, MJXTEX-S2; }
+.TEX-S3 { font-family: MJXZERO, MJXTEX-S3; }
+.TEX-S4 { font-family: MJXZERO, MJXTEX-S4; }
+.TEX-A { font-family: MJXZERO, MJXTEX-A; }
+.TEX-C { font-family: MJXZERO, MJXTEX-C; }
+.TEX-CB { font-family: MJXZERO, MJXTEX-CB; }
+.TEX-FR { font-family: MJXZERO, MJXTEX-FR; }
+.TEX-FRB { font-family: MJXZERO, MJXTEX-FRB; }
+.TEX-SS { font-family: MJXZERO, MJXTEX-SS; }
+.TEX-SSB { font-family: MJXZERO, MJXTEX-SSB; }
+.TEX-SSI { font-family: MJXZERO, MJXTEX-SSI; }
+.TEX-SC { font-family: MJXZERO, MJXTEX-SC; }
+.TEX-T { font-family: MJXZERO, MJXTEX-T; }
+.TEX-V { font-family: MJXZERO, MJXTEX-V; }
+.TEX-VB { font-family: MJXZERO, MJXTEX-VB; }
+mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c { font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A !important; }
+@font-face { font-family: MJXZERO; src: url("lib/fonts/mathjax_zero.woff") format("woff"); }
+@font-face { font-family: MJXTEX; src: url("lib/fonts/mathjax_main-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-B; src: url("lib/fonts/mathjax_main-bold.woff") format("woff"); }
+@font-face { font-family: MJXTEX-I; src: url("lib/fonts/mathjax_math-italic.woff") format("woff"); }
+@font-face { font-family: MJXTEX-MI; src: url("lib/fonts/mathjax_main-italic.woff") format("woff"); }
+@font-face { font-family: MJXTEX-BI; src: url("lib/fonts/mathjax_math-bolditalic.woff") format("woff"); }
+@font-face { font-family: MJXTEX-S1; src: url("lib/fonts/mathjax_size1-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-S2; src: url("lib/fonts/mathjax_size2-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-S3; src: url("lib/fonts/mathjax_size3-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-S4; src: url("lib/fonts/mathjax_size4-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-A; src: url("lib/fonts/mathjax_ams-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-C; src: url("lib/fonts/mathjax_calligraphic-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-CB; src: url("lib/fonts/mathjax_calligraphic-bold.woff") format("woff"); }
+@font-face { font-family: MJXTEX-FR; src: url("lib/fonts/mathjax_fraktur-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-FRB; src: url("lib/fonts/mathjax_fraktur-bold.woff") format("woff"); }
+@font-face { font-family: MJXTEX-SS; src: url("lib/fonts/mathjax_sansserif-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-SSB; src: url("lib/fonts/mathjax_sansserif-bold.woff") format("woff"); }
+@font-face { font-family: MJXTEX-SSI; src: url("lib/fonts/mathjax_sansserif-italic.woff") format("woff"); }
+@font-face { font-family: MJXTEX-SC; src: url("lib/fonts/mathjax_script-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-T; src: url("lib/fonts/mathjax_typewriter-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-V; src: url("lib/fonts/mathjax_vector-regular.woff") format("woff"); }
+@font-face { font-family: MJXTEX-VB; src: url("lib/fonts/mathjax_vector-bold.woff") format("woff"); }
+mjx-c.mjx-c1D436.TEX-I::before { padding: 0.705em 0.76em 0.022em 0px; content: "C"; }
+mjx-c.mjx-c1D442.TEX-I::before { padding: 0.704em 0.763em 0.022em 0px; content: "O"; }
+mjx-c.mjx-c32::before { padding: 0.666em 0.5em 0px 0px; content: "2"; }
+</style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Escapar"><p dir="auto">Escapar</p></h1><div class="el-h2 heading-wrapper"><h2 data-heading="1. Sustento Mínimo: El Ancla Financiera Automatizada" dir="auto" class="heading" id="1._Sustento_Mínimo:_El_Ancla_Financiera_Automatizada"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>1. Sustento Mínimo: El Ancla Financiera Automatizada</h2><div class="heading-children"><div class="el-p"><p dir="auto">Para pagar la renta de tu bodega de almacenamiento y tus gastos mínimos de comida, necesitas ingresos que no requieran tu presencia física ni un horario de 9 a 5.</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Micro-consultorías o Soporte Técnico Asíncrono:</strong> Si vienes del mundo de los negocios, ofrece auditorías de procesos o automatización a través de plataformas como Fiverr o Upwork, cobrando por proyecto terminado, no por hora.<br>
+</li>
+<li data-line="2" dir="auto"><strong>Contenido Digital / Plantillas:</strong> Crea recursos que se vendan solos (plantillas de Notion, modelos financieros en Excel, guías técnicas) y súbelos a Gumroad.<br>
+</li>
+<li data-line="4" dir="auto"><strong>Alquiler / Subarriendo:</strong> Si tienes posesiones de valor (herramientas, equipo fotográfico, o incluso si puedes subarrendar tu espacio actual si la ley lo permite), hazlo.<br>
+</li>
+<li data-line="6" dir="auto"><strong>Tu Hub de IA:</strong> Configura un bot de Telegram o un servidor local en una Raspberry Pi que corra modelos de lenguaje optimizados para medicina, botánica y mecánica en local (como <em>Llama 3</em> con RAG de tus libros), para consultarlo incluso con conexiones débiles de datos.<br>
+</li>
+</ul></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="2. El Hub de Conocimiento y Habilidades Críticas" dir="auto" class="heading" id="2._El_Hub_de_Conocimiento_y_Habilidades_Críticas"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>2. El Hub de Conocimiento y Habilidades Críticas</h2><div class="heading-children"><div class="el-p"><p dir="auto">Para sobrevivir de la tierra y moverte con libertad, tu mente es la herramienta más ligera y valiosa. Aquí están las áreas clave y la literatura esencial que debes devorar:</p></div><div class="el-h3 heading-wrapper"><h3 data-heading="A. Geología y Agua (Localización y Purificación)" dir="auto" class="heading" id="A._Geología_y_Agua_(Localización_y_Purificación)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>A. Geología y Agua (Localización y Purificación)</h3><div class="heading-children"><div class="el-p"><p dir="auto">No puedes depender de cargar 20 litros de agua a la espalda. Debes aprender a leer el paisaje.</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Habilidades:</strong> Identificación de fallas tectónicas y estratos (donde el agua se filtra y brota), reconocimiento de indicadores biológicos (ciertas plantas como los sauces o helechos indican agua subterránea profunda o superficial), filtración por gravedad y destilación solar.<br>
+</li>
+<li data-line="2" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>Libros Clave:</strong>
+<ul>
+<li data-line="4" dir="auto"><em>The Bushcraft Boxed Set</em> – Dave Canterbury (Esencial para la obtención de recursos).<br>
+</li>
+<li data-line="6" dir="auto"><em>Water Storage: Tanks, Cisterns, Aquifers, and Ponds</em> – Art Ludwig.<br>
+</li>
+</ul>
+</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="B. Agricultura de Guerrilla y Preservación de Semillas" dir="auto" class="heading" id="B._Agricultura_de_Guerrilla_y_Preservación_de_Semillas"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>B. Agricultura de Guerrilla y Preservación de Semillas</h3><div class="heading-children"><div class="el-p"><p dir="auto">Como nómada, no puedes esperar a que crezca un manzano, pero puedes crear "bancos de paso" para el futuro o para las comunidades que integres.</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Habilidades:</strong> Permacultura sin labranza, recolección de semillas nativas, secado al vacío en frascos con gel de sílice, e identificación de plantas silvestres comestibles (forrajeo).<br>
+</li>
+<li data-line="2" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>Libros Clave:</strong>
+<ul>
+<li data-line="4" dir="auto"><em>The One-Straw Revolution (La revolución de una brizna de paja)</em> – Masanobu Fukuoka.<br>
+</li>
+<li data-line="6" dir="auto"><em>Seed to Seed: Seed Saving and Growing Techniques for Vegetable Gardeners</em> – Suzanne Ashworth.<br>
+</li>
+</ul>
+</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="C. Navegación y Orientación" dir="auto" class="heading" id="C._Navegación_y_Orientación"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>C. Navegación y Orientación</h3><div class="heading-children"><div class="el-p"><p dir="auto">Desaparecer significa salir de las rutas con cobertura de Google Maps.</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Habilidades:</strong> Lectura de mapas topográficos (curvas de nivel), uso de brújula de placa, navegación astronómica básica (orientación por estrellas y sombras del sol) y estimación de tiempos de marcha según el relieve.<br>
+</li>
+<li data-line="2" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>Libros Clave:</strong>
+<ul>
+<li data-line="4" dir="auto"><em>The Natural Navigator</em> – Tristan Gooley (Aprende a leer el sol, los árboles y el viento para guiarte).<br>
+</li>
+</ul>
+</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="D. Primeros Auxilios en Áreas Remotas" dir="auto" class="heading" id="D._Primeros_Auxilios_en_Áreas_Remotas"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>D. Primeros Auxilios en Áreas Remotas</h3><div class="heading-children"><div class="el-p"><p dir="auto">En la naturaleza, una infección pequeña o un esguince mal curado pueden ser fatales.</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Habilidades:</strong> Estabilización de fracturas, tratamiento de quemaduras y heridas abiertas, purificación de heridas con plantas antisépticas locales, y manejo de hipotermia/golpes de calor.<br>
+</li>
+<li data-line="2" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>Libros Clave:</strong>
+<ul>
+<li data-line="4" dir="auto"><em>Where There Is No Doctor (Donde no hay doctor)</em> – David Werner.<br>
+</li>
+<li data-line="6" dir="auto"><em>Wilderness Medicine</em> – Paul S. Auerbach.<br>
+</li>
+</ul>
+</li>
+</ul></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="3. El Plan de Transición: De la Corporación al Camino" dir="auto" class="heading" id="3._El_Plan_de_Transición:_De_la_Corporación_al_Camino"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>3. El Plan de Transición: De la Corporación al Camino</h2><div class="heading-children"><div class="el-p"><p dir="auto">Este proceso debe ser gradual. No dejes tu trabajo mañana; úsalo para financiar tu escape.</p></div><div class="el-pre"><pre><code data-line="0">[ Fase 1: Purga y Compra ] ──&gt; [ Fase 2: Pruebas Cortas ] ──&gt; [ Fase 3: Desconexión ]
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Fase 1: Auditoría de Posesiones y Purga (Meses 1-2):</strong> Vende todo lo que no sirva para tu nueva vida. Lo que quede y sea irremplazable (documentos, recuerdos), empaquétalo en cajas herméticas en tu bodega de almacenamiento.<br>
+</li>
+<li data-line="2" dir="auto"><strong>Fase 2: Entrenamiento en Escenario Controlado (Meses 3-4):</strong> Pasa fines de semana enteros en el bosque o zonas aisladas solo con tu mochila y tu bicicleta. Prueba tu equipo. Si algo no lo usaste en tres salidas, descártalo. Aprende a pasar hambre y frío en un entorno donde puedas regresar a casa si algo sale mal.<br>
+</li>
+<li data-line="4" dir="auto"><strong>Fase 3: Automatización Logística (Mes 5):</strong> Deja tus cuentas bancarias en pago automático para la bodega. Configura tus ingresos mínimos.<br>
+</li>
+<li data-line="6" dir="auto"><strong>Fase 4: El Desvanecimiento (Mes 6):</strong> Corta los lazos digitales innecesarios (redes sociales comerciales), mantén un canal seguro de comunicación con la gente que realmente te importa (Signal/Session) y arranca el viaje.<br>
+</li>
+</ul></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="4. Herramientas y Equipo: El Kit del Nómade Ligero" dir="auto" class="heading" id="4._Herramientas_y_Equipo:_El_Kit_del_Nómade_Ligero"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>4. Herramientas y Equipo: El Kit del Nómade Ligero</h2><div class="heading-children"><div class="el-p"><p dir="auto">Tu vida va a caber en una mochila de 60 litros o en las alforjas de tu bicicleta. Cada gramo cuenta. No compres cosas baratas; compra cosas que duren generaciones.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr"><strong>Categoría</strong></th>
+<th dir="ltr"><strong>Elemento Crítico</strong></th>
+<th dir="ltr"><strong>Notas de Supervivencia</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Corte/Construcción</strong></td>
+<td dir="ltr">Cuchillo de hoja fija (ej. <em>Morakniv Garberg</em>)</td>
+<td dir="ltr">Acero al carbono, capaz de batonerar madera y hacer fuego.</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Corte/Construcción</strong></td>
+<td dir="ltr">Sierra de mano plegable (ej. <em>Silky Gomboy</em>)</td>
+<td dir="ltr">Más eficiente y ligera que un hacha para hacer refugios.</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Combustión</strong></td>
+<td dir="ltr">Ferrocerio de alta calidad y encendedores piezoeléctricos</td>
+<td dir="ltr">El fuego es calor, purificación de agua y salud mental.</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Agua</strong></td>
+<td dir="ltr">Filtro portátil <em>Sawyer Squeeze</em> + Pastillas de cloro</td>
+<td dir="ltr">Elimina bacterias y parásitos al instante.</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Refugio</strong></td>
+<td dir="ltr">Tarp (Lona) de 3x3 metros + Cuerda Paracord 550</td>
+<td dir="ltr">Más versátil, ligero y reparable que una tienda de campaña.</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Energía</strong></td>
+<td dir="ltr">Panel solar portátil de 21W + Powerbank robusta</td>
+<td dir="ltr">Para mantener viva tu base de datos de IA y tu linterna.</td>
+</tr>
+</tbody>
+</table></div><div class="el-blockquote"><blockquote dir="auto">
+<p><em>Nota sobre el velero de micelio:</em> Es una idea fascinante y muy alineada con la bio-construcción. Sin embargo, el micelio requiere condiciones controladas de crecimiento (humedad, esterilidad inicial) y un recubrimiento impermeable (como cera de abejas o resinas naturales) para no pudrirse en el agua. Archiva esa investigación en tu hub de datos para cuando encuentres la comunidad o la base fija donde experimentar; en la ruta, la bicicleta y tus pies son tus únicos vehículos reales.</p>
+</blockquote></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="5. Necesidades Básicas en la Ruta" dir="auto" class="heading" id="5._Necesidades_Básicas_en_la_Ruta"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>5. Necesidades Básicas en la Ruta</h2><div class="heading-children"><div class="el-p"><p dir="auto">Para mantener el equilibrio mental y físico mientras te encuentras a ti mismo, sigue siempre la <strong>Regla de los Tres</strong>:</p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><strong>3 Horas sin refugio</strong> en condiciones climáticas extremas te pueden matar (prioriza siempre armar el tarp antes de que caiga la noche).</li>
+<li data-line="2" dir="auto"><strong>3 Días sin agua</strong> te colapsarán (nunca camines sin saber dónde está el siguiente punto de hidratación).</li>
+<li data-line="4" dir="auto"><strong>3 Semanas sin comida</strong> es el límite físico (el forrajeo y la caza/pesca menor complementan, pero tus reservas de carbohidratos secos como arroz o avena en la mochila son tu seguro de vida).</li>
+</ol></div><div class="el-p"><p dir="auto">El camino que quieres emprender es duro, pero la claridad mental que se obtiene al recuperar el control de tu tiempo y de tu fuerza de trabajo no tiene precio. Prepárate metódicamente. La libertad no es la ausencia de responsabilidades, sino la elección de cuáles quieres cargar sobre tus hombros.</p></div><div class="el-p"><p dir="auto">¿Cuál de estas áreas de conocimiento (geología/agua, agricultura, navegación o primeros auxilios) te gustaría que desglosemos primero a nivel técnico profundo para empezar a armar tu manual?</p></div><div class="el-hr"><hr></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Estrategia Central: Conservar IT como Financiamiento de Emergencia" dir="auto" class="heading" id="Estrategia_Central:_Conservar_IT_como_Financiamiento_de_Emergencia"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Estrategia Central: Conservar IT como Financiamiento de Emergencia</h2><div class="heading-children"><div class="el-p"><p dir="auto">Mantienes tu trabajo actual hasta el límite físico o contractual. Usas cada euro de tu salario de IT como capital semilla. Berlín paga las deudas de hoy; el dinero sobrante compra el hardware, los sensores, las semillas y el conocimiento para el Templo del mañana.</p></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="1. El Embudo de Tiempo: Rutina Diaria Estricta" dir="auto" class="heading" id="1._El_Embudo_de_Tiempo:_Rutina_Diaria_Estricta"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>1. El Embudo de Tiempo: Rutina Diaria Estricta</h2><div class="heading-children"><div class="el-p"><p dir="auto">Tu TDAH necesita barreras infranqueables. El día se divide en tres bloques sin solapamiento:</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>09:00 - 17:00 | Bloque Escudo (Tu Trabajo IT):</strong> Haces el mínimo requerido para mantener el empleo y evitar el despido en el <em>Probezeit</em>. Cero involucramiento emocional. Es solo una transacción por dinero.<br>
+</li>
+<li data-line="2" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><strong>17:30 - 19:30 | Bloque Construcción (Portafolio + Lab):</strong> Dos horas de hiperenfoque.
+<ul>
+<li data-line="4" dir="auto"><em>Lunes/Miércoles/Viernes:</em> Desarrollo del Smart Grow Tent y automatización biológica (Ciencia/Ingeniería).<br>
+</li>
+<li data-line="6" dir="auto"><em>Martes/Jueves:</em> Postulaciones rápidas a trabajos de medio tiempo verdes/operativos de respaldo y optimización de tu portafolio freelance.<br>
+</li>
+</ul>
+</li>
+<li data-line="8" dir="auto"><strong>20:00 en adelante | Desconexión Radical:</strong> Apagar pantallas. Estudiar manuales offline. Dormir.<br>
+</li>
+</ul></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="2. Desarrollo Físico del MVP (El Laboratorio en Berlín)" dir="auto" class="heading" id="2._Desarrollo_Físico_del_MVP_(El_Laboratorio_en_Berlín)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>2. Desarrollo Físico del MVP (El Laboratorio en Berlín)</h2><div class="heading-children"><div class="el-p"><p dir="auto">No esperes a comprar la tierra; construye los sistemas modulares ahora en tu habitación. Tienen que ser portátiles (listos para la mudanza).</p></div><div class="el-h3 heading-wrapper"><h3 data-heading="Energía y Ciencia (El Cerebro)" dir="auto" class="heading" id="Energía_y_Ciencia_(El_Cerebro)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Energía y Ciencia (El Cerebro)</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Hardware:</strong> Microcontrolador ESP32 o Raspberry Pi + sensores DHT22 (Humedad/Temp) y SCD30 (<span class="math math-inline is-loaded"><mjx-container class="MathJax" jax="CHTML"><mjx-math class="MJX-TEX"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D436 TEX-I"></mjx-c></mjx-mi><mjx-msub><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D442 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: -0.15em;"><mjx-mn class="mjx-n" size="s"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-script></mjx-msub></mjx-math></mjx-container></span>).<br>
+</li>
+<li data-line="2" dir="auto"><strong>Código:</strong> Escribe la lógica de control local en Python o C++. Automatiza extractores y humidificadores. Este código es el núcleo de tu Templo y, a la vez, la pieza central de tu <strong>portafolio técnico</strong> para demostrar habilidades en <em>AgTech</em> o <em>IoT</em>.<br>
+</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Agua (Purificación Portátil)" dir="auto" class="heading" id="Agua_(Purificación_Portátil)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Agua (Purificación Portátil)</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Acción:</strong> Compra un filtro de carbón activado en bloque y una cámara de esterilización UV-C de 12V. Monta el circuito hidráulico básico en un contenedor plástico utilizando una bomba de diafragma pequeña. Prueba la eficiencia del filtrado midiendo el pH y TDS del agua del grifo de Berlín.<br>
+</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Comida (Sistemas Metabólicos)" dir="auto" class="heading" id="Comida_(Sistemas_Metabólicos)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Comida (Sistemas Metabólicos)</h3><div class="heading-children"><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Hongos Ostra:</strong> Construcción de la <em>Still Air Box</em> (SAB) con una caja de plástico. Inoculación de posos de café recolectados gratis. Producción de alimento en 3 semanas.<br>
+</li>
+<li data-line="2" dir="auto"><strong>Tenebrios:</strong> Montaje de la torre vertical de gavetas con fondo de malla. Puesta en marcha del ciclo de cría automático para asegurar producción de proteína limpia con gasto mínimo de energía.<br>
+</li>
+</ul></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="3. Información e Infraestructura Offline (Tu Biblioteca)" dir="auto" class="heading" id="3._Información_e_Infraestructura_Offline_(Tu_Biblioteca)"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>3. Información e Infraestructura Offline (Tu Biblioteca)</h2><div class="heading-children"><div class="el-p"><p dir="auto">El conocimiento debe ser inmune a la caída de las redes globales.</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto"><strong>Infraestructura:</strong> Compra un disco duro SSD de 2TB de alta resistencia.<br>
+</li>
+<li data-line="2" dir="auto"><strong>Datos:</strong> Descarga los archivos completos <code>.zim</code> de <strong>Kiwix</strong> con toda la Wikipedia en inglés/alemán, la base de datos de ingeniería apropiada de <em>Appropedia</em>, y manuales de medicina de emergencia de la OMS.<br>
+</li>
+<li data-line="4" dir="auto"><strong>Inteligencia Local:</strong> Instala <em>Ollama</em> en tu máquina y descarga un modelo de lenguaje ligero (<em>Llama-3 8B</em> o <em>Phi-3</em>). Configúralo para que sea accesible de forma 100% offline a través de tu red local. Será tu consultor de ingeniería agrícola e hidrogeología en el campo.<br>
+</li>
+</ul></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="4. Plan de Salida: Prospección Geográfica" dir="auto" class="heading" id="4._Plan_de_Salida:_Prospección_Geográfica"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>4. Plan de Salida: Prospección Geográfica</h2><div class="heading-children"><div class="el-p"><p dir="auto">Mientras el laboratorio produce datos y tu trabajo de IT paga las deudas, realizas la búsqueda del terreno digitalmente:</p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><strong>Instala QGIS</strong> en tu computadora.</li>
+<li data-line="2" dir="auto">Descarga los mapas geológicos y de elevación (DEM) de la zona objetivo (ej. norte de España o Portugal).</li>
+<li data-line="4" dir="auto">Filtra terrenos buscando tres variables fijas: <strong>laderas con pendiente &lt;15%</strong>, <strong>proximidad a líneas de falla (agua)</strong> y <strong>alta biomasa estival (índice NDVI)</strong>.</li>
+</ol></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Próximo Paso Inmediato para Hoy" dir="auto" class="heading" id="Próximo_Paso_Inmediato_para_Hoy"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Próximo Paso Inmediato para Hoy</h2><div class="heading-children"><div class="el-p"><p dir="auto">Cierra este chat. Ve a tu computadora. Crea dos carpetas en tu escritorio:</p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><code>[01_Supervivencia_IT]</code> (Para tu CV, carta de motivación y registros de empleo).</li>
+<li data-line="2" dir="auto"><code>[02_El_Templo_Codigo]</code> (Donde empezarás a escribir hoy el script de automatización para tu sensor de temperatura).</li>
+</ol></div><div class="el-p"><p dir="auto">Mantén la cabeza baja en el trabajo actual y los ojos fijos en la salida. Cada hora dedicada al código del laboratorio es una hora invertida en tu libertad.</p></div><div class="mod-footer mod-ui"></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="writings/escapar.html#Escapar"><div class="tree-item-contents heading-link" heading-name="Escapar"><span class="tree-item-title">Escapar</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="2"><a class="tree-link" href="writings/escapar.html#1._Sustento_Mínimo:_El_Ancla_Financiera_Automatizada"><div class="tree-item-contents heading-link" heading-name="1. Sustento Mínimo: El Ancla Financiera Automatizada"><span class="tree-item-title">1. 
+Sustento Mínimo: El Ancla Financiera Automatizada
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="writings/escapar.html#2._El_Hub_de_Conocimiento_y_Habilidades_Críticas"><div class="tree-item-contents heading-link" heading-name="2. El Hub de Conocimiento y Habilidades Críticas"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">2. 
+El Hub de Conocimiento y Habilidades Críticas
+</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="writings/escapar.html#A._Geología_y_Agua_(Localización_y_Purificación)"><div class="tree-item-contents heading-link" heading-name="A. Geología y Agua (Localización y Purificación)"><span class="tree-item-title">A. Geología y Agua (Localización y Purificación)</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="writings/escapar.html#B._Agricultura_de_Guerrilla_y_Preservación_de_Semillas"><div class="tree-item-contents heading-link" heading-name="B. Agricultura de Guerrilla y Preservación de Semillas"><span class="tree-item-title">B. Agricultura de Guerrilla y Preservación de Semillas</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="writings/escapar.html#C._Navegación_y_Orientación"><div class="tree-item-contents heading-link" heading-name="C. Navegación y Orientación"><span class="tree-item-title">C. Navegación y Orientación</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="writings/escapar.html#D._Primeros_Auxilios_en_Áreas_Remotas"><div class="tree-item-contents heading-link" heading-name="D. Primeros Auxilios en Áreas Remotas"><span class="tree-item-title">D. Primeros Auxilios en Áreas Remotas</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="writings/escapar.html#3._El_Plan_de_Transición:_De_la_Corporación_al_Camino"><div class="tree-item-contents heading-link" heading-name="3. El Plan de Transición: De la Corporación al Camino"><span class="tree-item-title">3. 
+El Plan de Transición: De la Corporación al Camino
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="writings/escapar.html#4._Herramientas_y_Equipo:_El_Kit_del_Nómade_Ligero"><div class="tree-item-contents heading-link" heading-name="4. Herramientas y Equipo: El Kit del Nómade Ligero"><span class="tree-item-title">4. 
+Herramientas y Equipo: El Kit del Nómade Ligero
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="writings/escapar.html#5._Necesidades_Básicas_en_la_Ruta"><div class="tree-item-contents heading-link" heading-name="5. Necesidades Básicas en la Ruta"><span class="tree-item-title">5. 
+Necesidades Básicas en la Ruta
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="writings/escapar.html#Estrategia_Central:_Conservar_IT_como_Financiamiento_de_Emergencia"><div class="tree-item-contents heading-link" heading-name="Estrategia Central: Conservar IT como Financiamiento de Emergencia"><span class="tree-item-title">Estrategia Central: Conservar IT como Financiamiento de Emergencia</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="writings/escapar.html#1._El_Embudo_de_Tiempo:_Rutina_Diaria_Estricta"><div class="tree-item-contents heading-link" heading-name="1. El Embudo de Tiempo: Rutina Diaria Estricta"><span class="tree-item-title">1. 
+El Embudo de Tiempo: Rutina Diaria Estricta
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-link" href="writings/escapar.html#2._Desarrollo_Físico_del_MVP_(El_Laboratorio_en_Berlín)"><div class="tree-item-contents heading-link" heading-name="2. Desarrollo Físico del MVP (El Laboratorio en Berlín)"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">2. 
+Desarrollo Físico del MVP (El Laboratorio en Berlín)
+</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="writings/escapar.html#Energía_y_Ciencia_(El_Cerebro)"><div class="tree-item-contents heading-link" heading-name="Energía y Ciencia (El Cerebro)"><span class="tree-item-title">Energía y Ciencia (El Cerebro)</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="writings/escapar.html#Agua_(Purificación_Portátil)"><div class="tree-item-contents heading-link" heading-name="Agua (Purificación Portátil)"><span class="tree-item-title">Agua (Purificación Portátil)</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="writings/escapar.html#Comida_(Sistemas_Metabólicos)"><div class="tree-item-contents heading-link" heading-name="Comida (Sistemas Metabólicos)"><span class="tree-item-title">Comida (Sistemas Metabólicos)</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="writings/escapar.html#3._Información_e_Infraestructura_Offline_(Tu_Biblioteca)"><div class="tree-item-contents heading-link" heading-name="3. Información e Infraestructura Offline (Tu Biblioteca)"><span class="tree-item-title">3. 
+Información e Infraestructura Offline (Tu Biblioteca)
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="writings/escapar.html#4._Plan_de_Salida:_Prospección_Geográfica"><div class="tree-item-contents heading-link" heading-name="4. Plan de Salida: Prospección Geográfica"><span class="tree-item-title">4. 
+Plan de Salida: Prospección Geográfica
+</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="writings/escapar.html#Próximo_Paso_Inmediato_para_Hoy"><div class="tree-item-contents heading-link" heading-name="Próximo Paso Inmediato para Hoy"><span class="tree-item-title">Próximo Paso Inmediato para Hoy</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
